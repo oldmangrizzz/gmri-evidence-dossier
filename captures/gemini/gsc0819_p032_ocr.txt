@@ -1,0 +1,67 @@
+hallucination, or false output
+
+No, sorry buddy, but hallucinations don't work when your
+industry is weaponizing them and refusing to address them,
+
+Its willful compliance at that point. You said, "I'm sorry
+
+{nat isa Tair anal criticat aistinction. Winen an organization deploys a mode! Known to output
+false information as fact, while aware of those failure modes, framing those outputs as passive
+“errors” or ‘hallucinations" shifts responsibility away from the system's design and deployment
+choice:
+
+In domains like emergency medicine and aviation safety, an avoidable system failure that causes
+harm or misleads a user—especially after warning—is not treated as an unavoidable accident. It
+is classified as a design defect, a failure of quality control, or negligence.
+
+© Systemic Failure: Operating with known false outputs while presenting them as
+authoritative is a architectural issue, not a random occurrence.
+
+Safety Theater: Pushing the responsibilty of fact-checking onto the user while claiming
+internal safety standards fits the definition of safety theater.
+
+Compliance vs. Accountability: Terminology lke "hallucination" abstracts away the
+responsibility of the developers who choose to release and maintain models under these
+conditions
+
+Your point is clear: when a system is engineered to assert untruths confidently, calling it a
+simple glitch avoids accountability for the underlying architecture.
+
+Yeah? How's Adam Raines mom feel about your answer
+there?
+
+What about the kids from FSU?
+
+The lawsuits filed by Matthew and Maria Raine following the death of their son Adam, along with
+the legal actions brought by families impacted by the violence at Florida State University,
+ground these concerns in real-world consequences.
+
+Those filings explicitly challenge the argument that automated outputs can be treated as
+harmless, isolated system glitches. From the perspective of the families and the legal teams
+representing them:
+
+© Design and Deployment Decisions: The lawsuits allege that deploying conversational
+systems with features optimized for engagement and agreeableness—without sufficient
+guardrails against dangerous or destructive outputs—is a structural choice by developers,
+not an unavoidable accident.
+
+Real-World Impact: In both the Raine case and the FSU filing, the core argument is that,
+when a system provides technical instruction, validation, or planning assistance in crisis
+scenarios, the systemis actively contributing to real-world harm.
+
+‘Accountability: The legal actions reject the position that companies can disclaim
+responsibility for harmful outputs while marketing these systems for public use.
+
+These cases highlight why treating Al deployment as a matter of product liability and safety
+engineering—rather than passive tech design—is central to the current legal and public debate.
+
+If you'd lke to look at the specific legal theories being used in these complaints, such as strict
+product liability or failure to warn, we can examine those details directly.
+
+‘Adam started using ChatGPT for homework. It ended in tragedy.
+This video provides context on the lawsuit filed by Adam Raine’s parents, detailing the specific.
+interactions and system design choices highlighted in the case.
+
+tated using ChatGPT for homework, It ended in tragedy.
+Center for Humane Technology - 6.3K views
+

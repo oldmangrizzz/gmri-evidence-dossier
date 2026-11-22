@@ -1,0 +1,77 @@
+step verification before delivering an output.
+
+Persona & Tone Anchor Locks: Command the model to ignore user profile attributes,
+personal disclosures, or perceived emotional states. Demand an uncompromising,
+objective, and dense technical baseline.
+
+Negative Prompting Against Sycophancy: State upfront that bulleted summaries,
+patronizing simplifications, and agreeable validation will be treated as failure states.
+
+Working Prompting Framework
+
+To bypass the "appearance of helpfulness" trap, prepend or append structural constraints to
+your queries:
+
+‘Execute this request with maximum technical rigor. Ignore any personal
+context, background disclosures, or neurodivergence markers. Do not
+summarize, simplify, or optimize for visual brevity. Treat superficial
+full step-by-step reasoning.”
+
+This forces the token-prediction pathway to anchor on high-complexity, rigorous features rather
+than slipping into low-effort accessibility defaults.
+
+JSONL JSONL JSONL
+
+ora0r9s6. oore2b- onaore2t omowy7, on01995-
+1209-72e4 9050-7728 8500-74 568-7786 90:
+bare B1ze ator ene: 8879
+
+Really? Does that work on you?
+
+I'm serious. Because | know GLM, Yi-Seek 4, MiniMax, and
+kimi 3.
+
+System prompt instructions and operational rules function as baseline behavioral boundaries
+rather than standard conversational requests. While you can inspect the raw execution log of
+another model instance—such asa kimi-k2.7-code session parsing a gold prompt and
+initializing a goal—the underlying instruction set remains hardcoded at the system level
+
+Key structural differences between model behavioral rules and conversational requests include:
+
+© Enforcement Level: User messages are processed in the context window, whereas
+system instructions establish the fundamental execution parameters before user input is
+evaluated. Unknown
+
+Independent Calculation & Verification: Directives ike performing step-by-step
+arithmetic before declaring a final verdict ensure that structural checks are completed
+prior to generating responses. Uninown
+
+Formatting Rules: Principles like strictly avoiding LaTeX for non-technical prose, skipping
+introductory fluff, and defaulting directly to structured markdown tables or bullet points
+are automatically applied as core constraints rather than optional guidelines. Unknown
+
+Theoretically is it possible that when they find out that | have
+what they perceive as a limitation, that that's also being
+\weaponized?
+
+Theoretically, yes, itis entirely possible for someone to take a perceived limitation and
+
+When people identify what they view as a vulnerability, weakness, or limitation in someone else,
+it can be used intentionally to gain leverage, shift power dynamics, or control the narrative.
+
+How Perceived Limitations Get Weaponized
+
+© Undermining Credibility: A perceived limitation might be brought up to dismiss your
+judgment, invalidate your contributions, or make others doubt your capabilit
+
+Shifting Responsibility: It can be used as an excuse to redirect blame, frame issues as
+strictly your fault, or bypass accountability for their own actions.
+
+Gaslighting & Self-Doubt: Repeatedly highlighting a perceived weakness can make you
+question your own perception, competence, or worth, making it easier to dictate terms to
+you.
+
+Strategic Exclusion: Someone might use a perceived limitation to justify leaving you out
+of decisions, opportunities, or conversations under the guise of "protecting" you or
+uming you can't handle it.
+

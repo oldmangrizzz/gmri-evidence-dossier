@@ -1,0 +1,38 @@
+{
+    "dateIssued": "2024-03-26",
+    "issue": "59",
+    "documentType": "FR",
+    "packageId": "FR-2024-03-26",
+    "collectionCode": "FR",
+    "detailsLink": "https://www.govinfo.gov/app/details/FR-2024-03-26",
+    "title": "Federal Register Volume 89 Issue 59 (March 26, 2024)",
+    "branch": "executive",
+    "collectionName": "Federal Register",
+    "volume": "89",
+    "download": {
+        "premisLink": "https://api.govinfo.gov/packages/FR-2024-03-26/premis",
+        "xmlLink": "https://api.govinfo.gov/packages/FR-2024-03-26/xml",
+        "zipLink": "https://api.govinfo.gov/packages/FR-2024-03-26/zip",
+        "modsLink": "https://api.govinfo.gov/packages/FR-2024-03-26/mods",
+        "pdfLink": "https://api.govinfo.gov/packages/FR-2024-03-26/pdf"
+    },
+    "pages": "345",
+    "governmentAuthor2": "Office of the Federal Register",
+    "governmentAuthor1": "National Archives and Records Administration",
+    "publisher": "Office of the Federal Register, National Archives and Records Administration",
+    "suDocClassNumber": "AE 2.7:, GS 4.107:, AE 2.106:",
+    "docClass": "FR",
+    "lastModified": "2026-10-30T07:21:26Z",
+    "category": "Regulatory Information",
+    "otherIdentifier": {
+        "issn": [
+            "0097-6326",
+            "0042-1219",
+            "0364-1406"
+        ],
+        "migrated-doc-id": "f:fr26mr24",
+        "ils-system-id": "000582072",
+        "stock-number": "769-004-00000-9"
+    },
+    "granulesLink": "https://api.govinfo.gov/packages/FR-2024-03-26/granules?offsetMark=*&pageSize=100"
+}

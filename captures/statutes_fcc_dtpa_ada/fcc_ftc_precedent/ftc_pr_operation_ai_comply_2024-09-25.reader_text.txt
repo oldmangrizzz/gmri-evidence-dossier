@@ -1,0 +1,9 @@
+FTC PRESS RELEASE — web (native reader fetch, HTTP 200)
+URL: https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-announces-crackdown-deceptive-ai-claims-schemes
+Published: 2024-09-25 (modified 2026-01-15). Captured 2026-11-22.
+
+VERBATIM (Khan): "Using AI tools to trick, mislead, or deflate people is illegal," — QUOTE CHECK: actual captured text reads "Using AI tools to trick, mislead, or defraud people is illegal," said FTC Chair Lina M. Khan. "The FTC's enforcement actions make clear that there is no AI exemption from the laws on the books."
+Operation AI Comply = five actions: DoNotPay (admin complaint, Sept 2024); Ascend Ecom (C.D. Cal., TRO+receiver, ongoing); Ecommerce Empire Builders (E.D. Pa., TRO+receiver, ongoing); Rytr (admin complaint, proposed consent order bars review-generation service, 3-2 vote w/ Holyoak+Ferguson dissent); FBA Machine (D.N.J., TRO+receiver June 2024, ongoing).
+DoNotPay alleged claims quoted: "sue for assault without a lawyer"; "generate perfectly valid legal documents in no time"; "replace the $200-billion-dollar legal industry with artificial intelligence."
+
+PROVENANCE NOTE: reader-fetch transcript capture; underlying complaint PDF on disk (VERIFIED).

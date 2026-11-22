@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gmri-agent-reach",
+  "version": "0.2.0",
+  "description": "ChatGPT-native Agent Reach research routing across public websites, archives, GitHub, videos, and social platforms using available ChatGPT research tools. No local CLI or server required.",
+  "author": {
+    "name": "GrizzlyMedicine Research Institute"
+  },
+  "license": "MIT",
+  "keywords": ["research", "agent-reach", "evidence", "web", "archives", "youtube", "github", "source-verification"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GMRI Agent Reach",
+        "shortDescription": "Find and verify web, social, video, and archival evidence",
+        "longDescription": "A web-and-mobile compatible research workflow that adapts Agent Reach's 14 channel routes to ChatGPT's available built-in and connected tools. It prioritizes primary sources, retrieves full context, retries using independent sources, checks identity and timelines, and preserves evidence provenance. No local installation, CLI, private MCP tunnel, or server deployment required.",
+        "developerName": "GrizzlyMedicine Research Institute",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "defaultPrompt": [
+          "Use Agent Reach to investigate this topic across sources, retrieving primary records and showing evidence with citations.",
+          "Use Agent Reach to research this video, its transcript, related sources, and contradictions.",
+          "Use Agent Reach to trace this person, organization, or historical event through records and dated reporting without confusing similarly named people."
+        ]
+      }
+    }
+  }
+}

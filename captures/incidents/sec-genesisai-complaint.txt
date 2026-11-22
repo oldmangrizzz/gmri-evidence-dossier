@@ -1,0 +1,773 @@
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 1 of 15
+
+
+
+
+                             UNITED STATES DISTRICT COURT
+                             SOUTHERN DISTRICT OF FLORIDA
+
+                                  CASE NO.: ________________
+
+   SECURITIES AND EXCHANGE
+   COMMISSION,
+
+                   Plaintiff,
+
+   v.
+
+   GENESISAI CORP.
+   and
+   ARCHIL CHEISHVILI,
+
+                Defendants.
+   _________________________________________/
+
+                   COMPLAINT FOR INJUNCTIVE AND OTHER RELIEF
+
+         Plaintiff Securities and Exchange Commission (“Commission”) alleges as follows:
+
+                                              I.
+                                        INTRODUCTION
+
+         1.     From approximately December 2019 through December 2024 (“the Relevant
+
+  Period”), GenesisAI Corp. (“GenesisAI” or “the Company”), and its co-founder and then-CEO,
+
+  Archil Cheishvili (“Cheishvili”) (collectively, “Defendants”), raised more than $5.3 million from
+
+  more than 4,000 investors while negligently making material misrepresentations regarding the
+
+  Company’s projected revenue, current valuation, and customer demand.
+
+         2.     Throughout the Relevant Period, Defendants solicited investors through the
+
+  Company’s website, social media, mass marketing emails, online advertising, and other means, to
+
+  invest in a series of Regulation Crowdfunding and Regulation A offerings of GenesisAI stock.
+
+  GenesisAI’s business objective was to connect companies in need of AI with companies which
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 2 of 15
+
+
+
+
+  developed AI and were looking for ways to monetize it. By chaining multiple AI models together,
+
+  the Company sought to improve the functionality and quality of AI products and services.
+
+         3.      Defendants’ negligently made material misrepresentations to prospective investors
+
+  about GenesisAI’s anticipated revenue growth and its claimed substantially increasing year-to-
+
+  year valuations belied its functionality and the lack of actual customers contracted to utilize its
+
+  promoted services.
+
+         4.      In 2019 and early 2020, Defendants forecasted that Genesis AI would be generating
+
+  significant revenue within a few months and that revenue would increase steadily, reaching up to
+
+  $250 million in 2024. When Defendants disseminated this revenue forecast, Defendants should
+
+  have known they lacked a reasonable basis to forecast such revenue as the Company had no
+
+  agreements with customers to justify their revenue projections. In other words, Defendants should
+
+  have known that the Company did not have a concrete existing source of revenue to justify these
+
+  revenue projections. In fact, in early 2020 GenesisAI’s marketplace remained in its beta stage and
+
+  would not be fully launched until May 2022.
+
+         5.      Defendants also disseminated increasing valuations of the Company to prospective
+
+  investors that rose steadily from $7.5 million in 2019 to more than $204 million for the Company’s
+
+  June 2022 crowdfunding. Defendants did this despite knowing the Company did not have a robust
+
+  comparison analysis of its valuation. Here too, Defendants lacked sufficient basis to support their
+
+  claims about GenesisAI’s valuation and acted negligently because they should have known that a
+
+  more robust objective analysis was needed before any such valuation-related statements were
+
+  made to potential investors.
+
+         6.      Defendants also negligently misrepresented to prospective investors on the
+
+  Company’s website, crowdfunding webpage, investor slide decks, offering materials, and emails,
+
+
+
+                                                  2
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 3 of 15
+
+
+
+
+  that the Company had partnerships with other companies when the Company only had signed non-
+
+  binding memoranda of understanding with other companies which were not actual partnership
+
+  agreements.
+
+         7.      On January 2, 2025, GenesisAI announced that it was in the best interests of the
+
+  Company to cease developing its products and that Cheishvili was stepping down from his role as
+
+  CEO and other roles with the Company.
+
+         8.      As a result of the conduct alleged in this Complaint, Defendants have violated
+
+  Section 17(a)(2) of the Securities Act of 1933 (“Securities Act”) [15 U.S.C. § 77q(a)(2)].
+
+         9.      Unless enjoined, Defendants will continue to violate the federal securities laws.
+
+  Among other relief, the Commission seeks permanent injunctions against Defendants,
+
+  disgorgement of ill-gotten gains with prejudgment interest, a civil monetary penalty, and an officer
+
+  and director bar against Cheishvili.
+
+                                               II.
+                                           DEFENDANTS
+
+         10.     GenesisAI is a Delaware corporation incorporated in July 2018, with its principal
+
+  place of business in Sunnyvale, California.          During the Relevant Period, GenesisAI was
+
+  headquartered in Miami, Florida.
+
+         11.      Cheishvili, 33, is a resident of Sunnyvale, California. During the Relevant Period,
+
+  Cheishvili resided in Miami, Florida. From August 2018 to January 2025, Cheishvili served as
+
+  the CEO, officer, and a board member of GenesisAI.
+
+                                            III.
+                                  JURISDICTION AND VENUE
+
+         12.     This Court has jurisdiction over this action pursuant to Sections 20(b), 20(d), and
+
+  22(a) of the Securities Act [15 U.S.C. §§ 77t(b), 77t(d), and 77v(a)].
+
+
+
+                                                   3
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 4 of 15
+
+
+
+
+         13.       This Court has personal jurisdiction over Defendants and venue is proper in the
+
+  Southern District of Florida because Defendants engaged in acts and transactions in this District
+
+  constituting violations of the Securities Act. During the Relevant Period, GenesisAI’s principal
+
+  place of business was in Miami, Florida, and Cheishvili resided in Miami, Florida.
+
+         14.          In connection with the conduct alleged in the Complaint, Defendants, directly and
+
+  indirectly, singly or in concert with others, made use of the means or instruments of transportation
+
+  or communication in interstate commerce, and of the mails.
+
+                                                IV.
+                                       FACTUAL ALLEGATIONS
+
+         A.        GenesisAI’s Business Model and Securities Offerings
+
+                 i.          GenesisAI’s Operations and Evolving Business Models
+
+         15.          Cheishvili co-founded GenesisAI in 2018 to attempt to produce a functional and
+
+  decentralized marketplace for AI services. Cheishvili was GenesisAI’s CEO, officer, and one of
+
+  its board members. Cheishvili created or approved all statements made or posted by GenesisAI.
+
+         16.       On the Company’s website, Defendants stated GenesisAI had “agreements with AI
+
+  suppliers” who would “bring technology” while the Company would bring users. Defendants
+
+  stated in offering documents and their crowdfunding webpages that GenesisAI would generate
+
+  revenue by charging users a monthly subscription fee to use the tools on the marketplace and by
+
+  taking a 30% fee on transactions that occurred directly between buyers and sellers on the
+
+  marketplace.
+
+         17.       Defendants continually published updates about developments in the Company’s
+
+  marketplace and technology, such as:
+
+
+
+
+                                                      4
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 5 of 15
+
+
+
+
+     •   In October 2021, Defendants stated on a StartEngine Primary LLC (“StartEngine”)
+
+         crowdfunding offering page for GenesisAI, “[w]e have a beta version of the marketplace
+
+         up and running…[with] 23 models deployed…”
+
+     •   In May 2022, Defendants announced the launch of GenesisAI’s marketplace, which
+
+         allowed AI companies to offer and showcase their services, on Netcapital Funding Portal
+
+         Inc.’s (“Netcapital”) crowdfunding offering page for GenesisAI, YouTube, social media,
+
+         and elsewhere. The marketplace had approximately 35 AI models available.
+
+     •   In a slide deck emailed to investors in May 2022, Defendants stated that the marketplace
+
+         allowed developers to “discover, test, and integrate various AI related” application
+
+         programming interfaces.
+
+     •   In a form filed with the SEC in June 2022, GenesisAI stated that it had developed “an
+
+         artificial intelligence, or AI, protocol and platform that enables different AI systems to
+
+         communicate with each other, exchange data, and trade services.” GenesisAI claimed its
+
+         product had a competitive advantage of better quality at lower prices.
+
+         18.     During the Relevant Period, GenesisAI targeted customers in various fields,
+
+  including financial services, asset management, climatology, and healthcare, among others.
+
+  Defendants promoted these broadening customer targets in their investor solicitations.
+
+         19.     In 2023, GenesisAI developed an AI application email server tool capable of
+
+  sending large and inexpensive email blasts that were not constrained by the limitations of third-
+
+  party email providers. That same year, Defendants announced the launch of GenesisAI’s email
+
+  server tool as a product. The Company deployed the email server tool and used it to reach new
+
+  potential investors.
+
+
+
+
+                                                  5
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 6 of 15
+
+
+
+
+                    ii.     GenesisAI’s Securities Offerings
+
+            20.     From approximately December 2019 through December 2024, Defendants
+
+  continuously solicited and raised money from investors. Defendants used various means to solicit
+
+  investors, including social media, online advertisements, mass marketing email campaigns, the
+
+  crowdfunding intermediaries’ fundraising webpages, GenesisAI’s own webpage, and a sidewalk
+
+  display advertisement. The Company spent a portion of the investor funds it raised to pay for ads
+
+  on X (then Twitter), Google, Facebook, and other websites to promote the Company and its
+
+  product offerings as well as to solicit new investors. From 2020 through 2024, GenesisAI paid X,
+
+  Google, and Meta (Facebook) at least $780,000, combined, for advertising.
+
+            21.     Through these efforts, Defendants raised more than $5.3 million from more than
+
+  4,000 investors in public and private offerings of simple agreements for future equity (“SAFE”)
+
+  and stock. Investors in GenesisAI were predominantly retail investors who were attracted to the
+
+  Company’s AI focus, revenue projections, rising valuation, and purported customer demand.
+
+  Defendants raised most of the investor funds through Regulation Crowdfunding offerings through
+
+  crowdfunding intermediaries and relying on a provision in the 2012 JOBS Act 1 allowing
+
+  unaccredited investors to purchase equity in early-stage private companies.
+
+            22.     The SAFEs that investors purchased from GenesisAI are securities because, under
+
+  their terms, they convert to shares of GenesisAI preferred stock upon certain conditions, such as if
+
+  the company receives equity financing or has a liquidity event. Thus, the SAFEs meet the
+
+  definition of security under Securities Act § 2(a)(1) and Exchange Act § 3(a)(10). Additionally,
+
+  the company’s offering documents referred to the investment as securities. GenesisAI’s offering
+
+
+
+
+  1
+      Pub. L. 112-106 (April 5, 2012).
+
+
+                                                    6
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 7 of 15
+
+
+
+
+  of stock was also an offering of securities because stock is a “security” under the Section 2(a)(1)
+
+  of the Securities Act and Section 3(a)(10) of the Exchange Act.
+
+         23.     Beginning in December 2019, GenesisAI conducted four crowdfunding campaigns
+
+  through crowdfunding intermediaries. The first was through Wefunder Portal LLC (“Wefunder”),
+
+  which was followed by three campaigns through Netcapital. Defendants initiated an additional
+
+  crowdfunding round through StartEngine in September 2021, but StartEngine cancelled this
+
+  offering. In 2022, the Company also conducted an offering of stock under Regulation A through
+
+  the Dalmore Group, a registered broker-dealer. This offering permitted Cheishvili to sell a small
+
+  portion of his own GenesisAI stock, which had been granted to him by the Company. Between
+
+  February 2022 and June 2022, Cheishvili sold 12,000 shares of GenesisAI stock and made
+
+  approximately $51,000 in profit.
+
+         B.      Defendants’ Material Misrepresentations to Prospective Investors and
+                 Investors
+
+         24.     Defendants negligently made material misrepresentations on the Company’s
+
+  website, its crowdfunding webpages, its public filings, in social media, and in email
+
+  communications to certain individual prospective investors in soliciting prospective investors to
+
+  invest in GenesisAI’s securities offerings. These included projections that GenesisAI would
+
+  generate revenue within months despite the absence of specific commitments from customers that
+
+  could support such statements; misrepresentations about the Company’s valuation; and
+
+  misrepresentations about the Company’s agreements with other companies.
+
+               i.    Defendants’ Misrepresentations Regarding GenesisAI’s Revenue Prospects
+
+         25.     In 2019 and 2020, in investor slide decks and via email communications,
+
+  Defendants negligently made material misrepresentations to prospective investors about
+
+  GenesisAI’s anticipated revenue growth, forecasting that GenesisAI would be generating
+
+                                                  7
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 8 of 15
+
+
+
+
+  significant revenue within a few months and that revenue would increase steadily.              These
+
+  statements, written and approved by Cheishvili, created unfounded expectations that GenesisAI
+
+  would soon realize revenue and that the revenue would quickly rise to tens and then hundreds of
+
+  millions of dollars annually.
+
+          26.       In an email sent to a potential investor in December 2019, Cheishvili projected
+
+  revenue of $1 million in 2020 and $8 million in 2021 for the Company. Although there were
+
+  preliminary expressions of interest from potential clients, Cheishvili’s anticipation of such revenue
+
+  was not reasonable at that time because GenesisAI did not have any concrete commitments from
+
+  potential clients to create potential revenue for its business model, and its marketplace was still in
+
+  its beta stage.
+
+          27.       Similarly, in a slide deck available to investors on GenesisAI’s December 2019
+
+  Wefunder offering page, Defendants included a graph entitled “Revenue Forecast” with a revenue
+
+  line that began in mid-2020 at $0, projected revenue by late 2020, and rose steadily upward to
+
+  $250 million in revenue by 2024, as seen here:
+
+
+
+
+                                                    8
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 9 of 15
+
+
+
+
+         28.     Although the graph included a disclaimer “that this forecast is not guaranteed,”
+
+  Defendants were still negligent in using this graph as it created a misleading impression that the
+
+  Company would generate revenue a few months from its 2019 publication. It also included that
+
+  Defendants projected that revenue would increase sharply, when, in fact, Defendants had no
+
+  reasonable basis to expect any such revenue.
+
+         29.     In another instance, in February 2020, Cheishvili responded to a question from a
+
+  prospective investor in the comments section of the Company’s webpage on Wefunder, stating,
+
+  “We estimate to reach revenue of around $25M in 3 years! Goal is to become market leader in all
+
+  things AI . . .” Also, in an April 2020 email exchange with a prospective investor, Cheishvili
+
+  stated that the Company had “lots of companies and users in the waitlist” and that they were
+
+  “targeting $500k in revenue this year and $5M next year.” At the time that Cheishvili made those
+
+  statements, those statements were misleading, and Cheishvili should have known they were
+
+  misleading.
+
+         30.     Although GenesisAI indicated that its projected revenues were not guaranteed and
+
+  potential users had expressed interest in GenesisAI’s marketplace, Defendants should have known
+
+  that the Company did not have concrete prospects for potential sources of revenue to justify their
+
+  projections. When these projections were made in 2020, GenesisAI’s marketplace was in its beta
+
+  stage and would not be fully launched until 2022. There was no charge for subscription fees for
+
+  users before the marketplace launch, the Company had no agreements or commitments from users,
+
+  and, although there was interest expressed during the beta stage, there was no “waitlist.” Later in
+
+  2020, the Company ceased making revenue projections.
+
+         31.     The Company did not generate any revenue from 2018 to 2021. In 2022, the
+
+  Company generated only approximately $8,000 in revenue and most of this revenue was generated
+
+
+
+                                                  9
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 10 of 15
+
+
+
+
+  by hosting an AI conference in Miami, Florida. And despite having launched its marketplace in
+
+  May 2022, GenesisAI’s revenue increased only to approximately $9,000 in 2023. By 2024, the
+
+  Company was realizing some revenue, mostly from its email server tool—not its AI marketplace.
+
+  In 2024, GenesisAI realized approximately $40,000 in revenue–far short of the $250 million
+
+  Defendants had projected.
+
+               ii.     Defendants’ Misrepresentations About GenesisAI’s Valuation
+
+         32.     Despite the lack of meaningful revenue, Defendants continued to increase the
+
+  Company’s stated valuation in each of its offerings. Defendants negligently used the increasing
+
+  valuation of GenesisAI in investment solicitation materials, such as the Company’s webpage on
+
+  Netcapital and StartEngine, and other public statements.
+
+         33.     In its first crowdfunding offering in 2019, Defendants used an implied valuation of
+
+  $7.5 million. Cheishvili set this valuation, which was stated in the offering documents and by
+
+  Cheishvili in the comments section of the Company’s solicitation page on Wefunder. When
+
+  Defendants initiated a second crowdfunding offering April 2021, Defendants stated in the offering
+
+  documents that the Company was now valued at approximately $47 million. Defendants increased
+
+  the valuation despite the Company having no revenue and its technology remaining in a beta stage.
+
+  When the Company initiated its next crowdfunding offering in September 2021, Defendants
+
+  increased the stated valuation of GenesisAI to approximately $89 million.
+
+         34.         On GenesisAI’s Netcapital webpage for a crowdfunding offering begun in July
+
+  2022, Defendants stated that the Company had a valuation of $204 million. This valuation was
+
+  more than twice the valuation Defendants had used the previous year. By increasing the valuation,
+
+  Defendants negligently created a misleading impression that the Company was achieving
+
+
+
+
+                                                  10
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 11 of 15
+
+
+
+
+  significant developments when in fact the Company had failed to generate any significant revenue
+
+  and its only significant asset was the cash derived mostly from investor funds.
+
+         35.     In support of GenesisAI’s misleading statements about its valuation, Defendants
+
+  cited GenesisAI’s increasing number of registered users. On GenesisAI’s website and elsewhere,
+
+  Defendants told prospective investors that GenesisAI was “going to charge users monthly
+
+  subscription fees per [AI] model.” Additionally, Defendants repeatedly communicated increases
+
+  in the number of registered users for the marketplace in investor solicitations. In the 2021
+
+  StartEngine crowdfunding offering, GenesisAI stated it had 1,000 registered users. In its offering
+
+  circular in February 2022, GenesisAI stated that “on the demand side, we have over 1,400
+
+  individual registered users and companies.” In a video solicitation for a crowdfunding offering
+
+  that was available to investors on YouTube, Cheishvili stated that a reason “you should invest”
+
+  was that GenesisAI had “around 2,000 users and product launched.”
+
+         36.     By 2023, Defendants stated on GenesisAI’s investor decks that the Company had
+
+  more than 2,600 registered users on its platform. However, Defendants failed to disclose that
+
+  becoming a “registered user” did not necessarily mean purchasing or intending to purchase
+
+  GenesisAI’s services; it meant filling out a registration form and providing GenesisAI a name,
+
+  affiliation, and email address as an expression of potential interest. GenesisAI did not require any
+
+  financial commitment to become or remain a user. GenesisAI did not even keep track of how
+
+  many users were active. Given GenesisAI’s stated business model to charge users subscription
+
+  fees, it was negligently misleading of Defendants to announce the number of registered users as a
+
+  metric for success while failing to disclose that becoming and remaining a registered user did not
+
+  require a financial commitment and that the Company did not always track if users were active.
+
+
+
+
+                                                  11
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 12 of 15
+
+
+
+
+            37.      When investors raised questions about the basis for such a high valuation,
+
+  Cheishvili stated that the valuation was based on “comparables.” While Defendants had disclosed
+
+  in connection with this offering that the estimated valuation was established by the Company,
+
+  Cheishvili omitted to inform investors that he alone came up with the estimated valuation, and that
+
+  it was based on his comparison of companies he personally deemed comparable to GenesisAI. In
+
+  fact, his comparison process had no independent support, and Cheishvili selected companies that
+
+  had substantial customers, were much further ahead in developing their products and services, or
+
+  had substantial financial backing from high-profile venture capitalists, all of which GenesisAI
+
+  lacked.
+
+                  iii.   Defendants Misled Investors Regarding GenesisAI’s Customer Demand
+
+            38.      Defendants negligently made misleading statements about GenesisAI’s operations
+
+  on the Company’s webpage, social media, and investor solicitations.                These material
+
+  misrepresentations included misleading claims of partnerships with other companies and
+
+  misleading statements about the users of the marketplace.
+
+            39.      In 2020 and 2021, Defendants featured a slide deck on GenesisAI’s webpage and
+
+  its crowdfunding fundraising page that stated that the Company had “[o]ver 25 partnerships!”
+
+  Defendants were negligent in using the word “partnerships” because they created a misleading
+
+  impression that the Company had signed partnership agreements to do business when, in fact, the
+
+  Company only had signed non-binding memoranda of understanding.
+
+            40.      In 2021, Defendants also announced on their crowdfunding fundraising page that
+
+  the Company had “over 15 companies willing to join [its] marketplace…” And in 2022, in the
+
+  Company’s offering circular available to investors, Defendants stated to investors that the
+
+  Company had “over 15 agreements with AI companies and individuals who are interested in
+
+
+
+                                                    12
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 13 of 15
+
+
+
+
+  deploying AI tools” in the marketplace. Although some of the companies that entered into
+
+  MOUs with GenesisAI deployed their AI tools on the GenesisAI platform, Defendants were
+
+  negligent in making these statements because the Company did not have actual partnership
+
+  agreements with any companies, much less 15 of them. Rather, all the Company had were non-
+
+  binding memoranda of understanding with other companies and even some of these had expired
+
+  by 2021.
+
+                                               V.
+                                        CLAIM FOR RELIEF
+
+                                              COUNT I
+                          Violations of Section 17(a)(2) of the Securities Act
+                                       (Against All Defendants)
+
+          41.     The Commission repeats and realleges Paragraphs 1 through 40 of this Complaint
+
+  as if fully set forth herein.
+
+          42.     Since as early as December 2019 through at least December 2024, Defendants, in
+
+  the offer or sale of securities by use of the means or instruments of transportation or
+
+  communication in interstate commerce or by use of the mails, directly or indirectly, negligently
+
+  obtained money or property by means of untrue statements of material facts and omissions to state
+
+  material facts necessary in order to make the statements made, in light of the circumstances under
+
+  which they were made, not misleading.
+
+          43.     By reason of the foregoing, Defendants violated and, unless enjoined, are
+
+  reasonably likely to continue to violate Section 17(a)(2) of the Securities Act [15 U.S.C. §
+
+  77q(a)(2)].
+
+
+
+
+                                                  13
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 14 of 15
+
+
+
+
+                                               VI.
+                                       RELIEF REQUESTED
+
+        WHEREFORE, the Commission respectfully requests that this Court find Defendants
+
+  committed the violations alleged in this Complaint, and:
+
+                                                A.
+                                       Permanent Injunction
+                                       (Against Defendants)
+
+         Issue Permanent Injunctions enjoining Defendants GenesisAI and Cheishvili, and their
+
+  officers, agents, servants, employees, attorneys, and all persons in active concert or participation
+
+  with them and each of them, from violating Section 17(a)(2) of the Securities Act [15 U.S.C. §
+
+  77q(a)(2)].
+
+                                               B.
+                             Disgorgement and Prejudgment Interest
+                                      (Against Cheishvili)
+
+         Issue an Order directing Defendant Cheishvili to disgorge all ill-gotten gains received,
+
+  including prejudgment interest, resulting from the acts and/or courses of conduct alleged in this
+
+  Complaint, pursuant to Sections 21(d)(5) and (7) of the Securities Exchange Act of 1934
+
+  (“Exchange Act”) [15 U.S.C. § 78u(d)(5) and (7)].
+
+                                                 C.
+                                       Civil Monetary Penalty
+                                        (Against Cheishvili)
+
+         Issue an Order directing Cheishvili to pay a civil money penalty pursuant to Section 20(d)
+
+  of the Securities Act [15 U.S.C. § 77t(d)].
+
+                                                 D.
+                                      Officer and Director Bar
+                                        (Against Cheishvili)
+
+         Issue an Order prohibiting Cheishvili from serving as an officer or director of any company
+
+  that has a class of securities registered under Exchange Act Section 12 [15 U.S.C. § 78l] or that is
+
+                                                  14
+Case 1:26-cv-25837-RKA Document 1 Entered on FLSD Docket 08/26/2026 Page 15 of 15
+
+
+
+
+  required to file reports under Exchange Act Section 15(d) [15 U.S.C. § 78o(d)], pursuant to
+
+  Exchange Act Section 21(d)(5) [15 U.S.C. § 78u(d)(5)], for a period of three (3) years;
+
+                                                   E.
+                                              Further Relief
+
+             Grant such other and further relief as may be necessary and appropriate.
+
+                                             VII.
+                                     DEMAND FOR JURY TRIAL
+
+             The Commission hereby demands a trial by jury on any and all issues in this action so
+
+  triable.
+
+
+
+  Dated: August 26, 2026
+                                                      Respectfully submitted,
+
+                                                  By: /s/ Russell Koonin
+                                                     Russell Koonin
+                                                     Acting Supervisory Trial Counsel
+                                                     Fla. Bar No. 0474479
+                                                     Direct Dial: (305) 982-6390
+                                                     Email: kooninr@sec.gov
+
+                                                      Eric E. Morales
+                                                      Senior Counsel
+                                                      Bar No. 1010791
+                                                      Direct Dial: (305) 416-6261
+                                                      Email: moralese@sec.gov
+
+                                                      Attorneys for Plaintiff
+                                                      Securities and Exchange Commission
+                                                      801 Brickell Avenue, Suite 1950
+                                                      Miami, FL 33131
+                                                      Telephone: (305) 982-6300
+
+
+
+
+                                                    15
+

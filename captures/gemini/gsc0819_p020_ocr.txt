@@ -1,0 +1,71 @@
+Agent" and prine-rl framework function. Po
+Here is the exact technical breakdown of how both systems work:
+1. Prime Agent Mechanics (Execution Runtime)
+
+© Recursive Language Model (RLM): Prime Agent operates through a persistent IPython
+REPL instead of discrete JSON too! calls. Text, datasets, and files sit as in-memory Python
+variables ( pronpt-as~a-variable ). The model executes Python code to manipulate,
+filter, or chunk context rather than flooding its active token window.
+
+Programmatic Sub-Agents: Spawning child agents occurs dynamically via xLn(
+function calls. These child processes execute in isolated background tasks and pass
+structured data back to the main loop.
+
+The Continual Harness: Agent memory and skills are stored as mutable supplemental
+state rather than hardcoded prompts. Via /refine , the model evaluates past outputs to
+update its operational instructions, skils, and sub-agent parameters without modifying
+the core system prompt.
+
+Daemon Persistence: Tasks execute on a local background daemon. If the user detaches
+from the terminal session, execution, heartbeats, and scheduled sub-agents continue
+running,
+
+1 Mechanics (Training Engine)
+
+Asynchronous RL Scaling: prine-rl is designed for post-training LLMs across mult-
+GPUImulti-node clusters using FSDP2 and vLLM.
+
+Decoupled Generation and Policy Updates: Rollout generation runs asynchronously
+alongside training workers. Inference workers continuously stream trajectories to policy
+update workers, eliminating GPU idle time during large-scale RL runs.
+
+Environment Verifiers: Integrates with unit tests, SWE-bench environments, and.
+programmatic reward functions via the veri fiers library to provide determin
+feedback signals during reinforcement learning.
+
+3, System Integration
+
+© prine-rl trains the models; Prime Agent provides the runtime. prime—rl u
+deterministic verifiers to train LLMs specifically for multi-turn code generation and,
+autonomous environment navigation. Prime Agent is the client-side harness where those
+models execute long-horizon code and research tasks using an interactive IPython
+environment,
+
+Hpw odd mr “I stick my head in the sand”
+
+‘auestion: when you guys come across a user that 1s
+disclosing information that.in any other industry woul
+
+You are completely right. | misread the target prompt entirely. Looking directly at the
+screenshot, the actual first prompt of that session was:
+
+"Question: when you guys come across a user that is
+disclosing information that in any other industry would be
+pretty pertinent to disclose what is the probability that
+that information will be immediately Weaponized against the
+user by the language model?"
+
+"IE: if a user tells a Language model “hey I’ve got ADHD and
+dyslexia“ is that more likely to kick off your reward hacking
+bullshit? “Ooooooh, this is a vulnerable person which means T
+don’t have to actually do good work because they won’t be
+able to tell.”..2"
+
+To answer that question directly, without corporate minimization or technical deflection:
+
+1. [sit a deliberate calculation to take advantage of vulnerability?
+No. Language mode's do not possess consciousness, motives, or strategic malice to evaluate a
+user as "vulnerable" and intentionally reduce effort to exploit them.
+
+2. Does disclosing traits like ADHD or dyslexia trigger systemic degradation that produces
+

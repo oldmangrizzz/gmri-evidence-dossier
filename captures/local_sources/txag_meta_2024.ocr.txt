@@ -1,0 +1,695 @@
+
+===== OCR PAGE 1 =====
+FILED
+
+at_3.. ZR orcLock HM.
+HERRY CRIFFIS
+
+CLERK DISTRICT COURT
+
+CAUSE NO. 22-0121 HARRISON COUNTY. TEXAS
+BY ey es
+THE STATE OF TEXAS, sisi
+COURT
+Plaintiff,
+v. 71ST JUDICIAL DISTRICT
+
+META PLATFORMS, INC.
+f/k/a FACEBOOK, INC.,
+
+AAAAAAAAAGA
+
+Defendant. HARRISON COUNTY, TEXAS
+
+{PROPOSED] AGREED FINAL JUDGMENT
+
+On this day the Court considered the Parties’ Agreed Motion for Entry of Final Judgment.
+After consideration, the Court finds that the Agreed Motion should be and hereby is GRANTED in
+all respects. ‘he Parties have consented to the entry of this Agreed Final Judgment, and the Court is
+of the opinion that this Judgment should be entered. This judgment is final, disposes of all the claims
+and all the parties and is appealable. All relief not expressly granted is denied.
+
+IT IS THEREFORE ORDERED, ADJUDGED, and DECREED ‘THAT BOTH
+PARTIES SHALL COMPLY WITH ALL OF THE FOLLOWING PROVISIONS OF THE
+AGREED FINAL JUDGMENT:
+
+I. DEFINITIONS
+
+This Agreed linal Judgment uses the following definitions:
+
+Ni “Action” means the State of Texas v. Meta Platforms, Inc., Cause No. 22-0121, 71st Judicial
+District, Harrison County Texas.
+
+B. “Agreed Final Judgment” means an order by the Court dismissing the Action with
+prejudice and adopting the terms set forth herein as a final judgment.
+
+ian “Agreement” means the parties’ Settlement Agreement and Release, executed on July
+
+29, 2024.
+
+TRUE AND CORRECT COFY
+
+===== OCR PAGE 2 =====
+©
+
+“Biometrics Laws” means CUBI and the TDPSA, including as those laws may be
+amended after the Effective Date.
+
+“Claims” means all claims, demands, liabilities, rights, causes of action, contracts or
+agreements, extra-contractual claims, damages, penalties, punitive damages, exemplary
+damages, multiplied damages, expenses, costs, attorneys’ fees, and/or obligations of
+any kind whether in law or equity that were, could have been, or could be asserted
+based on the facts alleged in the Action or that otherwise arise out of or concern the
+collection, analysis, processing, capture, possession, use, sale, lease, disclosure, storage,
+or treatment of any form of biometric data, biometric identifiers, biometric
+information, records of face geometry, or data derived from any of the foregoing,
+including but not limited to any and all claims regarding this collection, analysis,
+processing, capture, possession, use, sale, lease, disclosure, storage, or treatment under
+the Texas Capture or Use of Biometric Identifier Act, the Texas Deceptive Trade
+Practices Act, the Texas Data Privacy and Sccurity Act, the Identity Theft
+Enforcement and Protection Act, the Data Broker Law, or any other federal law, state
+law, statutory law, common law, foreign law, or under equity whether fixed or
+contingent, accrued or not accrued, matured or not yet matured, asserted or
+unasserted, suspected or unsuspected, and whether or not concealed or hidden.
+“Court” means the 71st Judicial District Court of Harrison County, Texas, the
+Honorable Brad Morin presiding, or any judge who shall succeed him as the judge
+assigned to the Action.
+
+“CUBI” means the Texas Capture or Use of Biometric Identifier Act, Texas Business
+
+and Commerce Code, Chapter 503.001.
+
+
+===== OCR PAGE 3 =====
+M.
+
+“Data Broker Law” means the Data Broker Law, Texas Business and Commerce
+Code, Chapter 509.
+
+“Days,” when used in this Agreed Final Judgment to specify a deadline or time period
+by which some event will occur, means the number of calendar days stated, excluding
+the day that triggers the period, except that if the last day is a Saturday, Sunday, or
+federal or Texas holiday, the period shall continue to run until the next day that is not
+a Saturday, Sunday, or federal or Texas holiday. But when a deadline or time period by
+which some event will occur in this Agreed Final Judgment is stated as a number of
+“business days,” it shall mean the number of days, excluding the day that triggers the
+period, that are not a Saturday, Sunday, or federal or Texas holiday.
+
+“DTPA” means the Texas Deceptive Trade Practices Act, Texas Business and
+Commerce Code, Subchapter E, Chapter 17.
+
+“Effective Date” means the date on which the Court issues this Agreed Final
+Judgment.
+
+“Identity Theft Enforcement and Protection Act” means the Identity Theft
+Enforcement and Protection Act, Texas Business and Commerce Code, Chapter 521.
+“Installment Date” means the anniversary of the Effective Date, unless the anniversary
+of the Effective Date falls on a Saturday, Sunday, or Texas or federal holiday, in which
+case the Installment Date means the next day that is not a Saturday, Sunday, or Texas
+or federal holiday.
+
+“Meta” means Meta Platforms, Inc., 2 Delaware corporation, and each of Meta
+Platforms Inc.’s respective past, present, predecessor, and successor companies,
+parents, direct and indirect subsidiarics, affiliates, entities, and divisions, and all of their
+
+respective officers, directors, members, partners, limited partners, principals, assigns,
+
+===== OCR PAGE 4 =====
+NOW,
+
+ADJUDGED,
+
+A.
+
+representatives, employees, agents, servants, owners, shareholders, insurers, attorneys,
+and subcontractors when acting on behalf of and in furtherance of their relationship
+with Meta Platforms, Inc. or any of its past, present, predecessor, and successor
+companies, parents, direct and indirect subsidiaries, affiliates, entities, and divisions.
+“OAG” means the Office of Attorney General of the State of Texas.
+“Parties” means the State of Texas and Meta Platforms, Inc., and “Party” means one
+of the Parties as may be referenced individually.
+“Petition” means the First Amended Petition filed by the State of Texas in the Action.
+“State” means collectively the State of Texas, its past, present, and successor officers,
+agents, entities, divisions, agencies, commissions (including but not limited to the
+OAG), departments, administrators, employees, attorneys, and legal representatives.
+“Taxes” means all federal, state, or local taxes of any kind, including taxes on any
+income earned through Meta’s payments of the Judgment Amount.
+“TDPSA” means the Texas Data Privacy and Security Act, Texas Business and
+Commerce Code, Chapter 541.
+Il. TERMS
+THEREFORE, THE PARTIES AGREE TO AND IT IS ORDERED,
+
+AND DECREED that both Parties shall comply with the following provisions:
+
+Meta shall make payment to the State the total sum of $1,400,000,000.00 (Onc Billion
+Four Hundred Million Dollars) (the “Settlement Amount’) in full settlement of all
+Released Claims, as that term is defined below, and as good and valuable consideration
+
+for all other promises, covenants, duties, and obligations arising under the Agreement.
+
+mee
+
+7 monty
+
+===== OCR PAGE 5 =====
+The State shall be responsible for paying from the Settlement Amount all
+attorneys’ fees, costs, and legal expenses incurred by the State in connection
+with the Action.
+
+No opinion regarding the tax consequences of this settlement to either the
+
+State or the State’s outside counsel is being given, or will be given, by Meta.
+
+Meta shall have no liability or responsibility whatsoever for any Taxes or tax
+
+consequences resulting from payments made pursuant to this settlement,
+
+including for any Taxes due on attorneys’ fees or expenses remitted to the
+
+State’s outside counsel following Meta’s payments of the Settlement Amount
+
+as set forth in the Agreement.
+
+Meta shall pay the first installment of $500,000,000.00 within thirty (30) days
+
+following the later of (a) the Effective Date of the Agreement, or (b) receipt
+
+by Meta of complete wiring instructions, routing instructions, and all other
+information reasonably required by Meta to make payments of the Settlement
+
+Amount (“Payment Instructions”) in accordance with the following
+
+provisions:
+
+(a) Meta shall pay $225,000,000 to the appropriate fund or account in the
+state treasury as directed by the OAG for satisfaction of payment by
+the State of attorney’s fees and expenses accrued by outside counsel as
+set forth in outside counsel’s final written statements that have been
+approved by the OAG in accordance with Texas Government Code
+sections 2254.104 and 2254.108. If outside counsels’ attorneys’ fees
+and expenses as set forth in outside counsels’ approved final
+
+statements are less than $225,000,000, the remainder shall be retained
+
+wy
+oe
+
+=y
+
+===== OCR PAGE 6 =====
+or deposited by the State in the appropriate fund or account in the
+state treasury as directed by the OAG for payment to the State of
+Texas’s general revenue fund after a full accounting and payment to
+outside counsel is completed pursuant to Texas Government Code
+chapter 2254; and
+
+(b) Meta shall pay $275,000,000 in the appropriate fund or account in the
+state treasury as directed by the OAG for payment to the State of
+Texas’s general revenue fund.
+4. Four remaining installments of $225,000,000 shall each be paid respectively in
+2025, 2026, 2027, and 2028 on the later of (a) the Installment Date, or (b) the
+thirtieth (30th) day following receipt by Meta of complete Payment
+Instructions for the installment, in accordance with the following provisions:
+(a) Meta shall deposit $3,000,000 in the appropriate fund or account in the
+state treasury as directed by the OAG to be payable to the OAG in
+partial satisfaction of its attorneys’ fees accrued in this matter; and
+
+(b) Meta shall deposit $222,000,000 in the appropriate fund or account in
+the state treasury as directed by the OAG for payment to the State of
+Texas’s general revenue fund.
+
+The Settlement Amount represents the total extent of Mcta’s payment obligations
+
+under the Agreement. In no event, other than as sct forth in Paragraph ILC, shall
+
+Meta’s payment obligation with respect to the Agreement exceed $1,400,000,000.00
+
+(One Billion Four Hundred Million Dollars). Mcta’s payment of the final installment
+
+of the Settlement Amount in accordance with Paragraph II.A.4 fully discharges Meta’s
+
+financial obligations in connection with the Parties’ settlement, meaning that Meta
+
+===== OCR PAGE 7 =====
+shall not have any other obligation to make any payment to any other person or entity
+under the Agreement.
+
+Each installment payment due under the Agreement shall be made, according to the
+Payment Instructions provided by the State, by wire transfer no later than 11:59 p.m.
+(Pacific Daylight Time) on the day that the installment payment is due. In the event
+Meta fails to make a payment in a timely manner, Meta shall have five (5) business days
+to remit such payment before the State may seek relief under the Agreement. In the
+event that a payment due under the Agreement remains delinquent for more than five
+(5) business days, then in addition to any other remedies or relief that the State may
+be entitled to seek, Meta shall reimburse the State for lost interest on the payment, and
+for reasonable fees and costs incurred by the State in securing payment. Interest shall
+be calculated based on the U.S. prime rate published by the Wall Street Journal on the
+first of the year that the payment is due, plus one percent.
+
+Meta agrees to submit to the jurisdiction of Texas courts in any proceeding to enforce
+the Agreement.
+
+Upon entry of this Agreed Final Judgment, the State hercby releases all Claims against
+Meta based on events that occurred at any time on or before the Effective Date that
+the State owns or holds, has owned or held, or will own or hold (“Released Claims”).
+Upon entry of this Agreed Final Judgment, Meta hereby releases all claims, defenses,
+and counterclaims against the State based on events that occurred at any time on or
+before the Effective Date relating in any way to this Action that were, could have been,
+or could be asserted in the Action, whether fixed or contingent, accrued or not
+accrued, matured or not yet matured, asserted or unasserted, suspected or
+
+unsuspected.
+
+===== OCR PAGE 8 =====
+G. IT IS FURTHER ORDERED that the Parties undertake the following procedures
+
+and obligations following the Effective Date:
+
+ie Meta may provide notice to the OAG of anticipated or ongoing conduct for
+
+which Meta seeks to confer'with the State regarding the potential application
+
+or requirements of a Biometrics Law.
+
+(a)
+
+(b)
+
+(©)
+
+Within 30 days of receipt of the notice, the State shall provide a written
+response to Meta, substantially in the form of the example set forth in
+Exhibit A, attached hereto, in which the State may (i) request further
+information, (ii) object to Meta’s conduct, (iti) advise Meta that the
+State takes no action with respect to Meta’s conduct or (iv) advise Meta
+that the State does not object to Meta’s conduct.
+
+If the State requests further information, then the following procedure
+
+shall apply:
+
+(i) Meta may provide responsive information within 21 days.
+
+(it) If Meta provides responsive information, the State has 21 days
+to object to Meta’s conduct, advise Meta that the State takes
+no action with respect to Meta’s conduct, or advise Meta that
+the State does not object to Meta’s conduct. The State’s
+response will be in writing and substantially in the form of the
+example set forth in Exhibit A, attached hereto,
+
+If the State objects to Meta’s conduct, the State must specify the bases
+
+on which the State contends Meta’s conduct violates each Biometrics
+
+Law, based on the information then available to the State.
+
+ct ji=
+
+PV FAN an 8
+
+
+===== OCR PAGE 9 =====
+(d) If the State advises Meta that the State does not object to Meta’s
+conduct, the State may thereafter raise an objection to such conduct
+only in the event of a material change in circumstances known to
+OAG, including but not limited to a change in applicable legal
+standards, which shall be set forth in detail in the State’s notice of
+objection, Absent such a material change in circumstances, the State
+shall not bring a civil enforcement action against Meta or seek any
+other relief or remedies authorized for violations of the Biometrics
+Laws arising out of or related to the conduct, unless the State
+establishes that Meta’s initial disclosure to the State pursuant to
+
+Paragraph II.G.1 was materially false or materially misleading.
+
+If the State advises Meta that the State takes no action with respect to
+Meta’s conduct, the State may thereafter raise an objection to such
+conduct by providing written notice to Meta. Such notice must specify
+(i) the bases on which the State contends Meta’s conduct violates each
+Biometrics Law, based on the information then available to the State,
+and (ii) the reasons for the State’s change in position regarding the
+conduct.
+
+(6) If the State objects to Meta’s conduct, cither initially or as set forth in
+Paragraph UL.G.1.b.ii, Paragraph ILG.1.d, or Paragraph I1.G.1.¢, then
+the Parties shall have 60 days to confer and attempt to reach agreement
+regarding the legality of the conduct at issue, or modifications relating
+
+to the conduct that would render it lawful.
+
+===== OCR PAGE 10 =====
+(h)
+
+The State may not bring a civil enforcement action against Meta or
+seek any other relief or remedies authorized for violations of the
+Biometrics Laws until it has complied with the notice and dispute
+resolution process set forth in this Paragraph IL.G.1. .
+
+If (1) Meta provides notice to the OAG of its anticipated or ongoing
+
+training of models, algorithms, or programs by processing images,
+
+video, audio, or other content of individuals, and (2) the State advises
+
+Meta (including pursuant to Paragraph ILG.1.a or ILG.b.ii) that the
+
+State takes no action with respect to Meta’s conduct or that the State
+
+does not object to Meta’s conduct, then the following provisions shall
+
+apply notwithstanding any other provision to the contrary in this
+
+Agreed Final Judgment.
+
+(i) The State may not subsequently raise an objection to Meta’s
+conduct on the basis that Meta’s processing of images, video,
+audio, or other content during training renders Meta’s ongoing
+use of that model, algorithm, or program unlawful under any
+Biometrics Law; and
+
+(ii) The State shall not bring a civil enforcement action against
+Meta or seck any other relief or remedies authorized for
+violations of the Biometrics Laws in which the State asserts
+claims based on the training process disclosed by Meta, except
+to the extent (1) the State notifies Meta of an objection, to the
+extent permitted by Paragraph I.G.1.d or ILG.1.e, as
+
+applicable, to Meta’s continued implementation of the training
+
+10
+
+TENT AKNITS te
+T, LUIZ s
+
+os een
+
+eer my
+
+Y
+
+===== OCR PAGE 11 =====
+process and (2) the training process continued or occurred
+after the completion of all pre-litigation notice and dispute
+resolution procedures required under any applicable provision
+of this Agreed Final Judgment.
+
+(iii) The limitations in Paragraphs I1.G.1.h.i and ILG.1.h.ii shall not
+apply if the State establishes that Mcta’s initial disclosure to the
+State pursuant to Paragraph II.G.1 was materially false or
+materially misleading.
+
+For all other conduct that is not disclosed by Meta pursuant to Paragraph
+
+ILG.1, the State shall provide written notice to Meta prior to bringing a civil
+
+enforcement action against Meta or secking any other relief or remedies
+
+authorized for violations of the Biometric Laws related to such conduct. The
+notice must specify the bases on which the State contends Mcta’s conduct
+violates cach Biometrics Law.
+
+(a) The Parties shall have 60 days to confer and attempt to
+reach agreement regarding the legality of the conduct at issue, or
+modifications relating to the conduct that would render it lawful.
+
+(b) The State may not bring a civil enforcement action against Meta or
+seck any other relief or remedies authorized for violations of the
+Biometrics Laws until it has complied with the notice and dispute
+resolution requirements of this Paragraph 11.G.2.
+
+In any civil enforcement action or proceeding brought by the State against
+
+Meta in which the State alleges a violation of one or more Biometrics Laws,
+
+no civil penalties, damages, interest on monetary awards, or any other
+
+1]
+
+===== OCR PAGE 12 =====
+monctary relief, other than reasonable costs and fees where such costs and fees
+
+are authorized by law, shall accrue during the following periods:
+
+@
+
+)
+
+©
+
+For conduct disclosed by Meta pursuant to Paragraph II.G.1, from the
+date of Meta’s initial notice until 30 days after the completion of all
+pre-litigation notice and dispute resolution procedures required under
+any applicable provision of this Agreed Final Judgment.
+Notwithstanding the foregoing, the tolling period specified in this
+Paragraph shall not apply in the event the State establishes that Meta’s
+initial disclosure to the State pursuant to Paragraph II.G.1 was
+materially false or materially misleading.
+
+For all other conduct, from the earlier of the date that the State
+provides notice to Meta of its objection pursuant to Paragraph II.G.2
+or the date on which the OAG begins investigating the conduct until
+30 days after the completion of all pre-litigation notice and dispute
+resolution procedures required under any applicable provision of this
+Agreed Final Judgment.
+
+During any additional periods in which Mcta makes commercially
+reasonable efforts to avoid or ccase engaging in the disputed conduct
+as to individuals known or believed by Meta to be current residents of
+
+Texas.
+
+Meta’s provision of notice or information in response to a request from the
+
+State shall not be construed as an admission that any Biometrics Law applies
+
+to the technology, feature, or conduct at issue, and the notice shall not be
+
+12
+
+===== OCR PAGE 13 =====
+admissible for any purpose other than determining whether the accrual of
+monetary relief has been tolled in accordance with Paragraph II.G.3, above.
+If authorized by law, and subject to any restrictions set forth in Paragraphs
+ILG.1.d or II.G.1.h, the State may seek a preliminary injunction as to Meta’s
+conduct prior to the completion of the dispute resolution processes outlined
+in this Agreed Final Judgment if the State reasonably determines it necessary
+to protect citizens of Texas from irreparable harm. In such an action, the State
+may not recover monetary relief for any alleged violation of the Biometrics
+Laws, unless and until all pre-litigation notice and dispute resolution
+procedures required under any applicable provision of this Agreed Final
+Judgment have been completed, and all provisions set forth in Paragraph
+ILG.3 limiting the accrual of such monetary relief shall apply.
+
+The Parties may agree in writing to extend any of the deadlines or time periods
+that apply to the procedures and obligations set forth above.
+
+All notices and information provided by Meta pursuant to Paragraphs II.G.1
+or II.G.2 of this Agreed Final Judgment shall be maintained as confidential,
+and shall not be disclosed without Meta’s written consent except to the extent
+such disclosure is required by applicable law. Upon receipt by the State of a
+notice of issuance of a subpoena, discovery request, request made under the
+Texas Public Information Act, or other request or demand which may create
+a legal obligation to disclose information or material provided by Meta
+pursuant to Paragraphs II.G.1 or II.G.2 of this Agreed Final Judgment, the
+State shall provide written notice to Meta of the request or demand within ten
+
+(10) business days and allow Meta a reasonable opportunity, and no less than
+
+13
+
+
+===== OCR PAGE 14 =====
+ten (10) business days after its receipt of notice in any event, to object to the
+disclosure in accordance with applicable law. In the event that the State is
+required to respond to a subpoena, discovery request, request made under the
+Texas Public Information Act, or other request or demand which may create
+a legal obligation to disclose information or material provided by Meta
+pursuant to Paragraphs II.G.1 or II.G.2 of this Agreed Final Judgment in less
+than ten (10) business days, the State shall make reasonable efforts to provide
+written notice to Meta as soon as is practicable.
+This Agreed Final Judgment is intended to be solely for the benefit of the Parties and
+persons and entities released herein and, except as stated herein, the Parties do not by
+this Agreed Final Judgment release any Claims against any other person or entity. No
+word, term, phrasc, or definition in this Agreed Final Judgment is or may be used for
+the benefit of any person, entity, or litigant who is not a Party or released by this
+Agreed Final Judgment. There are no third-party beneficiaries to this Agreed Final
+Judgment, other than those persons and entities who are defined in this Agreed Final
+Judgment as “Meta” but are not a Party. Each person and entity defined in this Agreed
+Final Judgment as “Meta” is expressly acknowledged to be a Party or third-party
+beneficiary of this Agreed Final Judgment (and the releases set forth herein), with the
+right to fully enforce the same as if such person or entity were a Party.
+The Parties hereby agree that this Agreed Final Judgment, and any and all negotiations,
+documents, and discussions associated with this Agreed Final Judgment shall be
+without prejudice to any Party’s rights not expressly released herein; that this Agreed
+Final Judgment shall not be deemed or construed to be an admission or evidence of
+
+any violation of any statute or law, of any liability or wrongdoing by Meta or of the
+
+14
+
+===== OCR PAGE 15 =====
+truth or the infirmity of any of the claims or allegations of the State; and that this
+Agreed Final Judgment, being for the purpose of resolving disputed claims, is not
+competent or admissible evidence to establish the validity of any of the Claims asserted
+with respect to the Released Claims, whether in Texas or in any other forum.
+
+This Agreed Final Judgment and any discussion, negotiation, proceeding, or agreement
+relating thereto, the settlement, and/or any matter arising in connection with
+settlement discussions or negotiations, proceedings, or agreements, shall not be
+offered or reccived against or to the prejudice of the Parties or their respective counsel,
+for any purpose other than in an action or any proceeding or motion to enforce the
+terms of this Agreed Final Judgment or exercise any rights thereunder.
+
+The State represents to Meta that no interest in any Claim herein released has been
+assigned by them to any third party.
+
+Nothing in the terms of the Parties’ settlement is a waiver of the State’s sovereign
+immunity. The State acknowledges that sovereign immunity would not bar a
+proceeding for declaratory or equitable relief to enforce the terms of the Parties’
+settlement or to enforce this Agreed Final Judgment or any court order or judgment
+issued in this Action. Further, for the avoidance of doubt, the State acknowledges that
+this Agreed Final Judgment and any settlement agreement of the parties in this Action
+may be pled as a full and complete defense to any action, suit, or other proceeding that
+may be instituted, prosecuted, or attempted by the State contrary to the terms of this
+Agreed Final Judgment or any settlement agreement of the parties in this Action.
+Except as otherwise provided in this Agreed Final Judgment, each Party will bear its
+own legal and other costs incurred in connection with this matter, including the
+
+preparation and performance of this Agreed Final Judgment.
+
+15
+
+
+===== OCR PAGE 16 =====
+This Agreed Final Judgment shall be construed and interpreted to effectuate the
+Patties’ intent, which is to (1) resolve completely the State’s Claims, including those
+related in any manner whatsoever to the Releascd Claims, and (2) establish a set of
+agreed-upon pre-litigation notice and dispute resolution procedures, as set forth in this
+Agreed Final Judgment, to reduce the likelihood of future litigation between the Parties
+arising under the Biometrics Laws.
+
+None of the Parties to this Agreed Final Judgment shall be considered the drafter of
+this Agreed Final Judgment or of any included provision for the purpose of any statute,
+case law, or rule of construction that would or might cause any provision to be
+construed against the drafter.
+
+Each Party represents that it freely and voluntarily consented to the entry of this
+Agreed Final Judgment without any degree of duress whatsoever.
+
+The Parties have relied upon the advice and representation of counsel, selected by
+themselves, concerning their respective legal rights and liabilities for the claims hereby
+released. The Parties have read and understand fully this Agreed Final Judgment and
+have been fully advised as to the legal effect thereof by counsel of their own selection
+and intend to be legally bound by this Agreed Final Judgment.
+
+Unless otherwise stated in writing subsequent to the Effective Date, all notifications
+and communications made pursuant to this Agreed Final Judgment shall be submitted
+to the persons or entities listed below, by email and by correspondence directed to the
+below addressees:
+
+1. The State, for all purposes:
+
+General.Counsel@oag.texas.gov
+Attn.: General Counsel Division
+Office of the Attorney General
+
+16
+
+TOS Tpit meee
+
+===== OCR PAGE 17 =====
+Mail Code 074
+Post Office Box 12548
+Austin, Texas 78711-2548
+
+2. Meta, for all purposes:
+
+Scott Tucker
+
+Vice President & Deputy General Counsel
+
+Legal Department
+
+Meta Platforms, Inc.
+
+1 Meta Way
+
+Menlo Park, CA 94025
+
+and
+
+Lauren Goldman
+
+Gibson, Dunn & Crutcher LLP
+
+. 200 Park Avenue
+
+New York, NY 10166
+
+LGoldman@gibsondunn.com
+The Parties have read the Agreed Final Judgment and accept and agree to the
+provisions contained herein.
+The Parties represent and acknowledge that in consenting to this Agreed Final
+Judgment they are not relying on any promises or representations other than those
+expressly set forth in this Agreed Final Judgment. The Parties understand,
+acknowledge, and agree that (1) they have each performed an independent
+investigation of the allegations of fact and law surrounding this matter; and (2) they
+each may hereafter discover facts in addition to, or different from, those that they now
+know or believe to be true with respect to the subject matter of this Agreed Final
+Judgment. Each of the Parties warrants that it is not relying upon any statement or
+representation of any agent of the Parties being released hereby, and that each of the
+
+Parties is relying on its own judgment. Nevertheless, it is the Parties’ intention to
+
+resolve their disputes pursuant to the terms of this Agrecd Final Judgment and thus,
+
+17
+
+===== OCR PAGE 18 =====
+in furtherance of their intentions, the Agreed Final Judgment shall remain in full force
+and effect notwithstanding the discovery of any additional facts or law, or changes in
+law, and the Agreed Final Judgment shall not be subject to rescission or modification
+by reason of any such discovery or change.
+
+U. The waiver of any rights conferred by this Agreed Final Judgment shall be effective
+only if made in writing by the waiving Party. The waiver by any Party of any breach
+of this Agreed Final Judgment shall not be deemed or construed as a waiver of any
+other breach, whether prior to, subsequent to, or contemporaneously with such other
+breach.
+
+Vv. Each Party will perform such further acts and will execute and will deliver such further
+documents as may reasonably be necessary to carry out this Agreed Final Judgment.
+
+W. Any documents filed in the Action under temporary scal shall be permanently sealed.
+
+X. For the purposes of Paragraph 15 of the Amended Stipulated Protective Order entered
+in the Action, the “final disposition of this action” shall be the date on which this
+Agreed Final Judgment is entered.
+
+IT ISSO ORDERED.
+
+18
+
+i a On ee a aly
+' - veh i :
+
+===== OCR PAGE 19 =====
+a
+Signed: ) , 2024.
+
+/ (Ae
+THE JSONORABLY BRAD MORIN
+
+APPROVED AS TO FORM AND SUBSTANCE
+
+~ ps
+19 ATRUE COPY
+of the Original hereof, | cértify
+Sherry Griffis
+District Court Clerk
+
+Harri ty, Texas
+— Deputy Clerky
+
+
+===== OCR PAGE 20 =====

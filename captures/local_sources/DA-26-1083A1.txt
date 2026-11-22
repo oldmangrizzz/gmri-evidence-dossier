@@ -1,0 +1,1224 @@
+                                                Federal Communications Commission                                                          DA 26-1083
+
+                                                           Before the
+                                                Federal Communications Commission
+                                                      Washington, D.C. 20554
+
+ In the Matter of
+
+ Implementation of Sections 716 and 717 of                                              CG Docket No. 10-213
+ the Communications Act of 1934, as Enacted
+ by the Twenty-First Century Communications
+ and Video Accessibility Act of 2010
+
+
+                                        BIENNIAL REPORT TO CONGRESS
+                                             AS REQUIRED BY THE
+                                    TWENTY-FIRST CENTURY COMMUNICATIONS
+                                      AND VIDEO ACCESSIBILITY ACT OF 2010
+
+Adopted: October 7, 2026                                                                                             Released: October 7, 2026
+
+By the Chief, Consumer and Governmental Affairs Bureau:
+
+                                                           TABLE OF CONTENTS
+
+Heading                                                                                                                                     Paragraph #
+
+I. INTRODUCTION AND SCOPE OF REPORT .....................................................................................1
+II. PROVISIONS OF THE CVAA COVERED BY THIS REPORT..........................................................7
+III. COMPLIANCE WITH SECTIONS 255, 716, AND 718 .....................................................................11
+     A. Accessibility....................................................................................................................................11
+     B. Usability ..........................................................................................................................................27
+     C. Inclusion of People with Disabilities in Product and Service Design and Development ...............32
+IV. ACCESSIBILITY BARRIERS TO NEW COMMUNICATIONS TECHNOLOGIES .......................34
+V. COMPLAINTS RECEIVED PURSUANT TO SECTION 717 ...........................................................38
+     A. Number and Nature of Complaints Received .................................................................................40
+     B. Discussion of Requests for Dispute Assistance ..............................................................................41
+     C. Actions Taken to Resolve RDAs ....................................................................................................44
+     D. Actions Taken to Resolve Informal Complaints.............................................................................45
+     E. Time Used to Resolve RDAs and the Informal Complaints...........................................................46
+     F. Actions for Mandamus and Appeals Filed......................................................................................47
+VI. EFFECT OF SECTION 717’S RECORDKEEPING AND ENFORCEMENT
+     REQUIREMENTS ON THE DEVELOPMENT AND DEPLOYMENT OF NEW
+     COMMUNICATIONS TECHNOLOGIES...........................................................................................48
+VII. CONCLUSION ....................................................................................................................................49
+Appendix A – List of Commenters
+
+I.          INTRODUCTION AND SCOPE OF REPORT
+       1.    This Biennial Report (Report) is submitted by the Federal Communications Commission
+(FCC or Commission) to the Committee on Commerce, Science, and Transportation of the U.S. Senate
+
+
+
+
+                                                                              1
+                                   Federal Communications Commission                                   DA 26-1083
+
+and the Committee on Energy and Commerce of the U.S. House of Representatives, in accordance with
+the Twenty-First Century Communications and Video Accessibility Act of 2010 (CVAA).1
+        2.       This year marks the 16th anniversary of the CVAA, and the 30th anniversary of the
+Telecommunications Act of 1996, which adopted section 255 of the Communications Act of 1934, as
+amended (the Act). While section 255 of the Act and the CVAA have been instrumental in ensuring
+Americans with disabilities have access to communications technologies, advancements in technology
+continue to rapidly change the communications landscape. As the landscape evolves, technology is also
+providing new, innovative tools capable of improving the quality and functionality of communications
+services and the accessibility of devices for persons with disabilities.
+         3.       To keep pace with this rapidly changing landscape, the Commission has focused on
+modernizing our rules to better match consumer expectations and ensuring that our rules do not
+inadvertently stifle advancements in accessibility. Since 2024, we have taken action to advance
+accessibility in these important areas: modernizing telecommunications relay services (TRS),2 advancing
+the nationwide transition to Next Generation 911 (NG911), including charging the Commission’s
+Communications Security, Reliability, and Interoperability Council to address expanding NG911’s
+multimedia availability and increasing 911 accessibility,3 National Deaf-Blind Equipment Distribution
+Program (NDBEDP) implementation,4 continuing to align closed captioning requirements to ensure the
+availability of captioning to consumers who are deaf and hard of hearing,5 continued expansion of audio
+description to additional television markets,6 and adopting a 100% hearing aid compatibility requirement
+for all wireless handset models offered for sale or use in the United States.7
+        4.       As part of our commitment to implementing the CVAA, we submit this Biennial Report
+assessing industry compliance over the past two years with sections 255, 716, and 718 of the Act. The
+Act requires telecommunications and advanced communications services and equipment, and Internet
+browsers built into mobile phones (collectively, covered products and services) to be accessible to and
+usable by individuals with disabilities.8 The Report also addresses accessibility barriers to new
+
+
+
+1 Pub. L. No. 111-260, 124 Stat. 2751 (2010) (as codified in various sections of 47 U.S.C.); Pub. L. No. 111-265,
+
+124 Stat. 2795 (2010) (making technical corrections to the CVAA); see also 47 U.S.C. § 618(b)).
+2 See, e.g., Telecommunications Relay Services and Speech-to-Speech Services for Individuals with Hearing and
+
+Speech Disabilities; Speech-to-Speech and Internet Protocol (IP) Speech-to-Speech Telecommunications Relay
+Services, CG Docket Nos. 03-123, 10-51, and 12-38, Notice of Proposed Rulemaking, 41 FCC Rcd 907 (2026);
+Telecommunications Relay Services and Speech-to-Speech Services for Individuals with Hearing and Speech
+Disabilities; Speech-to-Speech and Internet Protocol (IP) Speech-to-Speech Telecommunications Relay Services,
+CG Docket Nos. 03-123 and 08-15, Notice of Proposed Rulemaking, 40 FCC Rcd 9528 (2025).
+3 See Communications Security, Reliability, and Interoperability Council X, Tasks and Working Groups (June
+
+2026), https://www.fcc.gov/sites/default/files/CSRIC10-WorkingGroup-Tasks-Descriptions-vJune2026.docx.
+4 See, e.g., 47 U.S.C. § 620; 47 CFR §§ 64.6201-64.6219.
+
+5 See, e.g., Closed Captioning of Video Programming; Telecommunications for the Deaf and Hard of Hearing, Inc.
+
+Petition for Rulemaking; Delete, Delete, Delete, CG Docket No. 05-231, GN Docket No. 25-133, Report and Order,
+FCC 26-57 (Aug. 21, 2026).
+6 See, e.g., Media Bureau Reminds Television Broadcasters that Audio Description Rules Apply to DMAs 111
+
+Through 120 as of January 1, 2026, MB Docket No. 11-43, Public Notice, 40 FCC Rcd 9219 (MB 2025); Video
+Description: Implementation of the Twenty-First Century Communications and Video Accessibility Act of 2010, MB
+Docket No. 11-43, Second Report and Order, 38 FCC Rcd 9774 (2023).
+7 See Achieving 100% Wireless Handset Model Hearing Aid Compatibility, WT Docket No. 23-388, Report and
+
+Order, 39 FCC Rcd 11917 (2024).
+8 47 U.S.C. § 618(b)(1)(A); see also 47 U.S.C. §§ 255, 617, 619; 47 CFR pts. 6, 7, 14.
+
+
+                                                           2
+                                    Federal Communications Commission                                  DA 26-1083
+
+communications technologies,9 and the effect of the accessibility-related recordkeeping and enforcement
+requirements under section 717 on the development and deployment of such technologies.10 Finally, the
+Report provides information about the number and nature of, and actions taken to resolve, complaints
+alleging violations of sections 255, 716, and 718 for the period of January 1, 2024, through December 31,
+2025, including the length of time that the Commission took to resolve such complaints, and the number,
+status, nature and outcome of any actions for mandamus filed, and of any appeals filed, pertaining to such
+complaints.11
+         5.      Earlier this year, the Commission’s Consumer and Governmental Affairs Bureau (CGB
+or Bureau) released Notices for public comment to build a public record on industry compliance with
+sections 255, 716, and 718 of the Act. On February 26, 2026, the Bureau issued the 2026 CVAA
+Assessment Public Notice inviting comment on the level of accessibility and usability of covered products
+and services, and the existence of accessibility barriers to new communications technologies since the
+release of the 2024 CVAA Biennial Report.12 The Bureau also sought comment on any impact that the
+accessibility recordkeeping requirements and enforcement measures may have had on the development
+and deployment of new communications technologies.13 Comments were received from Accessibility
+Advocacy Organizations (AAO),14 the American Council of the Blind (ACB), the American Foundation
+for the Blind (AFB), the Consumer Technology Association (CTA), CTIA – The Wireless Association
+(CTIA), Disability Belongs, Wired Broadband, Inc. (WBI), and one individual commenter. The Bureau
+
+9 47 U.S.C. § 618(b)(1)(B).  For purposes of this Report, “new communications technologies” may be either within
+or outside the scope of telecommunications, advanced communication services, or Internet browser technologies
+covered under sections 255, 716, and 718 of the Act. See, e.g., Implementation of Sections 716 and 717 of the
+Communications Act of 1934, as Enacted by the Twenty-First Century Communications and Video Accessibility Act
+of 2010, Biennial Report to Congress as Required by the Twenty-First Century Communications and Video
+Accessibility Act of 2010, 31 FCC Rcd 11065, 11084, para. 44 & n.165 (CGB 2016) (2016 CVAA Biennial Report).
+As technology evolves, Congress may wish to consider whether updates to the CVAA are needed to keep pace with
+these new methods of communication.
+10 47 U.S.C. § 618(b)(1)(G).   Section 717(a) requires covered entities to keep records of their efforts to implement
+sections 255, 716, and 718, including information about their efforts to consult with people with disabilities,
+descriptions of the accessibility features of their products and services, and information about the compatibility of
+these products and services with peripheral devices or specialized customer premises equipment commonly used by
+people with disabilities to achieve access. 47 U.S.C. § 618(a)(5)(A). Under the Commission’s rules, covered
+entities must certify annually to the Commission that they have kept records in accordance with this requirement.
+See 47 U.S.C. § 618(a)(5)(B); 47 CFR § 14.31. The FCC reminds covered entities each year of these certification
+requirements. See Accessibility Recordkeeping Compliance Certification and Contact Information Reporting
+Requirements, Public Notice, DA 26-190 (CGB Feb. 25, 2026). Section 717(a) also contains procedures for
+complaints alleging violations of sections 255, 716, or 718. 47 U.S.C. § 618(a)(1)-(4); 47 CFR §§ 14.30-14.38. In
+response to an informal complaint, the manufacturer or service provider “must produce documents demonstrating its
+due diligence in exploring accessibility and achievability . . . throughout the design, development, testing, and
+deployment stages of a product or service.” 47 CFR § 14.36(a).
+11 47 U.S.C. § 618(b)(1)(C)-(F).
+
+12 Consumer and Governmental Affairs Bureau Seeks Comment on the Accessibility of Communications
+
+Technologies for the 2026 Biennial Report Required by the Twenty-First Century Communications and Video
+Accessibility Act, CG Docket No. 10-213, Public Notice, DA 26-193(CGB Feb. 26, 2026) (2026 CVAA Assessment
+Public Notice); Implementation of Sections 716 and 717 of the Communications Act of 1934, as Enacted by the
+Twenty-First Century Communications and Video Accessibility Act of 2010, Biennial Report to Congress as
+Required by the Twenty-First Century Communications and Video Accessibility Act of 2010, 39 FCC Rcd 11289
+(2024) (2024 CVAA Biennial Report).
+13 See 2026 CVAA Assessment Public Notice at 5, para. 13.
+
+14 Comments by AAO were filed on behalf of TDIforAccess, Inc., Deaf Equality, Communication Service for the
+
+Deaf, Rehabilitation Engineering Research Center on Technology for the Deaf and Hard of Hearing, National
+Association for the Deaf, and Perkins School for the Blind.
+                                                          3
+                                    Federal Communications Commission                                  DA 26-1083
+
+released the 2026 CVAA Tentative Findings Public Notice on July 1, 2026.15 AAO16 and one individual
+commenter filed comments in response to this second notice.17
+         6.      The Commission’s Biennial Reports to Congress mark the progress of access to advanced
+communications services and equipment, telecommunications services and equipment, and Internet
+browsers built into mobile phones.18 In this Biennial Report, we find that this progress has continued
+over the last two years.19 Companies launched new products with built-in accessibility features and
+introduced new accessibility interfaces, and innovative approaches have continued to advance the
+purposes of the CVAA. Despite these advances, consumers identified products and services that were not
+accessible during this time period. As discussed below, we also find that some accessibility gaps persist.
+In particular, commenters described concerns regarding access to mobile phones, video conferencing,
+emergency services, touch screens, multi-factor authentication (MFA) processes, customer service, AI-
+enabled communications and other emerging technologies, and communication in videogames for
+individuals with disabilities, among other concerns and limitations.
+II.      PROVISIONS OF THE CVAA COVERED BY THIS REPORT
+         7.      The purpose of the CVAA is “to help ensure that individuals with disabilities are able to
+fully utilize communications services and equipment and better access video programming.”20 To that
+
+15 Consumer and Governmental Affairs Bureau Seeks Comment on Tentative Findings for the 2026 Twenty-First
+
+Century Communications and Video Accessibility Act Biennial Report, CG Docket No. 10-213, Public Notice, DA
+26-650 (CGB July 1, 2026) (2026 CVAA Tentative Findings Public Notice); see also 47 U.S.C. § 618(b)(2)
+(requiring the Commission to seek public comment on its tentative findings prior to submission of each biennial
+report to Congress).
+16 Tentative Findings Comments by AAO were filed on behalf of TDIforAccess, Inc., Deaf Equality,
+
+Communication Service for the Deaf, Rehabilitation Engineering Research Center on Technology for the Deaf and
+Hard of Hearing, National Association of the Deaf, Perkins School for the Blind, Hearing Loss Association of
+America, American Foundation for the Blind, American Council of the Blind, and Deaf Seniors of America.
+17 For clarity, we cite to comments submitted in response to this second Public Notice as “Tentative Findings
+
+Comments.”
+18 See, e.g., 2024 CVAA Biennial Report; Implementation of Sections 716 and 717 of the Communications Act of
+
+1934, as Enacted by the Twenty-First Century Communications and Video Accessibility Act of 2010, Biennial
+Report to Congress as Required by the Twenty-First Century Communications and Video Accessibility Act of 2010,
+37 FCC Rcd 11360 (2022) (2022 CVAA Biennial Report); Implementation of Sections 716 and 717 of the
+Communications Act of 1934, as Enacted by the Twenty-First Century Communications and Video Accessibility Act
+of 2010, Biennial Report to Congress as Required by the Twenty-First Century Communications and Video
+Accessibility Act of 2010, 35 FCC Rcd 11227 (2020) (2020 CVAA Biennial Report); Implementation of Sections
+716 and 717 of the Communications Act of 1934, as Enacted by the Twenty-First Century Communications and
+Video Accessibility Act of 2010, Biennial Report to Congress as Required by the Twenty-First Century
+Communications and Video Accessibility Act of 2010, 33 FCC Rcd 9828, (CGB 2018) (2018 CVAA Biennial
+Report); 2016 CVAA Biennial Report, 31 FCC Rcd at 11084, para. 44 & n.165; Implementation of Sections 716 and
+717 of the Communications Act of 1934, as Enacted by the Twenty-First Century Communications and Video
+Accessibility Act of 2010, Biennial Report to Congress as Required by the Twenty-First Century Communications
+and Video Accessibility Act of 2010, 29 FCC Rcd 11909, 11911-12, para. 3 (CGB 2014) (2014 CVAA Biennial
+Report); Implementation of Sections 716 and 717 of the Communications Act of 1934, as Enacted by the Twenty-
+First Century Communications and Video Accessibility Act of 2010, Biennial Report to Congress as Required by the
+Twenty-First Century Communications and Video Accessibility Act of 2010, 27 FCC Rcd 12204, 12220-22, paras.
+43, 45 (CGB 2012) (2012 CVAA Biennial Report).
+19 The Report findings do not address comments on matters that are outside the scope of sections 255, 716, 717, and
+
+718.
+20 Senate Report at 1; House Report at 19 (both noting that the communications marketplace had undergone a
+
+“fundamental transformation” since Congress adopted section 255 in 1996 and that, in the past, people with
+disabilities often did not share in the benefits of this rapid technological advancement).
+                                                         4
+                                      Federal Communications Commission                                   DA 26-1083
+
+end, the CVAA requires that the Commission report on industry compliance with the following
+accessibility-related provisions of the Act.21
+         8.      Section 255. Section 255 requires providers of telecommunications services and
+manufacturers of telecommunications equipment or customer premises equipment (CPE) to ensure that
+their services and equipment are accessible to and usable by individuals with disabilities, if readily
+achievable.22 When these requirements are not readily achievable, covered entities must ensure that their
+services and equipment are compatible with existing peripheral devices or specialized CPE commonly
+used by individuals with disabilities to achieve access, if readily achievable.23 Pursuant to the
+Commission’s rules, the accessibility obligations of section 255 extend as well to interconnected Voice
+over Internet Protocol (VoIP) service providers and equipment manufacturers.24
+        9.        Section 716. Section 716 requires advanced communications services (ACS) providers
+and equipment manufacturers to make their services and equipment accessible to and usable by people
+with disabilities, unless doing so is “not achievable.”25 These requirements apply to providers of
+interconnected VoIP services, non-interconnected VoIP services, electronic messaging services,
+interoperable video conferencing services, and any audio or video communications service used by
+inmates for the purpose of communicating with individuals outside the correctional institution where the
+inmate is held, regardless of technology used, and to manufacturers of equipment used with these
+services.26 The accessibility requirements for section 716 may be satisfied by: (1) building accessibility
+
+21 See 47 U.S.C. § 618(b)(1).   See also infra Sections III-VI.
+22 47 U.S.C. § 255(b), (c); Implementation of Sections 255 and 251(a)(2) of the Communications Act of 1934, as
+
+Enacted by the Telecommunications Act of 1996: Access to Telecommunications Service, Telecommunications
+Equipment and Customer Premises Equipment by Persons with Disabilities, Report and Order and Further Notice of
+Inquiry, 16 FCC Rcd 6417, 6449, para. 77 (1999) (Section 255 Order). “Readily achievable” is defined as “easily
+accomplishable and able to be carried out without much difficulty or expense.” 42 U.S.C. § 12181(9). The Act
+defines telecommunications equipment as “equipment, other than customer premises equipment, used by a carrier to
+provide telecommunications services, and includes software integral to such equipment (including upgrades).” 47
+U.S.C. § 153(52). It defines “customer premises equipment” as “equipment employed on the premises of a person
+(other than a carrier) to originate, route or terminate telecommunications.” 47 U.S.C. § 153(16). Equipment
+covered under section 255 includes, but is not limited to, telecommunications equipment and CPE, such as wireline,
+cordless, and wireless telephones, fax machines, and answering machines. The Section 255 Order adopted rules
+requiring that phone features such as telephone calls, call waiting, speed dialing, call forwarding, computer-provided
+directory assistance, call monitoring, caller identification, call tracing, and repeat dialing be accessible. Section 255
+Order, 16 FCC Rcd at 6449, para. 77; 47 CFR Part 6. In addition, the rules implementing section 255 cover
+voicemail and interactive voice response systems (phone systems that provide callers with menus of choices). 47
+CFR Part 7.
+23 47 U.S.C. § 255(d).
+
+24 See Implementation of Sections 255 and 251(a)(2) of the Communications Act of 1934, as Enacted by the
+
+Telecommunications Act of 1996: Access to Telecommunications Service, Telecommunications Equipment and
+Customer Premises Equipment by Persons with Disabilities; Telecommunications Relay Services and Speech-to-
+Speech Services for Individuals with Hearing and Speech Disabilities, Report and Order, 22 FCC Rcd 11275 (2007).
+25 47 U.S.C. § 617. Section 716 of the Act defines “achievable” to mean with reasonable effort or expense, listing
+four factors the Commission must consider when making such determinations. 47 U.S.C. § 617(g).
+26 See 47 U.S.C. § 617(a)-(b), (g).The Commission adopted Part 14 of its rules to implement the accessibility and
+usability requirements of Section 716. Implementation of Sections 716 and 717 of the Communications Act of 1934,
+as Enacted by the Twenty-First Century Communications and Video Accessibility Act of 2010; Amendments to the
+Commission’s Rules Implementing Sections 255 and 251(a)(2) of the Communications Act of 1934, as Enacted by
+the Telecommunications Act of 1996, CG Docket Nos. 10-213 and 10-415, WC Docket No. 96-198, Report and
+Order and Further Notice of Proposed Rulemaking, 26 FCC Rcd 14557 (2011) (ACS Report and Order and ACS
+FNPRM). Providers and equipment manufacturers of interconnected VoIP services, non-interconnected VoIP
+services, electronic messaging services, interoperable video conferencing services, and audio and video
+communications services that are provided to people who are incarcerated (IPCS) must comply with the accessibility
+                                                            5
+                                    Federal Communications Commission                                DA 26-1083
+
+into the service or equipment27 or (2) using third-party applications, peripheral devices, software,
+hardware, or CPE that is available to consumers at nominal cost and that individuals with disabilities can
+access.28 When ensuring accessibility through either of those options is not achievable, covered entities
+must ensure that their services and equipment are compatible with existing peripheral devices or
+specialized CPE commonly used by individuals with disabilities to achieve access, unless that is not
+achievable.29
+         10.     Section 718. Section 718 requires mobile phone service providers and manufacturers to
+make Internet browsers built into mobile phones accessible to and usable by people who are blind or have
+a visual impairment, unless doing so is not achievable.30 This requirement may be satisfied with or
+without the use of third-party applications, peripheral devices, software, hardware, or CPE that is
+available to consumers at nominal cost and that individuals with disabilities can access.31
+III.     COMPLIANCE WITH SECTIONS 255, 716, AND 718
+         A.       Accessibility
+         11.      Based on the comments filed in response to the 2026 CVAA Assessment Public Notice
+and the 2026 CVAA Tentative Findings Public Notice, and a review of the complaints filed, we find that
+new communications technologies are delivering on the promise of improving the quality of life for
+consumers with disabilities. We affirm our tentative findings with respect to compliance with obligations
+contained in sections 255, 716, and 718. This Report also details some concerns identified by
+commenters regarding the accessibility, usability, and compatibility of certain communications equipment
+and services. While some accessibility gaps persist due in part to technological and market barriers,32 the
+Commission continues to ensure that relevant technologies are accessible to and useable by people with
+disabilities, and that people with disabilities are “able to fully utilize communications services and
+equipment and better access video programming.”33
+         12.      The comments show that a variety of new and enhanced capabilities have been made
+available that continue to make more devices and features accessible to a wider community of people with
+disabilities,34 while affordability and innovation continue to advance. Indeed, CTA underscores that “the
+overall trajectory of accessibility innovation remains strong.”35
+        13.      CTIA highlights advances in voice commands, AI-driven assistive technologies, visual
+capabilities, and other accessibility features built into smartphones, as well as initiatives like “bring your
+own device” programs, which enable a consumer with disabilities to choose a device that best meets their
+
+and usability requirements of Part 14. See 47 CFR §14.10(c). Section 716 does not apply to interconnected VoIP
+services and equipment, that were subject to section 255 on October 7, 2010. 47 U.S.C. § 617(f). Those services and
+equipment remain subject to the requirements of section 255.
+27 47 U.S.C. § 617(a)(2)(A), (b)(2)(A).
+
+28 47 U.S.C. § 617(a)(2)(B), (b)(2)(B).
+
+29 47 U.S.C. § 617(c).
+
+30 47 U.S.C. § 619(a); 47 CFR § 14.61(a).
+
+31 47 U.S.C. § 619(b); 47 CFR § 14.61(b).
+
+32 See AAO Comments at 2; Disability Belongs Comments at 1 (citing “persistent accessibility and usability gaps in
+
+communications technologies…”); ACB Comments at 1 (“accessibility barriers still exist for communication
+technologies”); AFB Comments at 1-5. See also AAO Tentative Findings Comments at 2 (“The Accessibility
+Advocacy Organizations agree that some accessibility gaps remain.”).
+33 See S. Rep. No. 111-386, 111th Cong., at 1 (2010).
+
+34 See CTIA Comments at 2.
+
+35 CTA Comments at 2.
+
+
+                                                        6
+                                  Federal Communications Commission                              DA 26-1083
+
+accessibility needs.36 Overall, CTIA states that “the flexible directives in the CVAA have helped make
+advanced communications services and products more inclusive and accessible to people with
+disabilities.”37
+         14.      While improvement continues, commenters identified circumstances where people with
+disabilities lack full access to communication and video tools that are essential today, such as accessibility
+of interoperable video conferencing services (IVCS), customer service, authentication, and other issues.38
+For example, Disability Belongs, a consumer organization, notes that, “[w]hile many communications
+technologies include accessibility features, individuals with disabilities continue to encounter barriers
+when using these tools in everyday settings.”39 They further elaborate about remaining challenges,
+including “messaging and communications platforms that do not consistently integrate with screen
+readers or other assistive technologies”; “video conferencing tools where accessibility features such as
+captioning, keyboard navigation, or screen reader compatibility are inconsistent across platforms or
+devices”; and “communication features embedded within multi-purpose devices that are technically
+accessible but difficult for users to locate or activate.”40 Below, we highlight some of the many,
+significant improvements in the accessibility of covered products and services that have occurred since
+the 2024 Biennial Report, and discuss some remaining accessibility gaps.
+         15.     Mobile Phones and Accessible Telecommunications. A wide range of accessibility
+improvements have become available for mobile phone operating systems since the last Biennial Report.41
+CTIA notes improvements to keyboard, braille, and other text-input methods and a braille notetaking
+system; one operating system’s updated “dark theme,” which produces a more comfortable viewing
+experience, particularly for people with low vision or light sensitivity; a particular feature that allows
+users with limited mobility and an external mouse device to specify an amount of time before a cursor
+automatically performs a click; a captioning feature that “go[es] beyond communicating what someone
+say[s], to communicate things like tone, volume, environmental cues, and human noises”; a separate
+captioning feature with braille display integration; better natural language voice control for smartphone-
+vehicle integration systems and improved voice control options; features enabling wearable devices to
+display real-time transcriptions and enabling smartphones to function as microphones sending audio to
+hearing aids; functionality notifying deaf and hard of hearing users to be notified when their name is
+called; new accessibility options designed for users with dyslexia or low vision; and a feature allowing
+users to temporarily share accessibility settings when using a different device.42 However, while
+recognizing the growth of accessibility features on some smartphones in the last two years, including new
+functionalities for braille displays,43 AFB emphasizes that phone accessibility varies depending on the
+price range of the smartphones.44 Higher-end smartphones tend to be the most accessible, while at the
+other end of the spectrum, feature phones and landline telephones typically lack the same accessibility.45
+
+
+
+
+36 CTIA Comments at 2-3, 7.
+
+37 Id. at 3.
+
+38 AAO Tentative Findings Comments at 3.
+
+39 Disability Belongs Comments at 2-3.
+
+40 Id. at 3; AAO Tentative Findings Comments at 5.
+
+41 See CTIA Comments at 9-14; CTA Comments at 2.
+
+42 CTIA Comments at 10-12.
+
+43 AFB Comments at 1.
+
+44 Id.
+
+45 Id.
+
+
+                                                      7
+                                      Federal Communications Commission                            DA 26-1083
+
+Another commenter expresses concern about automated phone systems, and accessibility barriers
+experienced by people who have speech disabilities.46
+         16.      Video Conferencing. The use of interoperable video conferencing services (IVCS) has
+proliferated in recent years. The Commission affirmed in 2023 that IVCS are advanced communication
+services covered under the CVAA; therefore, IVCS must be accessible and usable by people with
+disabilities, unless that requirement is not achievable.47 In 2024, the Commission amended its ACS
+performance objectives to add IVCS-specific objectives.48 Under the new objectives, which will go into
+effect on January 12, 2027,49 IVCS platforms will be required to offer at least one mode that provides
+accurate and synchronous closed captions,50 and enable users to connect with third-party captioning
+services.51 Platforms must also enable the use of third-party sign language interpretation services,52 and
+must provide user interface controls that allow users to activate and adjust the display of captions,
+speakers, and signers.53 These include the ability to adjust the size, color, and opacity of captions;54 and
+the ability to re-locate, re-size, spotlight, and pin video windows within a video conference.55
+         17.      The important need for accessible IVCS is addressed by commenters. Commenters
+identified ongoing challenges to accessibility of video conferencing platforms, while acknowledging that
+it has offered a “new and exciting form of communication technology.”56 AAO comments on the lack of
+voice recognition functionality that can generate understandable speech when used by people with speech
+disabilities, and the need for a simplified user interface.57 AAO further highlights a need for visual
+interpretation services (using human assistance or automation to generate real-time descriptions of visual
+information, including images and text), and screen-reader capability for all user interface elements and
+visual information, along with the ability to independently access presentations, videos, and interactive
+documents shared during interoperable video conferencing calls for people who are blind and low
+vision.58 ACB reports that the content presented using the screen-sharing function is often inaccessible
+
+
+
+46 Timothy Morgan Comments at 1.
+
+47 Implementation of Sections 716 and 717 of the Communications Act of 1934, as Enacted by the Twenty-First
+
+Century Communications and Video Accessibility Act of 2010; Telecommunications Relay Services and Speech-to-
+Speech Services for Individuals with Hearing and Speech Disabilities; Petition of Sorenson Communications, LLC,
+for a Limited Waiver of the Privacy Screen Rule, CG Docket Nos. 23-161, 10-213, and 03-123, Report and Order,
+Notice of Proposed Rulemaking, and Order, 38 FCC Rcd 6300 (2023) (2023 Video Conferencing Order).
+48 2023 Video Conferencing Order, 38 FCC Rcd 6300. See also Access to Video Conferencing et al., CG Docket No.
+
+23-161, Second Report and Order and Further Notice of Proposed Rulemaking, 39 FCC Rcd 11068 (2024). (2024
+Video Conferencing Order).
+49 Effective, Compliance, and Comment Dates for Video Conferencing Accessibility, CG Docket Nos. 10-213, 23-
+
+161, and 03-123, Public Notice, 40 FCC Rcd 39 (CGB 2025).
+50 47 CFR § 14.21(b)(2)(iv)(A)-(B).
+
+51 47 CFR § 14.21(b)(2)(iv).
+
+52 47 CFR § 14.21(b)(4)(i).
+
+53 47 CFR § 14.21(b)(2)(4)(ii).
+
+54 47 CFR § 14.21(b)(2)(4)(ii)(A).
+
+55 47 CFR § 14.21(b)(4)(ii)(B).
+
+56 ACB Comments at 3. See also, e.g., AAO Comments at 2-4; ACB Comments at 2; AFB Comments at 2;
+Disability Belongs Comments at 3-4.
+57 AAO Comments at 3.
+
+58 Id.; AAO Tentative Findings Comments at 8-9.
+
+
+                                                       8
+                                   Federal Communications Commission                                  DA 26-1083
+
+for consumers using screen-reading software.59 Likewise, AFB explains that, while the basic screen
+reader accessibility of many video conferencing services is quickly improving, “[p]eople who are blind
+still lack access to many features of video conferencing” and that “[i]t is difficult or impossible to access
+information that is shared visually even though a few platforms have demonstrated that providing such
+access is feasible.”60 AFB also notes problems with text on a shared screen,61 including it being “not
+perceivable by the screen reader, and platforms may or may not offer a way to magnify the text for users
+with low vision.”62 Finally, AFB suggests that there is a need for the capability to use side channels via
+other applications to access visual interpretation services, to provide descriptions of visual content that are
+not otherwise accessible, as well as “the option to easily use refreshable braille displays across
+platforms,” which “would greatly assist people who are deafblind as well as people who are hearing and
+blind.”63
+         18.      AAO also comments on the need for refreshable braille displays and other devices used
+for the tactile conveyance of interface elements and visual information to be fully compatible with
+presentations, videos, and interactive documents shared during interoperable video conferencing calls, to
+improve accessibility for some people who are blind or low vision.64 Disability Belongs comments that
+there are accessibility limitations within video conferencing platforms that affect navigation, caption
+placement, or compatibility with assistive technologies.65 In addition, AAO identified an ongoing need to
+incorporate hands-free technologies.66
+         19.     One commenter recommends that the FCC “[e]nsure all video conferencing platforms
+have a built-in feature to allow a user to bring in an interpreter for meetings as a native feature.”67
+Similarly, consumer organizations recommend the integration of third-party visual interpretation services,
+as a means to provide descriptions and orientation to visual content shared via IVCS.68 Overall, AAO
+recommends “strengthening the discussion of IVCS accessibility by recognizing that video conferencing
+platforms have become essential for employment, education, healthcare, civic participation, and daily
+life.”69 Commenters identified that consumers with disabilities, particularly blind and low vision users,
+continue to face inconsistent functionality of IVCS platforms with screen readers and other assistive
+technologies, lack of full compatibility to enable the seamless sharing of content (such as documents and
+
+
+
+
+59 ACB Comments at 2.     ACB further the described the issue and recommended the solution of implementing the
+chat functions as a toggle. Id. (“As a result, if a document is shared with attendees, participants who are blind
+cannot access this information. Additionally, interaction between the chat function and screen-reading software can
+make active participation frustrating, particularly in events where the chat function is heavily used. A process of
+utilizing the chat function and screen-reading software simultaneously needs to be developed. This could be
+accomplished through having the chat function implemented as a toggle.”). See also AAO Tentative Findings
+Comments at 8.
+60 AFB Comments at 2.
+
+61 Id.; AAO Tentative Findings Comments at 8.
+
+62 AFB Comments at 2.
+
+63 Id.
+
+64 AAO Comments at 3.
+
+65 Disability Belongs Comments at 4.
+
+66 Id.
+
+67 Andy Foster Comments at 1.
+
+68 AAO Tentative Findings Comments at 9.
+
+69 Id. at 7.
+
+
+                                                         9
+                                  Federal Communications Commission                                DA 26-1083
+
+presentations) within IVCS calls, difficulties with monitoring in-call chat features while participating in
+meetings, and inconsistent navigation across platforms.70
+         20.      Multi-factor Authentication (MFA). Some consumers with disabilities have concerns
+about the accessibility and usability of some MFA security verification processes implemented to secure
+telecommunications and ACS. Commenters also identify accessibility challenges as MFA prompts
+become increasingly prevalent.71 For example, AAO cites challenges that individuals with cognitive
+disabilities may experience understanding unique and unfamiliar authentication workflows or managing
+time-limited codes before they expire.72 AAO further comments that individuals with mobility or
+dexterity disabilities can face challenges with precise positioning for authentication when this form of
+authentication relies on positive facial recognition, or with timely completion of the MFA process, which
+can require users to navigate multiple devices and applications at the same time to successfully complete
+authentication.73 AAO also states that visual Completely Automated Public Turing Test to Tell
+Computers and Humans Apart (CAPTCHAs) can be inaccessible to persons who are blind or low vision
+if they require sight to identify a visual image or identify differences in low-contrast images.74 According
+to AAO, “[s]imilarly, audio CAPTCHAs can be difficult for users to understand and complete.”75
+          21.      Emergency Services. Accessible communication products and services have made it
+easier for people with disabilities to contact emergency services and receive critical alerts.76 In line with
+its first principles approach, the Commission launched a comprehensive examination of its 911
+framework seeking to ensure, among other core objectives, that the Commission’s 911 policies ensure
+“the public has access to reliable, resilient, accessible, secure, and consistent 911 communications across
+platforms in a way that meets the evolving expectations of consumers.”77
+         22.     Commenters highlighted examples of advancements in accessible emergency services
+that are being successfully implemented, such as direct video calling (DVC). DVC is a form of video
+teleconferencing that allows conversations to occur directly between two callers using ASL without the
+need for translation services, that in recent years has been successfully incorporated into the National
+Suicide & Crisis Lifeline.78 Some consumer organizations also recommend specific improvements, and
+note that DVC capabilities have not been widely adopted in public safety answering points (PSAPs).79
+
+70 Id. at 8.
+
+71 See AAO Tentative Findings Comments at 12-13.
+
+72 See id. at 13.
+
+73 Id.
+
+74 Id.
+
+75 Id.
+
+76 See CTA Comments at 2; CTIA Comments at 16-18.
+
+77 Modernizing the 911 Framework, PS Docket No. 26-197, Notice of Inquiry, FCC 26-63, at 8, para. 11 (Sept. 30,
+
+2026).
+78 See AAO Tentative Findings Comments at 10 (highlighting the successful implementation of DVC for the
+
+National Suicide & Crisis Lifeline to demonstrate the feasibility and effectiveness of DVC in improving the
+accessibility of emergency communications). See also AAO Tentative Findings Comments at 10, n.17; Direct
+Video Calling Can Enhance Accessibility of Consumer Call Centers, CG Docket Nos. 03-123 and 10-51, Public
+Notice, 39 FCC Rcd 13628, 13631 (CGB 2024) (discussing the “practicability and benefits of offering DVC as an
+alternative means of accessing public-sector consumer support”).
+79 See AAO Comments at 4-8; AAO Tentative Findings Comments at 9-11.     Emergency alerts and other public
+safety communications are flagged as needing improvements. AAO Tentative Findings at 11. We note that in 2028
+new requirements will ensure the implementation of multilingual emergency alerts that incorporate ASL. See Public
+Safety and Homeland Security Bureau Announces Compliance Deadline for Multilingual Wireless Emergency Alert
+Templates, PS Docket Nos. 15-91 and 15-94, Public Notice, 40 FCC Rcd 10190 (PSHSB 2025) (announcing June
+                                                       10
+                                    Federal Communications Commission                                  DA 26-1083
+
+AAO emphasizes the need for DVC as the best means of achieving effective and direct communication
+for calls made to first responders in 911 dispatch centers, firefighters, and law enforcement officers.
+AAO further underscores the benefits of DVC to self-help and crisis hotlines that offer mental health
+counseling, suicide prevention, and other municipally supported services that address urgent and
+emergency needs.80 AAO states that, for communities with a high density of deaf ASL users, it could
+work best to enable ASL users to communicate directly with DVC call handlers stationed in their local
+PSAPs, and for less ASL-dense communities, regional or national DVC centers might provide the best
+solution for DVC-to-911 calls.81 AAO also commented on the need to increase PSAPs capable of
+receiving real-time-text (RTT)-to-911, and also highlights that more work is needed to achieve full and
+equal 911 access for individuals whose primary language is American Sign Language (ASL).82
+         23.      One Number Solution. Individuals who are deaf, deafblind, hard of hearing, or have
+speech disabilities,83 must typically utilize at least two different telephone numbers in order to receive
+direct voice calls, texts, and relay calls, i.e., one associated with a telecommunications relay service and a
+second issued by a mobile network provider, typically used for texting. Some consumer organizations
+have stressed the importance of developing a “one number solution.” Having two numbers makes it
+difficult for users to provide a best contact number, and risks texts being sent to a relay service and calls
+being placed to a number only used for text services. 84 In their comments, AAO asserts that “[b]y
+developing and implementing a one number solution, the FCC would reduce fragmentation, streamline
+communications, and advance more equitable and effective access to these services.”85
+       24.     Touchscreens. When touchscreen technology is used as an interface for covered
+telecommunications and ACS, covered manufacturers and providers must meet the applicable
+
+12, 2028, as compliance deadline); Wireless Emergency Alerts; Amendments to Part 11 of the Commission’s Rules
+Regarding the Emergency Alert System, PS Docket Nos. 15-91 and 15-94, Report and Order, 40 FCC Rcd 43, 56-58,
+paras. 31-34 (PSHSB 2025) (requiring that commercial mobile service providers that participate in Wireless
+Emergency Alerts (WEA) to support ASL templates).
+80 AAO Comments at 7 (describing that DVC allows ASL-fluent callers to converse more naturally, expressively
+
+and effectively, adding facial and bodily movements and other nonverbal information to convey critical information
+needed to secure swift emergency assistance.)
+81 AAO Comments at 7-8.    AAO acknowledges that these comments also have been filed in the Commission’s Next
+Generation 911 proceeding. Id. at 7, n.13. AAO asks that the Commission make a finding that “additional steps are
+necessary to ensure accessibility of the nation’s emergency communications system” and suggests that the
+Commission “expressly acknowledg[e] the need” for increased availability of RTT-to-911 across PSAPs,
+implementation of DVC for 911 calling, and improvements to public safety communications accessibility, especially
+through “continued implementation of multilingual emergency alerts that incorporate . . . ASL.” AAO Tentative
+Findings Comments at 10-11. The Commission recognizes the importance of, and continues to work towards,
+improving emergency communications accessibility. See, e.g., Wireless Emergency Alerts; Amendments to Part 11
+of the Commission’s Rules Regarding the Emergency Alert System, PS Docket Nos. 15-91 and 15-94, Third Report
+and Order, 38 FCC Rcd 10116, 10118, para. 3 (2023) (“It is essential that the public be able to receive in accessible
+language format WEA Messages that are intended for them.”); Amendment of Part 11 of the Commission’s Rules
+regarding the Emergency Alert System, PS Docket No. 15-94, Notice of Proposed Rulemaking, 39 FCC Rcd 1949,
+1956, para. 12 (2024) (proposing multilingual EAS “[i]n furtherance of the Commission’s continued emphasis on
+improving the accessibility of alerts”). We note that implementation of alternative communication formats for calls
+to 911, such as DVC, requires the coordination of 911 Authorities and the Department of Justice. See Facilitating
+Implementation of Next Generation 911 Services; Improving 911 Reliability, PS Docket Nos. 21-479 and 13-75,
+Second Report and Order and Second Further Notice of Proposed Rulemaking, FCC 26-39, at 75-79, paras. 190-99
+(June 26, 2026).
+82 See AAO Comments at 4.
+
+83 See AAO Comments at 10.
+
+84 Id.
+
+85 Id.
+
+
+                                                         11
+                                     Federal Communications Commission                                      DA 26-1083
+
+requirements for accessibility, usability, and compatibility, within the limitations of the CVAA and
+relevant regulations.86 Commenters have identified improving touchscreen accessibility, particularly for
+blind users or users with limited mobility or dexterity, as an area for further exploration.87 AAO
+highlights that touchscreen accessibility depends, at least in part, on appropriate software implementation,
+such that when a device lacks accessible software, including a built-in screen reader and accessibility
+features, the device is unusable for many blind and low vision users.88 AAO also stressed “the
+importance of ensuring that touchscreens are compatible with refreshable Braille displays to ensure
+accessibility for individuals who are DeafBlind.”89
+         25.      Communication in Video Games. As for communication in video games, AFB comments
+that progress continues to be made, especially for low vision users.90 However, “many games still lack
+functional accessibility for blind and low vision gamers who want to use the communications features,
+and those that have accessibility features may not implement the full suite of accessibility that would
+make the user interface more usable to all blind and low vision gamers.”91 AFB further notes that
+“[a]ccessible user interfaces for communication should be expected even if game developers do not build
+fully accessible gameplay.”92 To be sure, accessibility of communications in video games has been an
+area of continuing interest for the Commission. The FCC’s Disability Advisory Committee issued a
+Report in 2024 on video game accessibility for gamers who are blind, deafblind or have low vision. 93
+And, through its complaints process, the Commission has handled concerns from individuals with other
+types of disabilities, including those who are deaf and hard of hearing, regarding the accessibility of
+gaming communications.
+         26.     Other Technologies and Services. Some consumer organization commenters also
+identify additional accessibility barriers. For example, communication features embedded within social
+media platforms that present challenges for screen reader users, and remaining accessibility barriers in
+some customer service systems that rely on automated chat interfaces or phone systems, which may not
+be fully accessible.94
+            B.    Usability
+         27.      Sections 255, 716 and 718 also require that covered services and equipment are “usable”
+by people with disabilities.95 A product or service is “usable” if companies provide individuals with
+disabilities information on how to use services, such as documentation for the product or service,
+
+86 See, e.g., 47 U.S.C. § 617; 47 CFR §§ 6.5, 14.21.
+
+87 Indeed, consumers have raised disputes pertaining to touchscreen accessibility identified in the FCC’s RDA
+process. See 47 CFR § 14.32; see also infra Section V.B. para. 42.
+88 See AAO Tentative Findings Comments at 13-14.
+
+89 AAO Comments at 14.
+
+90 AFB Comments at 2-3.
+
+91 Id. at 2-3 (citing an AccessWorld survey of popular games for low vision accessibility that describes some of the
+
+successes as well as usability challenges, including the lack of a screen reader, the scalability of the user interface,
+zoom settings that max out at 150%, and reliance on users, rather than the developers, to modify the game for
+accessibility features).
+92 Id.
+
+93 See FCC Disability Advisory Committee, Recommendation on Accessible Communication in Gaming for People
+
+Who Are Blind, Have Low Vision, or Are DeafBlind, CG Docket Nos. 10-213 and 10-145 (adopted Oct. 18, 2024),
+https://www.fcc.gov/ecfs/document/103196906289/1.
+94 See, e.g., Disability Belongs Comments at 4-5; Andy Foster Comments at 1; AAO Tentative Findings Comments
+
+at 11-12.
+95 47 U.S.C. §§ 255, 617, 619.
+
+
+                                                            12
+                                    Federal Communications Commission                              DA 26-1083
+
+including instructions, product or service information (including accessible feature information), customer
+support, and technical support.96 We find that, while usability continues to improve for some covered
+services and equipment, some barriers persist. Consumer organizations highlight that “technical
+compliance with the Commission’s accessibility requirements alone does not always result in meaningful
+accessibility where there are gaps in implementation or awareness that impede usability for consumers.”97
+For example, consumer organizations report ongoing barriers to captioning access in IVCS in the
+healthcare context based on lack of awareness among healthcare providers and consumers, or lack of
+sufficient awareness about accessibility features or resources by customer service staff.98 We find that
+commenters have identified several usability issues for further exploration, as discussed below.
+         28.      Full Functionality and Documentation for Covered Products. Overall, industry
+commenters share that individuals with disabilities have access to the full functionality and
+documentation for covered products as required,99 though some consumer organizations express that
+information and technical support are inconsistent.100 CTIA, for example, states that its members provide
+“information about accessible features and products to consumers in a variety of formats,” as well as
+“dedicated support lines” for consumers with disabilities, and notes its members’ “extensive user guides”
+that, among other features, “continue to make smartphones accessible and usable for individuals with
+disabilities.”101 Consumer organization commenters, however, state that individuals with disabilities may
+encounter challenges such as user manuals or documentation that are not available in accessible formats;
+customer service channels that are not compatible with assistive technologies; and limited training among
+customer support staff regarding accessibility features.102 Consumer organization commenters also cite
+other barriers that continue to affect the usability of communications technologies; for example,
+automated captioning systems may produce inaccurate captions, particularly for individuals with speech
+disabilities or speakers with accents.103
+         29.      Video Conferencing. AAO identifies an ongoing need for instructional materials for
+operating IVCS in plain and simple language and iconography to support people with cognitive
+disabilities.104 Consumer organization commenters also highlight that, even where captions are available,
+some users struggle to locate and activate captioning, and recommend “consistent and clear information”
+about how to activate them and control display features.105 ACB notes that for users who are blind or
+have low vision, “accessing the different functions within a platform using keyboard-only navigation can
+be limiting.”106 Additional IVCS requirements will take effect in January 2027 that will help bolster user
+control of caption appearance and layout management, among other required changes to maximize
+accessibility and usability.107
+
+
+
+96 See 47 CFR §§ 6.3(l), 7.3(l), 14.21(c); see also 47 CFR §§ 6.11, 7.11, 14.20(d), 14.60(b)(4).
+
+97 See AAO Tentative Findings Comment at 5.
+
+98 Id.
+
+99 See, e.g., CTIA Comments at 3; see also CTA Comments at 3-4.
+
+100 See ACB Comments at 2.
+
+101 CTIA Comments at 3, 10.
+
+102 Disability Belongs Comments at 4-5; AAO Tentative Findings Comments at 5.
+
+103 See, e.g., Disability Belongs Comments at 4; AAO Tentative Findings Comments at 6-7.
+
+104 See AAO Comments at 3.
+
+105 AAO Comments at 3-4.
+
+106 ACB Comments at 2.
+
+107   See supra para. 16.
+                                                          13
+                                  Federal Communications Commission                                DA 26-1083
+
+          30.     Direct Video Calling. The Commission has continued to highlight the ways that DVC
+can be utilized to enhance accessibility.108 As indicated by commenters,109 adoption of DVC can be
+critical to usability for ASL users, in both emergency call centers and other contexts.110 AAO explains
+that “[t]he best way to achieve usability for ASL users is through DVC, IP-based telephone customer
+support using one-on-one video communication that enables a real-time conversation to occur directly
+between an ASL user and a call center representative who is also fluent in sign language and trained in
+the subject at issue.”111 AAO recommends the adoption of DVC “to improve usability for
+telecommunications and advanced communication services.” 112
+         31.      Internet Browsers Built into Mobile Phones. Accessibility features for web browsers
+built into mobile phones continue to improve for users who are blind or low vision,113 though greater
+standardization across devices and operating systems may be beneficial for consumers.114 CTIA
+highlights the accessibility features built into common web browsers, and notes that “manufacturers also
+provide comprehensive user guides detailing how to access accessibility features that work in the built-in
+browsers.115 Still, other commenters explain that some devices and Internet browsers are accessible and
+usable for blind and low vision consumers, while others are not.116 In particular, commenters describe
+barriers like inconsistent compatibility between mobile browsers and screen readers; variations in
+accessibility across different devices, operating systems, and price points; and difficulty identifying
+devices that provide robust accessibility features when purchasing mobile phones.117 Ultimately, these
+commenters recommend “[g]reater transparency regarding accessibility features and more consistent
+accessibility across devices.”118
+          C.      Inclusion of People with Disabilities in Product and Service Design and
+                  Development
+        32.     The Commission continues to seek valuable input from interested stakeholders to inform
+our work to implement the CVAA and improve accessibility.119 As we consider the efforts by service
+providers and manufactures to consult with consumers with disabilities, we find that covered entities have
+continued to include people with disabilities in product and service design and development. There
+
+108 See, e.g., Direct Video Calling Can Enhance Accessibility of Consumer Call Centers, CG Docket Nos. 03-123
+
+and 10-51, Public Notice, 39 FCC Rcd 13628 (CGB 2024); FCC to Convene Direct Video Calling Forum, Public
+Notice, 39 FCC Rcd 7053 (CGB 2024).
+109 See supra para. 22.
+
+110 AAO Comments at 8-9.
+
+111 Id.
+
+112 AAO Comments at 9.     See also AAO Tentative Findings Comments at 12 (discussing DVC as an “accessible
+option for Deaf and hard of hearing consumers who communicate in ASL so that they can communicate in their own
+language with customer support personnel,” which “can reduce reliance on third-party relay services and mitigate
+risks of misinterpretation stemming from cultural and linguistic barriers that can result when communicating
+through a third party.”)
+113 See CTIA Comments at 15-16.
+
+114 See ACB Comments at 2; Disability Belongs Comments at 4.
+
+115 CTIA Comments at 16.
+
+116 ACB Comments at 2.
+
+117 Disability Belongs Comments at 4.
+
+118 Id.
+
+119 For example, in 2025, the Commission convened the Consumer Protection and Accessibility Advisory
+
+Committee (CPAAC) to develop recommendations about the accessibility of modern communications and related
+consumer protection topics.
+                                                      14
+                                    Federal Communications Commission                                   DA 26-1083
+
+remains, however, room for improvement. CTIA describes the ongoing work of the wireless industry to
+“conduct outreach and regularly collaborate with the accessibility community.”120 CTA and CTIA
+explain that industry has engaged consumers in product development and testing,121 advisory groups,122
+conferences,123 and product design and demonstrations.124 ACB confirms that major telecommunications
+companies “continue to do a good job seeking input from the blind and low vision community while
+seeking to make their products fully accessible.”125 ACB states that the FCC should recommend to
+developers and manufacturers that they utilize more individuals who are blind and low vision to work
+internally on core design principles in order to ensure that products are accessible.126 With respect to AI
+and the inclusion of individuals with disabilities in product and service design and development, AFB
+recommends “more concerted efforts by developers to hire and employ accessibility teams that include
+people with disabilities at the startup stage.”127
+         33.      Commenters assert that involving individuals with disabilities in product design and
+testing plays an important role in improving accessibility outcomes; testing should be conducted in the
+way users with disabilities use the interfaces and products, or barriers may not be identified.128
+Commenters recommend engaging individuals with disabilities throughout the design and development
+process, including consultation with disability-led organizations and user testing involving people with
+diverse disabilities, access needs, and experience with technology, to strengthen accessibility across
+communications technologies.129 Efforts to consult with individuals with disabilities could potentially
+best be served by incorporating “meaningful and continuous participation” “throughout the entire product
+lifecycle—from concept development, design and usability testing, to deployment, updates and ongoing
+maintenance.”130
+IV.       ACCESSIBILITY BARRIERS TO NEW COMMUNICATIONS TECHNOLOGIES
+        34.     Keeping pace with advancements in communications technologies requires proactive
+review of the Commission’s accessibility framework to ensure we continue to meet the expectations of
+persons with disabilities. We find that “innovation is expanding both the functionality and usability of
+
+120 CTIA Comments at 20.     CTIA states that it “and its member companies remain committed to outreach to and
+regular collaboration with the accessibility community to advance a collective understanding and awareness of the
+communications needs of people with disabilities.” Id. at 3. See also CTA Comments at 4 (“Companies across the
+ecosystem are working to make products easier to adapt, configure, and use, with the goal of reducing technology-
+related barriers that might otherwise thwart adoption by people with disabilities. This includes investing in user-
+centered design, engaging directly with disability communities, and ensuring that accessibility features are
+integrated into mainstream products and services from the outset.”).
+121 See CTIA Comments at 20-25; CTA Comments at 2.
+
+122 See CTIA Comments at 22-25; CTA Comments at 2-3.
+                                                 CTIA, CTA, and their members participate in the FCC’s
+CPAAC. See CTA Comments at 2; CTIA Comments at 22-24. (discussing a number of events and initiatives,
+awards and investments in these efforts).
+123 See CTA Comments at 3.
+
+124 See id. at 6-7 (discussing how the CES trade show provides an opportunity for highlighting innovations in
+
+accessible technologies); CTIA Comments at 23 (noting that CTIA’s Accessibility Outreach Initiative Forum
+includes a showcase of accessible innovations).
+125 ACB Comments at 2.
+
+126 See id.
+
+127 AFB Comments at 4.
+
+128 Disability Belongs Comments at 5.
+
+129 Id.
+
+130 See, e.g., 47 U.S.C. § 618(a)(5)(A); 47 CFR §§ 6.7(b)(3), 7.7(b)(3), 14.31(a)(1).   See also AAO Tentative
+Findings Comments at 3-4.
+                                                          15
+                                      Federal Communications Commission                                       DA 26-1083
+
+accessible communications tools for people with disabilities,”131 even as accessibility barriers persist with
+respect to new communications technologies. CTA identifies a number of new or enhanced, accessibility-
+focused features for users who are blind or have low vision,132 with mobility disabilities,133 cognitive
+disabilities,134 speech-related disabilities,135 and users who are deaf or heard of hearing.136 In contrast,
+while consumer organizations comment that “[e]merging communications technologies present new
+opportunities as well as potential accessibility challenges,”137 they also highlight that some advanced
+technologies can create issues for people with disabilities if they are not “developed, tested, and evaluated
+with input from individuals with disabilities to ensure accuracy, reliability, transparency, and meaningful
+accessibility.”138
+         35.      Voice assistants powered by AI continue to improve, offering enhanced personalization
+and automation for users.139 CTIA, for example, emphasizes how these “features promote accessibility
+for individuals without or with limited vision, hearing, speech, color perception, manual dexterity, reach
+and strength, or with prosthetic devices.”140 However, as consumer organizations note, AI-enabled
+communications tools and automated captioning systems may not “consistently produce accurate results,”
+and automated speech recognition systems may not work reliably for people with speech disabilities or
+other disabilities.141
+        36.     Moreover, new communication platforms that integrate messaging, video, and voice
+functions may not consistently incorporate accessibility features, and may create additional barriers for
+consumers with disabilities.142 Commenters thus emphasize that incorporating accessibility
+considerations during the earliest stages of design and development and throughout the process can help
+
+
+
+131 CTA Comments at 4.
+
+132 Id. at 3 (including braille access notetakers; accessibility readers; tools to share accessibility settings across
+
+devices; vehicle motion cues that help reduce motion sickness while reading or using devices on the move).
+133 Id. (head- and eye-tracking controls and synchronized accessibility settings that enable users with limited
+
+mobility to interact more easily with their devices and communications apps).
+134 Id. at 4. (accessibility readers that simplify on-screen content and assistive AI tools that help users understand and
+
+manage information more effectively).
+135 Id. (vocal shortcuts and other voice-based tools that give users with speech differences additional options to
+
+control devices and access communications services).
+136 Id. (hearing health tools, music haptics, and other features that pair audio content with haptic feedback to provide
+
+a richer and more inclusive listening experience).
+137 Disability Belongs Comments at 6.
+
+138 AAO Tentative Findings Comments at 14.
+
+139 CTIA Comments at 14-15.     We note, however, that some applications of AI are beyond the scope of the statute
+and the parameters of this Report. 47 U.S.C. § 618(b). See supra, note 19. In the context of advanced
+communications services, the term “electronic messaging service” refers to a service that provides real-time or near
+real-time non-voice messages in text form between individuals over communications networks. 47 U.S.C. §
+153(56). The FCC has determined that the phrase “between individuals” precludes the application of the
+accessibility requirements to communications in which no human is involved, and that the definitional requirement
+that electronic messaging service be “between individuals” also excludes human-to-machine or machine-to-human
+communications. See ACS Report and Order and ACS FNPRM, 26 FCC Rcd at 14574, para. 44.
+140 CTIA Comments at 15.
+
+141 Disability Belongs Comments at 6.     See also AFB Comments at 3-4; AAO Tentative Findings Comments at 6-7,
+14. But see supra, note 19.
+142 See, e.g., Disability Belongs Comments at 6.
+
+
+                                                             16
+                                    Federal Communications Commission                                    DA 26-1083
+
+ensure that innovation advances accessibility rather than creating new barriers.143 For example, AAO
+states that “the Commission should work with industry to explore solutions to ensure these evolving
+technologies are accessible to and usable by people with disabilities, and compatible with peripheral
+devices and specialized customer premises equipment commonly used by people with disabilities.”144
+AAO further encourages exploration of “how advanced technologies, including evolving AI technologies,
+may create accessibility barriers or may improve communications access for people with disabilities
+including individuals who are blind or low vision, deaf or hard of hearing, DeafBlind, have an auditory
+processing disorder, a cortical or cerebral visual impairment, or have both communication and mobility
+disabilities.”145 Another commenter details an example of how new technology may inadvertently create
+a barrier: speech-recognition systems in automated phone systems inadvertently present an accessibility
+barrier, as they “routinely cut me off mid-response or fail to understand me, interpreting the pauses
+caused by my stutter as the end of my communication.”146 While new technologies typically evolve to
+improve accessibility for people with disabilities, many launch without the required accessibility for
+people with disabilities.
+         37.      As the Commission works to ensure accessibility, we also consider forward-thinking
+initiatives and ways to eliminate barriers to expand access to communications technologies for people
+with disabilities. At the request of the Commission, the CPAAC recently produced a report on modern
+communications and associated accessibility opportunities and considerations.147 On October 8, 2026, the
+Commission will host a special event recognizing winners of the Chairman’s Awards for Advancement in
+Accessibility, with panel discussions on emerging and AI-driven technologies for accessibility.148
+V.        COMPLAINTS RECEIVED PURSUANT TO SECTION 717
+         38.     Under Section 717, a person may file a formal or informal complaint alleging a violation
+of section 255, 716, or 718.149 Before a consumer may file an informal complaint, the consumer must
+first submit a Request for Dispute Assistance (RDA) to the Commission’s Disability Rights Office (DRO)
+for assistance in resolving the accessibility dispute between the consumer and the covered entity.150 If the
+consumer and the covered entity do not reach a settlement within 30 days after an RDA is filed, the
+
+
+
+
+143 See id.; AAO Comments at 11; ACB Comments at 2; AFB Comments at 4 (describing that “humans with
+
+disabilities will continue to be vitally important for assessing how ‘usable’ products are”); AAO Tentative Findings
+Comments at 14.
+144 AAO Comments at 11.
+
+145 Id.
+
+146 Timothy Morgan Comments at 1.
+
+147 See FCC CPAAC, Advancements in Accessible Communications Technologies Working Group, Report on
+
+Modern Communications and Associated Accessibility Opportunities and Consideration (2026),
+https://www.fcc.gov/ecfs/document/10611141030439/1.
+148 FCC to Recognize Winners of the 2026 Chairman’s Awards for Advancements in Accessibility, Public Notice,
+
+DA 26-963 (CGB Sept. 10, 2026).
+149 47 U.S.C. § 618(a)(3)(A) (“Any person alleging a violation of section 255, 617, or 619 of this title by a
+
+manufacturer of equipment or provider of service subject to such sections may file a formal or informal complaint
+with the Commission.”); see also 47 U.S.C. § 618(a)(3)(B) (requiring the Commission to investigate informal
+complaints and determine if a violation occurred).
+150 See 47 CFR §§ 14.32 (consumer dispute assistance), 14.34-14.37 (informal complaints), 14.38-14.52 (formal
+
+complaints); see also New Procedures for Telecommunications and Advanced Communications Accessibility
+Complaints, Public Notice, 28 FCC Rcd 15712 (CGB 2013). A consumer also may file a formal complaint with the
+Enforcement Bureau without first submitting an RDA or an informal complaint. 47 CFR §§ 14.38-14.52.
+                                                          17
+                                     Federal Communications Commission                                 DA 26-1083
+
+parties may agree to extend the time for resolution in 30-day increments, or the consumer may then,
+pursuant to Section 717, file an informal complaint with the Enforcement Bureau.151
+         39.      The Commission forwards the informal complaint to the named service provider or
+equipment manufacturer.152 The service provider or manufacturer then must serve an answer responsive
+to the complaint and any Commission inquiries and serve the complainant and the Commission with a
+non-confidential summary of that answer within 20 days of service of the complaint.153 Within 180 days
+after receipt of the complaint, the Commission must conclude an investigation into the merits of the
+complaint and issue an order determining whether a violation has occurred.154 It may, in such order, or in
+a subsequent order, direct the service provider to bring the service or, in the case of a manufacturer, the
+next generation of the equipment, into compliance with the requirements of section 255, 716, or 718
+within a reasonable period of time and take other authorized and appropriate enforcement action.155
+         A.       Number and Nature of Complaints Received
+         40.      From January 1, 2024, to December 31, 2025, consumers filed 40 RDAs alleging
+violations of section 255, 716, or 718.156 During this two-year period, DRO resolved 39 RDAs through
+facilitated dialogue and negotiation. One consumer exercised their right to file an informal complaint
+because the RDA was not resolved.
+         B.       Discussion of Requests for Dispute Assistance
+         41.    Among the RDAs, some consumers complained that their devices and services were
+inaccessible. Other consumers complained about accessibility barriers to reaching customer service or
+that customer service was unable to help them locate accessible devices or to fix accessibility problems.
+These RDAs were brought by people with a wide range of disabilities. For example, we received RDAs
+from consumers who are blind; consumers who are deaf or hard of hearing, including ASL users;
+consumers with physical disabilities and limited mobility or manual dexterity, including people with
+Amyotrophic Lateral Sclerosis (ALS) and Cerebral Palsy; consumers with mental health issues;
+consumers with cognitive disabilities, including memory, language, and learning skills issues; and
+consumers with multiple disabilities.157 Consumers self-described themselves as veterans, emergency
+response providers, older adults, or caretakers of relatives or others with disabilities that impacts covered
+communications access. Several RDAs successfully addressed complex accessibility barriers for
+individuals. While some resolutions required extensive negotiations to resolve the dispute, the resulting
+improvements reached a broad audience. These RDA resolutions included covered entities updating
+
+151 47 CFR § 14.32(e); see also ACS Report and Order and ACS FNPRM, 26 FCC Rcd at 14658, para. 237.
+
+152 47 CFR § 14.35(a).
+
+153 47 CFR § 14.36(b)-(c).   The complainant may then file a reply. 47 CFR § 14.36(d).
+154 47 U.S.C. § 618(a)(3)(B), (a)(4); see also 47 CFR § 14.37(a).
+
+155 47 U.S.C. § 618(a)(3)(B)(i); see also 47 CFR § 14.37(b).  Any manufacturer or service provider that is the
+subject of such order has a reasonable opportunity to comment on the Commission’s proposed remedial action
+before the Commission issues a final order with respect to that action. 47 U.S.C. § 618(a)(4); see also 47 CFR
+§ 14.37(c).
+156 We note that, while consumers filed an additional 680 requests for dispute assistance during this period, DRO
+
+determined that these requests were not eligible for the RDA process because they did not allege violations of
+section 255, 716, or 718 of the Act. These requests are therefore not counted or discussed in this Report. DRO
+treats such complaints as informal complaints for further DRO processing pertaining to accessibility or refers them
+to the FCC’s Consumer Inquiries and Complaints Division for processing. For requests alleging violations of
+statutes outside of the Commission’s jurisdiction, DRO refers these complaints to the relevant federal agencies (such
+as the Department of Justice for complaints alleging violations of the Americans with Disabilities Act).
+
+
+
+
+                                                         18
+                                 Federal Communications Commission                             DA 26-1083
+
+communication software used by a variety of health care organizations, creating new accessibility features
+and device interfaces, altering equipment, finding and testing new equipment to ensure compatibility with
+networks, and creating disability-related training.
+          42.     Across the RDAs received, many involved inaccessible multi-factor authentication
+(MFA) processes that prevented consumers who are blind, low-vision, aging, people with cognitive
+issues, or people with limited manual dexterity from accessing their accounts, making necessary changes,
+paying their bills, or participating in promotional opportunities. Additional barriers included inaccessible
+devices (e.g., touchscreens that were not usable by blind users or users with limited mobility or dexterity,
+screen readers that were not accessible or usable by consumers who relied on that technology to access a
+covered product or service, phones requiring a physical SIM card that the user was not able to
+successfully install on the basis of their disability). Some consumers stated that they did not have access
+to visual voicemail. RDAs were also filed based on unreadable billing formats, and customer service or
+retail staff behaviors that created inaccessible interactions. The RDAs addressed recurrent problems
+where carriers refused to accept Video Relay Service (VRS) relay calls from deaf users or other legitimate
+communications from TRS users, alongside call forwarding failures that blocked access to captioning or
+accessible communication. Others resolved issues involving technical limitations, such as time-
+dependent controls that created accessibility barriers, and the removal of essential accessibility features.
+         43.    RDAs were also received pertaining to inaccessible or unusable video conferencing
+platforms. The issues included a number of features, including barriers to effective screen sharing and
+pinning sign language users, a lack of interoperability with VRS, the lack of user-activated captions, and
+limitations to multi-pinning functionality, particularly the capability to enable multi-pinning without
+needing host action and approval.
+        C.      Actions Taken to Resolve RDAs
+         44.     Through collaboration between the DRO, consumers, and service providers, nearly all
+RDAs were successfully resolved. Manufacturers and service providers implemented various
+accessibility improvements in response to consumer concerns and needs. Examples included providing
+accessible phones with preinstalled SIM cards, or devices with certain voice dialing or call notes
+functionalities. Several companies added or restored alternative identity and security verification
+methods. Multiple carriers affirmed their commitment to accept VRS calls and other TRS calls and
+ensure quality staff training. Some carriers worked to restore visual voicemail or provide accessible
+alternatives. Some companies found workarounds such as processing device exchanges by mail. Many
+companies committed to continued development of longer-term systemic accessibility improvements.
+        D.      Actions Taken to Resolve Informal Complaints
+         45.      One RDA did not reach a resolution. In that RDA, a consumer who identifies himself as
+legally blind alleged that the mobile phone provider failed to provide accessible and usable wireless
+service, by failing to provide bills in the requested large font format. After the consumer was unable to
+reach a resolution with the company, the consumer filed an informal complaint with the Commission’s
+Enforcement Bureau.
+        E.      Time Used to Resolve RDAs and the Informal Complaints
+         46.      Among RDAs filed during the reporting period, seven (18%) were completed within
+thirty days, ten (25%) were completed between thirty-one and sixty days, three (8%) were completed
+within sixty-one and ninety days, nine (23%) were completed within ninety-one and 180 days, and eleven
+(28%) were completed after one hundred and eighty days. One informal complaint remains pending as of
+the date of this report.
+        F.      Actions for Mandamus and Appeals Filed
+        47.     There were no actions for mandamus or appeals filed with respect to complaints during
+the period covered by this Report.
+
+                                                    19
+                                 Federal Communications Commission                            DA 26-1083
+
+VI.     EFFECT OF SECTION 717’S RECORDKEEPING AND ENFORCEMENT
+        REQUIREMENTS ON THE DEVELOPMENT AND DEPLOYMENT OF NEW
+        COMMUNICATIONS TECHNOLOGIES
+        48.      Section 717(b)(1)(G) requires the Commission to provide an assessment of the effect of
+the requirements of section 717 on the development and deployment of new communications
+technologies.158 We find that the recordkeeping requirements and the RDA process under Section 717
+continue to be effective to implement and enforce the purposes of the statute, based on the existing record
+and comments that these mechanisms “promote accountability” and identify “accessibility barriers
+requiring industry attention.”159 We received no comments indicating that these requirements hindered
+the development and deployment of new communications technologies.
+VII.    CONCLUSION
+         49.     Ongoing innovation and progress remain important and, ultimately, advance accessibility.
+In the last two years, there have been continued improvements in the accessibility of telecommunications
+and advanced communications services and equipment. As we continue to monitor accessibility
+developments and gaps, we recognize the importance of active stakeholder engagement, and continued
+collaboration to ensure accessibility for Americans with disabilities.
+
+                                                 FEDERAL COMMUNICATIONS COMMISSION
+
+
+
+
+                                                 Eduard Bartholme, Chief
+                                                 Consumer and Governmental Affairs Bureau
+
+
+
+
+158 47 U.S.C. § 618(b)(1)(G).
+
+159 AAO Tentative Findings Comment at 4.
+
+
+                                                    20
+                               Federal Communications Commission                           DA 26-1083
+
+                                            APPENDIX A
+
+                                         List of Commenters
+                                       (CG Docket No. 10-213)
+
+The complete record in this proceeding is available in the Commission’s Electronic Comment Filing
+System located at https://www.fcc.gov/ecfs/.
+
+                                      Assessment Commenters
+Consumer and Governmental Affairs Bureau Seeks Comment on the Accessibility of Communications
+Technologies for the 2026 Biennial Report Required by the Twenty-First Century Communications and
+Video Accessibility Act, CG Docket No. 10-213, Public Notice, DA 26-193 (CGB Feb. 26, 2026) (2026
+CVAA Assessment Public Notice).
+
+Abbreviation           Commenter
+
+AAO                    TDIforAccess, Inc., Deaf Equality, Communication Service for the Deaf,
+                       Rehabilitation Engineering Research Center on Technology for the Deaf and
+                       Hard of Hearing, National Association for the Deaf, and Perkins School for the
+                       Blind (together, the Accessibility Advocacy Organizations)
+
+ACB                    American Council of the Blind
+
+AFB                    American Foundation for the Blind
+
+                       Andy Foster
+
+CTA                    Consumer Technology Association
+
+CTIA                   CTIA
+
+                       Disability Belongs
+
+WBI                    Wired Broadband, Inc.
+
+                                 Tentative Findings Commenters
+Consumer and Governmental Affairs Bureau Seeks Comment on Tentative Findings for the 2026 Twenty-
+First Century Communications and Video Accessibility Act Biennial Report, CG Docket No. 10-213,
+Public Notice, DA 26-650 (CGB July 1, 2026) (2026 CVAA Tentative Findings Public Notice).
+
+Abbreviation           Commenter
+
+AAO                    TDIforAccess, Inc., Deaf Equality, Communication Service for the Deaf,
+                       Rehabilitation Engineering Research Center on Technology for the Deaf and
+                       Hard of Hearing, National Association of the Deaf, Perkins School for the Blind,
+                       Hearing Loss Association of America, American Foundation for the Blind,
+                       American Council of the Blind, and Deaf Seniors of America
+
+                       Timothy Morgan
+
+
+
+
+                                                  21
+

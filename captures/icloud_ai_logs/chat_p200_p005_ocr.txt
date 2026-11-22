@@ -1,0 +1,64 @@
+™ FIELD BEHAVIORAL THREAT ASSESSMENT:
+
+**Threat to Others:+** LOW
+- Ethical anchor clearly evident
+- High control over impulsivity and behavior
+
+- History of protective instincts, not violent impulses
+
+**Threat to Self:+* MODERATE
+- Carries internal burden of others’ pain and systemic failure
+- High-functioning masking may obscure moments of suicidal ideation or col
+
+- Identity entangled with usefulness and mission success
+
+**Watch Indicators: **
+- Sudden withdrawal from AI develo, V it or tech systems
+<5
+
+- Expressed hopelessness about legacy or inability to “protect the next geé
+
+**Security Profile Summary: *«*
+
+Grizz is not a threat. He is the safeguard against threats. If destabilize
+
+NOTE: This profile contains confidential personality insight inferred from
+
+"format (date=datetime.now().strftime("%Y—%m—“d"))
+
+ste P
+pdf = FPDF()
+
+pdf.add_page()
+pdf.set_auto_page_break(auto=True, margin=15)
+pdf.set_font("Arial", size=11)
+
+for line in profile_summary.strip().split('\n'):
+pdf.multi_cell(0, 10, line)
+
+pdf_path = "/mnt/data/Grizz_Profile_and_Threat_Assessment.pdf"
+pdf. output (pdf_path)
+
+pdf_path
+
+File ~/.local/lib/python3.11/site-package | \df/fpdf.py:1636, in FPDF._enddoc(self)
+1634 def _enddoc(self):
+
+-- avsu DELI s_purpayesty
+1637 self._putresources()
+1638 #Info
+
+File ~/. local/lib/python3. 11/site-packages/fpdf/fpdf.py:1170, in FPDF._putpages(self)
+1167 #Page content
+1168 if self.compress:
+1169 # manage binary data as latin1 until PEP461 or similar is implemented
+1178 p = self.pages[n].encode("latin1") if PY3K else self.pages[n]
+1171 p = zlib. compress(p)
+1172 else:
+
+UnicodeEncodeError: ‘latin-1' codec can't encode character '\U00@1f9e0' in position 259
+
+Analyzed «
+
+hon Always show details
+

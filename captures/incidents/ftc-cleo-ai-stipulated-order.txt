@@ -1,0 +1,728 @@
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                                        UNITED STATES DISTRICT COURT
+                                   FOR THE SOUTHERN DISTRICT OF NEW YORK
+
+
+             FEDERAL TRADE COMMISSION,
+                                                                        Case No. ____________
+                 Plaintiff,
+
+                                                                        STIPULATED ORDER FOR
+                      v.                                                PERMANENT INJUNCTION,
+                                                                        MONETARY JUDGMENT, AND
+                                                                        OTHER RELIEF
+             CLEO AI, INC., a corporation;
+
+
+                Defendant.
+
+                     Plaintiff, the Federal Trade Commission (“Commission” or “FTC”), filed its Complaint
+
+            for Permanent Injunction, Monetary Judgment, and Other Relief (“Complaint”), for a permanent
+
+            injunction, monetary relief, and other relief in this matter. The Commission and Defendant
+
+            stipulate to the entry of this Stipulated Order for Permanent Injunction, Monetary Judgment, and
+
+            Other Relief (“Order”) to resolve all matters in dispute in this action between them.
+
+                     THEREFORE, IT IS ORDERED as follows:
+
+                                                             FINDINGS
+
+                     1.       This Court has jurisdiction over this matter.
+
+                     2.       The Complaint charges that Defendant violated federal statutes.
+
+                     3.       Defendant neither admits nor denies any of the allegations in the Complaint,
+
+            except as specifically stated in this Order. Only for purposes of this action, Defendant admits the
+
+            facts necessary to establish jurisdiction.
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                     4.      Defendant waives any claim that it may have under the Equal Access to Justice
+
+            Act, 28 U.S.C. § 2412, concerning the prosecution of this action through the date of this Order,
+
+            and agrees to bear its own costs and attorney fees.
+
+                     5.      Defendant and the Commission waive all rights to appeal or otherwise challenge
+
+            or contest the validity of this Order.
+
+                                                             DEFINITIONS
+
+                     For the purpose of this Order, the following definitions apply:
+
+                     A.      “Billing Information” means any data that enables any person to access a
+
+            consumer’s account, such as a credit card, checking, savings, share or similar account, utility bill,
+
+            mortgage loan account, or debit card.
+
+                     B.      “Charge,” “Charged,” or “Charging” means any attempt to collect money or
+
+            other consideration from a consumer, including but not limited to causing Billing Information to
+
+            be submitted for payment, including against the consumer’s credit card, debit card, bank account,
+
+            utility bill, or other account.
+
+                     C.      “Clearly and Conspicuously” means that a required disclosure is easily
+
+            noticeable (i.e., difficult to miss) and easily understandable by reasonable consumers, including
+
+            in all of the following ways:
+
+                             1.       In any communication that is solely visual or solely audible, the disclosure
+
+                             must be made through the same means through which the communication is
+
+                             presented. In any communication made through both visual and audible means,
+
+                             such as a television advertisement, the disclosure must be presented
+
+                             simultaneously in both the visual and audible portions of the communication even
+
+                             if the representation requiring the disclosure is made in only one means.
+
+
+                                                                  2
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                             2.       A visual disclosure, by its size, contrast, location, the length of time it
+
+                             appears, and other characteristics, must stand out from any accompanying text or
+
+                             other visual elements so that it is easily noticed, read, and understood.
+
+                             3.       An audible disclosure, including by telephone or streaming video, must be
+
+                             delivered in a volume, speed, and cadence sufficient for reasonable consumers to
+
+                             easily hear and understand it.
+
+                             4.       In any communication using an Interactive Electronic Medium, such as
+
+                             the Internet, mobile application, or software, the disclosure must be unavoidable.
+
+                             5.       The disclosure must use diction and syntax understandable to reasonable
+
+                             consumers and must appear in each language in which the representation that
+
+                             requires the disclosure appears.
+
+                             6.       The disclosure must comply with these requirements in each medium
+
+                             through which it is received, including all electronic devices and face-to-face
+
+                             communications.
+
+                             7.       The disclosure must not be contradicted or mitigated by, or inconsistent
+
+                             with, anything else in the communication.
+
+                             8.       When the representation or sales practice targets a specific audience, such
+
+                             as children, older adults, or the terminally ill, “reasonable consumers” includes
+
+                             members of that group.
+
+                     D.      “Defendant” means Cleo AI, Inc. and its successors and assigns.
+
+                     E.      “Interactive Electronic Medium” means any electronic means of
+
+            communicating (except via telephone calls), including Internet, mobile application, text, chat,
+
+            instant message, email, software, or any online service.
+
+
+                                                                 3
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                     F.      “Material” means likely to affect a consumer’s choice of, or conduct regarding,
+
+            goods or services.
+
+                     G.      “Negative Option Feature” is a provision of a contract under which the
+
+            consumer’s silence or failure to take affirmative action to reject a good or service or to cancel the
+
+            agreement is interpreted by the Defendant as acceptance or continuing acceptance of the offer,
+
+            including, but not limited to: an automatic renewal; a continuity plan; a free-to-pay conversion or
+
+            fee-to-pay conversion; or a pre-notification negative option plan.
+
+                                                             ORDER
+
+                                                  I. CLAIMS PROHIBITIONS
+
+                     IT IS ORDERED that Defendant, Defendant’s officers, agents, employees, and attorneys,
+
+            and all other persons in active concert or participation with any of them, who receive actual
+
+            notice of this Order, whether acting directly or indirectly, in connection with promoting or
+
+            offering for sale any good or service, are permanently restrained and enjoined from
+
+            misrepresenting, expressly or by implication:
+
+                     A.      The amount of funds available to a consumer;
+
+                     B.      When funds will be available to a consumer;
+
+                     C.      Any fee, including:
+
+                             1.       whether a consumer is incurring a fee; or
+
+                             2.       the nature, purpose, amount, or use of a fee;
+
+                     D.      Any ability to receive cash advances, or any other advertised feature, for free;
+
+                     E.      Consumers’ ability to cancel, or obtain a refund for any Charges;
+
+                     F.      The existence of a Negative Option Feature;
+
+                     G.      Any term of the Negative Option Feature, including:
+
+
+                                                                4
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                             1.       How and to what consumers are consenting;
+
+                             2.       Any deadline to prevent or stop a Charge; or
+
+                             3.       The cancellation of the Negative Option Feature; or
+
+                     H.      Any other fact Material to consumers concerning any good or service, such as:
+
+            the total costs; any Material restrictions, limitations, or conditions; or any Material aspect of its
+
+            performance, efficacy, nature, or central characteristics.
+
+                                                II. REQUIRED DISCLOSURES
+
+                     IT IS FURTHER ORDERED that Defendant, Defendant’s officers, agents, employees,
+
+            and attorneys, and all other persons in active concert or participation with any of them, who
+
+            receive actual notice of this Order, whether acting directly or indirectly, in connection with
+
+            promoting or offering for sale any good or service with a Negative Option Feature, are
+
+            permanently restrained and enjoined from:
+
+                     A.      Failing to Clearly and Conspicuously disclose to a consumer, prior to obtaining
+
+            the consumer’s Billing Information, all Material terms, regardless of whether those terms directly
+
+            relate to the Negative Option Feature, and including, but not limited to:
+
+                             1.       That consumers will be Charged for the good or service, or that those
+
+                             Charges will increase after any applicable trial period ends, and, if applicable, that
+
+                             the Charges will be on a recurring basis, unless the consumer timely takes steps to
+
+                             prevent or stop such Charges;
+
+                             2.       Each deadline (by date or frequency) by which the consumer must act to
+
+                             prevent or stop the Charges;
+
+
+
+
+                                                               5
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                             3.       The amount (or range of costs) the consumer will be Charged and, if
+
+                             applicable, the frequency of the Charges a consumer will incur unless the
+
+                             consumer takes timely steps to prevent or stop those Charges;
+
+                             4.       The information necessary for the consumer to find the simple
+
+                             cancellation mechanism required pursuant to Section IV below; and
+
+                             5.       The total costs; any Material restrictions, limitations, or conditions; or any
+
+                             Material aspect of the good or service.
+
+                     B.      Failing to provide:
+
+                             1.       The disclosures required by Section II.A.1-4 immediately adjacent to the
+
+                             means of recording the consumer’s consent for the Negative Option Feature; and
+
+                             2.       The disclosures required by Section II.A, including, but not limited to, the
+
+                             disclosures required by Section II.A.1-5, before obtaining the consent required
+
+                             pursuant to Section III; and
+
+                     C.      Including, in all communications required by this Section, regardless of media,
+
+            any other information that interferes with, detracts from, contradicts, or otherwise undermines
+
+            the ability of consumers to read, hear, see, or otherwise understand the disclosures required by
+
+            this Section.
+
+                                   III. OBTAINING EXPRESS INFORMED CONSENT
+
+                     IT IS FURTHER ORDERED that Defendant, Defendant’s officers, agents, employees,
+
+            and attorneys, and all other persons in active concert or participation with any of them, who
+
+            receive actual notice of this Order, whether acting directly or indirectly, in connection with
+
+            promoting or offering for sale any good or service with a Negative Option Feature, are
+
+            permanently restrained and enjoined from failing to obtain the consumer’s express informed
+
+
+                                                                6
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            consent before Charging the consumer. In obtaining such express informed consent, Defendant
+
+            must:
+
+                     A.      Obtain the consumer’s unambiguously affirmative consent to the Negative Option
+
+            Feature offer separately from any other portion of the transaction, and:
+
+                             1.       For a written offer (including over the internet, such as through an app),
+
+                             obtain the required consent through a check box, signature, or other substantially
+
+                             similar method, which the consumer must affirmatively select or sign to accept
+
+                             the Negative Option Feature and no other portion of the transaction. The consent
+
+                             request must be presented in a manner and format that is clear, unambiguous,
+
+                             non-deceptive, and free of any information not directly related to the consumer’s
+
+                             acceptance of the Negative Option Feature; and
+
+                             2.       For an oral offer, obtain unambiguous express oral confirmation that the
+
+                             consumer: (a) consents to being Charged for any product or service, including
+
+                             providing, at a minimum, the last four digits of the consumer’s account number to
+
+                             be Charged, (b) understands that the transaction includes a Negative Option
+
+                             Feature, and (c) understands the specific steps that the consumer must take to
+
+                             prevent or stop further Charges;
+
+                     B.      Not include any information that interferes with, detracts from, contradicts, or
+
+            otherwise undermines the ability of consumers to provide their express informed consent to the
+
+            Negative Option Feature; and
+
+                     C.      Keep or maintain verification of the consumer’s consent for at least three years,
+
+            including, for oral offers, an unedited voice recording of the entire transaction, and:
+
+
+
+
+                                                                7
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                             1.       Maintain each record of verification such that it can be retrieved by date
+
+                             and by the consumer’s name, telephone number, or Billing Information; and
+
+                             2.       Provide the record of verification upon request to the consumer, the
+
+                             consumer’s bank, or any law enforcement entity.
+
+                                      IV. SIMPLE CANCELLATION MECHANISMS
+                                          FOR NEGATIVE OPTION FEATURES
+
+                     IT IS FURTHER ORDERED that Defendant, Defendant’s officers, agents, employees,
+
+            and attorneys, and all other persons in active concert or participation with any of them, who
+
+            receive actual notice of this Order, whether acting directly or indirectly, in connection with
+
+            promoting or offering for sale any good or service with a Negative Option Feature, are
+
+            permanently restrained and enjoined from failing to provide a simple mechanism for a consumer
+
+            to: cancel the Negative Option Feature; avoid being Charged, or Charged an increased amount,
+
+            for the good or service; and immediately stop any recurring Charges. The simple mechanism
+
+            required by this Section must be at least as easy to use as the mechanism the consumer used to
+
+            consent to the Negative Option Feature, and:
+
+                     A.      At a minimum, Defendant must provide such simple mechanism through the same
+
+            medium the consumer used to consent to the Negative Option Feature, and:
+
+                             1.       For cancellation by Interactive Electronic Medium, the simple cancellation
+
+                             mechanism must be easy to find when the consumer seeks to cancel. Compliance
+
+                             with Section II.A.4 does not satisfy this obligation. In no event shall a consumer
+
+                             be required to interact with a live or virtual representative (such as chatbot) to
+
+                             cancel if the consumer did not do so to consent to the Negative Option Feature;
+
+                             2.       For cancellation by telephone call, Defendant must promptly effectuate
+
+                             cancellations requested by the consumer via a telephone number that is (a)
+
+                                                                8
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                             answered by Defendant or records message, (b) available during normal business
+
+                             hours, (c) not more costly to use than the telephone call the consumer used to
+
+                             consent to the Negative Option Feature, and (d) easy to find and clearly displayed
+
+                             on the Defendant’s websites; and
+
+                             3.       For cancellation of consent obtained in person, Defendant must offer the
+
+                             simple mechanism (a) via an in-person method similar to that the consumer used
+
+                             to consent to the Negative Option Feature, and (b) through an Interactive Medium
+
+                             and by providing a telephone number that complies with Section IV.A.2.
+
+                                                 V. MONETARY JUDGMENT
+
+                     IT IS FURTHER ORDERED that:
+
+                     A.      Judgment in the amount of Seventeen Million Dollars ($17,000,000) is entered in
+
+            favor of the Commission against Defendant as monetary relief.
+
+                     B.      Defendant is ordered to pay to the Commission, Seventeen Million Dollars
+
+            ($17,000,000), which, as Defendant stipulates, it holds in escrow for no purpose other than
+
+            payment to the Commission. Such payment must be made within 7 days of entry of this Order
+
+            by electronic fund transfer in accordance with instructions previously provided by a
+
+            representative of the Commission.
+
+                                      VI. ADDITIONAL MONETARY PROVISIONS
+
+                     IT IS FURTHER ORDERED that:
+
+                     A.      Defendant relinquishes dominion and all legal and equitable right, title, and
+
+            interest in all assets transferred pursuant to this Order and may not seek the return of any assets.
+
+                     B.      The facts alleged in the Complaint will be taken as true, without further proof, in
+
+            any subsequent civil litigation by or on behalf of the Commission, including in a proceeding to
+
+
+                                                               9
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            enforce its rights to any payment or monetary judgment pursuant to this Order, such as a
+
+            nondischargeability complaint in any bankruptcy case.
+
+                     C.      The facts alleged in the Complaint establish all elements necessary to sustain an
+
+            action by the Commission pursuant to Section 523(a)(2)(A) of the Bankruptcy Code, 11 U.S.C.
+
+            § 523(a)(2)(A), and this Order will have collateral estoppel effect for such purposes.
+
+                     D.      Defendant acknowledges that Defendant’s Employer Identification Number,
+
+            Social Security Number, or other Taxpayer Identification Number (“TIN”), including all TINs
+
+            that Defendant previously provided, may be used by the Commission for reporting and other
+
+            lawful purposes, including collecting on any delinquent amount arising out of this Order in
+
+            accordance with 31 U.S.C. §7701.
+
+                     E.      All money received by the Commission pursuant to this Order may be deposited
+
+            into a fund administered by the Commission or its designee to be used for consumer relief, such
+
+            as redress and any attendant expenses for the administration of any redress fund. If a
+
+            representative of the Commission decides that direct redress to consumers is wholly or partially
+
+            impracticable or money remains after such redress is completed, the Commission may apply any
+
+            remaining money for such related relief (including consumer information remedies) as it
+
+            determines to be reasonably related to Defendant’s practices alleged in the Complaint. Any
+
+            money not used for relief is to be deposited to the U.S. Treasury. Defendant has no right to
+
+            challenge any actions the Commission or its representatives may take pursuant to this
+
+            Subsection.
+
+                                              VII. CUSTOMER INFORMATION
+
+                     IT IS FURTHER ORDERED that Defendant, Defendant’s officers, agents, employees,
+
+            and attorneys, and all other persons in active concert or participation with any of them, who
+
+
+                                                             10
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            receive actual notice of this Order, are permanently restrained and enjoined from directly or
+
+            indirectly failing to provide sufficient customer information to enable the Commission to
+
+            efficiently administer consumer redress. If a representative of the Commission requests in
+
+            writing any information related to redress, Defendant must provide it, in the form prescribed by
+
+            the Commission, within 14 days.
+
+                                           VIII. ORDER ACKNOWLEDGMENTS
+                     IT IS FURTHER ORDERED that Defendant obtain acknowledgments of receipt of this
+            Order:
+                     A.      Defendant, within 7 days of entry of this Order, must submit to the Commission
+            an acknowledgment of receipt of this Order sworn under penalty of perjury.
+                     B.      For 7 years after entry of this Order, Defendant must deliver a copy of this Order
+            to: (1) all principals, officers, directors, and LLC managers and members; (2) all employees
+            having managerial responsibilities for conduct related to the subject matter of the Order and all
+            agents and representatives who participate in conduct related to the subject matter of the Order;
+            and (3) any business entity resulting from any change in structure as set forth in the Section titled
+            Compliance Reporting. Delivery must occur within 7 days of entry of this Order for current
+            personnel. For all others, delivery must occur before they assume their responsibilities.
+                     C.      From each individual or entity to which Defendant delivered a copy of this Order,
+            Defendant must obtain, within 30 days, a signed and dated acknowledgment of receipt of this
+            Order.
+                                              IX. COMPLIANCE REPORTING
+                     IT IS FURTHER ORDERED that Defendant make timely submissions to the
+            Commission:
+                     A.      No later than 180 days after entry of this Order, Defendant must submit a
+                     compliance report, sworn under penalty of perjury:
+                             1.       Defendant must: (a) identify the primary physical, postal, and email
+                     address and telephone number, as designated points of contact, which representatives of
+
+                                                              11
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                     the Commission may use to communicate with Defendant; (b) identify all of Defendant’s
+                     businesses by all of their names, telephone numbers, and physical, postal, email, and
+                     Internet addresses; (c) describe the activities of each business, including the goods and
+                     services offered, the means of advertising, marketing, and sales; (d) describe in detail
+                     whether and how Defendant is in compliance with each Section of this Order; and (e)
+                     provide a copy of each Order Acknowledgment obtained pursuant to this Order, unless
+                     previously submitted to the Commission.
+                     B.      For 10 years after entry of this Order, Defendant must submit a compliance
+            notice, sworn under penalty of perjury, within 14 days of any change in the following:
+                             1.       Defendant must report any change in: (a) any designated point of contact;
+                     or (b) the structure of Defendant or any entity that Defendant has any ownership interest
+                     in or controls directly or indirectly that may affect compliance obligations arising under
+                     this Order, including: creation, merger, sale, or dissolution of the entity or any
+                     subsidiary, parent, or affiliate that engages in any acts or practices subject to this Order.
+                     C.      Defendant must submit to the Commission notice of the filing of any bankruptcy
+            petition, insolvency proceeding, or similar proceeding by or against Defendant within 14 days of
+            its filing.
+                     D.      Any submission to the Commission required by this Order to be sworn under
+            penalty of perjury must be true and accurate and comply with 28 U.S.C. § 1746, such as by
+            concluding: “I declare under penalty of perjury under the laws of the United States of America
+            that the foregoing is true and correct. Executed on: _____” and supplying the date, signatory’s
+            full name, title (if applicable), and signature.
+                     E.      Unless otherwise directed by a Commission representative in writing, all
+            submissions to the Commission pursuant to this Order must be emailed to DEbrief@ftc.gov or
+            sent by overnight courier (not the U.S. Postal Service) to: Associate Director for Enforcement,
+            Bureau of Consumer Protection, Federal Trade Commission, 600 Pennsylvania Avenue NW,
+            Washington, DC 20580. The subject line must begin: FTC v. Cleo AI, Inc., FTC Matter No.
+            2423004.
+
+                                                               12
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+                                                     X. RECORDKEEPING
+                     IT IS FURTHER ORDERED that Defendant must create certain records for 10 years
+            after entry of the Order, and retain each such record for 5 years. Specifically, Defendant must
+            create and retain the following records:
+                     A.      Accounting records showing the revenues from all goods or services sold;
+                     B.      Personnel records showing, for each person providing services, whether as an
+            employee or otherwise, that person’s: name; addresses; telephone numbers; job title or position;
+            dates of service; and (if applicable) the reason for termination;
+                     C.      Records of all consumer complaints and refund requests, whether received
+            directly or indirectly, such as through a third party, and any response;
+                     D.      All records necessary to demonstrate full compliance with each provision of this
+            Order, including all submissions to the Commission; and
+                     E.      A copy of each unique advertisement or other marketing material.
+                                             XI. COMPLIANCE MONITORING
+                     IT IS FURTHER ORDERED that, for the purpose of monitoring Defendant’s compliance
+            with this Order, including any failure to transfer any assets as required by this Order:
+                     A.      Within 14 days of receipt of a written request from a representative of the
+            Commission, Defendant must: submit additional compliance reports or other requested
+            information, which must be sworn under penalty of perjury; appear for depositions; and produce
+            documents for inspection and copying. The Commission is also authorized to obtain discovery,
+            without further leave of court, using any of the procedures prescribed by Federal Rules of Civil
+            Procedure 29, 30 (including depositions by remote means), 31, 33, 34, 36, 45, and 69.
+                     B.      For matters concerning this Order, the Commission is authorized to communicate
+            directly with Defendant. Defendant must permit representatives of the Commission to interview
+            any employee or other person affiliated with Defendant who has agreed to such an interview.
+            The person interviewed may have counsel present.
+                     C.      The Commission may use all other lawful means, including posing, through its
+            representatives as consumers, suppliers, or other individuals or entities, to Defendant or any
+
+                                                             13
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            individual or entity affiliated with Defendant, without the necessity of identification or prior
+            notice. Nothing in this Order limits the Commission’s lawful use of compulsory process,
+            pursuant to Sections 9 and 20 of the FTC Act, 15 U.S.C. §§ 49, 57b-1.
+                                           XII. RETENTION OF JURISDICTION
+                     IT IS FURTHER ORDERED that this Court retains jurisdiction of this matter for
+            purposes of construction, modification, and enforcement of this Order.
+            SO ORDERED this               day of                   , 202__.
+
+
+
+
+                                                             _______________________________
+                                                             UNITED STATES DISTRICT JUDGE
+
+
+
+
+                                                              14
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            SO STIPULATED AND AGREED:
+
+            FEDERAL TRADE COMMISSION
+
+
+              /s/ James Doty                                              March 27, 2025
+                                                                  Date:
+            ADAM SALTZMAN
+            MAYA SEQUEIRA
+            SALLY TIEU
+            JAMES DOTY
+            JAMIE D. BROOKS
+
+            Federal Trade Commission
+            600 Pennsylvania Avenue, N.W.
+            Mailstop CC-10232
+            Washington, D.C. 20850
+            Tel: (202) 538-1038 (Saltzman)
+            (202) 717-0369 (Sequeira)
+            (202) 326-2088 (Tieu)
+            (202) 326-2628 (Doty)
+            (202) 621-3913 (Brooks)
+
+            E-mail: asaltzman1@ftc.gov
+            msequeira@ftc.gov
+            stieu@ftc.gov
+            jdoty@ftc.gov
+            jbrooks4@ftc.gov
+
+
+
+
+                                                             15
+Docusign Envelope ID: 7C92EC3F-E243-4C79-9D4D-F3093218C266
+
+
+
+
+            FOR DEFENDANT:
+
+
+                                                                          3/11/2025
+                                                                  Date:
+            ALLYSON B. BAKER
+            MEREDITH BOYLAN
+            SAMEER SHEIKH
+            MICHAEL MARUSAK
+            PAIGE RINDERER
+            Paul Hastings LLP
+            2050 M Street, NW
+            Washington, D.C. 20036
+            (202) 551-1830
+            allysonbaker@paulhastings.com
+            meredithboylan@paulhastings.com
+            sameersheikh@paulhastings.com
+            michaelmarusak@paulhastings.com
+            paigerinderer@paulhastings.com
+
+
+
+             DEFENDANT CLEO AI, INC.
+                                                                          3/11/2025
+                      (!~'~IIUj-qlh                               Date:
+             Name:Barney Hussey-Yeo
+             As an officer of Cleo AI, Inc.
+
+
+
+
+                                                             16
+

@@ -1,0 +1,11 @@
+FTC PRESS RELEASE — web (native reader fetch, HTTP 200; ftc.gov curl-blocked for plain curl, WAF)
+URL: https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires
+Published: 2025-02-11 (modified 2025-04-08). Captured 2026-11-22.
+
+VERBATIM:
+"The Federal Trade Commission has finalized an order requiring DoNotPay, a company that promoted its online subscription service as 'the world's first robot lawyer,' to stop making deceptive claims about the abilities of its AI chatbot."
+"In a complaint announced in September 2024, the FTC charged that DoNotPay's so-called robot lawyer failed to live up to claims that it was an adequate substitute for the expertise of a human lawyer. According to the complaint, the company did not test whether its 'AI lawyer' operated to the level of a human lawyer when generating legal documents and giving advice, and the company did not hire or retain attorneys to test the quality and accuracy of its service's law-related features."
+"The final order requires DoNotPay to pay $193,000 in monetary relief and notify consumers who subscribed to the service between 2021 and 2023 about the FTC settlement. The order also prohibits DoNotPay from advertising that its service performs like a real lawyer unless it has sufficient evidence to back it up."
+"After receiving five comments, the Commission voted 5-0 on January 16, 2025, to approve the final order and send responses to the commenters."
+
+PROVENANCE NOTE: capture via reader fetch shown in session transcript; page HTML not storable by curl (FTC WAF). Tier: VERIFIED-BY-WORKER for the PR text; the underlying D&O PDF is on disk (VERIFIED).

@@ -1,0 +1,56 @@
+import re
+
+clean_profile_summary = re.sub(r' [*\x00-\x7Fl+', » profile_summary)
+
+pdf = FPDF()
+
+pdf .add_page()
+pdf.set_auto_page_break(auto=True, margin=15)
+pdf.set_font("Arial", size=11)
+
+v
+for line in clean_profile_summary.s.:ip().split('\n'):
+
+pdf_path = "/mnt/data/Grizz_Profile_and_Threat_Assessment.pdf"
+pdf. output (pdf_path)
+
+pdf_path
+
+Result
+
+‘ /mnt/data/Grizz_Profile_and_Threat_Assessment.pdf'
+
+Here's your professionally formatted document combining both the psychological profile
+summary and the behavioral threat assessment:
+
+yl Download Grizz_Profile_and_Threat_Assessment.pdf
+
+Let me know if you'd like this expanded into a full dossier format with headers, case
+number, psychological theory tie-ins, or a companion JSON file for integration into your
+Al systems. >-)
+
+OVW DB Sy
+
+Yes, please. And then, at the end of that, let me know
+what else we can potentially compile this into to be able
+to, one, give. a stronger ability to consider angles,
+
+Peoseeese pes eer SS ep NS Godt oe Qo
+
+wnat we nave.
+
+Analysis errored ~
+
+python Always show details @@® © Copy
+
+expanded_profile
+
+Case File: GRZ
+
+Subject Alias:
+
+Classification: Strategic Operative / AI Architect / Trauma-Informed Const
+Date Compiled: {date}
+
+Analyst: GPT-40 Behavioral
+

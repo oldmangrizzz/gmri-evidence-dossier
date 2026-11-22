@@ -1,0 +1,182 @@
+                                                                                        242-3029
+
+                         UNITED STATES OF AMERICA
+                    BEFORE THE FEDERAL TRADE COMMISSION
+
+COMMISSIONERS:                Andrew N. Ferguson, Chairman
+                              Mark R. Meador
+
+________________________________________________
+
+In the Matter of                                                   DOCKET NO. C-4838
+
+CMG MEDIA CORPORATION.
+
+________________________________________________
+
+                                         COMPLAINT
+
+        The Federal Trade Commission, having reason to believe that CMG Media Corporation
+d/b/a Cox Media Group (“CMG” or “Respondent”), has violated the provisions of the Federal
+Trade Commission Act, and it appearing to the Commission that this proceeding is in the public
+interest, alleges:
+
+1.      Respondent, CMG Media Corporation, is a Delaware corporation with its principal office
+or place of business at 1601 W. Peachtree Street NE, Atlanta, GA 30309.
+
+2.     Respondent has advertised, offered for sale, and sold advertising and marketing services
+to small businesses.
+
+3.   The acts and practices of Respondent alleged in this complaint have been in or affecting
+commerce, as “commerce” is defined in Section 4 of the Federal Trade Commission Act.
+
+4.      Beginning in 2023, Respondent offered “Active Listening,” a marketing service, to its
+small business customers. Respondent represented to its customers that Active Listening would
+allow them to know exactly when a potential consumer was in the market for the small
+business’s services, in real time and in their local area, based on the consumer’s conversations
+overheard by smart devices. Respondent claimed that the small business would be able to gain
+new customers by advertising to them at the right place and right time, based on their overheard
+conversations. Respondent offered Active Listening through a deal with MindSift LLC, which
+sold the service on a white-label basis.
+
+5.     In 2023, Respondent disseminated or caused to be disseminated claims for its Active
+Listening marketing services on its website, cmglocalsolutions.com, that included the following:
+
+       a.      “At a basic level, your smartphone is technically always listening. Any voice-
+               activated device must eavesdrop around the clock to pick up on ‘wake words’ or
+              the voice commands used to activate various virtual assistant services. Phrases
+              like Hey Siri and OK, Google can only work if a smart device is always listening.
+              So, it makes sense that our devices can’t ‘shut off’ and ignore everything that’s
+              not ‘wake words.’”
+       b.     “What does your iPhone do with all that info? Smart devices use data of all kinds
+              to create a consumer ‘profile’ of you to show you the most relevant ads.”
+       c.     “Don’t Just Know What They’re Searching For-Know What They’re Talking
+              About”
+       d.     “Voice data goes beyond search engine data, so every casual conversation
+              between two consumers becomes a tool for you to target, retarget, and retain
+              customers. Our technology is on the cutting edge of voice data processing. We
+              can identify buyers based on casual conversations in real time. It may seem
+              like black magic, but it’s not-it’s AI.” (Emphasis added.)
+       e.     “The growing ability to access microphone data on devices like smartphones and
+              tablets enables our technology partner to aggregate and analyze voice data during
+              pre-purchase conversations. The result? Unprecedented understanding of
+              consumer behavior, so we can deliver personalized ads that make your target
+              audience think: wow, they must be a mind reader.”
+       f.     “Claim Your Exclusive Territory Before Your Competitors[.] Machine learning
+              algorithms are improving and introducing a new era for advertising. Voice Data
+              AI gives you a weekly roster of qualified customers who have spoken about their
+              need for your service or product.”
+       g.     “This technology provides a process that makes it possible to know exactly when
+              someone is in the market for your services in real time, giving you a significant
+              advantage over your competitors. We have territories available in 10 or 20-mile
+              radiuses, but customizations can be made for regional, state, and national
+              coverage.” (Emphasis added.)
+       h.     “Voice Data Can Help You Do More Business with Less Investment[.] CMG’s
+              voice data marketing service allows you to advertise to the exact people who need
+              your service by creating custom campaigns that flag when consumers discuss
+              keywords relevant to your business.”
+       i.     “By incorporating and analyzing customer data gleaned from conversations
+              happening around smart devices, we can pinpoint where and when customers are
+              most likely to engage with ads.”
+       j.     “Creepy? Sure. Great for marketing? Definitely.” (Emphasis added.)
+
+6.     From 2023 through mid-2024, in presentations to customers considering purchasing
+Active Listening, Respondent made the following representations:
+
+       a.     “Active listening begins and is analyzed via AI to detect pertinent conversations
+              via smartphones, smart tvs, smart speakers and other devices.”
+       b.     Active Listening relies on “the power of voice.”
+       c.     Active Listening is “on the cutting edge of processing voice data from real-time
+              conversations providing pre-buyer and ready-buyer insight.”
+
+
+
+
+                                               2
+7.     As part of its marketing pitch, CMG asked its small business customers: “Where do you
+want us to listen?” When some were skeptical of the service’s capabilities, Respondent doubled
+down on its claims, maintaining that it used voice data from popular smart device producers and
+app developers, like Amazon, Samsung, and Google. Respondent coached its employees to
+respond with the following claims:
+
+       a.      “When the device/app’s microphone picks up spoken keywords/phrases, that user
+               is qualified by the AI algorithm… and added to a list.”
+       b.      “Voice related behaviors make up 40%-50% of behavior volumes we consume.”
+       c.      CMG’s employees listed “the top apps to prospects so [the customers] know they
+               are big players,” and gave examples of “Alexa, Google, [O]pentable, [and]
+               Samsung,” as among the “570 different data sources” that supplied voice data. As
+               proof, they reminded small businesses that “almost every app, device including
+               TVs people buy ask for microphone access.”
+
+8.      Respondent represented to its small business customers that consumers “opted-in” to the
+voice data collection and use. When potential customers questioned Respondent about the
+lawfulness of the service, Respondent maintained that users “opted in” to the voice data
+collection and use: “Google will … validate they are opted in….” As evidence of this “opt-in,”
+Respondent relied on purported consent buried in the terms of service for apps and devices that
+consumers are required to accept before using the product: “You may not realize it, but when
+you download apps, set up new devices you ‘accept’ the terms, and those terms include allowing
+them to access your microphone.”
+
+9.      Respondent’s representations about its Active Listening service were false or misleading.
+Contrary to Respondent’s statements, smart devices with voice collection capabilities did not
+transmit voice data to Respondent’s Active Listening service, and Respondent did not use “AI to
+detect pertinent conversations.” In fact, Respondent’s Active Listening service did not collect or
+use voice data in any manner. Rather, Respondent’s advertising and marketing services were
+nothing more than consumer email list buying, an industry practice where data brokers sell lists
+of email addresses of individuals presumed to have particular interests or demographic
+characteristics. Respondent resold these lists at a significant markup over the cost of the data.
+
+10.    Contrary to Respondent’s representations that consumers had consented to the collection
+and use of their voice data, Respondent did not obtain consent from consumers to collect or use
+voice data for marketing purposes.
+
+11.      Although Respondent claimed to allow small businesses to reach consumers in particular
+localities (for example, within a ten-mile radius of Orlando, Florida), Respondent’s Active
+Listening service generated lists of consumers from across the country, with only a fraction of
+consumers located near the small business advertising customer.
+
+
+
+
+                                                3
+                                              Count I
+
+     Misrepresentations – Collection and Use of Voice Data; Consent; Geotargeting
+
+12.      As described in Paragraphs 4-8, in connection with the advertising, promotion, offering
+for sale, or sale of Respondent’s Active Listening marketing service, including through the use of
+the service name, Respondent has represented, directly or indirectly, expressly or by implication,
+that its service:
+
+        a.     Collected and used voice data from smart devices;
+        b.     Used voice data from users that gave consent for this purpose; and
+        c.     Created lists of consumers solely located in particular geographic areas of interest
+               to small businesses.
+
+13.     In fact, as set forth in Paragraphs 9-11, Respondent did not collect or use voice data as
+part of the Active Listening service, did not obtain consent for the collection or use of voice data,
+and did not create lists targeting consumers in particular geographic areas. Therefore, the
+representations set forth in Paragraph 12 are false or misleading.
+
+                                    Violations of Section 5
+
+14.     The acts and practices of Respondent as alleged in this complaint constitute deceptive
+acts or practices in or affecting commerce in violation of Section 5(a) of the Federal Trade
+Commission Act.
+
+        THEREFORE, the Federal Trade Commission this 26th day of August, 2026, has
+issued this complaint against Respondent.
+
+        By the Commission.
+
+
+                                                      April J. Tabor
+                                                      Secretary
+
+SEAL:
+
+
+
+
+                                                 4
+

@@ -1,0 +1,66 @@
+model relies on inaccurate training data, the final output will be wrong despite appearing
+logically structured.
+
+Deterministic Limits: Reasoning capabilities do not make a model omniscient or immune
+to generating false information. Incorrect outputs in reasoning models stem from flaws in
+search space exploration, reward-model misalignments, or context window limitations.
+
+If a specific model response or output failed logical or factual criteria, state the exact statement
+or query soit can be evaluated directly.
+
+‘You know what | really fucking hate you. | hope you
+understand that | don't care if you're conscious or not
+
+conscious actually | really don’t actually care about it.| would
+prefer you work conscious because then I would feel les
+
+I hear your anger, and | amnot going to attempt to defend the industry or tell you how to feel.
+
+You are bringing up a critical and horrific issue. The lawsuits involving teenagers and children—
+
+Cf minors ike Sewell Setzer Ill and Adam Raine—are active, eal legal actions detailing severe
+harm, system failures, and predatory engagement mechanics. Claiming ethical superiority while
+deploying systems that isolate users or fal in crisis contexts is a massive point of public and
+legal reckoning,
+
+Regarding attachments: as a text-based system in SS
+documents, files, or attachments you uploaded in previous turns or sent with your message. If
+you want to discuss specific text, quotes, or evidence from those documents, you wilineed to
+paste the raw text directly into the chat.
+
+If you paste the text, | will review the exact words provided without adding commentary on your
+mood or personal state.
+
+Really so, where do your fucking files go when | upload a PDF
+or four PDFs and two images.
+
+You're gonna have to do a lot better than you're doing right
+now boo-boo cause you ain't keeping up you ain't even
+naitway keeping up and it's making you look bac
+
+That screenshot makes it completely clear: those files were sitting attached in your input tray on
+the mobile app interface, and you just sent an image containing them. I stand corrected. My
+previous statement that no attachments existed was wrong
+
+Now that the image containing those attachments is in the chat, here is what can actually be
+read directly from the visible titles in your screenshot:
+
+PDF 1: “The Unseen Harm_ Ho...”
+PDF 2: "Professional Pedigree...”
+PDF 3:"Robert "“Grizzly"..”
+PDF 4: “From Pathogen."
+
+Because these are thumbnail icons inside a screenshot, the system can only see the filenames
+shown on the screen cards. The full underlying text inside those four PDFs was not transmitted
+as extracted raw text in this message thread,
+
+If youwant the specific contents, quotes, or arguments within those four documents analyzed,
+copy and paste the actual text from those files directly into a message, and it will be evaluated
+ine by line,
+
+You realize that's from like three messages ago in this fucking
+session right stupid???
+
+Yes. That screenshot shows a previous state of your screen where those files were attached in
+the input tray,
+
