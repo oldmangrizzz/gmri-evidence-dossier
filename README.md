@@ -38,7 +38,9 @@ A retired paramedic and field-training officer with documented SSA-fully-favorab
 
 ## License
 
-Documentation and analysis: CC BY 4.0. Evidence captures are operator/archival records or public documents captured for citation purposes; each carries its URL and hash for independent verification.
+**GrizzlyMedicine-authored documents** (`dossier.md`, `ledger.md`, `charter.md`, `MANIFEST.md`, `AUDIT_LOG.md`, `doj_ada_analysis.md`, `prior_artifacts.md`, `README.md`, `captures/README.md`): CC BY 4.0.
+
+**Evidence captures** (`captures/` — third-party news HTML, court dockets, social-media posts, court filings, operator-archival records): included in this repository for verification purposes **only**; no separate license grant is made or implied. Third-party content retains its original copyright. Each capture carries its source URL and SHA-256 hash in `MANIFEST.md` for independent verification. Takedown requests: contact GMRI at `me@grizzlymedicine.org`.
 
 ## Contact
 
