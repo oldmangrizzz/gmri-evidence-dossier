@@ -2448,3 +2448,13 @@ Blocked/failed attempts (inventory):
 | 971 | captures/smith_page_brin_google/page_brin_alphabet_letter.html | captured in pass | 200 | 308,417 | 64e759a4979adccc | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 972 | captures/smith_page_brin_google/sec_google_ds424b4.htm | captured in pass | 200 | 4,819 | 7b93968965cd96e1 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 973 | captures/smith_page_brin_google/wiki_dont_be_evil.html | https://en.wikipedia.org/wiki/Don%27t_be_evil | 200 | 360,949 | 925008ad63e6cc46 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 974 | captures/sandberg_wojcicki_porat/leanin_home.html | https://www.leanin.org/ | 200 | 241,756 | bdf50f78a169641e | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 975 | captures/sandberg_wojcicki_porat/meta_careers.html | captured in pass | 200 | 528,305 | e3f506cdfc051ae6 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 976 | captures/sandberg_wojcicki_porat/meta_sandberg_departure.html | captured in pass | 200 | 254,845 | 46337c11668ec7fd | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 977 | captures/sandberg_wojcicki_porat/npr_sandberg.html | captured in pass | 200 | 125,095 | 6c30636d5a635439 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 978 | captures/sandberg_wojcicki_porat/optionb_home.html | https://optionb.org/ | 200 | 76,261 | 88225332609acf2c | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 979 | captures/sandberg_wojcicki_porat/porat_wiki.html | https://en.wikipedia.org/wiki/Ruth_Porat | 200 | 405,831 | 1d2b93379f67e08d | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 980 | captures/sandberg_wojcicki_porat/sandberg_wiki.html | https://en.wikipedia.org/wiki/Sheryl_Sandberg | 200 | 609,443 | 5f542334213577c4 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 981 | captures/sandberg_wojcicki_porat/wojcicki_wiki.html | https://en.wikipedia.org/wiki/Susan_Wojcicki | 200 | 530,373 | 56c3ba2629dadd99 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 982 | captures/sandberg_wojcicki_porat/youtube_blog.html | captured in pass | 200 | 238,370 | 130fb27792d1a6e1 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
+| 983 | captures/sandberg_wojcicki_porat/youtube_home.html | captured in pass | 200 | 929,397 | 9681dcd5b4e1b79e | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
