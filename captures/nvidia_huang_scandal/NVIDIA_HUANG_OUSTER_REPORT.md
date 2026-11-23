@@ -30,7 +30,7 @@ Reuters capture VERIFIED: "Jensen Huang misled several of the company's leaders,
 
 The Megaspeed export-control DOJ/Commerce investigation (captured via ABC/Wired): "began in 2024"; Megaspeed added to NVIDIA's "no sell" list June 2025; Commerce requested records May 2025.
 
-Huang was "the Megaspeed CEO until Aug. 30, 2025" per ABC/Wired captures.
+Alice Huang was the Megaspeed CEO until Aug. 30, 2025, currently with no role at Megaspeed (per ABC/Wired captures). Jensen and Alice share the same last name but are not related.
 
 China's Foreign Ministry: "The claim regarding a so-called Chinese spy is completely groundless and pure slander."
 
