@@ -52,4 +52,4 @@
 - The Italy-Meta €805M fine is an adjudicative decision; carried at its own tier.
 - The Gates-Epstein characterization is per SBS reporting, not an adjudication.
 - The BusinessInsider "went on offense" characterization is BI's own framing, not asserted by this pass.
-- No people-search data; no non-public materials; no health data.
+- No people-search data; no non-public materials. **Health-data scope:** one captured file (`sbs_tech_ceo_scandals.html`) carries an **unverified third-party allegation** about Gates that this report does not restate; it is annotated in the manifest as UNVERIFIED-THIRD-PARTY-ALLEGATION and is not relied upon.
