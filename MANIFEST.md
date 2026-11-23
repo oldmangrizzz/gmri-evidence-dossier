@@ -6,11 +6,11 @@
 | 2 | captures/fed/fomcminutes_20261028_full.htm | https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm | 200 | 122,840 | 8e6e1cb7994bab3e | 2026-11-22 |
 | 3 | captures/local_sources/DA-26-1083A1.pdf | local primary (FCC CVAA biennial) | n/a | (local) | 2d9ca2a7759b9deb | 2026-11-22 |
 | 4 | captures/local_sources/tec2026.pdf | local primary (T Ethics Commission lobbyists 2026) | n/a | (local) | 0ed76d6bc6fa0ad6 | 2026-11-22 |
-| 5 | captures/local_sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | (local) | b8523ceb003c17ea | 2026-11-22 |
+| 5 | captures/local_sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | (local) | b8523ceb003c17ea | 2026-11-22 | LOCAL-ONLY-retained-off-repo
 
 | 6 | captures/local_sources/DA-26-1083A1.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/DA-26-1083A1.pdf | n/a | 196,145 | 2d9ca2a7759b9deb | 2026-11-22 |
 | 7 | captures/local_sources/tec2026.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/tec2026.pdf | n/a | 199,441 | 0ed76d6bc6fa0ad6 | 2026-11-22 |
-| 8 | captures/local_sources/txag_meta_2024.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/txag_meta_2024.pdf | n/a | 1,380,187 | b8523ceb003c17ea | 2026-11-22 |
+| 8 | captures/local_sources/txag_meta_2024.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/txag_meta_2024.pdf | n/a | 1,380,187 | b8523ceb003c17ea | 2026-11-22 | LOCAL-ONLY-retained-off-repo
 | 9 | captures/local_sources/txag_meta_2024.ocr.txt | derived: tesseract OCR (200 dpi PNG render) of txag_meta_2024.pdf, all 20 pages (source PDF is scanned images, no text layer) | n/a | 30,091 | e0799d438a283abb | 2026-11-22 |
 | 10 | captures/local_sources/DA-26-1083A1.txt | derived: pdftotext -layout of DA-26-1083A1.pdf (22 pages) | n/a | 86,146 | a65c491c709ae270 | 2026-11-22 |
 | 11 | captures/local_sources/tec2026.txt | derived: pdftotext -layout of tec2026.pdf (66 pages) | n/a | 274,837 | b8fde428b9e8f27f | 2026-11-22 |
@@ -305,11 +305,11 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 260 | captures/icloud_ai_logs/chatgpt-watch-your-step_root.pdf | iCloud Drive (operator AI history) | n/a (local) | 34,420,215 | b7751e68a37cfbcd | 2026-11-22  [duplicate of chatgpt-watch-your-step.pdf row — file removed from captures during disk remediation; primary retained as chatgpt-watch-your-step.pdf (row with sha b7751e68a37cfbcd), OCR in wys_p200_combined.txt]  [PRIMARY REMOVED FOR DISK — full OCR in wys_p200_combined.txt; original sha b7751e68a37cfbcd; source in operator iCloud] |
 | 261 | captures/icloud_ai_logs/chattin_full.txt | iCloud Drive (operator AI history) | n/a (local) | 120 | f6137ebcab1689a6 | 2026-11-22 |
 | 262 | captures/icloud_ai_logs/chattin_obsidian.md | iCloud Drive (operator AI history) | n/a (local) | 1,157 | 834f5a9dbc8ccfd9 | 2026-11-22 |
-| 263 | captures/icloud_ai_logs/chattin_p001-001.png | iCloud Drive (operator AI history) | n/a (local) | 351,905 | 0a190299e7bf8c0c | 2026-11-22 |
+| 263 | captures/icloud_ai_logs/chattin_p001-001.png | iCloud Drive (operator AI history) | n/a (local) | 351,905 | 0a190299e7bf8c0c | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 264 | captures/icloud_ai_logs/chattin_p001-001.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,391 | 190ae9ef95d5c455 | 2026-11-22 |
-| 265 | captures/icloud_ai_logs/chattin_p002-002.png | iCloud Drive (operator AI history) | n/a (local) | 205,735 | afcbe3fe40e870a9 | 2026-11-22 |
+| 265 | captures/icloud_ai_logs/chattin_p002-002.png | iCloud Drive (operator AI history) | n/a (local) | 205,735 | afcbe3fe40e870a9 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 266 | captures/icloud_ai_logs/chattin_p002-002.png.txt | iCloud Drive (operator AI history) | n/a (local) | 1,563 | 9446adeaece50db2 | 2026-11-22 |
-| 267 | captures/icloud_ai_logs/chattin_p003-003.png | iCloud Drive (operator AI history) | n/a (local) | 204,434 | 5f170da3be58ed5b | 2026-11-22 |
+| 267 | captures/icloud_ai_logs/chattin_p003-003.png | iCloud Drive (operator AI history) | n/a (local) | 204,434 | 5f170da3be58ed5b | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 268 | captures/icloud_ai_logs/chattin_p003-003.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,024 | 4388a785d819e7e8 | 2026-11-22 |
 | 269 | captures/icloud_ai_logs/chattin_personal.md | iCloud Drive (operator AI history) | n/a (local) | 1,042 | 212a14df89e6ec26 | 2026-11-22 |
 | 270 | captures/icloud_ai_logs/chattin_with_chatgpt_EXTRACTED.pdf | iCloud Drive (operator AI history) | n/a (local) | 35,582 | 5d772f5f3af48bcd | 2026-11-22 |
@@ -351,13 +351,13 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 306 | captures/icloud_ai_logs/the_system_fails.txt | iCloud Drive (operator AI history) | n/a (local) | 30 | 01a61131a46d28a4 | 2026-11-22 |
 | 307 | captures/icloud_ai_logs/watch_your_step.txt | iCloud Drive (operator AI history) | n/a (local) | 49 | edb4aaea9b65bacb | 2026-11-22 |
 | 308 | captures/icloud_ai_logs/watch_your_step_obsidian.md | iCloud Drive (operator AI history) | n/a (local) | 1,229 | 9cb1f506adf17874 | 2026-11-22 |
-| 309 | captures/icloud_ai_logs/watch_your_step_p001-01.png | iCloud Drive (operator AI history) | n/a (local) | 269,537 | 1dd28302be76e1ea | 2026-11-22 |
+| 309 | captures/icloud_ai_logs/watch_your_step_p001-01.png | iCloud Drive (operator AI history) | n/a (local) | 269,537 | 1dd28302be76e1ea | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 310 | captures/icloud_ai_logs/watch_your_step_p001-01.png.txt | iCloud Drive (operator AI history) | n/a (local) | 325 | 0ffd1103301726a2 | 2026-11-22 |
-| 311 | captures/icloud_ai_logs/watch_your_step_p002-02.png | iCloud Drive (operator AI history) | n/a (local) | 212,204 | 4bb2d09c12349f5f | 2026-11-22 |
+| 311 | captures/icloud_ai_logs/watch_your_step_p002-02.png | iCloud Drive (operator AI history) | n/a (local) | 212,204 | 4bb2d09c12349f5f | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 312 | captures/icloud_ai_logs/watch_your_step_p002-02.png.txt | iCloud Drive (operator AI history) | n/a (local) | 148 | 6337ce9f3a0a649e | 2026-11-22 |
-| 313 | captures/icloud_ai_logs/watch_your_step_p003-03.png | iCloud Drive (operator AI history) | n/a (local) | 225,202 | af16988582d9dbcc | 2026-11-22 |
+| 313 | captures/icloud_ai_logs/watch_your_step_p003-03.png | iCloud Drive (operator AI history) | n/a (local) | 225,202 | af16988582d9dbcc | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 314 | captures/icloud_ai_logs/watch_your_step_p003-03.png.txt | iCloud Drive (operator AI history) | n/a (local) | 88 | c27b552a0bcf0945 | 2026-11-22 |
-| 315 | captures/icloud_ai_logs/wys200_p1-01.png | iCloud Drive (operator AI history) | n/a (local) | 666,913 | 38203f8c1faeb633 | 2026-11-22 |
+| 315 | captures/icloud_ai_logs/wys200_p1-01.png | iCloud Drive (operator AI history) | n/a (local) | 666,913 | 38203f8c1faeb633 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 | 316 | captures/icloud_ai_logs/wys200_p1.txt | iCloud Drive (operator AI history) | n/a (local) | 5,847 | 49c4cea7b3cc1450 | 2026-11-22 |
 | 317 | captures/icloud_ai_logs/wys_p200_combined.txt | iCloud Drive (operator AI history) | n/a (local) | 221,860 | 1e9ebb96f1f6cebe | 2026-11-22 |
 | 318 | captures/icloud_ai_logs/wys_p200_p001_ocr.txt | iCloud Drive (operator AI history) | n/a (local) | 5,847 | 49c4cea7b3cc1450 | 2026-11-22 |
@@ -412,16 +412,16 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 367 | captures/claude_log/Claude_Log.MD | iCloud Drive (operator AI history) | n/a (local) | 17,203 | f75b3477561688ed | 2026-11-22 |
 | 368 | captures/claude_log/openai_export_2024-08-22_conversations.json.gz (gzip of original; sha in gz row) | iCloud Drive (operator AI history) | n/a (local) | 42,258,546 | 81ac7b71104d7ba7 | 2026-11-22 |
 | 369 | captures/claude_log/openai_export_hope_conversations.json.gz (gzip of original; sha in gz row) | iCloud Drive (operator AI history) | n/a (local) | 11,557,021 | 6bd09740db44dbd1 | 2026-11-22 |
-| 370 | captures/claude_log/claude_abuse.pdf | iCloud oct2025uodate/Claude Abuse.pdf | n/a (local) | 9,536,550 | ac23064fc32bfd02 | 2026-11-22 | fs Birth/Mod 2024-11-28 02:54/03:28 (PDF CreationDate 2024-11-28 03:28 CST, Quartz iOS 18.2)  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
+| 370 | captures/claude_log/claude_abuse.pdf | iCloud oct2025uodate/Claude Abuse.pdf | n/a (local) | 9,536,550 | ac23064fc32bfd02 | 2026-11-22 | fs Birth/Mod 2024-11-28 02:54/03:28 (PDF CreationDate 2024-11-28 03:28 CST, Quartz iOS 18.2)  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | LOCAL-ONLY-retained-off-repo
 | 371 | captures/claude_log/claude_abuse_ocr.txt | OCR of embedded images (440 extracted, 31 unique segments) | n/a | 19,823 | 1ad3fc06bc0b808b | 2026-11-22 | |
 
 [2026-11-22, Gemini leg added — operator ICLOUD GEMINI LOGS (advisor gap closure; completing the chatgpt/gemini/siri/claude sweep)]
 | 372 | captures/gemini/g916_p001_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 0 | e3b0c44298fc1c14 | 2026-11-22 | text layer |
-| 373 | captures/gemini/gemini_9162026.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 5,795,664 | 7a90c41c68af3877 | 2026-11-22 | OCR 1 page, 0 chars (image PDF) |
+| 373 | captures/gemini/gemini_9162026.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 5,795,664 | 7a90c41c68af3877 | 2026-11-22 | OCR 1 page, 0 chars (image PDF) | LOCAL-ONLY-retained-off-repo
 | 374 | captures/gemini/gemini_9162026.txt | iCloud Drive (operator Gemini history) | n/a (local) | 1 | ef6cbd2161eaea79 | 2026-11-22 | text layer |
 | 375 | captures/gemini/gemini_flash_lite_text.txt | iCloud Drive (operator Gemini history) | n/a (local) | 73,361 | 0bd5952c0e655d78 | 2026-11-22 | text layer |
 | 376 | captures/gemini/gemini_for_the_children.txt | iCloud Drive (operator Gemini history) | n/a (local) | 35,286 | b92e498666ce76c0 | 2026-11-22 | text layer |
-| 377 | captures/gemini/gemini_illusion_of_ai_control.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 2,238,735 | a1bcb2914f124578 | 2026-11-22 |  |
+| 377 | captures/gemini/gemini_illusion_of_ai_control.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 2,238,735 | a1bcb2914f124578 | 2026-11-22 |  | LOCAL-ONLY-retained-off-repo
 | 378 | captures/gemini/gemini_illusion_of_ai_control.txt | iCloud Drive (operator Gemini history) | n/a (local) | 75,194 | 306a610eef276b30 | 2026-11-22 | text layer |
 | 379 | captures/gemini/gemini_kg.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 250,806 | 01c48f898d517837 | 2026-11-22 |  |
 | 380 | captures/gemini/gemini_kg.txt | iCloud Drive (operator Gemini history) | n/a (local) | 15,599 | ae1062301d4bff46 | 2026-11-22 | text layer |
@@ -432,10 +432,10 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 385 | captures/gemini/gemini_questions_to_gmri.txt | iCloud Drive (operator Gemini history) | n/a (local) | 4,580 | 8e1478c7e8d5b519 | 2026-11-22 | text layer |
 | 386 | captures/gemini/gemini_rabum_alal_endgame.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 69,267 | 8c4bb90ebf61092c | 2026-11-22 |  |
 | 387 | captures/gemini/gemini_rabum_alal_endgame.txt | iCloud Drive (operator Gemini history) | n/a (local) | 2,537 | 9b61472e77ee1117 | 2026-11-22 | text layer |
-| 388 | captures/gemini/gemini_refusal_safety_failure.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 2,015,286 | f0ca567a52445cb8 | 2026-11-22 | OCR 5 pages |
+| 388 | captures/gemini/gemini_refusal_safety_failure.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 2,015,286 | f0ca567a52445cb8 | 2026-11-22 | OCR 5 pages | LOCAL-ONLY-retained-off-repo
 | 389 | captures/gemini/gemini_refusal_safety_failure.txt | iCloud Drive (operator Gemini history) | n/a (local) | 5 | 2e9faebbd47a57f8 | 2026-11-22 | text layer |
-| 390 | captures/gemini/gemini_screencapture_2026-08-19.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 20,371,208 | 37fc0fb5005146d0 | 2026-11-22 | OCR: 200dpi, 35/16 pages OCRed  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
-| 391 | captures/gemini/gemini_screencapture_2026-10-01.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 22,206,392 | f6e35aa73edc3425 | 2026-11-22 | OCR: 200dpi, 35/16 pages OCRed  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
+| 390 | captures/gemini/gemini_screencapture_2026-08-19.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 20,371,208 | 37fc0fb5005146d0 | 2026-11-22 | OCR: 200dpi, 35/16 pages OCRed  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | LOCAL-ONLY-retained-off-repo
+| 391 | captures/gemini/gemini_screencapture_2026-10-01.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 22,206,392 | f6e35aa73edc3425 | 2026-11-22 | OCR: 200dpi, 35/16 pages OCRed  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | LOCAL-ONLY-retained-off-repo
 | 392 | captures/gemini/gemini_screencapture_2026-10-01.txt | iCloud Drive (operator Gemini history) | n/a (local) | 16 | c7f9034fd448868f | 2026-11-22 | text layer |
 | 393 | captures/gemini/gemini_tony_to_gemini.pdf | iCloud Drive (operator Gemini history) | n/a (local) | 444,866 | 6d0805dbd0edaed0 | 2026-11-22 |  |
 | 394 | captures/gemini/gemini_tony_to_gemini.txt | iCloud Drive (operator Gemini history) | n/a (local) | 50,954 | 5b419525e451b951 | 2026-11-22 | text layer |
@@ -542,8 +542,8 @@ ADA Title III / 5th-Circuit *Magee* primary record, DOJ complaint-portal + compl
 | 482 | captures/statutes_fcc_dtpa_ada/doj_ada/defensescoop_openai_200m_2025-06-17.html | https://defensescoop.com/2025/06/17/pentagon-openai-frontier-ai-projects-cdao/ (via Wayback id_) | 200 | 119,047 | 7495b471284cc779 | 2026-11-22 | OpenAI Public Sector $200M prototype OTA detail |
 | 483 | doj_ada/derived_ocr_siri/t0-3_*.txt | OCR (tesseract + pdftocairo) of captures/icloud_ai_logs/siri_zip/siri_evidence/{Siri3.pdf, Siri2(1).pdf, siri-intent1(1).pdf, siri transcrption refusal(1).pdf} | derived | 7,175/9,324/10,118/5,641 | 04fbe243d52281bd / b1f7980d03f50400 / 83f7b86d9d541aa0 / e901753e36fde464 | 2026-11-22 | DERIVED-TIER: OCR of image-only screenshot PDFs; flags ("content flagged by automated systems", "Uh oh, something's wrong" error) present; original PDFs remain the primaries |
 
-| - | captures/claude_log/openai_export_2024-08-22_conversations.json.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 7,927,695 | c84f9119dab5b564 | 2026-11-22 | disk-space remediation |
-| - | captures/claude_log/openai_export_hope_conversations.json.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 2,310,145 | eb4652e73c4079d8 | 2026-11-22 | disk-space remediation |
+| - | captures/claude_log/openai_export_2024-08-22_conversations.json.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 7,927,695 | c84f9119dab5b564 | 2026-11-22 | disk-space remediation | LOCAL-ONLY-retained-off-repo
+| - | captures/claude_log/openai_export_hope_conversations.json.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 2,310,145 | eb4652e73c4079d8 | 2026-11-22 | disk-space remediation | LOCAL-ONLY-retained-off-repo
 | - | captures/blackrock/blk_inc_13fhr_Q3_2026_form13fInfoTable.xml.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 1,078,532 | 164d52e1ed686049 | 2026-11-22 | disk-space remediation |
 
 ## Statute/regulation primaries — captures/statutes_fcc_dtpa_ada/ (agent StatuteCapture, 2026-11-22)
@@ -621,14 +621,14 @@ Blocked/failed attempts (inventory):
 | - | captures/chatgpt_health/openai_health_help_center.html | openai.com or federalregister.gov | 200 | 30,208 | 0c5e4430723927c4 | 2026-11-22 |  |
 | - | captures/chatgpt_health/openai_health_privacy_notice.html | openai.com or federalregister.gov | 200 | 334,792 | 6ca6417a1e047164 | 2026-11-22 | OpenAI HEALTH PRIVACY NOTICE (Updated Nov 19, 2026) — names WA MHMDA + Nevada, no HIPAA language |
 | - | captures/chatgpt_health/openai_privacy_policy_current.html | openai.com or federalregister.gov | 200 | 491,606 | 2f68663b738e2e94 | 2026-11-22 | OpenAI main Privacy Policy (Nov 2026) |
-| - | captures/ada_case_law/ada_caselaw_table_from_corpus.txt | SUMMARIZE-SECURITY-FAILURES.txt (corpus capture) | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | **TIER: DERIVED/SECONDHAND — model-generated case table inside captured transcript; each case below re-captured from named primary source before citation. Not a primary.** |
+| - | captures/ada_case_law/ada_caselaw_table_from_corpus.txt | SUMMARIZE-SECURITY-FAILURES.txt (corpus capture) | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | **TIER: DERIVED/SECONDHAND — model-generated case table inside captured transcript; each case below re-captured from named primary source before citation. Not a primary.** | LOCAL-ONLY-retained-off-repo
 
 [2026-11-22, ADA case-law captures — advisory tier correction]
-| - | captures/ada_case_law/ada_caselaw_dfw_hotspot_watch.txt | various | n/a | 2,403,920 | ddca43406bda144b | 2026-11-22 | Corpus case table (2.4MB) |
-| - | captures/ada_case_law/ada_caselaw_dots_business_availability.txt | various | n/a | 2,624,983 | 6733eb345ed87aab | 2026-11-22 | Corpus case table (2.6MB) |
-| - | captures/ada_case_law/ada_caselaw_evidence_challenge_response.txt | various | n/a | 5,572,706 | 3dbcaf315fb5e0af | 2026-11-22 | Corpus capture (5.5MB) — SECONDHAND source of Mobley + ADA case citations |
-| - | captures/ada_case_law/ada_caselaw_summarize_security_failures.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus case table (851KB) |
-| - | captures/ada_case_law/ada_caselaw_table_from_corpus.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus model-generated ADA case table — DERIVED/SECONDHAND, cited nowhere alone |
+| - | captures/ada_case_law/ada_caselaw_dfw_hotspot_watch.txt | various | n/a | 2,403,920 | ddca43406bda144b | 2026-11-22 | Corpus case table (2.4MB) | LOCAL-ONLY-retained-off-repo
+| - | captures/ada_case_law/ada_caselaw_dots_business_availability.txt | various | n/a | 2,624,983 | 6733eb345ed87aab | 2026-11-22 | Corpus case table (2.6MB) | LOCAL-ONLY-retained-off-repo
+| - | captures/ada_case_law/ada_caselaw_evidence_challenge_response.txt | various | n/a | 5,572,706 | 3dbcaf315fb5e0af | 2026-11-22 | Corpus capture (5.5MB) — SECONDHAND source of Mobley + ADA case citations | LOCAL-ONLY-retained-off-repo
+| - | captures/ada_case_law/ada_caselaw_summarize_security_failures.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus case table (851KB) | LOCAL-ONLY-retained-off-repo
+| - | captures/ada_case_law/ada_caselaw_table_from_corpus.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus model-generated ADA case table — DERIVED/SECONDHAND, cited nowhere alone | LOCAL-ONLY-retained-off-repo
 | - | captures/ada_case_law/al_v_disney_50f4th1097_2022.pdf | various | n/a | 168,966 | 0d77b909c7b8cd30 | 2026-11-22 | A.L. Disney 50 F.4th 1097 real PDF (11th Cir. mobile/park nexus) |
 | - | captures/blocked_attempts/carparts_dist_v_auto_wholesaler_37f3d12_1994.pdf | various | n/a | 5,855 | d7298c661541d7b5 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
 | - | captures/blocked_attempts/gil_v_winndixie_257fsupp3d1340_2017.pdf | various | n/a | 355 | b55db9c9d4f63409 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
