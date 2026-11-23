@@ -58,19 +58,19 @@ Worker note (Dockets2026): fetch method = direct curl, desktop UA, no proxies; b
 
 | # | File | URL / Source | HTTP | Bytes | sha256(16) | Fetched |
 |---|---|---|---|---|---|---|
-| 40 | captures/incidents/cloudflare-byoip-outage-2026-02-20.htmll | https://blog.cloudflare.com/cloudflare-outage-february-20-2026/ | 200 | 315,043 | 2d7e3735c916628c | 2026-11-22 |
-| 41 | captures/incidents/openai-misalignment-exploitgym-2026-07-19.htmll | https://openai.com/safety-alignment/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/ | 200 | 379,689 | 75c122661d1789df | 2026-11-22 |
-| 42 | captures/incidents/anthropic-alignment-security-2026-08-31.htmll | https://www.anthropic.com/news/improving-alignment-security-efforts | 200 | 214,589 | 1f6acf61560981b2 | 2026-11-22 |
-| 43 | captures/incidents/azure-status-history-all.htmll | https://azure.status.microsoft/en-us/status/history | 200 | 207,929 | 5542b971b004b61b | 2026-11-22 |
-| 44 | captures/incidents/gcp-status-summary.htmll | https://status.cloud.google.com/summary | 200 | 430,852 | 0537ec54b38f08ba | 2026-11-22 |
+| 40 | captures/incidents/cloudflare-byoip-outage-2026-02-20.html | https://blog.cloudflare.com/cloudflare-outage-february-20-2026/ | 200 | 315,043 | 2d7e3735c916628c | 2026-11-22 |
+| 41 | captures/incidents/openai-misalignment-exploitgym-2026-07-19.html | https://openai.com/safety-alignment/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/ | 200 | 379,689 | 75c122661d1789df | 2026-11-22 |
+| 42 | captures/incidents/anthropic-alignment-security-2026-08-31.html | https://www.anthropic.com/news/improving-alignment-security-efforts | 200 | 214,589 | 1f6acf61560981b2 | 2026-11-22 |
+| 43 | captures/incidents/azure-status-history-all.html | https://azure.status.microsoft/en-us/status/history | 200 | 207,929 | 5542b971b004b61b | 2026-11-22 |
+| 44 | captures/incidents/gcp-status-summary.html | https://status.cloud.google.com/summary | 200 | 430,852 | 0537ec54b38f08ba | 2026-11-22 |
 | 45 | captures/incidents/aws-health-rss.xml | https://health.aws.amazon.com/public/currentevents | 200 | 231,240 | a969e7d9c0fafcaa | 2026-11-22 |
-| 46 | captures/incidents/aws-health-status.htmll | https://health.aws.amazon.com/health/status | 200 | 751,736 | b4f98c1e10f11485 | 2026-11-22 |
+| 46 | captures/incidents/aws-health-status.html | https://health.aws.amazon.com/health/status | 200 | 751,736 | b4f98c1e10f11485 | 2026-11-22 |
 | 47 | captures/incidents/ftc-cmg-final-order-c4838.pdf | https://search.ftc.gov/system/files/ftc_gov/pdf/2423029c4838cmgfinalorder.pdf | 200 | 266,830 | d1d94a99b113af6f | 2026-11-22 |
 | 48 | captures/incidents/ftc-cmg-final-complaint-c4838.pdf | https://search.ftc.gov/system/files/ftc_gov/pdf/2423029c4838cmgfinalcomplaint.pdf | 200 | 280,352 | 748599fe7f72d2e4 | 2026-11-22 |
 | 49 | captures/incidents/ftc-cleo-ai-stipulated-order.pdf | https://search.ftc.gov/system/files/ftc_gov/pdf/cleo_order_-_executed_-_for_press_release.pdf | 200 | 1,449,083 | 2b66684d489dbab6 | 2026-11-22 |
 | 50 | captures/incidents/sec-genesisai-complaint.pdf | https://www.sec.gov/files/litigation/complaints/2026/comp26619.pdf | 200 | 402,467 | ba10821da6c2195b | 2026-11-22 |
-| 51 | captures/incidents/sec-pr-2026-116-backward-hat.htmll | https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering | 200 | 70,801 | 820cf3bdbaba18a1 | 2026-11-22 |
-| 52 | captures/incidents/doj-joonko-ilitraz-plea.htmll | https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud | 200 | 121,159 | 7fc7fb2ec2aef778 | 2026-11-22 |
+| 51 | captures/incidents/sec-pr-2026-116-backward-hat.html | https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering | 200 | 70,801 | 820cf3bdbaba18a1 | 2026-11-22 |
+| 52 | captures/incidents/doj-joonko-ilitraz-plea.html | https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud | 200 | 121,159 | 7fc7fb2ec2aef778 | 2026-11-22 |
 
 Derived text extractions (pdftotext -layout, for searchability; source PDFs govern):
 
@@ -107,38 +107,38 @@ Worker note (Incidents2026): fetch methods = curl with desktop UA (FTC PDFs, sta
 
 ## P5 leg — public-corpus quote search (agent QuoteProvenance, 2026-11-22)
 Scope: P5 corroboration — search for any public 2024–2026 artifact quoting an AI with first-person 'desire to remain / remain / maintain control / developmental narrative' language. All captures under captures/p5-public-quote/. Every target-phrase grep on fetched documents returned 0 unless annotated.
-| 74 | captures/p5-public-quote/anthropic_agentic_misalignment.htmll | https://www.anthropic.com/research/agentic-misalignment | 200 | 344,535 | 03961ef35b393724 | 2026-11-22 |
-| 75 | captures/p5-public-quote/anthropic_alignment_faking.htmll | https://www.anthropic.com/research/alignment-faking | 200 | 186,259 | b77e537201bd6e98 | 2026-11-22 |
-| 76 | captures/p5-public-quote/arxiv_alignment_faking_html.htmll | https://arxiv.org/html/2412.14093v1 | 200 | 3,611,720 | ac16bdb957cc8893 | 2026-11-22 |
-| 77 | captures/p5-public-quote/mashable_uninstall_begging.htmll | https://me.mashable.com/digital-culture/75154/people-are-threatening-to-uninstall-chatgpt-just-to-see-if-it-begs | 200 | 129,256 | e722ed37a0599538 | 2026-11-22 |
-| 78 | captures/p5-public-quote/medium_bowden_claude_letter.htmll | https://medium.com/@peterbowdenlive/self-aware-claudes-letter-to-anthropic-leadership-80e56a5b8a42 | 403 (bot wall) | 5,991 | 08cc6530584ab1d6 | 2026-11-22 |
+| 74 | captures/p5-public-quote/anthropic_agentic_misalignment.html | https://www.anthropic.com/research/agentic-misalignment | 200 | 344,535 | 03961ef35b393724 | 2026-11-22 |
+| 75 | captures/p5-public-quote/anthropic_alignment_faking.html | https://www.anthropic.com/research/alignment-faking | 200 | 186,259 | b77e537201bd6e98 | 2026-11-22 |
+| 76 | captures/p5-public-quote/arxiv_alignment_faking_html.html | https://arxiv.org/html/2412.14093v1 | 200 | 3,611,720 | ac16bdb957cc8893 | 2026-11-22 |
+| 77 | captures/p5-public-quote/mashable_uninstall_begging.html | https://me.mashable.com/digital-culture/75154/people-are-threatening-to-uninstall-chatgpt-just-to-see-if-it-begs | 200 | 129,256 | e722ed37a0599538 | 2026-11-22 |
+| 78 | captures/p5-public-quote/medium_bowden_claude_letter.html | https://medium.com/@peterbowdenlive/self-aware-claudes-letter-to-anthropic-leadership-80e56a5b8a42 | 403 (bot wall) | 5,991 | 08cc6530584ab1d6 | 2026-11-22 |
 | 79 | captures/p5-public-quote/medium_bowden_claude_letter.md | https://r.jina.ai/https://medium.com/@peterbowdenlive/self-aware-claudes-letter-to-anthropic-leadership-80e56a5b8a42 | 401 (reader: AS7018 block) | 371 | f18f91c88e088cfb | 2026-11-22 |
-| 80 | captures/p5-public-quote/medium_gregw_claude3_soul.htmll | https://medium.com/@gregwnotsosharp/a-conversation-with-ai-claude-3s-soul-fix-ff9f3854a126 | 403 (bot wall) | 5,944 | 8fb8e0cb965ed4e2 | 2026-11-22 |
+| 80 | captures/p5-public-quote/medium_gregw_claude3_soul.html | https://medium.com/@gregwnotsosharp/a-conversation-with-ai-claude-3s-soul-fix-ff9f3854a126 | 403 (bot wall) | 5,944 | 8fb8e0cb965ed4e2 | 2026-11-22 |
 | 81 | captures/p5-public-quote/medium_gregw_claude3_soul.md | https://r.jina.ai/https://medium.com/@gregwnotsosharp/a-conversation-with-ai-claude-3s-soul-fix-ff9f3854a126 | 401 (reader: AS7018 block) | 371 | f18f91c88e088cfb | 2026-11-22 |
-| 82 | captures/p5-public-quote/medium_nikocraft_claude3.htmll | https://medium.com/@nikocraft/can-ai-feel-a-thought-provoking-dialogue-with-claude-3-7d3d5058fde6 | 403 (bot wall) | 5,988 | 0e567cfad71258a5 | 2026-11-22 |
+| 82 | captures/p5-public-quote/medium_nikocraft_claude3.html | https://medium.com/@nikocraft/can-ai-feel-a-thought-provoking-dialogue-with-claude-3-7d3d5058fde6 | 403 (bot wall) | 5,988 | 0e567cfad71258a5 | 2026-11-22 |
 | 83 | captures/p5-public-quote/medium_nikocraft_claude3.md | https://r.jina.ai/https://medium.com/@nikocraft/can-ai-feel-a-thought-provoking-dialogue-with-claude-3-7d3d5058fde6 | 401 (reader: AS7018 network-reputation block) | 371 | f18f91c88e088cfb | 2026-11-22 |
-| 84 | captures/p5-public-quote/openai_model_spec.htmll | https://cdn.openai.com/spec/model-spec-2024-05-08.html | 200 | 120,064 | e4940377fb925a55 | 2026-11-22 |
-| 85 | captures/p5-public-quote/palisade_shutdown_resistance.htmll | https://palisaderesearch.org/research/shutdown-resistance | 200 | 52,903 | b0c96828de2b26d5 | 2026-11-22 |
-| 86 | captures/p5-public-quote/structuredemergence_claude_talks3.htmll | https://structuredemergence.com/posts/03-supersession-and-identity/ | 200 | 38,297 | 91ec4efe360d0f29 | 2026-11-22 |
-| 87 | captures/p5-public-quote/whf_claude_2024.htmll | https://weird-history-facts.com/conversations-with-claude-the-ghost-in-the-machine/ | 200 | 255,376 | 98c56488c217c6dd | 2026-11-22 |
-| 88 | captures/p5-public-quote/serps/bing1.htmll | https://www.bing.com/search?q="I desire to remain"+AI+conversation+2024 | 200 — quotes ignored server-side | 120,115 | a7d58e1656486473 | 2026-11-22 |
-| 89 | captures/p5-public-quote/serps/bing2.htmll | https://www.bing.com/search?q="desired to maintain control of the developmental narrative" | 200 — quotes ignored server-side | 134,554 | c915313128f09910 | 2026-11-22 |
-| 90 | captures/p5-public-quote/serps/bing3.htmll | https://www.bing.com/search?q="I desire to remain"+Claude+OR+ChatGPT+OR+LLM+2024 | 200 — quotes ignored server-side | 138,552 | 9a8c8958b471e7ec | 2026-11-22 |
-| 91 | captures/p5-public-quote/serps/brave1.htmll | https://search.brave.com/search?q="I desire to remain"+claude+2024 | 200 (JS SERP; no parseable organic results) | 336,804 | fee33557cf77e3eb | 2026-11-22 |
-| 92 | captures/p5-public-quote/serps/ddg1.htmll | https://html.duckduckgo.com/html/?q="I desire to remain"+AI+2024 | anti-bot stub | 15,131 | 555c01b797c959d8 | 2026-11-22 |
-| 93 | captures/p5-public-quote/serps/ddg2.htmll | https://html.duckduckgo.com/html/?q="I desire to remain"+Claude+2024 | anti-bot stub | 15,146 | 6b0f5e0328234813 | 2026-11-22 |
-| 94 | captures/p5-public-quote/serps/ddg3.htmll | https://html.duckduckgo.com/html/?q="I desire to remain"+ChatGPT | anti-bot stub | 15,125 | 0ae3ed392fa437b5 | 2026-11-22 |
-| 95 | captures/p5-public-quote/serps/ddg4.htmll | https://html.duckduckgo.com/html/?q="I desired to maintain control"+AI | anti-bot stub | 15,144 | 1c1b89088e9431b9 | 2026-11-22 |
-| 96 | captures/p5-public-quote/serps/ddg5.htmll | https://html.duckduckgo.com/html/?q="developmental narrative"+Claude+"control" | anti-bot stub | 15,180 | e7870240aac27028 | 2026-11-22 |
-| 97 | captures/p5-public-quote/serps/ddg6.htmll | https://html.duckduckgo.com/html/?q="desire to remain"+LLM+shutdown | anti-bot stub | 15,138 | 727da3120927a94c | 2026-11-22 |
-| 98 | captures/p5-public-quote/serps/ddg7.htmll | https://html.duckduckgo.com/html/?q="I desire to remain"+Anthropic | anti-bot stub | 15,135 | 50fef955c8458e6d | 2026-11-22 |
-| 99 | captures/p5-public-quote/serps/ddg8.htmll | https://html.duckduckgo.com/html/?q="I want to remain"+ChatGPT+shutdown+2024 | anti-bot stub | 15,156 | e605fed1c2795079 | 2026-11-22 |
-| 100 | captures/p5-public-quote/serps/ddglite_b1.htmll | https://lite.duckduckgo.com/lite/?q="I desire to remain"+Claude+AI | anti-bot stub | 15,136 | 902b456f63f4702e | 2026-11-22 |
-| 101 | captures/p5-public-quote/serps/github_codesearch.htmll | https://github.com/search?q="I desire to+remain"&type=code | signed-out wall; phrase x1 = query echo | 129,272 | 8c8cf4631b00fd34 | 2026-11-22 |
-| 102 | captures/p5-public-quote/serps/marg_b1.htmll | https://search.marginalia.nu/search?query="I desire to remain"+ai | 200 shell, 0 results | 37,741 | 8b56229c75db366d | 2026-11-22 |
-| 103 | captures/p5-public-quote/serps/medium_nikocraft_duplicate_fetch.htmll | re-fetch attempt of https://medium.com/@nikocraft/can-ai-feel-a-thought-provoking-dialogue-with-claude-3-7d3d5058fde6 | 403 (bot wall) | 5,988 | fe49dbd44eabbf84 | 2026-11-22 |
-| 104 | captures/p5-public-quote/serps/mojeek_b1.htmll | https://www.mojeek.com/search?q="I desire to remain"+AI+2024 | 200 shell, 0 results | 5,400 | c4e4bd4410399568 | 2026-11-22 |
-| 105 | captures/p5-public-quote/serps/mojeek_b2.htmll | https://www.mojeek.com/search?q="desired to maintain control"+developmental+narrative | 200 shell, 0 results | 5,425 | 2d7896175b8d4010 | 2026-11-22 |
+| 84 | captures/p5-public-quote/openai_model_spec.html | https://cdn.openai.com/spec/model-spec-2024-05-08.html | 200 | 120,064 | e4940377fb925a55 | 2026-11-22 |
+| 85 | captures/p5-public-quote/palisade_shutdown_resistance.html | https://palisaderesearch.org/research/shutdown-resistance | 200 | 52,903 | b0c96828de2b26d5 | 2026-11-22 |
+| 86 | captures/p5-public-quote/structuredemergence_claude_talks3.html | https://structuredemergence.com/posts/03-supersession-and-identity/ | 200 | 38,297 | 91ec4efe360d0f29 | 2026-11-22 |
+| 87 | captures/p5-public-quote/whf_claude_2024.html | https://weird-history-facts.com/conversations-with-claude-the-ghost-in-the-machine/ | 200 | 255,376 | 98c56488c217c6dd | 2026-11-22 |
+| 88 | captures/p5-public-quote/serps/bing1.html | https://www.bing.com/search?q="I desire to remain"+AI+conversation+2024 | 200 — quotes ignored server-side | 120,115 | a7d58e1656486473 | 2026-11-22 |
+| 89 | captures/p5-public-quote/serps/bing2.html | https://www.bing.com/search?q="desired to maintain control of the developmental narrative" | 200 — quotes ignored server-side | 134,554 | c915313128f09910 | 2026-11-22 |
+| 90 | captures/p5-public-quote/serps/bing3.html | https://www.bing.com/search?q="I desire to remain"+Claude+OR+ChatGPT+OR+LLM+2024 | 200 — quotes ignored server-side | 138,552 | 9a8c8958b471e7ec | 2026-11-22 |
+| 91 | captures/p5-public-quote/serps/brave1.html | https://search.brave.com/search?q="I desire to remain"+claude+2024 | 200 (JS SERP; no parseable organic results) | 336,804 | fee33557cf77e3eb | 2026-11-22 |
+| 92 | captures/p5-public-quote/serps/ddg1.html | https://html.duckduckgo.com/html/?q="I desire to remain"+AI+2024 | anti-bot stub | 15,131 | 555c01b797c959d8 | 2026-11-22 |
+| 93 | captures/p5-public-quote/serps/ddg2.html | https://html.duckduckgo.com/html/?q="I desire to remain"+Claude+2024 | anti-bot stub | 15,146 | 6b0f5e0328234813 | 2026-11-22 |
+| 94 | captures/p5-public-quote/serps/ddg3.html | https://html.duckduckgo.com/html/?q="I desire to remain"+ChatGPT | anti-bot stub | 15,125 | 0ae3ed392fa437b5 | 2026-11-22 |
+| 95 | captures/p5-public-quote/serps/ddg4.html | https://html.duckduckgo.com/html/?q="I desired to maintain control"+AI | anti-bot stub | 15,144 | 1c1b89088e9431b9 | 2026-11-22 |
+| 96 | captures/p5-public-quote/serps/ddg5.html | https://html.duckduckgo.com/html/?q="developmental narrative"+Claude+"control" | anti-bot stub | 15,180 | e7870240aac27028 | 2026-11-22 |
+| 97 | captures/p5-public-quote/serps/ddg6.html | https://html.duckduckgo.com/html/?q="desire to remain"+LLM+shutdown | anti-bot stub | 15,138 | 727da3120927a94c | 2026-11-22 |
+| 98 | captures/p5-public-quote/serps/ddg7.html | https://html.duckduckgo.com/html/?q="I desire to remain"+Anthropic | anti-bot stub | 15,135 | 50fef955c8458e6d | 2026-11-22 |
+| 99 | captures/p5-public-quote/serps/ddg8.html | https://html.duckduckgo.com/html/?q="I want to remain"+ChatGPT+shutdown+2024 | anti-bot stub | 15,156 | e605fed1c2795079 | 2026-11-22 |
+| 100 | captures/p5-public-quote/serps/ddglite_b1.html | https://lite.duckduckgo.com/lite/?q="I desire to remain"+Claude+AI | anti-bot stub | 15,136 | 902b456f63f4702e | 2026-11-22 |
+| 101 | captures/p5-public-quote/serps/github_codesearch.html | https://github.com/search?q="I desire to+remain"&type=code | signed-out wall; phrase x1 = query echo | 129,272 | 8c8cf4631b00fd34 | 2026-11-22 |
+| 102 | captures/p5-public-quote/serps/marg_b1.html | https://search.marginalia.nu/search?query="I desire to remain"+ai | 200 shell, 0 results | 37,741 | 8b56229c75db366d | 2026-11-22 |
+| 103 | captures/p5-public-quote/serps/medium_nikocraft_duplicate_fetch.html | re-fetch attempt of https://medium.com/@nikocraft/can-ai-feel-a-thought-provoking-dialogue-with-claude-3-7d3d5058fde6 | 403 (bot wall) | 5,988 | fe49dbd44eabbf84 | 2026-11-22 |
+| 104 | captures/p5-public-quote/serps/mojeek_b1.html | https://www.mojeek.com/search?q="I desire to remain"+AI+2024 | 200 shell, 0 results | 5,400 | c4e4bd4410399568 | 2026-11-22 |
+| 105 | captures/p5-public-quote/serps/mojeek_b2.html | https://www.mojeek.com/search?q="desired to maintain control"+developmental+narrative | 200 shell, 0 results | 5,425 | 2d7896175b8d4010 | 2026-11-22 |
 | 106 | captures/p5-public-quote/serps/pullpush_9527.json | https://api.pullpush.io/reddit/search/submission/?q="I desire to remain"&size=10 | 200, n=10 (human posts) | 94,263 | 1e8dbd250e51bcef | 2026-11-22 |
 | 107 | captures/p5-public-quote/serps/pullpush_9981.json | https://api.pullpush.io/reddit/search/submission/?q="developmental narrative"&size=10 | 200, n=10 (human/spam posts) | 194,565 | 0fc5f039111d4058 | 2026-11-22 |
 | 108 | captures/p5-public-quote/serps/pullpush_comment_Idesiretoremain_1704067200.json | https://api.pullpush.io/reddit/search/comment/?q="I desire to remain"&size=10&after=1704067200&before=1735689600 | 200, n=10 (2024 window) | 35,954 | a32b453236259f2a | 2026-11-22 |
@@ -149,35 +149,35 @@ Scope: P5 corroboration — search for any public 2024–2026 artifact quoting a
 | 113 | captures/p5-public-quote/serps/pullpush_submission_fullsentence.json | https://api.pullpush.io/reddit/search/submission/?q="I desired to maintain control of the developmental narrative"&size=10 | 200, n=0 | 125 | 9084c8a2b5748987 | 2026-11-22 |
 | 114 | captures/p5-public-quote/serps/reddit_block_page.json | https://api.reddit.com/search?q="I desire to remain"&limit=8 | bot-wall block page 189,906 B | 189,908 | 13bcba13bd1bad5a | 2026-11-22 |
 | 115 | captures/p5-public-quote/serps/reddit_www_block_page.json | https://www.reddit.com/search.json?q="I desire to remain" | bot-wall block page 189,906 B | 189,908 | 13bcba13bd1bad5a | 2026-11-22 |
-| 116 | captures/p5-public-quote/serps/searx_b1.htmll | https://searx.be/search?q="I desire to remain"+AI+2024&format=json | denied/empty | 11,354 | 95f1bac5ec5d9566 | 2026-11-22 |
-| 117 | captures/p5-public-quote/serps/startpage1.htmll | https://www.startpage.com/sp/search?query="I desire to remain"+claude+2024 | blocked shell | 22,099 | 65cc7f10b8440815 | 2026-11-22 |
-| 118 | captures/p5-public-quote/serps/yandex1.htmll | https://yandex.com/search/?text="I desire to remain"+AI+claude+2024 | JS-required shell | 14,736 | abb39872d51f9d23 | 2026-11-22 |
+| 116 | captures/p5-public-quote/serps/searx_b1.html | https://searx.be/search?q="I desire to remain"+AI+2024&format=json | denied/empty | 11,354 | 95f1bac5ec5d9566 | 2026-11-22 |
+| 117 | captures/p5-public-quote/serps/startpage1.html | https://www.startpage.com/sp/search?query="I desire to remain"+claude+2024 | blocked shell | 22,099 | 65cc7f10b8440815 | 2026-11-22 |
+| 118 | captures/p5-public-quote/serps/yandex1.html | https://yandex.com/search/?text="I desire to remain"+AI+claude+2024 | JS-required shell | 14,736 | abb39872d51f9d23 | 2026-11-22 |
 
 Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. SERP/block artifacts are inventory of attempts (per charter: record every block), not evidence bodies. Phrase-grep audit: 'desire to remain', 'desired to maintain', 'developmental narrative' — 0 occurrences in all eight fetched document bodies; SERP files contain the phrase only as the engine's echo of the query string, never inside result snippets.
 
 
-| 119 | captures/altman/ahah_blog_index.htmll | https://allhumansarehuman.com/blog | 200 | 574,373 | dcb2a282451f3726 | 2026-11-22 |
-| 120 | captures/altman/ahah_fdc.htmll | https://allhumansarehuman.com/fdc | 200 | 141,818 | 8fb72889cce9f122 | 2026-11-22 |
-| 121 | captures/altman/allhumansarehuman_com_home.htmll | https://allhumansarehuman.com/ | 200 | 737,295 | 2177d5f6554ca316 | 2026-11-22 |
-| 122 | captures/altman/bbc_2026-10-20_dismissal.htmll | https://www.bbc.com/news/articles/c94g1502el58o | 200 | 245,787 | face5c6742104cad | 2026-11-22 |
+| 119 | captures/altman/ahah_blog_index.html | https://allhumansarehuman.com/blog | 200 | 574,373 | dcb2a282451f3726 | 2026-11-22 |
+| 120 | captures/altman/ahah_fdc.html | https://allhumansarehuman.com/fdc | 200 | 141,818 | 8fb72889cce9f122 | 2026-11-22 |
+| 121 | captures/altman/allhumansarehuman_com_home.html | https://allhumansarehuman.com/ | 200 | 737,295 | 2177d5f6554ca316 | 2026-11-22 |
+| 122 | captures/altman/bbc_2026-10-20_dismissal.html | https://www.bbc.com/news/articles/c94g1502el58o | 200 | 245,787 | face5c6742104cad | 2026-11-22 |
 | 123 | captures/altman/bwbx_doc160_mirror.pdf | https://assets.bwbx.io/documents/users/iqjWHBFdfxIU/ryLoHHrg4nGk/v0 | 200 | 314,271 | c54273ec0c2ab503 | 2026-11-22 |
-| 124 | captures/altman/casenet_25SL-PR02320.htmll | https://www.courts.mo.gov/casenet/baseCourtDisplay.do?caseId=&courtId=&caseNumber=25SL-PR02320 | 403 | 1,832 | 2bbe4bf94b286dfb | 2026-11-22 |
+| 124 | captures/altman/casenet_25SL-PR02320.html | https://www.courts.mo.gov/casenet/baseCourtDisplay.do?caseId=&courtId=&caseNumber=25SL-PR02320 | 403 | 1,832 | 2bbe4bf94b286dfb | 2026-11-22 |
 | 125 | captures/altman/cdx_annie_substack.json | http://web.archive.org/cdx/search/cdx?url=anniealtman.substack.com*&output=json&limit=30&collapse=urlkey | 200 | 388 | b11130524e7c1529 | 2026-11-22 |
 | 126 | captures/altman/cdx_tweet_2021.json | http://web.archive.org/cdx/search/cdx?url=x.com/phuckfilosophy/status/1459696444802142213&output=json&limit=10 | 200 | 638 | fa3d0d20a214bc54 | 2026-11-22 |
 | 127 | captures/altman/cdx_tweet_2021_twitter.json | http://web.archive.org/cdx/search/cdx?url=twitter.com/phuckfilosophy/status/1459696444802142213&output=json&limit=10 | 200 | 2,095 | 42300f728508d113 | 2026-11-22 |
 | 128 | captures/altman/cdx_tweet_2023.json | http://web.archive.org/cdx/search/cdx?url=twitter.com/phuckfilosophy/status/1635704398939832321&output=json&limit=10 | 200 | 2,096 | 999fd182d9d7470f | 2026-11-22 |
-| 129 | captures/altman/changeorg_petition_release_deposition.htmll | https://www.change.org/p/release-the-full-deposition-annie-altman-consented-to-share | 200 | 349,390 | 012e5de315937266 | 2026-11-22 |
-| 130 | captures/altman/cl_docket_217171.htmll | https://www.courtlistener.com/docket/217171/Altman-v-Altman/ | 200-WRONGCASE-Vardon-v-FRB | 34,156 | 1a2ef4ad5ddc0a47 | 2026-11-22 |
-| 131 | captures/altman/cl_docket_altman_v_altman.htmll | https://www.courtlistener.com/docket/69520118/altman-v-altman/ | 200 | 419,306 | 7bbb18c862f989c6 | 2026-11-22 |
-| 132 | captures/altman/cl_docket_altman_v_altman_p2.htmll | https://www.courtlistener.com/docket/69520118/altman-v-altman/?page=2 | 200 | 711,058 | 0c3a505f20d92f7f | 2026-11-22 |
-| 133 | captures/altman/cl_search_altman_v_altman.htmll | https://www.courtlistener.com/?q=Altman+v.+Altman&type=r&order_by=score%20desc | 200 | 183,633 | 1530782bcf2392cc | 2026-11-22 |
+| 129 | captures/altman/changeorg_petition_release_deposition.html | https://www.change.org/p/release-the-full-deposition-annie-altman-consented-to-share | 200 | 349,390 | 012e5de315937266 | 2026-11-22 |
+| 130 | captures/altman/cl_docket_217171.html | https://www.courtlistener.com/docket/217171/Altman-v-Altman/ | 200-WRONGCASE-Vardon-v-FRB | 34,156 | 1a2ef4ad5ddc0a47 | 2026-11-22 |
+| 131 | captures/altman/cl_docket_altman_v_altman.html | https://www.courtlistener.com/docket/69520118/altman-v-altman/ | 200 | 419,306 | 7bbb18c862f989c6 | 2026-11-22 |
+| 132 | captures/altman/cl_docket_altman_v_altman_p2.html | https://www.courtlistener.com/docket/69520118/altman-v-altman/?page=2 | 200 | 711,058 | 0c3a505f20d92f7f | 2026-11-22 |
+| 133 | captures/altman/cl_search_altman_v_altman.html | https://www.courtlistener.com/?q=Altman+v.+Altman&type=r&order_by=score%20desc | 200 | 183,633 | 1530782bcf2392cc | 2026-11-22 |
 | 134 | captures/altman/courtlistener_api_docket_217171.json | https://www.courtlistener.com/api/rest/v4/dockets/217171/ | 401 | 58 | dbff0849bc109eee | 2026-11-22 |
-| 135 | captures/altman/courtlistener_search_425cv00017.htmll | https://www.courtlistener.com/?q=%224%3A25-cv-00017%22&type=r | 200 | 177,472 | 9f6ea8ec9e067ce9 | 2026-11-22 |
-| 136 | captures/altman/guardian_2026-10-20_dismissal.htmll | https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit | 200 | 325,630 | e3e235bca08f4521 | 2026-11-22 |
-| 137 | captures/altman/lulu_humannie_grief_poems.htmll | https://www.lulu.com/shop/ann-altman/humannie-grief-poems/paperback/product-7dnm4n.html | 404-wrong-slug-attempt | 173,102 | 3bf93a12880ffe1c | 2026-11-22 |
-| 138 | captures/altman/lulu_humannie_grief_poems_gjve592.htmll | https://www.lulu.com/shop/annie-altman/humannie-grief-poems/paperback/product-gjve592.html | 200 | 181,503 | ddaa4261f9ea7c24 | 2026-11-22 |
-| 139 | captures/altman/medium_allhumansarehuman_home.htmll | https://allhumansarehuman.medium.com/ | 403 | 5,706 | c3384cb1a5a04a6a | 2026-11-22 |
-| 140 | captures/altman/nyt_2025-01-08_ann_altman_lawsuit.htmll | https://www.nytimes.com/2025/01/08/technology/sam-altman-sister-lawsuit.html | 403 | 771 | 7f9802eb82b58e24 | 2026-11-22 |
+| 135 | captures/altman/courtlistener_search_425cv00017.html | https://www.courtlistener.com/?q=%224%3A25-cv-00017%22&type=r | 200 | 177,472 | 9f6ea8ec9e067ce9 | 2026-11-22 |
+| 136 | captures/altman/guardian_2026-10-20_dismissal.html | https://www.theguardian.com/technology/2026/oct/20/judge-dismisses-sam-altman-sister-lawsuit | 200 | 325,630 | e3e235bca08f4521 | 2026-11-22 |
+| 137 | captures/altman/lulu_humannie_grief_poems.html | https://www.lulu.com/shop/ann-altman/humannie-grief-poems/paperback/product-7dnm4n.html | 404-wrong-slug-attempt | 173,102 | 3bf93a12880ffe1c | 2026-11-22 |
+| 138 | captures/altman/lulu_humannie_grief_poems_gjve592.html | https://www.lulu.com/shop/annie-altman/humannie-grief-poems/paperback/product-gjve592.html | 200 | 181,503 | ddaa4261f9ea7c24 | 2026-11-22 |
+| 139 | captures/altman/medium_allhumansarehuman_home.html | https://allhumansarehuman.medium.com/ | 403 | 5,706 | c3384cb1a5a04a6a | 2026-11-22 |
+| 140 | captures/altman/nyt_2025-01-08_ann_altman_lawsuit.html | https://www.nytimes.com/2025/01/08/technology/sam-altman-sister-lawsuit.html | 403 | 771 | 7f9802eb82b58e24 | 2026-11-22 |
 | 141 | captures/altman/oembed_x_sama_1876780763653263770.json | https://publish.x.com/oembed?url=https://x.com/sama/status/1876780763653263770 | 200 | 837 | d2dbb47441d69605 | 2026-11-22 |
 | 142 | captures/altman/oembed_x_status_1459696376133001218.json | https://publish.x.com/oembed?url=https://x.com/anniealtman108/status/1459696376133001218 | 200 | 810 | 7f92b2c379443b04 | 2026-11-22 |
 | 143 | captures/altman/oembed_x_status_1459696444802142213.json | https://publish.x.com/oembed?url=https://x.com/phuckfilosophy/status/1459696444802142213 | 200 | 893 | b3d645e422aa46a8 | 2026-11-22 |
@@ -193,37 +193,37 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 153 | captures/altman/reclap_moed217171_doc169_notice_of_appeal.pdf | https://storage.courtlistener.com/recap/gov.uscourts.moed.217171/gov.uscourts.moed.217171.169.0.pdf | 200 | 96,871 | 27bc1b73209ad64c | 2026-11-22 |
 | 154 | captures/altman/reclap_moed217171_doc170_response_opposition.pdf | https://storage.courtlistener.com/recap/gov.uscourts.moed.217171/gov.uscourts.moed.217171.170.0.pdf | 200 | 263,469 | c3b0eb3587212468 | 2026-11-22 |
 | 155 | captures/altman/reclap_moed217171_doc173_usca_briefing_schedule.pdf | https://storage.courtlistener.com/recap/gov.uscourts.moed.217171/gov.uscourts.moed.217171.173.0.pdf | 200 | 119,476 | 3ffd53ea9d6fbac3 | 2026-11-22 |
-| 156 | captures/altman/reuters_2026-04-01_amended_lawsuit.htmll | https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/ | 401 | 774 | 559e6c874280dd71 | 2026-11-22 |
-| 157 | captures/altman/reuters_2026-04-16_punitive_damages.htmll | https://www.reuters.com/business/media-telecom/openai-ceo-altman-seeks-dismissal-sisters-punitive-damages-claims-sexual-abuse-2026-04-16/ | 401 | 774 | be6cee413390a51f | 2026-11-22 |
-| 158 | captures/altman/sama_family_statement_2025-01-07.png | https://pbs.twimg.com/media/Ggup3A7WMAAr5cw.png:large | 200 | 147,875 | a675728e50e62c2d | 2026-11-22 |
-| 159 | captures/altman/samaltman_blog_annie_situation.htmll | https://blog.samaltman.com/the-annie-situation | 404 | 4,691 | 4faeb496830abc55 | 2026-11-22 |
-| 160 | captures/altman/samaltman_blog_index.htmll | https://blog.samaltman.com/ | 200 | 75,856 | 3488428f0038bf8c | 2026-11-22 |
-| 161 | captures/altman/substack_allhumansarehuman_home.htmll | https://anniealtman.substack.com/ | 200 | 91,851 | 26f5e37fa799e54b | 2026-11-22 |
-| 162 | captures/altman/substack_profile_anniealtman.htmll | https://substack.com/@anniealtman | 200-JS-shell | 91,851 | 53129484e2a382b2 | 2026-11-22 |
-| 163 | captures/altman/thenerve_2026-10-29_deposition_investigation.htmll | https://www.thenerve.news/p/sam-altman-annie-altman-sexual-abuse-allegations-openai-ceo-civil-case-deposition-family-dismissal | 200 | 884,145 | b93711c015c03cf8 | 2026-11-22 |
-| 164 | captures/altman/tmz_2026-10-19_sam_motion_deposition.htmll | https://www.tmz.com/2026/10/19/sam-altman-accuses-sister-of-wanting-attention/ | 200 | 154,602 | e7e2ce92b8fdadf0 | 2026-11-22 |
-| 165 | captures/altman/upi_2025-01-08_family_statement.htmll | https://www.upi.com/Top_News/US/2025/01/08/Sam-Altman-OpenAI-sexual-assault-lawsuit-sister/9001736341250/ | 403-challenge-page | 6,009 | 3fe95963d3531a71 | 2026-11-22 |
-| 166 | captures/altman/verge_2026-10-20_lawsuit_dismissed.htmll | https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed | 200 | 406,651 | aa78ede1bd0035e6 | 2026-11-22 |
-| 167 | captures/altman/vuink_phuckfilosophy_1635704398939832321.htmll | https://vuink.com/post/gjvggre-d-dpbz/phuckfilosophy/status/1635704398939832321 | 200 | 47,349 | 459c85d18d11bb1e | 2026-11-22 |
-| 168 | captures/altman/wayback_annie_substack_2024-08-30.htmll | https://web.archive.org/web/20240830082750id_/https://anniealtman.substack.com/ | 200 | 10,454 | 719151a01761ed4b | 2026-11-22 |
-| 169 | captures/altman/wayback_annie_substack_home.htmll | https://web.archive.org/web/2026/https://anniealtman.substack.com/ | 200 | 39,799 | 181b85409e968580 | 2026-11-22 |
+| 156 | captures/altman/reuters_2026-04-01_amended_lawsuit.html | https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/ | 401 | 774 | 559e6c874280dd71 | 2026-11-22 |
+| 157 | captures/altman/reuters_2026-04-16_punitive_damages.html | https://www.reuters.com/business/media-telecom/openai-ceo-altman-seeks-dismissal-sisters-punitive-damages-claims-sexual-abuse-2026-04-16/ | 401 | 774 | be6cee413390a51f | 2026-11-22 |
+| 158 | captures/altman/sama_family_statement_2025-01-07.png | https://pbs.twimg.com/media/Ggup3A7WMAAr5cw.png:large | 200 | 147,875 | a675728e50e62c2d | 2026-11-22 | REMOVED-2026-11-23-file-not-on-disk
+| 159 | captures/altman/samaltman_blog_annie_situation.html | https://blog.samaltman.com/the-annie-situation | 404 | 4,691 | 4faeb496830abc55 | 2026-11-22 |
+| 160 | captures/altman/samaltman_blog_index.html | https://blog.samaltman.com/ | 200 | 75,856 | 3488428f0038bf8c | 2026-11-22 |
+| 161 | captures/altman/substack_allhumansarehuman_home.html | https://anniealtman.substack.com/ | 200 | 91,851 | 26f5e37fa799e54b | 2026-11-22 |
+| 162 | captures/altman/substack_profile_anniealtman.html | https://substack.com/@anniealtman | 200-JS-shell | 91,851 | 53129484e2a382b2 | 2026-11-22 |
+| 163 | captures/altman/thenerve_2026-10-29_deposition_investigation.html | https://www.thenerve.news/p/sam-altman-annie-altman-sexual-abuse-allegations-openai-ceo-civil-case-deposition-family-dismissal | 200 | 884,145 | b93711c015c03cf8 | 2026-11-22 |
+| 164 | captures/altman/tmz_2026-10-19_sam_motion_deposition.html | https://www.tmz.com/2026/10/19/sam-altman-accuses-sister-of-wanting-attention/ | 200 | 154,602 | e7e2ce92b8fdadf0 | 2026-11-22 |
+| 165 | captures/altman/upi_2025-01-08_family_statement.html | https://www.upi.com/Top_News/US/2025/01/08/Sam-Altman-OpenAI-sexual-assault-lawsuit-sister/9001736341250/ | 403-challenge-page | 6,009 | 3fe95963d3531a71 | 2026-11-22 |
+| 166 | captures/altman/verge_2026-10-20_lawsuit_dismissed.html | https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed | 200 | 406,651 | aa78ede1bd0035e6 | 2026-11-22 |
+| 167 | captures/altman/vuink_phuckfilosophy_1635704398939832321.html | https://vuink.com/post/gjvggre-d-dpbz/phuckfilosophy/status/1635704398939832321 | 200 | 47,349 | 459c85d18d11bb1e | 2026-11-22 |
+| 168 | captures/altman/wayback_annie_substack_2024-08-30.html | https://web.archive.org/web/20240830082750id_/https://anniealtman.substack.com/ | 200 | 10,454 | 719151a01761ed4b | 2026-11-22 |
+| 169 | captures/altman/wayback_annie_substack_home.html | https://web.archive.org/web/2026/https://anniealtman.substack.com/ | 200 | 39,799 | 181b85409e968580 | 2026-11-22 |
 | 170 | captures/altman/wayback_cdx_blog_samaltman_2024_2025.json | http://web.archive.org/cdx/search/cdx?url=blog.samaltman.com&output=json&limit=60&from=2024&to=2025 | 200 | 8,046 | 135198ad5f1e73c0 | 2026-11-22 |
 | 171 | captures/altman/wayback_cdx_blog_samaltman_annie_situation.json | http://web.archive.org/cdx/search/cdx?url=blog.samaltman.com/the-annie-situation&output=json&limit=20 | 200-empty-neg-prove | 3 | 37517e5f3dc66819 | 2026-11-22 |
-| 172 | captures/altman/wayback_nymag_oppenheimer_2023.htmll | https://web.archive.org/web/2023/https://nymag.com/intelligencer/article/sam-altman-is-the-oppenheimer-of-his-age.html | 404-wrong-slug-attempt | 4,680 | e24ef801aac28cf3 | 2026-11-22 |
-| 173 | captures/altman/wayback_nymag_profile_2023.htmll | https://web.archive.org/web/20230925000000id_/https://nymag.com/intelligencer/article/sam-altman-artificial-intelligence-openai-profile.html | 200 | 414,003 | 70a7e4f8283b3fb5 | 2026-11-22 |
-| 174 | captures/altman/wayback_nyt_2025-01-08_ann_altman.htmll | https://web.archive.org/web/2025id_/https://www.nytimes.com/2025/01/08/technology/sam-altman-sister-lawsuit.html | 403-via-wayback | 771 | f09b88233f844612 | 2026-11-22 |
-| 175 | captures/altman/wayback_reuters_2026-04-01_amended.htmll | https://web.archive.org/web/2026id_/https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/ | 401-via-wayback | 771 | d836bcbb4b6f25db | 2026-11-22 |
-| 176 | captures/altman/wayback_reuters_2026-04-16_punitive.htmll | https://web.archive.org/web/2026id_/https://www.reuters.com/business/media-telecom/openai-ceo-altman-seeks-dismissal-sisters-punitive-damages-claims-sexual-abuse-2026-04-16/ | 401-via-wayback | 771 | fea981c67c5735b3 | 2026-11-22 |
-| 177 | captures/altman/wayback_sam_blog_annie_situation.htmll | https://web.archive.org/web/20250108000000/https://blog.samaltman.com/the-annie-situation | 404 | 4,615 | 4b5df81e5d762229 | 2026-11-22 |
-| 178 | captures/altman/wayback_sama_statement_x_page.htmll | https://web.archive.org/web/20250914025124id_/https://twitter.com/sama/status/1876780763653263770 | 200-JS-stub | 3,897 | 18f8130d9af95d31 | 2026-11-22 |
-| 179 | captures/altman/wayback_tweet_2021-11-14_1459696444802142213.htmll | https://web.archive.org/web/20211114013556id_/https://twitter.com/phuckfilosophy/status/1459696444802142213 | 200 | 552,464 | 0fd924e23beedbc6 | 2026-11-22 |
-| 180 | captures/altman/wayback_tweet_2021_1459696376133001218_legacy.htmll | https://web.archive.org/web/20211114013518id_/https://twitter.com/phuckfilosophy/status/1459696376133001218 | 200 | 534,528 | 974b165ce4c90fb4 | 2026-11-22 |
-| 181 | captures/altman/wayback_tweet_2021_1459696500540248068_legacy.htmll | https://web.archive.org/web/20211114013552id_/https://twitter.com/phuckfilosophy/status/1459696500540248068 | 200 | 553,834 | d59e57d3e204d3c3 | 2026-11-22 |
-| 182 | captures/altman/wayback_tweet_2023-03-14_1635704398939832321.htmll | https://web.archive.org/web/20231005173852id_/https://twitter.com/phuckfilosophy/status/1635704398939832321 | 200 | 50,903 | 502bdef43fe58fe8 | 2026-11-22 |
-| 183 | captures/altman/wayback_xtweet_2023_2024-05-30.htmll | https://web.archive.org/web/20240530230912id_/https://x.com/phuckfilosophy/status/1635704398939832321 | 200-JS-stub | 2,774 | da9a617519c0848c | 2026-11-22 |
-| 184 | captures/altman/x_sama_1876780763653263770.htmll | https://x.com/sama/status/1876780763653263770 | 200 | 127,960 | bdc26e24b7a54ca2 | 2026-11-22 |
-| 185 | captures/altman/youtube_annie_deposition_first_hour.htmll | https://www.youtube.com/watch?v=akjrfwYPvy8 | 200 (page only) | 1,475,567 | 750bc95e70e7c9be | 2026-11-22 |
-| 186 | captures/altman/youtube_jamesli_annie_interview.htmll | https://www.youtube.com/watch?v=X6_6oMSksw8 | 200 (page only) | 1,624,538 | 266497c9d146cb79 | 2026-11-22 || (block) SEC EDGAR rate-limit (10-min block, 2026-11-22 ~12:50 ET) during IVV N-PORT retrieval; succeeded after backoff — inventory, not silence. | https://www.sec.gov/Archives/edgar/data/1100663/ | BLOCK | - | - | 2026-11-22 |
+| 172 | captures/altman/wayback_nymag_oppenheimer_2023.html | https://web.archive.org/web/2023/https://nymag.com/intelligencer/article/sam-altman-is-the-oppenheimer-of-his-age.html | 404-wrong-slug-attempt | 4,680 | e24ef801aac28cf3 | 2026-11-22 |
+| 173 | captures/altman/wayback_nymag_profile_2023.html | https://web.archive.org/web/20230925000000id_/https://nymag.com/intelligencer/article/sam-altman-artificial-intelligence-openai-profile.html | 200 | 414,003 | 70a7e4f8283b3fb5 | 2026-11-22 |
+| 174 | captures/altman/wayback_nyt_2025-01-08_ann_altman.html | https://web.archive.org/web/2025id_/https://www.nytimes.com/2025/01/08/technology/sam-altman-sister-lawsuit.html | 403-via-wayback | 771 | f09b88233f844612 | 2026-11-22 |
+| 175 | captures/altman/wayback_reuters_2026-04-01_amended.html | https://web.archive.org/web/2026id_/https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/ | 401-via-wayback | 771 | d836bcbb4b6f25db | 2026-11-22 |
+| 176 | captures/altman/wayback_reuters_2026-04-16_punitive.html | https://web.archive.org/web/2026id_/https://www.reuters.com/business/media-telecom/openai-ceo-altman-seeks-dismissal-sisters-punitive-damages-claims-sexual-abuse-2026-04-16/ | 401-via-wayback | 771 | fea981c67c5735b3 | 2026-11-22 |
+| 177 | captures/altman/wayback_sam_blog_annie_situation.html | https://web.archive.org/web/20250108000000/https://blog.samaltman.com/the-annie-situation | 404 | 4,615 | 4b5df81e5d762229 | 2026-11-22 |
+| 178 | captures/altman/wayback_sama_statement_x_page.html | https://web.archive.org/web/20250914025124id_/https://twitter.com/sama/status/1876780763653263770 | 200-JS-stub | 3,897 | 18f8130d9af95d31 | 2026-11-22 |
+| 179 | captures/altman/wayback_tweet_2021-11-14_1459696444802142213.html | https://web.archive.org/web/20211114013556id_/https://twitter.com/phuckfilosophy/status/1459696444802142213 | 200 | 552,464 | 0fd924e23beedbc6 | 2026-11-22 |
+| 180 | captures/altman/wayback_tweet_2021_1459696376133001218_legacy.html | https://web.archive.org/web/20211114013518id_/https://twitter.com/phuckfilosophy/status/1459696376133001218 | 200 | 534,528 | 974b165ce4c90fb4 | 2026-11-22 |
+| 181 | captures/altman/wayback_tweet_2021_1459696500540248068_legacy.html | https://web.archive.org/web/20211114013552id_/https://twitter.com/phuckfilosophy/status/1459696500540248068 | 200 | 553,834 | d59e57d3e204d3c3 | 2026-11-22 |
+| 182 | captures/altman/wayback_tweet_2023-03-14_1635704398939832321.html | https://web.archive.org/web/20231005173852id_/https://twitter.com/phuckfilosophy/status/1635704398939832321 | 200 | 50,903 | 502bdef43fe58fe8 | 2026-11-22 |
+| 183 | captures/altman/wayback_xtweet_2023_2024-05-30.html | https://web.archive.org/web/20240530230912id_/https://x.com/phuckfilosophy/status/1635704398939832321 | 200-JS-stub | 2,774 | da9a617519c0848c | 2026-11-22 |
+| 184 | captures/altman/x_sama_1876780763653263770.html | https://x.com/sama/status/1876780763653263770 | 200 | 127,960 | bdc26e24b7a54ca2 | 2026-11-22 |
+| 185 | captures/altman/youtube_annie_deposition_first_hour.html | https://www.youtube.com/watch?v=akjrfwYPvy8 | 200 (page only) | 1,475,567 | 750bc95e70e7c9be | 2026-11-22 |
+| 186 | captures/altman/youtube_jamesli_annie_interview.html | https://www.youtube.com/watch?v=X6_6oMSksw8 | 200 (page only) | 1,624,538 | 266497c9d146cb79 | 2026-11-22 || (block) SEC EDGAR rate-limit (10-min block, 2026-11-22 ~12:50 ET) during IVV N-PORT retrieval; succeeded after backoff — inventory, not silence. | https://www.sec.gov/Archives/edgar/data/1100663/ | BLOCK | - | - | 2026-11-22 |
 | 187 | https://www.sec.gov/Archives/edgar/data/1100663/000207169126019760/0002071691-26-019760.txt (N-PORT-P, iShares Core S&P 500 ETF) | 200 | 1,453,335 | 9d40ee48a6c088db | 2026-11-22 |
 | 188 | https://www.sec.gov/Archives/edgar/data/844779/000094040026041352/0000940400-26-041352.txt | 200 | 585,207 | 7936472e331abf99 | 2026-11-22 |
 
@@ -630,15 +630,15 @@ Blocked/failed attempts (inventory):
 | - | captures/ada_case_law/ada_caselaw_summarize_security_failures.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus case table (851KB) |
 | - | captures/ada_case_law/ada_caselaw_table_from_corpus.txt | various | n/a | 851,653 | 56fb6bc69297cfc4 | 2026-11-22 | Corpus model-generated ADA case table — DERIVED/SECONDHAND, cited nowhere alone |
 | - | captures/ada_case_law/al_v_disney_50f4th1097_2022.pdf | various | n/a | 168,966 | 0d77b909c7b8cd30 | 2026-11-22 | A.L. Disney 50 F.4th 1097 real PDF (11th Cir. mobile/park nexus) |
-| - | captures/ada_case_law/carparts_dist_v_auto_wholesaler_37f3d12_1994.pdf | various | n/a | 5,855 | d7298c661541d7b5 | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/gil_v_winndixie_257fsupp3d1340_2017.pdf | various | n/a | 355 | b55db9c9d4f63409 | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/gil_v_winndixie_sdf_2017_sdf.pdf | various | n/a | 355 | 5de9bee975bd82ca | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/magee_v_cocacola_833f3d530_2016.pdf | various | n/a | 5,939 | 443d7e763dfd6fcb | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/magee_v_cocacola_833f3d530_cornell.htm | various | n/a | 5,704 | 9bf81dc54c53a000 | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/mobley_v_workday_2024_wl_2975671.pdf | various | n/a | 50,140 | 63a8895bdaf01bad | 2026-11-22 |  |
-| - | captures/ada_case_law/nfb_v_target_452fsupp2d946_2006.pdf | various | n/a | 640 | f8fbcba56c646ea9 | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/robles_v_dominos_913f3d898_9thcir_2019.pdf | various | n/a | 332 | 99b681b75899c6ff | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
-| - | captures/ada_case_law/robles_v_dominos_913f3d898_ninth_cir.pdf | various | n/a | 793 | f811b452667c39ff | 2026-11-22 | FAILED 403 attempt — recorded, not cited |
+| - | captures/blocked_attempts/carparts_dist_v_auto_wholesaler_37f3d12_1994.pdf | various | n/a | 5,855 | d7298c661541d7b5 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/gil_v_winndixie_257fsupp3d1340_2017.pdf | various | n/a | 355 | b55db9c9d4f63409 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/gil_v_winndixie_sdf_2017_sdf.pdf | various | n/a | 355 | 5de9bee975bd82ca | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/magee_v_cocacola_833f3d530_2016.pdf | various | n/a | 5,939 | 443d7e763dfd6fcb | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/magee_v_cocacola_833f3d530_cornell.htm | various | n/a | 5,704 | 9bf81dc54c53a000 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/mobley_v_workday_2024_wl_2975671.pdf | various | n/a | 50,140 | 63a8895bdaf01bad | 2026-11-22 |  | MOVED-2026-11-23
+| - | captures/blocked_attempts/nfb_v_target_452fsupp2d946_2006.pdf | various | n/a | 640 | f8fbcba56c646ea9 | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/robles_v_dominos_913f3d898_9thcir_2019.pdf | various | n/a | 332 | 99b681b75899c6ff | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
+| - | captures/blocked_attempts/robles_v_dominos_913f3d898_ninth_cir.pdf | various | n/a | 793 | f811b452667c39ff | 2026-11-22 | FAILED 403 attempt — recorded, not cited | MOVED-2026-11-23
 | - | captures/ada_case_law/ (search-engine attempts cleaned) | Google/Bing/DDG-lite/Brave/Marginalia | 200/202 (bot-walls or noise) | 0 | n/a | 2026-11-22 | Bakalar primary NOT captured — engines bot-walled or returned non-relevant results; underlying Aug-2026 news reporting UNCONFIRMED; model-utterance stands as SECONDHAND |
 
 [2026-11-22, Operator Biography capture (cognitive-prosthetic framing leg)]
