@@ -8,11 +8,11 @@
 
 ---
 
-## PART A — HIS PROFESSED STANDARD (his own words, VERIFIED)
+## PART A — HIS PROFESSED STANDARD (his own words where a Gates-authored primary exists; Wikipedia/summary tier otherwise)
 
 1. **The Gates Foundation (founded 2000, captured: `gates_foundation_about.html`, VERIFIED quote):** "We fund and bring together people and organizations in the global health and development sectors so we can collectively accelerate progress on urgent issues."
 2. **"Fighting poverty, disease, and inequity around the world"** (Breakthrough Energy capture, VERIFIED: "chair of the Gates Foundation, a nonprofit fighting poverty, disease, and inequity around the world").
-3. **How to Avoid a Climate Disaster (2021 book; row-captured Wikipédia article):** "The Solutions We Have and the Breakthroughs We Need"; "zero by 2050" framing; the "green premium" concept.
+3. **How to Avoid a Climate Disaster (2021 book; Wikipedia summary capture):** The book’s subtitle is "The Solutions We Have and the Breakthroughs We Need"; the capture’s sections include "Get to zero rather than simply reducing emissions" and "Gates’ plan to get to net zero emissions" — the green-premium concept is reported, not captured verbatim her.
 4. **How to Prevent the Next Pandemic (2022 book; row-captured):** "we're not ready" / the "GERM team" proposal.
 5. **Source Code: My Beginnings (2025 memoir; row-captured Wikipedia):** his autobiographical framing.
 6. **Breakthrough Energy (row-captured `breakthrough_energy_home.html`, VERIFIED):** "a global platform to accelerate clean energy innovation and build the industries of the future. Energy is prosperity."
@@ -20,7 +20,7 @@
 
 ### A2. The record laid against it
 
-**The Jeffrey Epstein relationship (reported, SECONDHAND; CNBC + Guardian + Reuters + NYT + Telegraph all captured here):**
+**The Jeffrey Epstein relationship (reported, SECONDHAND; CNBC and Guardian captured here; named targets for Reuters/NYT/Telegraph):**
 - **Gates's own words (CNBC capture, VERIFIED):** "I met him. I didn't have any business relationship or friendship with him. I didn't go to New Mexico or Florida or Palm Beach or any of that... There were people around him who were saying, hey, if you want to raise money for global health and get more philanthropy, he knows a lot of rich people." Also: "Every meeting where I was with him were meetings with men... I was never at any parties or anything like that."
 - **Gates's spokesperson to WSJ (captured):** "Bill Gates regrets ever meeting with Epstein and recognises it was an error in judgment to do so."
 - **The reporting record (Guardian + CNBC, both captured, VERIFIED):** "at least three of Bill Gates's and Epstein's meetings were held at Mr Epstein's palatial Manhattan townhouse and involved Bill at least once staying late into the night" (NYT, quoted by Guardian). "Bill Gates's net worth stands at an estimated $130.5bn." Epstein died in jail Aug 2019.
