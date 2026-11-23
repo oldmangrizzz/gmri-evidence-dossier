@@ -90,11 +90,11 @@ No truth verdict on any allegation is offered anywhere in this file. Every alleg
 **The trust question — from inside OpenAI itself (2026-04 New Yorker profile by Ronan Farrow & Andrew Marantz, row 774 — VERIFIED quotes):**
 - Sutskever (as deposed/reported): "I don't think Sam is the guy who should have his finger on the button." A compiled 70-page dossier of Slack messages + H.R. documents "included images taken with a cellphone, apparently to avoid detection on company devices."
 - Board basis for the 2023 removal: "was not consistently candid in his communications" (also in our Nov-2023 captures).
-- Reported conduct during the return (attributed to "someone with knowledge of the conversation"): Altman conveyed to Murati that his allies were "going all out" and "finding bad things" to damage her reputation.
+- Reported conduct during the return (attributed to "someone with knowledge of the conversation"): Altman conveyed to Murati that his allies were "going all out" and "finding bad things" to damage her reputation — and the same capture sentence carries the paired non-recollection: "(Altman does not recall the exchange.)" [CORRECTED 2026-11-23: denial added to match the capture.]
 - Sutskever deposition reporting (row 735, on disk earlier): a 52-page memo of concerns sent to three board members but NOT to Altman — "Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear."
 
 **On safety-vs-empowerment commitments:**
-- "Publicly welcomed regulation, quietly lobbied against it" (Farrow/Marantz, row 774): per TIME-cited reporting, OpenAI pressed to dilute the EU AI Act (2022–23); California SB 1047 mandating safety testing was vetoed after a campaign the article details (including an incident with Encode's Nathan Calvin — captured in full).
+- The regulation gap: "as Altman publicly welcomed regulation, he quietly lobbied against it" (Farrow/Marantz, row 774 — quote aligned to the capture’s exact lowercase sentence, re-verified [CORRECTED 2026-11-23]): per TIME-cited reporting, OpenAI pressed to dilute the EU AI Act (2022–23); California SB 1047 mandating safety testing was vetoed after a campaign the article details (including an incident with Encode's Nathan Calvin — captured in full).
 - Brockman (co-founder) committed **$50M to Leading the Future**, the anti-regulation super PAC — while OpenAI's official stance is non-contribution (row 774).
 - Altman personally: helped draft the Biden EO ("a good start"); after the election, **$1M donated to Trump's inaugural fund** (row 774).
 

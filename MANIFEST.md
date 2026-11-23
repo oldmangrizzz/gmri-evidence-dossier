@@ -2068,7 +2068,7 @@ Blocked/failed attempts (inventory):
 
 | 771 | captures/altman/dockets/parsed_d69520118_p2.json | URL in worker report | n/a | 69,057 | fc5153b60c0a0117 | 2026-11-23 | parsed docket-entry JSON (derivative of cl_d_69520118 pulls; full district entry list) |
 
-| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 19,907 | 708a98706c64bfbf | 2026-11-23 | Altman needle-hunt deliverable (report) |
+| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 20,208 | f88302742104d1cb | 2026-11-23 | Altman needle-hunt deliverable (report) |
 
 | 773 | captures/altman/newyorker_2016_manifest_destiny.html | https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny | 200 | 1,253,188 | d339600fcc4a8a9c | 2026-11-23 | due-diligence capture (ethics-claims scrutiny basis) |
 
