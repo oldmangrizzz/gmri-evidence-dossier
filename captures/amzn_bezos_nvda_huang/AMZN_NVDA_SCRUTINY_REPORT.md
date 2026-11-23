@@ -86,7 +86,7 @@
 ## PART D — JENSEN HUANG
 
 ### D1. His standard (his own words)
-1. **"The more you buy, the more you save"** — Huang's public AI-CAPEX framing (captured in NVIDIA blog posts and press releases via his keynote framing — named as a discovery target for the primary).
+1. **Huang's public AI-CAPEX framing** — reported across press coverage ("The more you buy, the more you save" is his well-known public line per reported reporting); **keynote-transcript primary: named discovery target this pass; quoted at SECONDHAND only**.
 2. **"AI is going to change everything"** — Huang's repeated public framing (named as a discovery target for a keynote capture).
 
 ### D2. The record laid against it
