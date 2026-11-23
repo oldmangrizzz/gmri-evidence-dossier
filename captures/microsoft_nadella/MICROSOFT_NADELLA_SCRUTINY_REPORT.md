@@ -70,5 +70,5 @@
 
 ## PART C — MANIFEST INTEGRITY
 - 10 kept captures (rows verified by basename) + 21 quarantines (guessed-slug Microsoft-blog 404s, wrong-page CNBC/C-SPAN-class bodies, empty EC API responses) — DO-NOT-CITE, all re-pathed.
-- The €561M EC fine primary came from the EC's own open-data API (row 886) — the pass's only ADJUDICATED-ADJACENT primary, which is its cited authority.
+- The €561M EC fine primary came from the EC's own open-data API (row 906) — the pass's only ADJUDICATED-ADJACENT primary, which is its cited authority.
 - Discovery targets: Responsible AI Standard v2 PDF; AI Access Principles primary blog; FTC cloud report; EC Bing/Edge fine 2025; layoffs press; CSRB report; board-observer arc via EC.
