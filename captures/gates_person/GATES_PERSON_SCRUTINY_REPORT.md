@@ -13,7 +13,7 @@
 1. **The Gates Foundation (founded 2000, captured: `gates_foundation_about.html`, VERIFIED quote):** "We fund and bring together people and organizations in the global health and development sectors so we can collectively accelerate progress on urgent issues."
 2. **"Fighting poverty, disease, and inequity around the world"** (Breakthrough Energy capture, VERIFIED: "chair of the Gates Foundation, a nonprofit fighting poverty, disease, and inequity around the world").
 3. **How to Avoid a Climate Disaster (2021 book; Wikipedia summary capture):** The book’s subtitle is "The Solutions We Have and the Breakthroughs We Need"; the capture’s sections include "Get to zero rather than simply reducing emissions" and "Gates’ plan to get to net zero emissions" — the green-premium concept is reported, not captured verbatim her.
-4. **How to Prevent the Next Pandemic (2022 book; row-captured):** "we're not ready" / the "GERM team" proposal.
+4. **How to Prevent the Next Pandemic (2022 book; Wikipedia summary capture):** the capture records the proposal for a "Global Epidemic Response and Mobilization" (GERM) team with annual funding of $1 billion — VERIFIED in the capture.
 5. **Source Code: My Beginnings (2025 memoir; row-captured Wikipedia):** his autobiographical framing.
 6. **Breakthrough Energy (row-captured `breakthrough_energy_home.html`, VERIFIED):** "a global platform to accelerate clean energy innovation and build the industries of the future. Energy is prosperity."
 7. **The Giving Pledge** (co-founded with Buffett, publicly-framed philanthropy commitment).
