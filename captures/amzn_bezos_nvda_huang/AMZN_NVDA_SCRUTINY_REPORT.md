@@ -41,12 +41,12 @@
 
 ### B1. His standard (his own words)
 1. **The "Day 1" philosophy (Bezos's signature framing, referenced in the captured Jassy letter and in his prior shareholder letters):** "It's always Day 1."
-2. **His 2020 sworn-answer to the House Antitrust hearing (captured in the Google/Meta passes by reference):** "We don't use AWS data to build competing products" — his on-record answer to Representative Neguse.
+2. **His 2020 House Antitrust sworn testimony — discovery target this pass** (the House Judiciary transcript primary is not on disk; his sworn answer re AWS data use is carried by reference and named below at SECONDHAND tier).
 3. **Climate Pledge (Sept 2019, Bezos-announced):** net-zero carbon by 2040.
 4. **The Bezos signature on the Jassy letter** (`jassy_2024_letter.html` has his signature block "Jeffrey P. Bezos / Founder and Chief Executive Officer / Amazon.com, Inc." — Bezos remains the signature presence on Amazon's succession record).
 
 ### B2. The record laid against it
-- **"We don't use AWS data to build competing products" (his sworn 2020 House answer, prior-pass capture)** vs. **the FTC's Sept-2023 complaint** alleging Amazon uses seller data in the buy box in ways contradicting that sworn framing. The contradiction is stated as a filed-not-decided discrepancy.
+- **His 2020 House Antitrust sworn testimony (named as a discovery target this pass; the transcript is not captured on disk; carried by reference to prior-pass reporting)** vs. **the FTC's Sept-2023 complaint** (alleging Amazon uses seller data in the buy-box frame). The tension is stated as a filed-not-decided — the primary transcript is the citation target.
 - **The $30M Alexa/Ring privacy settlement (May 2023)** — four years after the Climate Pledge; laid as the FTC's Levine quotes captured above.
 - **The Climate Pledge (2019)** vs. Amazon's rising absolute emissions (company's own disclosures, named as a discovery target).
 - **Washington Post ownership** (Bezos-owned since 2013) — the 2024 non-endorsement decision is a public event, SECONDHAND; named as a discovery target. Not a claim about his personal conduct at WaPo.
@@ -62,7 +62,7 @@
 ## PART C — NVIDIA (THE COMPANY)
 
 ### C1. The standard NVIDIA set (its own words)
-1. **AI-factory / "industrial revolution" framing (Huang's public keynotes, referenced via NVIDIA blog/press):** "we're building the infrastructure for the new industrial revolution."
+1. **AI-factory / "industrial revolution" framing (Huang’s public keynotes, referenced via NVIDIA blog press releases this pass; the keynote-transcript primary is a named discovery target).**
 2. **NVIDIA's Responsible-AI framing** (published; the official "AI governance" pages 404'd/504'd on fetch this pass — named as a discovery target for the primary capture).
 3. **NVIDIA Code of Conduct** (fetch attempts 504'd; named as a discovery target).
 4. **Huang's "more you buy, the more you save" public AI-CAPEX framing** (repeated; named as a discovery target for a keynote capture).
