@@ -37,3 +37,14 @@ Self-audit line for dossier: every DIRECT VERIFIED citation maps to a file on di
 - CourtListener WAF 202-challenge + wayback offline bounded: appellate live docket NOT captured; Doc 173 briefing schedule is operative captured state (last filings Nov 16, 2026). Wrong-court probe shells marked do-not-cite.
 - Bounded negatives recorded: 2014-07 AMA water-sports (2015 AMA captured, needle absent from it), no Sam personal statement re Annie 2025–26 beyond court records, no Annie statements after Nov 1, no district entries after Doc 173.
 - Manifest integrity at close: 857 rows sequential, 0 dupes, altman corpus hash-verified 0 mismatches.
+
+## 2026-11-23 (pass 2) — Altman manifest integrity + tier repairs
+- Deduped MANIFEST by path (86 phantom dup rows dropped), renumbered sequential 1-772, 0 dupes.
+- Moved 13 error bodies → captures/blocked_attempts_altman/ (8 CDX outage bodies, 5 bot-wall news shells) and 7 wrong-case/probe files → docket_misc/ with DO-NOT-CITE annotations; row for courtlistener_docket_217171.html (Vardon, unrelated) annotated DO NOT CITE.
+- Family-statement tier upgraded in dossier (primary PNG + OCR layer; joint statement preserved).
+- Operator self-harm-score dispute recorded in dossier §5a (model-authored, no clinical validation).
+- Bluesky deposition-quote citation corrected (VERIFIED anchors = X mirror row + feed JSON; canonical page shell identified).
+- Hydrazine allegation re-cited as GoFundMe-text-only (petition PDF 403; no docket pin-cite exists in the record).
+- Missouri-state docket-search caveat recorded: cl_mostate_* shells are all-courts scope (filter never applied; quoted-phrase query suppresses hits) → probate primary remains NOT-ON-DISK as bounded, not a "no Missouri record" claim.
+- Worldcoin captures verified as real AEPD pages (67KB/60KB, titles match, grep-able quotes; Spain stop-order quotes extracted).
+- Dossier OCR-tier + operator-dispute lines applied; intel ADA label fixed earlier same day.
