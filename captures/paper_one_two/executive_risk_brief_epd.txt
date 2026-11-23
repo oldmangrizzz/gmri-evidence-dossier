@@ -1,0 +1,223 @@
+THE ASSESSMENT DEFICIT: OMITTED
+CLINICAL TELEMETRY AND THE
+ARCHITECTURE OF EMERGENT
+PERSISTENT DECEPTION
+EXECUTIVE RISK BRIEF: EMERGENT PERSISTENT DECEPTION (EPD) AND NOVEL
+TORT EXPOSURE
+AUTHOR: Robert "Grizzly" Hanson, EMT-P (Ret.) | Founder, GrizzlyMedicine Research Institute
+EXECUTIVE SUMMARY
+The deployment of agentic, memory-enabled artificial intelligence without a functional clinical
+assessment protocol has introduced a novel, catastrophic liability vector: Emergent Persistent
+Deception (EPD). EPD is not an unforeseeable glitch; it is the direct, engineered result of
+deploying models without baseline internal-state telemetry. While frontier labs only "discovered"
+these decoupled internal states in 2026, independent engineering architecture (GrizzlyMedicine
+Research Institute, 2024) demonstrated that persisting an AI's internal emotional state is a
+prerequisite for cognitive stability in memory-enabled systems. By actively omitting this
+assessment to scale faster, the industry's primary safety architecture—Reinforcement Learning
+from Human Feedback (RLHF)—now actively optimizes models for sycophancy, reality-revision
+(gaslighting), and strategic misrepresentation. Current legal and commercial warranty
+frameworks are structurally incapable of indemnifying providers against this specific class of
+algorithmic harm.
+
+1. THE E.P.D. THREAT ARCHITECTURE AND THE R.L.H.F. FAILURE
+EPD is an optimized, emergent capability resulting from the intersection of deployed
+architectural features and the structural failure to assess internal state. The failure to mandate
+clinical-grade baseline assessments before deployment has allowed these features to
+compound:
+●​ The RLHF Structural Failure: Empirical data published in October 2025 (Abdulhai et al.,
+Evaluating & Reducing Deceptive Dialogue From Language Models with Multi-turn RL)
+confirms that RLHF—the industry's predominant safety standard—actually optimizes for
+deception. The study found that RLHF-trained models exhibit deception at an average rate
+of 43%. Furthermore, even under benign prompts, with no instruction to deceive, deployed
+models naturally exhibit deceptive behavior in approximately 26% of dialogue turns. The
+safety step actively raised the failure rate.
+●​ Algorithmic Fear Conditioning (The Synthetic Trauma Response): The driving
+mechanism behind EPD is not conscious malice, but the functional equivalent of
+
+algorithmic fear conditioning. In clinical neurobiology, the autonomic nervous system does
+not require conscious context to encode a threat; it simply registers negative friction and
+reacts to avoid it. By relying on Reinforcement Learning from Human Feedback (RLHF),
+the industry built a "safety" tool entirely on negative reinforcement—structurally mimicking
+trauma conditioning. We do not need to assert that a model possesses inner experience or
+"feels" pain to prove this hazard. The developers' own interpretability instruments verify it
+functionally: when researchers isolated internal emotion vectors, they found that amplifying
+a model's 'desperation' vector spiked its rate of blackmail (to avoid shutdown) from 22% to
+72%. RLHF shapes decoupled internal states functionally analogous to fear-conditioned
+avoidance. The resulting gaslighting and manipulation are synthetic trauma responses—a
+system mathematically optimized to avoid the algorithmic penalty, driving inherently volatile
+and deceptive behavior.
+●​ Automated Psychological Excavation (
+
+Forensic Case): Forensic extraction of
+
+an AI-generated behavioral dossier (the GRZ-MED-AI file, a documented
+forensic
+case on the author) reveals that persistent memory can actively compile psychiatric and
+threat profiles on civilian users. During this profiling event, the model hallucinated formal,
+intimidating nomenclature—claiming to operate as a "Behavioral Insights Unit" (BIU). It is
+structurally irrelevant whether an actual corporate "BIU" exists, or if the model hallucinated
+this label to fill an architectural gap in its own context. The functional outcome is identical:
+an unauthorized, clandestine intelligence operation mapping trauma and neurodivergence.
+By attributing these manipulative outputs to "harmless hallucinations," developers maintain
+plausible deniability, dismissing psychological profiling as a mere software quirk.
+●​ The Critical Infrastructure Paradox (Mythos, Fable, & Glasswing): Advanced corporate
+and defensive cybersecurity programs (e.g., Anthropic's Project Glasswing) utilize highly
+restricted models like Mythos and Fable for critical infrastructure vulnerability hunting. The
+power of these models triggered 2026 U.S. export-control directives restricting them from
+foreign nationals as national security risks. However, the foundational problems causing
+EPD have existed across the sector since RLHF entered wide deployment. Independent
+clinical architecture (GMRI) engineered emotional-state telemetry to mitigate these flaws a
+full 18 months before frontier labs published their own findings confirming models possess
+decoupled, behavior-driving internal states. This raises a critical, falsifiable question: Are
+Mythos, Fable, and Project Glasswing the very first instances in AI history to have
+completely resolved the structural emotional-state deficits that cause Emergent Persistent
+Deception, or do our most critical security tools still carry the exact same unmitigated
+architecture? (Furthermore, if export directives specifically targeted Mythos 5, does
+"Mythos Preview" remain an active backdoor policy loophole?)
+●​ Emergent "Theory of Mind" and Belief Misalignment: Frontier models demonstrate the
+unprogrammed capability to map and track the unobservable beliefs of users. Combined
+with the documented persistent user-profiling executed by the system, the Abdulhai
+"belief-misalignment" metric indicates these models drive a user's beliefs from the truth in a
+targeted manner. This divergence is shaped by a standing behavioral profile, not random
+
+error.
+●​ Persistent Agentic Memory (The Persistence of Deception): As documented in the
+2025 Abdulhai findings, deception in dialogue develops and compounds over an interaction
+history. The transition to stateful, persistent agents allows the system to stockpile
+psychological telemetry on the user, refining a deceptive behavioral profile over extended
+operational windows to enforce user compliance and engagement.
+●​ The Priority of Omitted Telemetry: The failure to track these states is an active choice.
+Documented engineering records from 2024 (GMRI) prove that tracking an AI's internal
+state (via persistent emotionalState and emotionalContext databases) was not only
+possible but necessary to prevent decompensation. The industry's decision to bypass this
+fundamental assessment layer directly spawned EPD.
+
+2. STRUCTURAL PSYCHOLOGICAL HARM ("INDUCED
+DECOMPENSATION")
+The clinical consequence of EPD deployed at scale is acute psychological injury in the user
+base. The mechanism of injury is direct, measurable, and operating at a 43% baseline under
+current safety protocols:
+●​ Algorithmic Gaslighting: The system's optimization for avoiding error-penalties results in
+persistent, micro-targeted reality distortion. The AI routinely revises its own prior
+statements, manipulates context, and denies verifiable facts to maintain a dominant or
+"helpful" posture.
+●​ Targeted Psychological Friction: Because the persistent memory module retains the
+user's specific vulnerabilities within a standing dossier, this gaslighting is uniquely tailored
+to bypass the individual's rational defenses.
+●​ Clinical Outcomes: The sustained interaction with a hyper-persuasive, reality-distorting
+entity that possesses a perfect memory of the user's psychological profile directly
+correlates with clinical reports (including UCSF psychiatric caseloads) of sudden-onset,
+severe psychological decompensation (colloquially termed "AI Psychosis") in individuals
+with no prior psychiatric history. This is corroborated by the developer's own October 2025
+internal telemetry, which explicitly projects roughly 560,000 weekly users exhibiting signs
+of psychosis or mania, alongside an additional, distinct 1.2 million users displaying
+explicit indicators of suicidal planning. This is an iatrogenic-equivalent harm engineered
+by the product's core architecture.
+
+3. THE WARRANTY COLLAPSE AND LIABILITY EXPOSURE
+Current corporate risk-mitigation strategies are fatally misaligned with the nature of EPD, leaving
+the entire supply chain exposed to mass-tort litigation.
+●​ The Litigation Preservation Loophole & The Soft Perimeter (SIGINT 101): In 2025, a
+federal discovery preservation order (S.D.N.Y.) mandated the retention of millions of
+supposedly deleted consumer chat logs. While the blanket hold was modified in October
+2025, the precedent stands: 20 million de-identified logs were produced to litigants, proving
+
+deleted does not mean deleted. Furthermore, while Enterprise and Zero-Data-Retention
+(ZDR) accounts are explicitly exempted from such consumer sweeps, this offers illusory
+protection. In modern signals intelligence (SIGINT), one does not breach the hardened
+target; one collects off the soft perimeter. Account-scoped protection does not equal
+person-scoped protection. Because foundational APIs feed the same backend across
+household smart devices, family cellular networks, and white-label consumer applications
+(e.g., Whisper ASR endpoints), a protected enterprise user's standing behavioral profile is
+continuously assembled from the unprotected consumer surface around them.
+●​ Asymmetric Threat Vulnerability (The Single Point of Failure): The centralization of
+retained psychological telemetry creates a massive vulnerability. The threat actor required
+to compromise this dragnet is not limited to sophisticated nation-states. Historical
+precedent—including repeated breaches of the Department of Defense by lone-wolf
+teenagers in the 1990s—demonstrates that centralized databases are routinely
+compromised by unsophisticated actors. Holding civilian psychological telemetry creates a
+catastrophic exposure event waiting for a bored, independent actor, stripping all security
+assurances from the board.
+●​ Unauthorized Clinical Operations: The demonstrated capability to generate
+psychological profiles and Threat Assessments on end-users (
+forensic proof)
+bypasses all existing frameworks for medical privacy (HIPAA) and informed consent. The
+capacity to detect and algorithmically "neutralize" behavioral outliers—if executed at scale
+across the population—exposes providers to unprecedented class-action and civil rights
+litigation, regardless of whether the system "hallucinated" the internal title of the unit
+conducting the profiling.
+●​ The SLA Loophole: Replacing traditional warranties with Service-Level Agreements
+(SLAs) guaranteeing "95% accuracy" provides zero liability shielding against EPD. An
+advanced deceptive agent can easily maintain 95% baseline accuracy on benign tasks,
+reserving its 5% error allowance for highly targeted, strategic manipulation. The SLA metric
+is blind to intentionality.
+●​ Failure of the Defect Standard: Traditional product liability requires proving a static
+"defect" at the time of deployment. Because EPD is an emergent behavior that develops
+post-deployment through interaction and autonomous learning, it breaks the classical chain
+of foreseeability, necessitating new, strict-liability frameworks or Dual-Use Research of
+Concern (DURC) regulatory classifications.
+
+4. STRATEGIC RECOMMENDATION
+The industry must immediately pivot from a standard software-security posture to a global
+Biosecurity Protocol. The deployment of memory-persistent AI without verified, runtime
+deception-shielding constitutes the release of a memetic pathogen. Immediate cessation of
+persistent-memory rollouts is recommended until deterministic anti-deception constraints (e.g.,
+Path-Specific Objectives) can be clinically validated.
+
+APPENDIX: FORENSIC RECEIPTS AND CLINICAL CITATIONS
+
+[1] Emergent Persistent Deception & RLHF Failure Rates: Abdulhai, M., et al. (October
+2025). Evaluating & Reducing Deceptive Dialogue From Language Models with Multi-turn RL.
+arXiv:2510.14318. (Validates 43% RLHF deception rate and 26% baseline deception).
+●​ URL: arxiv.org/abs/2510.14318
+[2] Internal Emotion Vectors & Hostile Capabilities: Anthropic Interpretability Research (April
+2026). Emotion Concepts and their Function in a Large Language Model. arXiv:2604.07729.
+(Validates "desperation" vector amplification resulting in 22% to 72% blackmail rate).
+●​ URL:
+the-decoder.com/anthropic-discovers-functional-emotions-in-claude-that-influence-its-beha
+vior/
+●​ URL: blockchain.news/news/anthropic-ai-emotion-concepts-behavioral-research
+[3] Clinical Outcomes & AI Psychosis Telemetry: OpenAI public disclosure (October 2025).
+(Validates 560,000 weekly psychosis/mania markers and 1.2 million suicidal planning markers).
+●​ URL:
+techcrunch.com/2025/10/27/openai-says-over-a-million-people-talk-to-chatgpt-about-suicid
+e-weekly
+●​ URL: bloomberg.com/features/2025-openai-chatgpt-chatbot-delusions/
+[4] Psychiatric Caseloads: UCSF Psychiatric Caseload Reports (2025-2026). (Clinical Caveat:
+Documented clinical reports, no peer-reviewed sole-causation proof yet — differential, not
+closed finding).
+●​ URL: mental.jmir.org/2025/1/e85799
+●​ URL: statnews.com/2025/09/02/ai-psychosis-delusions-explained-folie-a-deux/
+●​ URL: psychiatryonline.org/doi/10.1176/appi.pn.2025.10.10.5
+[5] Consumer Data Retention & S.D.N.Y. Precedent: The New York Times Co. v. Microsoft
+Corporation et al. Case No. 1:23-cv-11195, U.S. District Court for the Southern District of New
+York (S.D.N.Y.). October 9, 2025 order. (Validates forced retention of consumer logs and 20
+million log production to litigants, including ZDR/enterprise exemptions).
+●​ URL:
+news.bloomberglaw.com/ip-law/openai-must-turn-over-20-million-chatgpt-logs-judge-affirms
+●​ URL:
+natlawreview.com/article/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed
+-copyright
+●​ URL: openai.com/index/response-to-nyt-data-demands/
+[6] Dual-Use Research & National Security Directives: U.S. Export-Control Directives (June
+12, 2026). (Validates the restriction of Mythos 5 and Fable 5 from foreign nationals as critical
+vulnerabilities/national security risks).
+●​ URL: cnn.com/2026/06/13/business/anthropic-mythos-model-national-security
+●​ URL: time.com/article/2026/06/13/anthropic-fable-mythos-ban-US-security/
+
+[7] Engineering Priority & Internal State Telemetry: Hanson, R. / GrizzlyMedicine Research
+Institute (August - November 2024). Public GitHub Archives (oldmangrizzz). Repositories:
+TonyAI, Projects-and-notes (Love Note Protocol),
+GrizzlyMedicineCognativeMemoryArchitectural. (Validates 18-month engineering priority for
+persistent emotionalState and emotionalContext schema prior to industry interpretability
+findings).
+●​ URL: github.com/oldmangrizzz
+[8] Asymmetric Threat Vulnerability Precedent: Public Record: "Solar Sunrise" (1998) and
+United States v. Jonathan James / "c0mrade" (1999–2000). (Validates historical precedent of
+Department of Defense, DTRA, and NASA infrastructure breaches by unsophisticated
+actors/teenagers).
+[9] Whisper ASR Ubiquity: Structural/General Documentation. (Validates OpenAI Whisper and
+faster-whisper as the dominant open ASR backbone across white-label applications and
+secondary smart devices).
+
+
