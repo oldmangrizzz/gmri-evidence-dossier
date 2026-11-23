@@ -2421,7 +2421,7 @@ Blocked/failed attempts (inventory):
 
 | 947 | captures/nvidia_huang_scandal/wired_huang_lying_board_resignation.html | https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/ | 200 | 1,282,423 | e5854fb0aff9a8bd | 2026-11-23 | NVIDIA/Jensen Huang ouster scandal due-diligence capture (Wired/Reuters/Verge/ABC primaries) |
 
-| 948 | captures/nvidia_huang_scandal/NVIDIA_HUANG_OUSTER_REPORT.md | derived: NVIDIA/Jensen Huang ouster-scandal update (Wired/Reuters/ABC/Verge capture synthesis) | n/a | 5,219 | 191044831762bc5b | 2026-11-23 | NVIDIA/Jensen Huang ouster-scandal due-diligence deliverable (breaking-story record) |
+| 948 | captures/nvidia_huang_scandal/NVIDIA_HUANG_OUSTER_REPORT.md | derived: NVIDIA/Jensen Huang ouster-scandal update (Wired/Reuters/ABC/Verge capture synthesis) | n/a | 5,219 | 17ec6e602e4b65bd | 2026-11-23 | NVIDIA/Jensen Huang ouster-scandal due-diligence deliverable (breaking-story record) |
 
 | 949 | captures/zuck_bezos_gates/bbc_italy_fines_meta_805m.html | https://www.bbc.com/news/articles/cwn83gxemk35o | 200 | 276,316 | 21e53c1924a5bd3a | 2026-11-23 | Zuck/Bezos/Gates due-diligence capture (post-Huang ouster round) |
 | 950 | captures/zuck_bezos_gates/businessinsider_ceo_scandals.html | https://www.businessinsider.com/tech-ceo-relationship-scandals-jensen-bezos-bill-gates-astronomer-2026-11 | 200 | 410,037 | d74c074a3c64bfb0 | 2026-11-23 | Zuck/Bezos/Gates due-diligence capture (post-Huang ouster round) |
@@ -2431,4 +2431,4 @@ Blocked/failed attempts (inventory):
 | 954 | captures/zuck_bezos_gates/livemint_zuckerberg_classc.html | https://www.livemint.com/companies/news/meta-suspends-plan-to-issue-new-shares-to-mark-zuckerberg-amid-delaware-lawsuit-why-investors-are-challenging-the-deal-11795054218716.html | 200 | 199,533 | 1393b89bcea3823d | 2026-11-23 | Zuck/Bezos/Gates due-diligence capture (post-Huang ouster round) |
 | 955 | captures/zuck_bezos_gates/sbs_tech_ceo_scandals.html | https://news.sbs.co.kr/english/article.do?news_id=N1008839689 | 200 | 85,211 | b659fc468b5557d4 | 2026-11-23 | Zuck/Bezos/Gates due-diligence capture (post-Huang ouster round) |
 | 956 | captures/zuck_bezos_gates/stockanalysis_meta_classc_lawsuit.html | https://stockanalysis.com/news/meta-pauses-class-c-shares-lawsuit/ | 200 | 77,260 | adc0a335a58dbf7f | 2026-11-23 | Zuck/Bezos/Gates due-diligence capture (post-Huang ouster round) |
-| 957 | captures/zuck_bezos_gates/ZUCK_BEZOS_GATES_SCANDALS_NOV2026.md | derived: Part-5 synthesis from hash-anchored captures (3 subjects, Nov 2026 round) | n/a | 6,802 | 9b2dff368f3b5684 | 2026-11-23 | Zuckerberg/Bezos/Gates due-diligence deliverable (breaking-news round) |
+| 957 | captures/zuck_bezos_gates/ZUCK_BEZOS_GATES_SCANDALS_NOV2026.md | derived: Part-5 synthesis from hash-anchored captures (3 subjects, Nov 2026 round) | n/a | 6,802 | 34e7b73a7f36600f | 2026-11-23 | Zuckerberg/Bezos/Gates due-diligence deliverable (breaking-news round) |

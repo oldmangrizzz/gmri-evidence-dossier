@@ -33,8 +33,8 @@
 ## PART 3 — GATES (new to the record this pass)
 
 **Captured from SBS, BusinessInsider, Economist-Times (`sbs_tech_ceo_scandals.html`, VERIFIED):**
-- Bill Gates left Microsoft's board **during an investigation into an alleged affair** with an employee (Microsoft confirmed in 2021 an affair with an employee in 2000; the company's own spokesperson described the probe as launched after being told in 2019 that Gates "sought to initiate an intimate relationship with a company employee in the year 2000").
-- **Jeffrey Epstein ties:** Gates has been "embroiled in allegations of maintaining ties with billionaire sex offender Jeffrey Epstein," per the captured SBS piece. The article also captures his own public admission: **"I had two affairs in the past"** — two Russian women, one a bridge player, one a nuclear physicist. Per reporting, the two divorced Melinda French Gates in 2021.
+- Bill Gates left Microsoft's board **during an investigation into an alleged affair** with an employee (Microsoft initiated an investigation into allegations of an affair with an employee in 2000; the company's own spokesperson described the probe as launched after being told in 2019 that Gates "sought to initiate an intimate relationship with a company employee in the year 2000").
+- **Jeffrey Epstein ties:** Gates has been "embroiled in allegations of maintaining ties with billionaire sex offender Jeffrey Epstein," per the captured SBS piece. The article also captures his own public admission: **"I had two affairs in the past"** — two Russian women, one a bridge player, one a nuclear physicist. Per reporting, the Gates-Melinda divorce was reported in 2021, the same year the investigation was reported.
 - The Epstein documents released early this year, per the capture, contained Gates references.
 - **Denial side:** Gates's own public statements acknowledge the affairs ("I had two affairs"); the Epstein relationship is characterized as "maintaining ties," not as personal wrongdoing; no criminal charge was leveled. Both sides carried.
 

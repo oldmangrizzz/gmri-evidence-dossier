@@ -56,7 +56,7 @@ Trump (VERIFIED from ABC+Reuters captures): "He made some bad decisions, but he 
 
 ## 8. Both-sides summary
 
-Huang's own admission ("I did not live up to the standards...") + return offer; the board's stated motivation is the candor/lying issue (not the affairs); the alleged-spy link is an allegation with China's own denial carried; the workplace-conduct reporting is laid at its news-media tier. **No personal-misconduct claim is asserted as fact by this report.** The TFAIA Framework (captured Nov 22 as xAI-related) is NVIDIA-adjacent and is part of this file's context.
+Huang's own admission ("I did not live up to the standards...") + return offer; the board's stated motivation is the candor/lying issue (not the affairs, including a reported affair with Alice Huang (captured Wired + Reuters + ABC mention; Alice Huang no family relationship to Jensen)); the alleged-spy link is an allegation with China's own denial carried; the workplace-conduct reporting is laid at its news-media tier. **No personal-misconduct claim is asserted as fact by this report.** The TFAIA Framework (captured Nov 22 as xAI-related) is NVIDIA-adjacent and is part of this file's context.
 
 ## 9. Manifest integrity
 
