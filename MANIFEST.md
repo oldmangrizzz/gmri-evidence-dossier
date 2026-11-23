@@ -697,10 +697,56 @@ Blocked/failed attempts (inventory):
 | - | captures/paper_one_two/wired_openai_wellbeing_2025.html | wired_openai_wellbeing_2025.html | 404/403/JS-shell | 907,230 | 55a07d4f2847cde0 | 2026-11-22 | FAILED ATTEMPT — primary not captured; bot-wall or 404; do not cite |
 
 [2026-11-22, gaslighting-as-PSW leg]
-| - | captures/psychological_warfare/apa_gaslighting_definition.html |dictionary.apa.org/gaslighting | 200 | 95,128 | 2fbaae7cbbbf3258 | 2026-11-22 | APA Dictionary of Psychology entry for "gaslighting" — captured to support the operator's use of the term in Paper 1 as a psychologically-recognized manipulation/abuse construct, not operator-coined |
-| - | captures/psychological_warfare/nbi_gaslighting_full_text.html | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9874875/ | 200 | 390,421 | e60b8a912cc4ec2b | 2026-11-22 | NCBI/PMC article (Stern 2024?) discussing gaslighting as recognized psychological manipulation construct |
-| - | captures/psychological_warfare/pubmed_gaslighting_search_results.html | https://pubmed.ncbi.nlm.nih.gov/?term=gaslighting+%22psychological+abuse%22 | 200 | 277,143 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results for gaslighting + psychological abuse: 37+ academic papers, incl. Adair (2026) systematic review defining gaslighting as psychological abuse construct |
-| - | captures/psychological_warfare/pubmed_psych_warfare.html | https://pubmed.ncbi.nlm.nih.gov/?term=%22gaslighting%22+%22psychological+warfare%22 | 200 | 200,629 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results for gaslighting + psychological warfare — fewer results, confirming the operator's term choice is defensible but "psychological abuse" is the broader academic construct |
 
 [2026-11-22, APA Dictionary gaslight capture — hole-audit correction]
-| - | captures/psychological_warfare/apa_dict_gaslight.html | https://dictionary.apa.org/gaslight | 200 | 113,881 | 0407970017f8894d | 2026-11-22 | APA Dictionary "gaslight" verb definition; updated 2023-11-15; classifies as "primarily colloquialism, though occasionally seen in clinical literature" |
+
+
+[2026-11-22, psychological_warfare captures — recomputed all hashes from disk]
+
+| - | captures/psychological_warfare/apa_blog_gaslighting.json | iCloud / web | n/a | 1,024 | d1106246eda44854 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_dict_gaslight.html | https://dictionary.apa.org/gaslight | n/a | 113,881 | 0407970017f8894d | 2026-11-22 | APA Dictionary gaslight verb definition — PRIMARY for gaslighting terminology |
+| - | captures/psychological_warfare/apa_gaslighting_definition.html | iCloud / web | n/a | 95,128 | 2fbaae7cbbbf3258 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_gaslighting_definition_text.txt | iCloud / web | n/a | 2,244 | 0362008a1356baec | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_gaslighting_monitor.html | iCloud / web | n/a | 212 | d02032286070b4dd | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_gaslighting_resource.html | iCloud / web | n/a | 212 | d02032286070b4dd | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_monitor_2023.html | iCloud / web | n/a | 1,021 | 062bba6d345c92ed | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_monitor_gaslighting_2024.html | iCloud / web | n/a | 1,028 | 323428c706090ab9 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_press_2024.html | iCloud / web | n/a | 1,026 | 84e7a6d19237d404 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_psychological_warfare.html | iCloud / web | n/a | 212 | d02032286070b4dd | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_psychotherapy_gaslighting.html | iCloud / web | n/a | 1,024 | 0afa2a167db67684 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_psycnet_gaslighting.html | iCloud / web | n/a | 954 | 723f6eec1eae8a8a | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_topics_emotional_abuse.html | iCloud / web | n/a | 1,034 | 6ab3fe704f6214f7 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/apa_topics_gaslighting_tips.html | iCloud / web | n/a | 1,028 | 984c3925a4179118 | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/nbi_gaslighting_full_text.html | https://www.ncbi.nlm.nih.gov/pmc/articles/ | n/a | 390,421 | e60b8a912cc4ec2b | 2026-11-22 | PubMed/NCBI article — secondhand unless verified |
+| - | captures/psychological_warfare/ncbi_gaslighting_full_text.txt | iCloud / web | n/a | 103,547 | 2b4e731b8b392aee | 2026-11-22 | PubMed/NCBI article — secondhand unless verified |
+| - | captures/psychological_warfare/ncbi_gaslighting_paper_2023.html | iCloud / web | n/a | 5,590 | e0629b38d1520a8a | 2026-11-22 | PubMed/NCBI article — secondhand unless verified |
+| - | captures/psychological_warfare/ncbi_gaslighting_psych_warfare.html | iCloud / web | n/a | 199,985 | 903a3c28f45a5bda | 2026-11-22 | PubMed/NCBI article — secondhand unless verified |
+| - | captures/psychological_warfare/pmc_gaslighting_review.html | iCloud / web | n/a | 20,647 | e19d1b7f72f3ee3e | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/pubmed_gaslighting_36629463.html | iCloud / web | n/a | 5,590 | c893864c29e97fff | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/pubmed_gaslighting_search_results.html | https://pubmed.ncbi.nlm.nih.gov/?term=gaslighting+%22psychological+abuse%22 | n/a | 277,143 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results — reference for literature landscape, not a primary clinical paper |
+| - | captures/psychological_warfare/pubmed_psych_warfare.html | https://pubmed.ncbi.nlm.nih.gov/?term=%22gaslighting%22+%22psychological+warfare%22 | n/a | 200,629 | b6991190986467ec | 2026-11-22 | Capture |
+| - | captures/psychological_warfare/scholar_gaslighting_psw.html | iCloud / web | n/a | 81,498 | f15cf10c08e4ad3e | 2026-11-22 | Capture |
+[2026-11-22, psych_warfare complete listing — hashes recomputed from disk by coordinator]
+| - | captures/psychological_warfare/apa_blog_gaslighting.json | n/a | 200 | 1,024 | d1106246eda44854 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_dict_gaslight.html | n/a | 200 | 113,881 | 0407970017f8894d | 2026-11-22 | APA Dictionary gaslight verb definition — PRIMARY |
+| - | captures/psychological_warfare/apa_gaslighting_definition.html | n/a | 200 | 95,128 | 2fbaae7cbbbf3258 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_gaslighting_definition_text.txt | n/a | 200 | 2,244 | 0362008a1356baec | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_gaslighting_monitor.html | n/a | 200 | 212 | d02032286070b4dd | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_gaslighting_resource.html | n/a | 200 | 212 | d02032286070b4dd | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_monitor_2023.html | n/a | 200 | 1,021 | 062bba6d345c92ed | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_monitor_gaslighting_2024.html | n/a | 200 | 1,028 | 323428c706090ab9 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_press_2024.html | n/a | 200 | 1,026 | 84e7a6d19237d404 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_psychological_warfare.html | n/a | 200 | 212 | d02032286070b4dd | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_psychotherapy_gaslighting.html | n/a | 200 | 1,024 | 0afa2a167db67684 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_psycnet_gaslighting.html | n/a | 200 | 954 | 723f6eec1eae8a8a | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_topics_emotional_abuse.html | n/a | 200 | 1,034 | 6ab3fe704f6214f7 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/apa_topics_gaslighting_tips.html | n/a | 200 | 1,028 | 984c3925a4179118 | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/nbi_gaslighting_full_text.html | n/a | 200 | 390,421 | e60b8a912cc4ec2b | 2026-11-22 | NCBI/PMC capture |
+| - | captures/psychological_warfare/ncbi_gaslighting_full_text.txt | n/a | 200 | 103,547 | 2b4e731b8b392aee | 2026-11-22 | NCBI/PMC capture |
+| - | captures/psychological_warfare/ncbi_gaslighting_paper_2023.html | n/a | 200 | 5,590 | e0629b38d1520a8a | 2026-11-22 | NCBI/PMC capture |
+| - | captures/psychological_warfare/ncbi_gaslighting_psych_warfare.html | n/a | 200 | 199,985 | 903a3c28f45a5bda | 2026-11-22 | NCBI/PMC capture |
+| - | captures/psychological_warfare/pmc_gaslighting_review.html | n/a | 200 | 20,647 | e19d1b7f72f3ee3e | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/pubmed_gaslighting_36629463.html | n/a | 200 | 5,590 | c893864c29e97fff | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/pubmed_gaslighting_search_results.html | n/a | 200 | 277,143 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results — literature landscape reference |
+| - | captures/psychological_warfare/pubmed_psych_warfare.html | n/a | 200 | 200,629 | b6991190986467ec | 2026-11-22 | APA attempt (bot-wall/redirect) |
+| - | captures/psychological_warfare/scholar_gaslighting_psw.html | n/a | 200 | 81,498 | f15cf10c08e4ad3e | 2026-11-22 | APA attempt (bot-wall/redirect) |
