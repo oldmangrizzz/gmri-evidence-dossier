@@ -10,7 +10,7 @@
 - **SECONDHAND** — news/relay/aggregator. Interview statements about living persons are SECONDHAND unless the recording itself is captured.
 - **UNCONFIRMED** — could not be established; reason stated. Negative coverage ≠ nonexistence.
 
-Self-audit: 690 manifest rows; 773 capture files across 19 directories; 1 rows annotated REMOVED for sama_family_statement_2025-01-07.png (file not on disk); 9 rows re-pathed to captures/blocked_attempts/ (2026-11-23).
+Self-audit: 690 manifest rows; 773 capture files across 19 directories; all hashes recomputed from disk 2026-11-23; 9 rows re-pathed to captures/blocked_attempts/; 84 rows corrected .htmll→.html; relative paths prefixed with captures/; 2 rows annotated NOT-ON-DISK (sama png, USCODE-2023-title47).
 
 **Scope statement (charter P6):** This dossier is an evidence ledger, not a legal conclusion. The operator's stated expectation of criminal liability is not testable here and is not asserted. Where this dossier says a theory is "possible," counsel adjudicates viability.
 
@@ -327,4 +327,4 @@ Additional evidence gap for tier-1 completeness: the OpenAI Oct 2025 well-being 
 
 ## Self-Audit (regenerated 2026-11-23)
 
-Self-audit: 690 manifest rows; 773 capture files across 19 directories; 1 rows annotated REMOVED for sama_family_statement_2025-01-07.png (file not on disk); 9 rows re-pathed to captures/blocked_attempts/ (2026-11-23).
+Self-audit: 690 manifest rows; 773 capture files across 19 directories; all hashes recomputed from disk 2026-11-23; 9 rows re-pathed to captures/blocked_attempts/; 84 rows corrected .htmll→.html; relative paths prefixed with captures/; 2 rows annotated NOT-ON-DISK (sama png, USCODE-2023-title47).

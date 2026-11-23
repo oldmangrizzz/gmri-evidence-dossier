@@ -4,9 +4,9 @@
 |---|---|---|---|---|---|---|
 | 1 | captures/fed/fomcminutes_20261028_press_release_20261118.htm | https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm | 200 | 82,540 | 219d2a9fc2474ed1 | 2026-11-22 |
 | 2 | captures/fed/fomcminutes_20261028_full.htm | https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm | 200 | 122,840 | 8e6e1cb7994bab3e | 2026-11-22 |
-| 3 | training/grizz-files-2026-11-12/meta-recovery/sources/DA-26-1083A1.pdf | local primary (FCC CVAA biennial) | n/a | (local) | 2d9ca2a7759b9deb | 2026-11-22 |
-| 4 | training/grizz-files-2026-11-12/meta-recovery/sources/tec2026.pdf | local primary (T Ethics Commission lobbyists 2026) | n/a | (local) | 0ed76d6bc6fa0ad6 | 2026-11-22 |
-| 5 | training/grizz-files-2026-11-12/meta-recovery/sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | (local) | b8523ceb003c17ea | 2026-11-22 |
+| 3 | captures/local_sources/DA-26-1083A1.pdf | local primary (FCC CVAA biennial) | n/a | (local) | 2d9ca2a7759b9deb | 2026-11-22 |
+| 4 | captures/local_sources/tec2026.pdf | local primary (T Ethics Commission lobbyists 2026) | n/a | (local) | 0ed76d6bc6fa0ad6 | 2026-11-22 |
+| 5 | captures/local_sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | (local) | b8523ceb003c17ea | 2026-11-22 |
 
 | 6 | captures/local_sources/DA-26-1083A1.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/DA-26-1083A1.pdf | n/a | 196,145 | 2d9ca2a7759b9deb | 2026-11-22 |
 | 7 | captures/local_sources/tec2026.pdf | local copy (byte-for-byte, `cmp` verified) of training/grizz-files-2026-11-12/meta-recovery/sources/tec2026.pdf | n/a | 199,441 | 0ed76d6bc6fa0ad6 | 2026-11-22 |
@@ -195,7 +195,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 | 155 | captures/altman/reclap_moed217171_doc173_usca_briefing_schedule.pdf | https://storage.courtlistener.com/recap/gov.uscourts.moed.217171/gov.uscourts.moed.217171.173.0.pdf | 200 | 119,476 | 3ffd53ea9d6fbac3 | 2026-11-22 |
 | 156 | captures/altman/reuters_2026-04-01_amended_lawsuit.html | https://www.reuters.com/legal/government/judge-now-dismisses-lawsuit-by-sam-altmans-sister-accusing-openai-ceo-sexual-2026-03-20/ | 401 | 774 | 559e6c874280dd71 | 2026-11-22 |
 | 157 | captures/altman/reuters_2026-04-16_punitive_damages.html | https://www.reuters.com/business/media-telecom/openai-ceo-altman-seeks-dismissal-sisters-punitive-damages-claims-sexual-abuse-2026-04-16/ | 401 | 774 | be6cee413390a51f | 2026-11-22 |
-| 158 | captures/altman/sama_family_statement_2025-01-07.png | https://pbs.twimg.com/media/Ggup3A7WMAAr5cw.png:large | 200 | 147,875 | a675728e50e62c2d | 2026-11-22 | REMOVED-2026-11-23-file-not-on-disk
+| 158 | captures/altman/sama_family_statement_2025-01-07.png | https://pbs.twimg.com/media/Ggup3A7WMAAr5cw.png:large | 200 | 147,875 | a675728e50e62c2d | 2026-11-22 | REMOVED-2026-11-23-file-not-on-disk NOT-ON-DISK-2026-11-23
 | 159 | captures/altman/samaltman_blog_annie_situation.html | https://blog.samaltman.com/the-annie-situation | 404 | 4,691 | 4faeb496830abc55 | 2026-11-22 |
 | 160 | captures/altman/samaltman_blog_index.html | https://blog.samaltman.com/ | 200 | 75,856 | 3488428f0038bf8c | 2026-11-22 |
 | 161 | captures/altman/substack_allhumansarehuman_home.html | https://anniealtman.substack.com/ | 200 | 91,851 | 26f5e37fa799e54b | 2026-11-22 |
@@ -502,44 +502,44 @@ URLs fetched via curl (docs.fcc.gov) or shared-browser session (apps.fcc.gov; di
 
 | Seq | File | URL | HTTP | Bytes | sha256-16 | Date |
 |---|---|---|---|---|---|---|
-| 451 | fcc_26-76_nprm_modernize_accessibility_2026-10-30.pdf | https://docs.fcc.gov/public/attachments/FCC-26-76A1.pdf | 200 | 282,806 | 638bdaa339ade94f | 2026-11-22 |
-| 452 | fcc_da-26-1083_cvaa_biennial_report_2026.pdf | https://docs.fcc.gov/public/attachments/DA-26-1083A1.pdf | 200 | 196,145 | 2d9ca2a7759b9deb | 2026-11-22 |
-| 453 | fcc_da-26-650_cvaa_biennial_tentative_findings_2026.pdf | https://docs.fcc.gov/public/attachments/DA-26-650A1.pdf | 200 | 400,593 | a98882eaab9d56fa | 2026-11-22 |
-| 454 | fcc_da-24-641_captioncall_sorenson_consent_decree.pdf | https://docs.fcc.gov/public/attachments/DA-24-641A1.pdf | 200 | 325,880 | 54d17c8ee4fa8516 | 2026-11-22 |
-| 455 | fcc_da-24-633_assurance_wireless_order.pdf | https://docs.fcc.gov/public/attachments/DA-24-633A1.pdf | 200 | 1,405,485 | b48a54de3112636d | 2026-11-22 |
-| 456 | fcc_da-24-1038_cvaa_biennial_report_2024.pdf | https://docs.fcc.gov/public/attachments/DA-24-1038A1.pdf | 200 | 179,743 | 82f14f193fbce6b7 | 2026-11-22 |
-| 457 | fcc_da-25-184_rccci_annual_filings_2025.pdf | https://docs.fcc.gov/public/attachments/DA-25-184A1.pdf | 200 | 110,167 | d1dbdd7712b15b91 | 2026-11-22 |
-| 458 | fcc_da-22-725_verizon_visual_voicemail_nal.pdf | https://docs.fcc.gov/public/attachments/DA-22-725A1.pdf | 200 | 337,398 | 572e31a459cf9220 | 2026-11-22 |
-| 459 | fcc_da-22-622_informal_complaint_order_2022.pdf | https://docs.fcc.gov/public/attachments/DA-22-622A1.pdf | 200 | 118,048 | eaa13866b8711c39 | 2026-11-22 |
-| 460 | fcc_da-21-1478_viatalk_order.pdf | https://docs.fcc.gov/public/attachments/DA-21-1478A1.pdf | 200 | 86,176 | fa0c3187ff70b1ee | 2026-11-22 |
-| 461 | nyag_multistate_meta_account_takeover_letter_2024-03-06.pdf | https://ag.ny.gov/sites/default/files/letters/multistate-letter-on-account-takovers_ltrhd_1.pdf | 200 | 1,239,838 | 072629e26ab5babe | 2026-11-22 |
-| 462 | nyag_press_release_meta_account_takeovers_2024-03-06.html | https://ag.ny.gov/press-release/2024/attorney-general-james-leads-bipartisan-coalition-calling-meta-protect-users | 200 | 48,099 | 9a3ed5aee94163e5 | 2026-11-22 |
-| 463 | rccci_search_openai_2026-11-22.html | https://apps.fcc.gov/rccci-search/search.action?company=openai (form POST via browser) | 200 | 10,245 | 2148afdb15e7eba7 | 2026-11-22 |
-| 464 | rccci_search_openai_2026-11-22.txt | (text extraction of seq 463) | n/a | 986 | e6d88dfa9e343080 | 2026-11-22 |
+| 451 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_26-76_nprm_modernize_accessibility_2026-10-30.pdf | https://docs.fcc.gov/public/attachments/FCC-26-76A1.pdf | 200 | 282,806 | 638bdaa339ade94f | 2026-11-22 |
+| 452 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-26-1083_cvaa_biennial_report_2026.pdf | https://docs.fcc.gov/public/attachments/DA-26-1083A1.pdf | 200 | 196,145 | 2d9ca2a7759b9deb | 2026-11-22 |
+| 453 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-26-650_cvaa_biennial_tentative_findings_2026.pdf | https://docs.fcc.gov/public/attachments/DA-26-650A1.pdf | 200 | 400,593 | a98882eaab9d56fa | 2026-11-22 |
+| 454 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-24-641_captioncall_sorenson_consent_decree.pdf | https://docs.fcc.gov/public/attachments/DA-24-641A1.pdf | 200 | 325,880 | 54d17c8ee4fa8516 | 2026-11-22 |
+| 455 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-24-633_assurance_wireless_order.pdf | https://docs.fcc.gov/public/attachments/DA-24-633A1.pdf | 200 | 1,405,485 | b48a54de3112636d | 2026-11-22 |
+| 456 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-24-1038_cvaa_biennial_report_2024.pdf | https://docs.fcc.gov/public/attachments/DA-24-1038A1.pdf | 200 | 179,743 | 82f14f193fbce6b7 | 2026-11-22 |
+| 457 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-25-184_rccci_annual_filings_2025.pdf | https://docs.fcc.gov/public/attachments/DA-25-184A1.pdf | 200 | 110,167 | d1dbdd7712b15b91 | 2026-11-22 |
+| 458 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-22-725_verizon_visual_voicemail_nal.pdf | https://docs.fcc.gov/public/attachments/DA-22-725A1.pdf | 200 | 337,398 | 572e31a459cf9220 | 2026-11-22 |
+| 459 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-22-622_informal_complaint_order_2022.pdf | https://docs.fcc.gov/public/attachments/DA-22-622A1.pdf | 200 | 118,048 | eaa13866b8711c39 | 2026-11-22 |
+| 460 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/fcc_da-21-1478_viatalk_order.pdf | https://docs.fcc.gov/public/attachments/DA-21-1478A1.pdf | 200 | 86,176 | fa0c3187ff70b1ee | 2026-11-22 |
+| 461 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/nyag_multistate_meta_account_takeover_letter_2024-03-06.pdf | https://ag.ny.gov/sites/default/files/letters/multistate-letter-on-account-takovers_ltrhd_1.pdf | 200 | 1,239,838 | 072629e26ab5babe | 2026-11-22 |
+| 462 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/nyag_press_release_meta_account_takeovers_2024-03-06.html | https://ag.ny.gov/press-release/2024/attorney-general-james-leads-bipartisan-coalition-calling-meta-protect-users | 200 | 48,099 | 9a3ed5aee94163e5 | 2026-11-22 |
+| 463 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/rccci_search_openai_2026-11-22.html | https://apps.fcc.gov/rccci-search/search.action?company=openai (form POST via browser) | 200 | 10,245 | 2148afdb15e7eba7 | 2026-11-22 |
+| 464 | captures/statutes_fcc_dtpa_ada/fcc_enforcement/rccci_search_openai_2026-11-22.txt | (text extraction of seq 463) | n/a | 986 | e6d88dfa9e343080 | 2026-11-22 |
 ## DOJ/ADA legal-framework leg — captures/statutes_fcc_dtpa_ada/doj_ada/ (agent AdoDojAnalysis, 2026-11-22)
 
 ADA Title III / 5th-Circuit *Magee* primary record, DOJ complaint-portal + complaint-data primaries, §504 statute, and the OpenAI DoD-contract (§504-funding) primaries. Analysis output: `doj_ada_analysis.md`. Failed fetches (403/404/WAF bodies: CA5 18-32122 PDF, CA5 docket page, Justia/FindLaw/Scholar/UVA-Briefs mirrors, CourtListener API) were deleted, not retained.
 
 | Seq | File | URL | HTTP | Bytes | sha256-16 | Date | Notes |
 |---|---|---|---|---|---|---|---|
-| 465 | doj_ada/magee_cocacola_5thcir_15-31018_cv0_2016.pdf | https://www.ca5.uscourts.gov/opinions/pub/15/15-31018-CV0.pdf | 200 | 161,437 | a0716eea3d7f55be | 2026-11-22 | *Magee v. Coca-Cola Refreshments*, 833 F.3d 530 (5th Cir. 2016), published; VERIFIED |
-| 466 | doj_ada/lexfed_magee_833f3d530.html | https://www.lexfed.com/cases/4247853/emmett-magee-v-coca-cola-refreshments-usa-inc | 200 | 73,606 | 9bff24a046e599a7 | 2026-11-22 | full-text mirror incl. fn. 21-23 (Carparts departure); text-verified vs PDF |
-| 467 | doj_ada/leagle_magee_833f3d530.html | https://www.leagle.com/decision/infco20160815059 | 200 | 11,885 | 9dc7fd5b06677da2 | 2026-11-22 | citation mirror (833 F.3d 530 caption page) |
-| 468 | doj_ada/scotus_orderlist_100217zor_o7jp.pdf | https://www.supremecourt.gov/orders/courtorders/100217zor_o7jp.pdf | 200 | 358,110 | 229353a117dcf8dc | 2026-11-22 | Order List 583 U.S., **Oct. 2, 2017**: "MAGEE, EMMETT V. COCA-COLA REFRESHMENTS USA, INC. — 16-668 … denied" (p.12); VERIFIED |
-| 469 | doj_ada/scotus_orderlist_100217zor_o7jp.txt | pdftotext of seq 468 | n/a | 101,308 | 5cc2d67fc06c1f58 | 2026-11-22 | derived text layer |
-| 470 | doj_ada/doj_crt_magee_amicus_brief_2017.pdf | https://www.justice.gov/crt/case-document/file/984256/dl | 200 | 517,441 | b9b1b0abc492ec18 | 2026-11-22 | DOJ amicus: no "physical entry rule"; digital-services question open |
-| 471 | doj_ada/doj_amicus_magee_page.html | https://www.justice.gov/crt/case-document/magee-v-coca-cola-refreshments-brief-amicus | 200 | 136,785 | 19b2e4149360c7f0 | 2026-11-22 | DOJ CRT landing page |
-| 472 | doj_ada/civilrights.justice.gov_portal.html | https://civilrights.justice.gov/ | 200 | 45,902 | 263da58a7283d0ed | 2026-11-22 | CRT complaint portal; VERIFIED |
-| 473 | doj_ada/adagov_file_a_complaint.html | https://www.ada.gov/file-a-complaint/ | 200 | 38,738 | a3602971752ae69b | 2026-11-22 | ADA complaint filing instructions |
-| 474 | doj_ada/adagov_mediation_overview.html | https://www.ada.gov/mediation-overview/ | 200 | 48,458 | 13372245e57d00a5 | 2026-11-22 | mediation program: 5,000+ complaints, >75% resolved; updated 2026-01-26 |
-| 475 | doj_ada/ccd_doj_ada_complaint_data_letter_2024-03-28.pdf | https://www.c-c-d.org/fichiers/CCD-Rights-TF-DOJ-Data-Report-Letter-3-28-2024.pdf | 200 | 210,819 | 8dbd2918ec190a28 | 2026-11-22 | **95,000+ Title III complaints Jan 2018–Jun 2023 per DOJ FOIA; no disposition tracking** |
-| 476 | doj_ada/29usc794_cornell_dojada.html | https://www.law.cornell.edu/uscode/text/29/794 | 200 | 83,179 | 5ab25b0b8de6ed76 | 2026-11-22 | §504 text w/ FFA + program/activity limits |
-| 477 | doj_ada/28cfr36.502_cornell.html | https://www.law.cornell.edu/cfr/text/28/36.502 | 200 | 28,147 | 44cd6d90e4a54419 | 2026-11-22 | Title III investigations/compliance (§36.302 duties cross-referenced) |
-| 478 | doj_ada/28cfr36.303_cornell.html | https://www.law.cornell.edu/cfr/text/28/36.303 | 200 | 60,282 | ef0c1d6e597047fd | 2026-11-22 | auxiliary aids / effective communication |
-| 479 | doj_ada/28cfr35.190_cornell.html | https://www.law.cornell.edu/cfr/text/28/35.190 | 200 | 35,385 | bc86ab0535d0622b | 2026-11-22 | Title II safe harbor (context capture) |
-| 480 | doj_ada/42usc12187_cornell.html | https://www.law.cornell.edu/uscode/text/42/12187 | 200 | 30,749 | 638b04cad5fdc143 | 2026-11-22 | Title III construction/exemptions |
-| 481 | doj_ada/aimil_cdao_frontier_ai_partnerships_2025-07-14.html | https://www.ai.mil/Latest/News-Press/PR-View/Article/4242822/cdao-announces-partnerships-with-frontier-ai-companies-to-address-national-secu/ (via Wayback 20260712165130) | 200 | 75,632 | e20544d3fda36f51 | 2026-11-22 | CDAO: OpenAI/Anthropic/Google/xAI $200M-ceiling OTAs |
-| 482 | doj_ada/defensescoop_openai_200m_2025-06-17.html | https://defensescoop.com/2025/06/17/pentagon-openai-frontier-ai-projects-cdao/ (via Wayback id_) | 200 | 119,047 | 7495b471284cc779 | 2026-11-22 | OpenAI Public Sector $200M prototype OTA detail |
+| 465 | captures/statutes_fcc_dtpa_ada/doj_ada/magee_cocacola_5thcir_15-31018_cv0_2016.pdf | https://www.ca5.uscourts.gov/opinions/pub/15/15-31018-CV0.pdf | 200 | 161,437 | a0716eea3d7f55be | 2026-11-22 | *Magee v. Coca-Cola Refreshments*, 833 F.3d 530 (5th Cir. 2016), published; VERIFIED |
+| 466 | captures/statutes_fcc_dtpa_ada/doj_ada/lexfed_magee_833f3d530.html | https://www.lexfed.com/cases/4247853/emmett-magee-v-coca-cola-refreshments-usa-inc | 200 | 73,606 | 9bff24a046e599a7 | 2026-11-22 | full-text mirror incl. fn. 21-23 (Carparts departure); text-verified vs PDF |
+| 467 | captures/statutes_fcc_dtpa_ada/doj_ada/leagle_magee_833f3d530.html | https://www.leagle.com/decision/infco20160815059 | 200 | 11,885 | 9dc7fd5b06677da2 | 2026-11-22 | citation mirror (833 F.3d 530 caption page) |
+| 468 | captures/statutes_fcc_dtpa_ada/doj_ada/scotus_orderlist_100217zor_o7jp.pdf | https://www.supremecourt.gov/orders/courtorders/100217zor_o7jp.pdf | 200 | 358,110 | 229353a117dcf8dc | 2026-11-22 | Order List 583 U.S., **Oct. 2, 2017**: "MAGEE, EMMETT V. COCA-COLA REFRESHMENTS USA, INC. — 16-668 … denied" (p.12); VERIFIED |
+| 469 | captures/statutes_fcc_dtpa_ada/doj_ada/scotus_orderlist_100217zor_o7jp.txt | pdftotext of seq 468 | n/a | 101,308 | 5cc2d67fc06c1f58 | 2026-11-22 | derived text layer |
+| 470 | captures/statutes_fcc_dtpa_ada/doj_ada/doj_crt_magee_amicus_brief_2017.pdf | https://www.justice.gov/crt/case-document/file/984256/dl | 200 | 517,441 | b9b1b0abc492ec18 | 2026-11-22 | DOJ amicus: no "physical entry rule"; digital-services question open |
+| 471 | captures/statutes_fcc_dtpa_ada/doj_ada/doj_amicus_magee_page.html | https://www.justice.gov/crt/case-document/magee-v-coca-cola-refreshments-brief-amicus | 200 | 136,785 | 19b2e4149360c7f0 | 2026-11-22 | DOJ CRT landing page |
+| 472 | captures/statutes_fcc_dtpa_ada/doj_ada/civilrights.justice.gov_portal.html | https://civilrights.justice.gov/ | 200 | 45,902 | 263da58a7283d0ed | 2026-11-22 | CRT complaint portal; VERIFIED |
+| 473 | captures/statutes_fcc_dtpa_ada/doj_ada/adagov_file_a_complaint.html | https://www.ada.gov/file-a-complaint/ | 200 | 38,738 | a3602971752ae69b | 2026-11-22 | ADA complaint filing instructions |
+| 474 | captures/statutes_fcc_dtpa_ada/doj_ada/adagov_mediation_overview.html | https://www.ada.gov/mediation-overview/ | 200 | 48,458 | 13372245e57d00a5 | 2026-11-22 | mediation program: 5,000+ complaints, >75% resolved; updated 2026-01-26 |
+| 475 | captures/statutes_fcc_dtpa_ada/doj_ada/ccd_doj_ada_complaint_data_letter_2024-03-28.pdf | https://www.c-c-d.org/fichiers/CCD-Rights-TF-DOJ-Data-Report-Letter-3-28-2024.pdf | 200 | 210,819 | 8dbd2918ec190a28 | 2026-11-22 | **95,000+ Title III complaints Jan 2018–Jun 2023 per DOJ FOIA; no disposition tracking** |
+| 476 | captures/statutes_fcc_dtpa_ada/doj_ada/29usc794_cornell_dojada.html | https://www.law.cornell.edu/uscode/text/29/794 | 200 | 83,179 | 5ab25b0b8de6ed76 | 2026-11-22 | §504 text w/ FFA + program/activity limits |
+| 477 | captures/statutes_fcc_dtpa_ada/doj_ada/28cfr36.502_cornell.html | https://www.law.cornell.edu/cfr/text/28/36.502 | 200 | 28,147 | 44cd6d90e4a54419 | 2026-11-22 | Title III investigations/compliance (§36.302 duties cross-referenced) |
+| 478 | captures/statutes_fcc_dtpa_ada/doj_ada/28cfr36.303_cornell.html | https://www.law.cornell.edu/cfr/text/28/36.303 | 200 | 60,282 | ef0c1d6e597047fd | 2026-11-22 | auxiliary aids / effective communication |
+| 479 | captures/statutes_fcc_dtpa_ada/doj_ada/28cfr35.190_cornell.html | https://www.law.cornell.edu/cfr/text/28/35.190 | 200 | 35,385 | bc86ab0535d0622b | 2026-11-22 | Title II safe harbor (context capture) |
+| 480 | captures/statutes_fcc_dtpa_ada/doj_ada/42usc12187_cornell.html | https://www.law.cornell.edu/uscode/text/42/12187 | 200 | 30,749 | 638b04cad5fdc143 | 2026-11-22 | Title III construction/exemptions |
+| 481 | captures/statutes_fcc_dtpa_ada/doj_ada/aimil_cdao_frontier_ai_partnerships_2025-07-14.html | https://www.ai.mil/Latest/News-Press/PR-View/Article/4242822/cdao-announces-partnerships-with-frontier-ai-companies-to-address-national-secu/ (via Wayback 20260712165130) | 200 | 75,632 | e20544d3fda36f51 | 2026-11-22 | CDAO: OpenAI/Anthropic/Google/xAI $200M-ceiling OTAs |
+| 482 | captures/statutes_fcc_dtpa_ada/doj_ada/defensescoop_openai_200m_2025-06-17.html | https://defensescoop.com/2025/06/17/pentagon-openai-frontier-ai-projects-cdao/ (via Wayback id_) | 200 | 119,047 | 7495b471284cc779 | 2026-11-22 | OpenAI Public Sector $200M prototype OTA detail |
 | 483 | doj_ada/derived_ocr_siri/t0-3_*.txt | OCR (tesseract + pdftocairo) of captures/icloud_ai_logs/siri_zip/siri_evidence/{Siri3.pdf, Siri2(1).pdf, siri-intent1(1).pdf, siri transcrption refusal(1).pdf} | derived | 7,175/9,324/10,118/5,641 | 04fbe243d52281bd / b1f7980d03f50400 / 83f7b86d9d541aa0 / e901753e36fde464 | 2026-11-22 | DERIVED-TIER: OCR of image-only screenshot PDFs; flags ("content flagged by automated systems", "Uh oh, something's wrong" error) present; original PDFs remain the primaries |
 
 | - | captures/claude_log/openai_export_2024-08-22_conversations.json.gz | gzip re-pack of captured primary (original sha in matching row) | n/a | 7,927,695 | c84f9119dab5b564 | 2026-11-22 | disk-space remediation |
@@ -552,27 +552,27 @@ Fetch method: curl -L with desktop Chrome UA, no proxies; response bodies unmodi
 
 | Seq | File | URL | HTTP | Bytes | sha256-16 | Date |
 |---|---|---|---|---|---|---|
-| 465 | 47usc255_cornell.html | https://www.law.cornell.edu/uscode/text/47/255 | 200 | 38,128 | 80925435ead539ee | 2026-11-22 |
-| 466 | 47usc256_cornell.html | https://www.law.cornell.edu/uscode/text/47/256 | 200 | 38,321 | ad731d61e441e16a | 2026-11-22 |
-| 467 | 47usc615_cornell.html | https://www.law.cornell.edu/uscode/text/47/615 | 200 | 44,692 | 341a417198edc49c | 2026-11-22 |
-| 468 | 47usc617_cornell.html | https://www.law.cornell.edu/uscode/text/47/617 | 200 | 53,093 | 4797319a6a5b0fc1 | 2026-11-22 |
-| 469 | 47usc618_cornell.html | https://www.law.cornell.edu/uscode/text/47/618 | 200 | 55,853 | 75e323317abca5a8 | 2026-11-22 |
-| 470 | 47cfr_part14_ecfr_2026-11-19.xml | https://www.ecfr.gov/api/versioner/v1/full/2026-11-19/title-47.xml?part=14 (eCFR full-part XML, issue date 2026-11-19) | 200 | 52,060 | 11cbb28b490f65ae | 2026-11-22 |
+| 465 | captures/statutes_fcc_dtpa_ada/47usc255_cornell.html | https://www.law.cornell.edu/uscode/text/47/255 | 200 | 38,128 | 80925435ead539ee | 2026-11-22 |
+| 466 | captures/statutes_fcc_dtpa_ada/47usc256_cornell.html | https://www.law.cornell.edu/uscode/text/47/256 | 200 | 38,321 | ad731d61e441e16a | 2026-11-22 |
+| 467 | captures/statutes_fcc_dtpa_ada/47usc615_cornell.html | https://www.law.cornell.edu/uscode/text/47/615 | 200 | 44,692 | 341a417198edc49c | 2026-11-22 |
+| 468 | captures/statutes_fcc_dtpa_ada/47usc617_cornell.html | https://www.law.cornell.edu/uscode/text/47/617 | 200 | 53,093 | 4797319a6a5b0fc1 | 2026-11-22 |
+| 469 | captures/statutes_fcc_dtpa_ada/47usc618_cornell.html | https://www.law.cornell.edu/uscode/text/47/618 | 200 | 55,853 | 75e323317abca5a8 | 2026-11-22 |
+| 470 | captures/statutes_fcc_dtpa_ada/47cfr_part14_ecfr_2026-11-19.xml | https://www.ecfr.gov/api/versioner/v1/full/2026-11-19/title-47.xml?part=14 (eCFR full-part XML, issue date 2026-11-19) | 200 | 52,060 | 11cbb28b490f65ae | 2026-11-22 |
 | 471 | tx_bcc_ch17_dtpa_statutes.html | https://tcss.legis.texas.gov/resources/BC/htm/BC.17.html (Texas Constitution & Statutes, Bus. & Com. Code ch. 17 full chapter HTML served to the Angular viewer) | 200 | 193,909 | 33fdf21e31dba579 | 2026-11-22 |
 | 472 | tx_bcc_ch541_tdpsa_statutes.html | https://tcss.legis.texas.gov/resources/BC/htm/BC.541.html (same host/method, ch. 541 TDPSA full chapter) | 200 | 80,485 | 1f56ef0a23bae698 | 2026-11-22 |
-| 473 | 29usc794_cornell.html | https://www.law.cornell.edu/uscode/text/29/794 | 200 | 83,179 | 5ab25b0b8de6ed76 | 2026-11-22 |
-| 474 | adagov_web_guidance_2022.html | https://www.ada.gov/resources/web-guidance/ (DOJ "Guidance on Web Accessibility and the ADA"; page dateModified 2026-07-29; carries the 2024 Title II rule supersession note but Title II/III web content still displayed) | 200 | 66,932 | 853ed0d1aa32697d | 2026-11-22 |
-| 475 | 42usc12181_cornell.html | https://www.law.cornell.edu/uscode/text/42/12181 | 200 | 51,767 | db65d26f46b25561 | 2026-11-22 |
-| 476 | 42usc12182_cornell.html | https://www.law.cornell.edu/uscode/text/42/12182 | 200 | 52,595 | 2d2dbaac8a94d0dc | 2026-11-22 |
-| 477 | USCODE-2023-title47.html | https://www.govinfo.gov/content/pkg/USCODE-2023-title47/html/USCODE-2023-title47.html (GPO whole-title 47; current through 2024-01-03; used to confirm ACS provision is codified at § 617 with source credit "June 19, 1934, ch. 652, title VII, §716, as added Pub. L. 111–260, title I, §104(a)") | 200 | 4,066,604 | eccec585a8f0e935 | 2026-11-22 |
-| 478 | caa_public_law_111-260_stat124pg2751.pdf | https://www.govinfo.gov/content/pkg/STATUTE-124/pdf/STATUTE-124-Pg2751.pdf (Statutes at Large 124 Stat. 2751, CVAA Title I; SEC. 104 adds Comm. Act §716, with OFR margin note 47 USC 617) | 200 | 184,885 | 8fa5ad1e054c8824 | 2026-11-22 |
+| 473 | captures/statutes_fcc_dtpa_ada/29usc794_cornell.html | https://www.law.cornell.edu/uscode/text/29/794 | 200 | 83,179 | 5ab25b0b8de6ed76 | 2026-11-22 |
+| 474 | captures/statutes_fcc_dtpa_ada/adagov_web_guidance_2022.html | https://www.ada.gov/resources/web-guidance/ (DOJ "Guidance on Web Accessibility and the ADA"; page dateModified 2026-07-29; carries the 2024 Title II rule supersession note but Title II/III web content still displayed) | 200 | 66,932 | 853ed0d1aa32697d | 2026-11-22 |
+| 475 | captures/statutes_fcc_dtpa_ada/42usc12181_cornell.html | https://www.law.cornell.edu/uscode/text/42/12181 | 200 | 51,767 | db65d26f46b25561 | 2026-11-22 |
+| 476 | captures/statutes_fcc_dtpa_ada/42usc12182_cornell.html | https://www.law.cornell.edu/uscode/text/42/12182 | 200 | 52,595 | 2d2dbaac8a94d0dc | 2026-11-22 |
+| 477 | USCODE-2023-title47.html | https://www.govinfo.gov/content/pkg/USCODE-2023-title47/html/USCODE-2023-title47.html (GPO whole-title 47; current through 2024-01-03; used to confirm ACS provision is codified at § 617 with source credit "June 19, 1934, ch. 652, title VII, §716, as added Pub. L. 111–260, title I, §104(a)") | 200 | 4,066,604 | eccec585a8f0e935 | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 478 | captures/statutes_fcc_dtpa_ada/caa_public_law_111-260_stat124pg2751.pdf | https://www.govinfo.gov/content/pkg/STATUTE-124/pdf/STATUTE-124-Pg2751.pdf (Statutes at Large 124 Stat. 2751, CVAA Title I; SEC. 104 adds Comm. Act §716, with OFR margin note 47 USC 617) | 200 | 184,885 | 8fa5ad1e054c8824 | 2026-11-22 |
 
 Derived (searchability only; sources govern):
 
 | Seq | File | Derivation | Bytes | sha256-16 | Date |
 |---|---|---|---|---|---|
-| 479 | tx_bcc_ch17_dtpa_statutes.txt | plain-text strip of seq 471 (tag-stripped, whitespace-normalized; used for quote extraction) | 128,845 | 0199a2ddf542aa92 | 2026-11-22 |
-| 480 | tx_bcc_ch541_tdpsa_statutes.txt | plain-text strip of seq 472 (same method) | 51,738 | cf5903975bf93664 | 2026-11-22 |
+| 479 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch17_dtpa_statutes.txt | plain-text strip of seq 471 (tag-stripped, whitespace-normalized; used for quote extraction) | 128,845 | 0199a2ddf542aa92 | 2026-11-22 |
+| 480 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch541_tdpsa_statutes.txt | plain-text strip of seq 472 (same method) | 51,738 | cf5903975bf93664 | 2026-11-22 |
 | 481 | captures/statutes_fcc_dtpa_ada/statutes_report.md | derived deliverable: verbatim operative quotes + tier map + integration cautions for the legal-framework addendum | 13,350 | n/a (not a web capture) | 2026-11-22 |
 
 Blocked/failed attempts (inventory):
@@ -604,9 +604,9 @@ Blocked/failed attempts (inventory):
 | 492 | captures/statutes_fcc_dtpa_ada/fcc_ftc_precedent/dtpa_tdpsa_research_note_2026-11-22.txt | n/a (worker research note; SECONDHAND sources named inside) | 200 | 5,882 | 6cc75691523d95cc | 2026-11-22 | DTPA laundering/TDPSA exclusivity status note; case citations SECONDHAND |
 
 [2026-11-22, PHI-threshold leg cont. — Health Breach Notification Rule 2024 amendment + ChatGPT Health captures]
-| - | hbnr_2024_final_rule_full.txt | https://www.federalregister.gov/documents/full_text/text/2024/05/30/2024-10855.txt | 200 | 328,828 | b7c2ef9054c9a6a7 | 2026-11-22 | Health Breach Notification Rule — 2024 final amended rule full text |
+| - | captures/statutes_fcc_dtpa_ada/ftc_health/hbnr_2024_final_rule_full.txt | https://www.federalregister.gov/documents/full_text/text/2024/05/30/2024-10855.txt | 200 | 328,828 | b7c2ef9054c9a6a7 | 2026-11-22 | Health Breach Notification Rule — 2024 final amended rule full text |
 | - | ftc_hbnr_finalrule_2024.html (thin) | https://www.federalregister.gov/documents/2024/03/26/2024-05784/health-breach-notification-rule | 200 | 10,596 | 3cc3dbe457aeb644 | 2026-11-22 | shell page — do not cite |
-| - | fr_api_meta.json | https://www.federalregister.gov/api/v1/documents/2024-10855.json | 200 | 6,298 | c41ce726162717bc | 2026-11-22 | FR API metadata |
+| - | captures/statutes_fcc_dtpa_ada/ftc_health/fr_api_meta.json | https://www.federalregister.gov/api/v1/documents/2024-10855.json | 200 | 6,298 | c41ce726162717bc | 2026-11-22 | FR API metadata |
 | - | captures/chatgpt_health/gmri_chatgpt_health_regulatory_exposure_analysis.md | openai.com | 200 | 1,093 | 23fe5a2f36ec5f95 | 2026-11-22 | operator prior artifact (obsidian stub only) |
 | - | captures/chatgpt_health/openai_chatgpt_health_product_page.pdf | openai.com | 200 | 1,473,155 | d223d30d3036234c | 2026-11-22 | Health product page PDF primary |
 | - | captures/chatgpt_health/openai_chatgpt_health_product_page.txt | openai.com | 200 | 12,576 | b3f14995925b68be | 2026-11-22 | Health product page verbatim text |
