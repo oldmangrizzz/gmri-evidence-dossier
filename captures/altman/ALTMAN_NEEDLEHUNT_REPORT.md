@@ -79,29 +79,29 @@ No truth verdict on any allegation is offered anywhere in this file. Every alleg
 
 ### 5a. The standard HE set (his own words, captured primaries)
 
-1. **OpenAI Charter (row 773):** mission — AGI "benefits all of humanity." "Broadly distributed benefits": "Our primary fiduciary duty is to humanity... will always diligently act to minimize conflicts of interest." "Long-term safety": "if a value-aligned, safety-conscious project comes close to building AGI before we do, we commit to stop competing with and start assisting this project."
-2. **On safety vs. empowerment (Three Observations, row 777):** "we never want to be reckless... there will likely be some major decisions and limitations related to AGI safety that will be unpopular."
-3. **On iterative deployment as safety (Reflections, row 780):** "the best way to make an AI system safe is by iteratively and gradually releasing it into the world."
-4. **On regulation (2023-05-16 Senate testimony, row 782-adjacent techpolicy transcript):** "regulatory intervention by governments will be critical to mitigate the risks of increasingly powerful models... licensing and testing requirements."
-5. **Early persona (New Yorker 2016, row 775):** described hosting "the Covenant" — philosophers + scientists discussing "the ethics of human replacement"; quote: "If you believe that all human lives are equally valuable, and you also believe that 99.5 per cent of lives will take place in the future, we should spend all our time thinking about the future." Same paragraph: "But I do care much more about my family and friends."
+1. **OpenAI Charter (row 774):** mission — AGI "benefits all of humanity." "Broadly distributed benefits": "Our primary fiduciary duty is to humanity... will always diligently act to minimize conflicts of interest." "Long-term safety": "if a value-aligned, safety-conscious project comes close to building AGI before we do, we commit to stop competing with and start assisting this project."
+2. **On safety vs. empowerment (Three Observations, row 782):** "we never want to be reckless... there will likely be some major decisions and limitations related to AGI safety that will be unpopular."
+3. **On iterative deployment as safety (Reflections, row 781):** "the best way to make an AI system safe is by iteratively and gradually releasing it into the world."
+4. **On regulation (2023-05-16 Senate testimony, row 730 techpolicy transcript):** "regulatory intervention by governments will be critical to mitigate the risks of increasingly powerful models... licensing and testing requirements."
+5. **Early persona (New Yorker 2016, row 773):** described hosting "the Covenant" — philosophers + scientists discussing "the ethics of human replacement"; quote: "If you believe that all human lives are equally valuable, and you also believe that 99.5 per cent of lives will take place in the future, we should spend all our time thinking about the future." Same paragraph: "But I do care much more about my family and friends."
 
 ### 5b. The record laid against that standard (captured reporting + his own statements; allegations attributed as such)
 
-**The trust question — from inside OpenAI itself (2026-04 New Yorker profile by Ronan Farrow & Andrew Marantz, row 776 — VERIFIED quotes):**
+**The trust question — from inside OpenAI itself (2026-04 New Yorker profile by Ronan Farrow & Andrew Marantz, row 774 — VERIFIED quotes):**
 - Sutskever (as deposed/reported): "I don't think Sam is the guy who should have his finger on the button." A compiled 70-page dossier of Slack messages + H.R. documents "included images taken with a cellphone, apparently to avoid detection on company devices."
 - Board basis for the 2023 removal: "was not consistently candid in his communications" (also in our Nov-2023 captures).
 - Reported conduct during the return (attributed to "someone with knowledge of the conversation"): Altman conveyed to Murati that his allies were "going all out" and "finding bad things" to damage her reputation.
 - Sutskever deposition reporting (row 2025-11-06, on disk earlier): a 52-page memo of concerns sent to three board members but NOT to Altman — "Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear."
 
 **On safety-vs-empowerment commitments:**
-- "Publicly welcomed regulation, quietly lobbied against it" (Farrow/Marantz): per TIME-cited reporting, OpenAI pressed to dilute the EU AI Act (2022–23); California SB 1047 mandating safety testing was vetoed after a campaign the article details (including an incident with Encode's Nathan Calvin — captured in full).
-- Brockman (co-founder) committed **$50M to Leading the Future**, the anti-regulation super PAC — while OpenAI's official stance is non-contribution (row 776).
-- Altman personally: helped draft the Biden EO ("a good start"); after the election, **$1M donated to Trump's inaugural fund** (row 776).
+- "Publicly welcomed regulation, quietly lobbied against it" (Farrow/Marantz, row 774): per TIME-cited reporting, OpenAI pressed to dilute the EU AI Act (2022–23); California SB 1047 mandating safety testing was vetoed after a campaign the article details (including an incident with Encode's Nathan Calvin — captured in full).
+- Brockman (co-founder) committed **$50M to Leading the Future**, the anti-regulation super PAC — while OpenAI's official stance is non-contribution (row 774).
+- Altman personally: helped draft the Biden EO ("a good start"); after the election, **$1M donated to Trump's inaugural fund** (row 774).
 
 **The Annie-adjacent defamation-relevant paragraph (the BOTH-SIDES sentence — quoted in full because it is the record's most careful sentence):**
 > "Altman's sister, Annie, claimed in a lawsuit, and in interviews with us, that he sexually abused her for years, beginning when she was three and he was twelve. (We could not substantiate Annie's account, which Altman has denied and his brothers and mother have called 'utterly untrue' and a source of 'immense pain to our entire family.' In interviews that the journalist Karen Hao conducted for her book, 'Empire of AI,' Annie suggested that memories of abuse were recovered during flashbacks in adulthood.)"
 
-Altman's own denial to the same writers (his words, row 776): "any claims about me having sex with a minor, hiring sex workers, or being involved in a murder are completely untrue." He added he was "sort of grateful" the writers "so aggressively" looked into it. The article also reports the rivals' insinuations "appear[s] to be untrue" — the record carries the clearing too.
+Altman's own denial to the same writers (his words, row 774): "any claims about me having sex with a minor, hiring sex workers, or being involved in a murder are completely untrue." He added he was "sort of grateful" the writers "so aggressively" looked into it. The article also reports the rivals' insinuations "appear[s] to be untrue" — the record carries the clearing too.
 
 **On the family-statement standard:** the family PNG (row 150, OCR row 703) is the joint denial — the record also carries the operator's own dispute standard: characterizations carry the denial alongside.
 
