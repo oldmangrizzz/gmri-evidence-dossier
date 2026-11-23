@@ -28,13 +28,13 @@
 
 **B1 note (no admission):** the no-admission language is captured exactly; the SEC’s framing of the tweets as "false and misleading" is carried *as the SEC’s claim*; no criminal conviction is implied or claimed.
 
-### B2. The Unsworth-Thailand-cave case (ADJUDICATED — jury verdict for Musk)
+### B2. The Unsworth-Thailand-cave case (SECONDHAND for verdict; the motion-in-limine PDF is the pre-trial case record)
 
-- **Unsworth v. Musk, 2:18-cv-08048 (C.D. Cal., verdict Dec. 6, 2019):** jury found **for Musk** (no liability) in the defamation trial over Musk’s "pedo guy" tweet. The jury in the Thai-cave-rescue defamation case cleared him.
-- Musk’s own apology (captured via Wikipedia/Reuters, VERIFIED): "Elon Musk apologizes to British cave diver following baseless ‘pedo guy’ claim" (Wikipedia’s citation of CNBC).
-- The motion-in-limine PDF is on disk as the primary of the case record (captured 141,728 B).
+- **Unsworth v. Musk, 2:18-cv-08048 (C.D. Cal.):** a jury found **for Musk** (no liability) in the defamation trial over Musk's "pedo guy" tweet. The verdict Form itself is named as a discovery target this pass; *Wikipedia's citation of Reuters/CNBC* — encyclopedia tier, cited not captured — says "a jury later found Musk was not liable."
+- Musk's own apology (reported via CNBC, carried at that reporting tier): "Elon Musk apologizes to British cave diver following baseless 'pedo guy' claim."
+- The motion-in-limine PDF (on disk, 141,728 B) is the **pre-trial** case record — not the verdict document. It is cited separately as a captured procedural record (Musk's own attorney's argument framing).
 
-**B2 note:** the jury’s verdict is a ADJUDICATED finding in *Musk’s favor* — carried as the captured verdict. Both sides: Musk’s apology + the jury verdict clearing him; Unsworth’s "humiliated" testimony (reported secondarily) is at that tier.
+**B2 note:** the verdict Form itself is not captured on disk; this item is carried at SECONDHAND (Wikipedia citation tier) with the verdict Form+transcript as the named discovery target. Musk's apology is carried at the reported-reporting tier. Unsworth's "humiliated" testimony is at the reported-reporting tier.
 
 ### B3. The Tesla compensation package (ADJUDICATED, ADJUDICATED-ADJACENT)
 
@@ -59,7 +59,7 @@
 ### B6. Musk’s OpenAI lawsuit — jury verdict
 
 - **Musk sued OpenAI, Sam Altman, and Greg Brockman in March 2024**, alleging they "violated [the] founding agreement by prioritizing profits over AI safety." Captured.
-- **Jury verdict May 18, 2026 in favor of OpenAI**, finding "Musk’s claims were barred by the statute of limitations." Captured via Wikipedia citation of the AP (VERIFIED).
+- **Jury verdict May 18, 2026 in favor of OpenAI**, finding "Musk’s claims were barred by the statute of limitations." Wikipedia citation of the AP (SECONDHAND this pass; the AP/Reuters verdict article + the court transcript are named as discovery targets).
 - **Musk’s own framing at the filing** (his X statements, 2024): captured and reported.
 
 ### B7. Workplace-conduct and family items (OUT OF SCOPE per operator’s own charter exclusion)
