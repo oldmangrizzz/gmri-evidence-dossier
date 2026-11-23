@@ -16,7 +16,7 @@ The captured primary (Apple newsroom, 2026-04-20 — `apple_ternus_ceo_announcem
 - Ternus's own words (VERIFIED): *"I am profoundly grateful for this opportunity to carry Apple's mission forward… Having spent almost my entire career at Apple, I have been lucky to have worked under Steve Jobs and to have had Tim Cook as my mentor… I am humbled to step into this role, and I promise to lead with the values and vision that have come to define this special place for half a century."*
 - **Art Levinson** (Apple's non-executive chairman for 15 years) becomes **Lead Independent Director**; Ternus joins the board effective 2026-09-01. (VERIFIED from the newsroom release.)
 - **Context (reported, SECONDHAND — CNBC capture):** Apple's market cap increased **20×+** on Cook's watch (~$4 trillion at the announcement); Cook's 2025 compensation ≈ **$74.6M** (base $3M + stock); Ternus is 50; he joined Apple in 2001, was VP of Hardware Engineering 2013, SVP starting 2021. The Reuters/CNBC/NPR coverage describes Apple as "lagging" on AI, having "recently turned to Google's Gemini AI model" for a planned Siri upgrade (NPR/CNBC, both captured).
-- **CORRECTED premise:** the operator's instinct to ask about Apple's "new CEO" was correct. Cook is no longer CEO as of 2026-09-01; Ternus is. This pass evaluates both — Cook's *record* over 15 years as CEO, Ternus's *incoming* standard and what's expected of him.
+- **CORRECTED premise:** the operator's instinct to ask about Apple's "new CEO" was correct. Cook is no longer CEO as of 2026-09-01; Ternus is. This pass evaluates both — Cook's *record* over 15 years as CEO, Ternus's record as CEO (he has been in the role since September 1, 2026).
 
 ---
 
@@ -126,7 +126,7 @@ The captured primary (Apple newsroom, 2026-04-20 — `apple_ternus_ceo_announcem
 
 ---
 
-## PART E — APPLE'S NEW CEO: JOHN TERNUS (incoming, effective 2026-09-01)
+## PART E — APPLE'S CEO: JOHN TERNUS (effective 2026-09-01)
 
 ### E1. His standard (from the 2026-04-20 Apple newsroom release, VERIFIED)
 1. Ternus's own words (captured): *"I am profoundly grateful for this opportunity to carry Apple's mission forward… I have been lucky to have worked under Steve Jobs and to have had Tim Cook as my mentor… I am humbled to step into this role, and I promise to lead with the values and vision that have come to define this special place for half a century."*
@@ -135,8 +135,8 @@ The captured primary (Apple newsroom, 2026-04-20 — `apple_ternus_ceo_announcem
 
 ### E2. The record laid against it (what the record shows Ternus has — and hasn't — yet done)
 - **His hardware-engineering record (VERIFIED from the newsroom bio):** "overseen hardware engineering on a variety of groundbreaking products across every category"; MacBook Neo launch; iPhone 17 lineup; AirPods hearing-health capabilities; recycled aluminum; 3D-printed titanium in Apple Watch Ultra 3; Apple's supply chain. **He has no CEO-tenure yet to evaluate against** — the honest record is that his profile is a hardware-operations record, not an executive-leadership one.
-- **AI-lag challenge (reported via CNBC/NPR captures):** "Apple has faced criticism from investors and technologists for a perceived lack of cutting-edge AI technology"; Apple has "recently turned to Google's Gemini AI model" for a Siri revamp; Ternus is "not an AI specialist" (his own background is hardware) and his AI-era competence is **UNCONFIRMED** in this record until he acts.
-- **His incoming standard is implicit:** his promise is "the values and vision that have come to define this special place for half a century" — the succession keeps Apple's existing standard, and the honest record is that we don't yet know how Ternus will govern.
+- **AI-lag challenge (reported via CNBC/NPR captures):** "Apple has faced criticism from investors and technologists for a perceived lack of cutting-edge AI technology"; Apple has "recently turned to Google's Gemini AI model" for a Siri revamp; Ternus is "not an AI specialist" (his own background is hardware); his AI-era competence is **UNCONFIRMED in this record** as of this pass.
+- **His incoming standard is implicit:** his promise is "the values and vision that have come to define this special place for half a century" — the succession keeps Apple's existing standard, and the honest record is that no capture in this pass covers an executive decision by Ternus in the CEO role to date.
 
 ### E3. What Part E does not claim
 - No personal performance claim (no CEO tenure to evaluate); no misconduct; no prediction.
