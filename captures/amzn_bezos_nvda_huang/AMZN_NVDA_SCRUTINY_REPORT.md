@@ -2,7 +2,7 @@
 
 **Charter:** `charter_amzn_nvda.md` (pre-registered). Part-5 method: professed standard → captured record, both sides carried, denials paired, ADJUDICATED tier where courts ruled.
 
-**Self-audit (regenerated from filesystem + MANIFEST):** 946 manifest rows at time of report write; `captures/amzn_bezos_nvda_huang/` kept captures (hash-verified). Quarantine count from earlier passes' body triage.
+**Self-audit (regenerated from filesystem + MANIFEST):** 943 manifest rows sequential, 0 dupes; `captures/amzn_bezos_nvda_huang/` kept files hash-verified; quarantines across all `blocked_attempts_*` directories; totals: 1248 capture files across 36 directories.
 
 ---
 
