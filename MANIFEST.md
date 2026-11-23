@@ -1060,4 +1060,4 @@ Blocked/failed attempts (inventory):
 | 769 | captures/altman/dockets/ndcal_433688_doc390_msk_order_2026-01.pdf | URL in worker report | n/a | 393,127 | 457ec165d4698f84 | 2026-11-23 | court PDF (worker AgreedMule; Musk v OpenAI N.D. Cal. filings captured for the Musk-email needle) |
 | 770 | captures/altman/dockets/parsed_d69520118_p1.json | URL in worker report | n/a | 44,648 | 9fccb9337bd22895 | 2026-11-23 | parsed docket-entry JSON (derivative of cl_d_69520118 pulls; full district entry list) |
 | 771 | captures/altman/dockets/parsed_d69520118_p2.json | URL in worker report | n/a | 69,057 | fc5153b60c0a0117 | 2026-11-23 | parsed docket-entry JSON (derivative of cl_d_69520118 pulls; full district entry list) |
-| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 13,678 | c4152fa99a4eab61 | 2026-11-23 | Altman needle-hunt deliverable (report) |
+| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 13,678 | 39a109b2b70c9f7e | 2026-11-23 | Altman needle-hunt deliverable (report) |

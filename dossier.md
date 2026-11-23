@@ -10,7 +10,7 @@
 - **SECONDHAND** — news/relay/aggregator. Interview statements about living persons are SECONDHAND unless the recording itself is captured.
 - **UNCONFIRMED** — could not be established; reason stated. Negative coverage ≠ nonexistence.
 
-Self-audit: 728 manifest rows; 1048 capture files across 22 directories, all hash-verified against disk (recomputed 2026-11-23)); 9 rows annotated NOT-ON-DISK.
+Self-audit: 772 manifest rows; 1073 capture files across 23 directories, all hash-verified against disk (recomputed 2026-11-23).
 
 **Scope statement (charter P6):** This dossier is an evidence ledger, not a legal conclusion. The operator's stated expectation of criminal liability is not testable here and is not asserted. Where this dossier says a theory is "possible," counsel adjudicates viability.
 
@@ -33,7 +33,7 @@ Self-audit: 728 manifest rows; 1048 capture files across 22 directories, all has
 
 - **2021-11-14** (tweet capture + snowflake decode; Nov 13 per Sam's pleading ¶16 — conflict preserved): public thread naming Sam and Jack Altman re abuse (oEmbed + Wayback day-of captures on disk).
 - **2025-01-06:** federal complaint filed, *Ann Altman v. Samuel Altman*, 4:25-cv-00017-ZMB (E.D. Mo.), alleging abuse 1997–2006 at the family home, onset at her age 3 / his age 12. On-disk: Doc 1 and Doc 53 FAC (re-pled 2026-04-01 under Mo. Rev. Stat. § 537.046).
-- **Denial side:** 2025-01-07 family statement — his X post (oEmbed captured) transmitted the family statement: claims "entirely untrue". **Primary now held:** statement-image on disk (row 158, sha `a675728e50e62c2d` re-verified 2026-11-23 by re-fetch from the twimg original) with OCR text layer (row 746) — statement text VERIFIED against the primary ("entirely untrue", "shadowbanning" list, "her claims have evolved drastically over time", "Annie continues to demand more money from us", signature "—Connie, Sam, Max, and Jack"). Statement was made jointly by Sam Altman's mother and brothers with him — not characterized as his sole personal statement; 2025-03-07 answer + counterclaims ("never sexually abused his sister"; defamation/abuse-of-process counterclaims; later dismissed without prejudice at his request).
+- **Denial side:** 2025-01-07 family statement — his X post (oEmbed captured) transmitted the family statement: claims "entirely untrue". **Primary now held:** statement-image on disk (row 150, sha `a675728e50e62c2d` re-verified 2026-11-23 by re-fetch from the twimg original) with OCR text layer (row 703) — statement text VERIFIED against the primary ("entirely untrue", "shadowbanning" list, "her claims have evolved drastically over time", "Annie continues to demand more money from us", signature "—Connie, Sam, Max, and Jack"). Statement was made jointly by Sam Altman's mother and brothers with him — not characterized as his sole personal statement; 2025-03-07 answer + counterclaims ("never sexually abused his sister"; defamation/abuse-of-process counterclaims; later dismissed without prejudice at his request).
 - **2026-10-19:** her claims dismissed WITH prejudice — but on discovery-sanction grounds (three missed IMEs; FRCP 37(b)(2)(A)/41(b)), NOT a merits ruling (Doc 160/161 on disk). Fees denied as sufficient sanction.
 - **Current status: ON APPEAL** — Notice of Appeal 2026-11-11; Eighth Circuit Appeal No. 26-3339, briefing-schedule stage (2026-11-16).
 - Separate: St. Louis probate/trust matter 25SL-PR02320 reportedly decided in her favor 2026-01-20 — SECONDHAND (The Nerve); Case.net blocked (403, attempts logged).
@@ -328,7 +328,7 @@ Additional evidence gap for tier-1 completeness: the OpenAI Oct 2025 well-being 
 
 ## Self-Audit (regenerated 2026-11-23)
 
-Self-audit: 728 manifest rows; 1048 capture files across 22 directories, all hash-verified against disk (recomputed 2026-11-23)); 9 rows annotated NOT-ON-DISK.
+Self-audit: 772 manifest rows; 1073 capture files across 23 directories, all hash-verified against disk (recomputed 2026-11-23).
 
 
 ## Comparative model-card danger analysis (added 2026-11-23)
