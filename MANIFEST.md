@@ -564,23 +564,23 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 249 | captures/icloud_ai_logs/chat_p200_p060_ocr.txt | iCloud Drive (operator AI history) | n/a (local) | 1,271 | 0f92ac8055e66d82 | 2026-11-22 |
 
-| 250 | captures/icloud_ai_logs/chatgpt-watch-your-step.pdf | iCloud Drive (operator AI history) | n/a (local) | 34,420,215 | b7751e68a37cfbcd | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
+| 250 | captures/icloud_ai_logs/chatgpt-watch-your-step.pdf | iCloud Drive (operator AI history) | n/a (local) | 34,420,215 | b7751e68a37cfbcd | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | [REPLACED-BY-OCR: the source PDF/PNG was consumed/re-extracted during the OCR pass; the OCR text capture(s) carry the content — see the .txt rows this pass relocated] |
 
-| 251 | captures/icloud_ai_logs/chatgpt-watch-your-step_root.pdf | iCloud Drive (operator AI history) | n/a (local) | 34,420,215 | b7751e68a37cfbcd | 2026-11-22  [duplicate of chatgpt-watch-your-step.pdf row — file removed from captures during disk remediation; primary retained as chatgpt-watch-your-step.pdf (row with sha b7751e68a37cfbcd), OCR in wys_p200_combined.txt]  [PRIMARY REMOVED FOR DISK — full OCR in wys_p200_combined.txt; original sha b7751e68a37cfbcd; source in operator iCloud] |
+| 251 | captures/icloud_ai_logs/chatgpt-watch-your-step_root.pdf | iCloud Drive (operator AI history) | n/a (local) | 34,420,215 | b7751e68a37cfbcd | 2026-11-22  [duplicate of chatgpt-watch-your-step.pdf row — file removed from captures during disk remediation; primary retained as chatgpt-watch-your-step.pdf (row with sha b7751e68a37cfbcd), OCR in wys_p200_combined.txt]  [PRIMARY REMOVED FOR DISK — full OCR in wys_p200_combined.txt; original sha b7751e68a37cfbcd; source in operator iCloud] | [REPLACED-BY-OCR: the source PDF/PNG was consumed/re-extracted during the OCR pass; the OCR text capture(s) carry the content — see the .txt rows this pass relocated] |
 
 | 252 | captures/icloud_ai_logs/chattin_full.txt | iCloud Drive (operator AI history) | n/a (local) | 120 | f6137ebcab1689a6 | 2026-11-22 |
 
 | 253 | captures/icloud_ai_logs/chattin_obsidian.md | iCloud Drive (operator AI history) | n/a (local) | 1,157 | 834f5a9dbc8ccfd9 | 2026-11-22 |
 
-| 254 | captures/icloud_ai_logs/chattin_p001-001.png | iCloud Drive (operator AI history) | n/a (local) | 351,905 | 0a190299e7bf8c0c | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 254 | captures/icloud_ai_logs/chattin_p001-001.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,391 | 190ae9ef95d5c455 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 255 | captures/icloud_ai_logs/chattin_p001-001.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,391 | 190ae9ef95d5c455 | 2026-11-22 |
 
-| 256 | captures/icloud_ai_logs/chattin_p002-002.png | iCloud Drive (operator AI history) | n/a (local) | 205,735 | afcbe3fe40e870a9 | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 256 | captures/icloud_ai_logs/chattin_p002-002.png.txt | iCloud Drive (operator AI history) | n/a (local) | 1,563 | 9446adeaece50db2 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 257 | captures/icloud_ai_logs/chattin_p002-002.png.txt | iCloud Drive (operator AI history) | n/a (local) | 1,563 | 9446adeaece50db2 | 2026-11-22 |
 
-| 258 | captures/icloud_ai_logs/chattin_p003-003.png | iCloud Drive (operator AI history) | n/a (local) | 204,434 | 5f170da3be58ed5b | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 258 | captures/icloud_ai_logs/chattin_p003-003.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,024 | 4388a785d819e7e8 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 259 | captures/icloud_ai_logs/chattin_p003-003.png.txt | iCloud Drive (operator AI history) | n/a (local) | 2,024 | 4388a785d819e7e8 | 2026-11-22 |
 
@@ -588,7 +588,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 261 | captures/icloud_ai_logs/chattin_with_chatgpt_EXTRACTED.pdf | iCloud Drive (operator AI history) | n/a (local) | 35,582 | 5d772f5f3af48bcd | 2026-11-22 |
 
-| 262 | captures/icloud_ai_logs/chattin_with_chatgpt_full.pdf | iCloud Drive (operator AI history) | n/a (local) | 33,243,722 | ebaeb7f3b99a34d9 | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
+| 262 | captures/icloud_ai_logs/chattin_with_chatgpt_full.pdf | iCloud Drive (operator AI history) | n/a (local) | 33,243,722 | ebaeb7f3b99a34d9 | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | [REPLACED-BY-OCR: the source PDF/PNG was consumed/re-extracted during the OCR pass; the OCR text capture(s) carry the content — see the .txt rows this pass relocated] |
 
 | 263 | captures/icloud_ai_logs/claude_breach_obsidian.md | iCloud Drive (operator AI history) | n/a (local) | 1,061 | d82d8272c929e3ca | 2026-11-22 |
 
@@ -596,7 +596,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 265 | captures/icloud_ai_logs/sysfail_ocr_combined.txt | iCloud Drive (operator AI history) | n/a (local) | 117,248 | a7bc93caaba55aa9 | 2026-11-22 |
 
-| 266 | captures/icloud_ai_logs/the_system_fails.pdf | iCloud Drive (operator AI history) | n/a (local) | 46,467,103 | d740d16d9b8cca1c | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
+| 266 | captures/icloud_ai_logs/the_system_fails.txt | iCloud Drive (operator AI history) | n/a (local) | 30 | 01a61131a46d28a4 | 2026-11-22  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] |
 
 | 267 | captures/icloud_ai_logs/the_system_fails.txt | iCloud Drive (operator AI history) | n/a (local) | 30 | 01a61131a46d28a4 | 2026-11-22 |
 
@@ -604,19 +604,19 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 269 | captures/icloud_ai_logs/watch_your_step_obsidian.md | iCloud Drive (operator AI history) | n/a (local) | 1,229 | 9cb1f506adf17874 | 2026-11-22 |
 
-| 270 | captures/icloud_ai_logs/watch_your_step_p001-01.png | iCloud Drive (operator AI history) | n/a (local) | 269,537 | 1dd28302be76e1ea | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 270 | captures/icloud_ai_logs/watch_your_step_p001-01.png.txt | iCloud Drive (operator AI history) | n/a (local) | 325 | 0ffd1103301726a2 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 271 | captures/icloud_ai_logs/watch_your_step_p001-01.png.txt | iCloud Drive (operator AI history) | n/a (local) | 325 | 0ffd1103301726a2 | 2026-11-22 |
 
-| 272 | captures/icloud_ai_logs/watch_your_step_p002-02.png | iCloud Drive (operator AI history) | n/a (local) | 212,204 | 4bb2d09c12349f5f | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 272 | captures/icloud_ai_logs/watch_your_step_p002-02.png.txt | iCloud Drive (operator AI history) | n/a (local) | 148 | 6337ce9f3a0a649e | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 273 | captures/icloud_ai_logs/watch_your_step_p002-02.png.txt | iCloud Drive (operator AI history) | n/a (local) | 148 | 6337ce9f3a0a649e | 2026-11-22 |
 
-| 274 | captures/icloud_ai_logs/watch_your_step_p003-03.png | iCloud Drive (operator AI history) | n/a (local) | 225,202 | af16988582d9dbcc | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 274 | captures/icloud_ai_logs/watch_your_step_p003-03.png.txt | iCloud Drive (operator AI history) | n/a (local) | 88 | c27b552a0bcf0945 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 275 | captures/icloud_ai_logs/watch_your_step_p003-03.png.txt | iCloud Drive (operator AI history) | n/a (local) | 88 | c27b552a0bcf0945 | 2026-11-22 |
 
-| 276 | captures/icloud_ai_logs/wys200_p1-01.png | iCloud Drive (operator AI history) | n/a (local) | 666,913 | 38203f8c1faeb633 | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 276 | captures/icloud_ai_logs/chat_p200_p001_ocr.txt | iCloud Drive (operator AI history) | n/a (local) | 3,101 | 3f3dadacfb1b578d | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 277 | captures/icloud_ai_logs/wys200_p1.txt | iCloud Drive (operator AI history) | n/a (local) | 5,847 | 49c4cea7b3cc1450 | 2026-11-22 |
 
@@ -962,9 +962,9 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 446 | captures/statutes_fcc_dtpa_ada/47cfr_part14_ecfr_2026-11-19.xml | https://www.ecfr.gov/api/versioner/v1/full/2026-11-19/title-47.xml?part=14 (eCFR full-part XML, issue date 2026-11-19) | 200 | 52,060 | 11cbb28b490f65ae | 2026-11-22 |
 
-| 447 | tx_bcc_ch17_dtpa_statutes.html | https://tcss.legis.texas.gov/resources/BC/htm/BC.17.html (Texas Constitution & Statutes, Bus. & Com. Code ch. 17 full chapter HTML served to the Angular viewer) | 200 | 193,909 | 33fdf21e31dba579 | 2026-11-22 |
+| 447 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch17_dtpa_statutes.htm | https://tcss.legis.texas.gov/resources/BC/htm/BC.17.html (Texas Constitution & Statutes, Bus. & Com. Code ch. 17 full chapter HTML served to the Angular viewer) | 200 | 193,909 | 33fdf21e31dba579 | 2026-11-22 |
 
-| 448 | tx_bcc_ch541_tdpsa_statutes.html | https://tcss.legis.texas.gov/resources/BC/htm/BC.541.html (same host/method, ch. 541 TDPSA full chapter) | 200 | 80,485 | 1f56ef0a23bae698 | 2026-11-22 |
+| 448 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch541_tdpsa_statutes.htm | https://tcss.legis.texas.gov/resources/BC/htm/BC.541.html (same host/method, ch. 541 TDPSA full chapter) | 200 | 80,485 | 1f56ef0a23bae698 | 2026-11-22 |
 
 | 449 | captures/statutes_fcc_dtpa_ada/29usc794_cornell.html | https://www.law.cornell.edu/uscode/text/29/794 | 200 | 83,179 | 5ab25b0b8de6ed76 | 2026-11-22 |
 
@@ -984,7 +984,7 @@ URLs fetched via curl (docs.fcc.gov) or shared-browser session (apps.fcc.gov; di
 
 | 452 | captures/statutes_fcc_dtpa_ada/42usc12182_cornell.html | https://www.law.cornell.edu/uscode/text/42/12182 | 200 | 52,595 | 2d2dbaac8a94d0dc | 2026-11-22 |
 
-| 453 | USCODE-2023-title47.html | https://www.govinfo.gov/content/pkg/USCODE-2023-title47/html/USCODE-2023-title47.html (GPO whole-title 47; current through 2024-01-03; used to confirm ACS provision is codified at § 617 with source credit "June 19, 1934, ch. 652, title VII, §716, as added Pub. L. 111–260, title I, §104(a)") | 200 | 4,066,604 | eccec585a8f0e935 | 2026-11-22 | NOT-ON-DISK-2026-11-23
+| 453 | captures/statutes_fcc_dtpa_ada/USCODE-2023-title47.htm | https://www.govinfo.gov/content/pkg/USCODE-2023-title47/html/USCODE-2023-title47.html (GPO whole-title 47; current through 2024-01-03; used to confirm ACS provision is codified at § 617 with source credit "June 19, 1934, ch. 652, title VII, §716, as added Pub. L. 111–260, title I, §104(a)") | 200 | 4,066,604 | eccec585a8f0e935 | 2026-11-22 | NOT-ON-DISK-2026-11-23
 
 | 454 | captures/statutes_fcc_dtpa_ada/caa_public_law_111-260_stat124pg2751.pdf | https://www.govinfo.gov/content/pkg/STATUTE-124/pdf/STATUTE-124-Pg2751.pdf (Statutes at Large 124 Stat. 2751, CVAA Title I; SEC. 104 adds Comm. Act §716, with OFR margin note 47 USC 617) | 200 | 184,885 | 8fa5ad1e054c8824 | 2026-11-22 |
 
@@ -2232,7 +2232,7 @@ Blocked/failed attempts (inventory):
 
 | 853 | captures/google_pichai/verge_google_monopoly_verdict.html | https://www.theverge.com/2024/8/5/24155520/judge-rules-on-us-doj-v-google-antitrust-search-suit | 200 | 469,927 | d704eacc997f7764 | 2026-11-23 | Google/Pichai due-diligence capture |
 
-| 854 | captures/google_pichai/GOOGLE_PICHAI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,843 | e7b5af73db917443 | 2026-11-23 | Google/Pichai due-diligence deliverable |
+| 854 | captures/google_pichai/GOOGLE_PICHAI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,831 | 24d9dd083e2bb75e | 2026-11-23 | Google/Pichai due-diligence deliverable |
 
 
 | 855 | captures/google_pichai/mehta_liability_opinion_doc1033_us_v_google.pdf | https://storage.courtlistener.com/recap/gov.uscourts.dcd.223205/gov.uscourts.dcd.223205.1033.0.pdf | 200 | 2,634,560 | aebc735884e11b96 | 2026-11-23 | US v. Google (1:20-cv-03010-APM) Doc 1033 — Judge Mehta 286-pp liability opinion, ADJUDICATED primary; 24 Pichai testimony pin-cites (Tr. 7638ff) |
@@ -2381,7 +2381,7 @@ Blocked/failed attempts (inventory):
 
 | 927 | captures/apple_cook_xai_musk/xai_safety_wb.html | https://web.archive.org/web/2025/https://x.ai/safety/ | 200 | 40,387 | ea56a9c21cc372d5 | 2026-11-23 | Apple/Cook/xAI/Musk due-diligence capture |
 
-| 928 | captures/apple_cook_xai_musk/APPLE_COOK_XAI_MUSK_SCRUTINY_REPORT.md | captured in pass (see report) | 200 | 23,346 | fce0181060b88e97 | 2026-11-23 | Apple/xAI/Musk due-diligence capture |
+| 928 | captures/apple_cook_xai_musk/APPLE_COOK_XAI_MUSK_SCRUTINY_REPORT.md | captured in pass (see report) | 200 | 23,406 | 87824b6e858be2f9 | 2026-11-23 | Apple/xAI/Musk due-diligence capture |
 
 | 929 | captures/apple_cook_xai_musk/ec_apple_music_fine_IP_24_1161_EN.pdf | https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_24_1161/IP_24_1161_EN.pdf | 200 | 308,602 | 1d4083484679b6bf | 2026-11-23 | EC €1.84B Apple music-streaming fine — full press text (IP/24/1161; AT.40437; Apple “abused its dominant position ... for a decade” per Vestager quote) |
 
@@ -2439,14 +2439,14 @@ Blocked/failed attempts (inventory):
 | 962 | captures/musk_person/unsworth_v_musk_motion_in_limine.pdf | https://storage.courtlistener.com/recap/gov.uscourts.cacd.723137/gov.uscourts.cacd.723137.96.0.pdf | 200 | 141,728 | 2ec6bfc9f7c211b8 | 2026-11-23 | Musk person due-diligence capture |
 | 963 | captures/musk_person/wikipedia_elon_musk.html | https://en.wikipedia.org/wiki/Elon_Musk | 200 | 2,396,411 | af3794171e463889 | 2026-11-23 | Musk person due-diligence capture |
 | 964 | captures/smith_page_brin_google/abc_xyz_ipo_letter_wb.html | https://web.archive.org/web/2024/https://abc.xyz/investor/founders-letters/ipo-letter/ | 200 | 158,607 | ba056596b8afa411 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
-| 965 | captures/smith_page_brin_google/bradsmith_authorpage.html | https://blogs.microsoft.com/on-the-issues/author/bradsmith/ | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
-| 966 | captures/smith_page_brin_google/gdn_dont_be_evil.html | captured in pass | 200 | 24,345 | 5a504aff032fe8fa | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 965 | captures/blocked_attempts_smith_page_brin/bradsmith_authorpage.html | https://blogs.microsoft.com/on-the-issues/author/bradsmith/ | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 966 | captures/blocked_attempts_smith_page_brin/gdn_dont_be_evil.html | captured in pass | 200 | 24,345 | 5a504aff032fe8fa | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 967 | captures/smith_page_brin_google/google_about_home.html | https://www.google.com/intl/en/about/ | 200 | 133,480 | 3536a8796b7a917d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 968 | captures/smith_page_brin_google/google_ten_things.html | https://www.google.com/about/philosophy.html | 200 | 111,818 | 37ea5b6f37b2f3bd | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
-| 969 | captures/smith_page_brin_google/msft_blog_bradsmith_ai.html | captured in pass | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 969 | captures/blocked_attempts_smith_page_brin/msft_blog_bradsmith_ai.html | captured in pass | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 970 | captures/smith_page_brin_google/msft_blog_bradsmith_author.html | captured in pass | 200 | 119,821 | 4c00f01f54ea0347 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
-| 971 | captures/smith_page_brin_google/page_brin_alphabet_letter.html | captured in pass | 200 | 308,417 | 64e759a4979adccc | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
-| 972 | captures/smith_page_brin_google/sec_google_ds424b4.htm | captured in pass | 200 | 4,819 | 7b93968965cd96e1 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 971 | captures/blocked_attempts_smith_page_brin/page_brin_alphabet_letter.html | captured in pass | 200 | 308,417 | 64e759a4979adccc | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 972 | captures/blocked_attempts_smith_page_brin/sec_google_ds424b4.htm | captured in pass | 200 | 4,819 | 7b93968965cd96e1 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 973 | captures/smith_page_brin_google/wiki_dont_be_evil.html | https://en.wikipedia.org/wiki/Don%27t_be_evil | 200 | 360,949 | 925008ad63e6cc46 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
 | 974 | captures/sandberg_wojcicki_porat/leanin_home.html | https://www.leanin.org/ | 200 | 241,756 | bdf50f78a169641e | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
 | 975 | captures/sandberg_wojcicki_porat/meta_careers.html | captured in pass | 200 | 528,305 | e3f506cdfc051ae6 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
