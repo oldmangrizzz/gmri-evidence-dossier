@@ -33,17 +33,17 @@ From ABC News (215,951 B capture, VERIFIED):
 
 **Both set for closed-door transcribed interviews (Dec 1 Huang, Dec 2 Teter).** Chairmen Brian Mast (FA), John Moolenaar (CCP), Rick Crawford (Intel): "The American people need answers on Mr. Huang and Nvidia's role in allowing dangerous PRC actors to access our most advanced chips, as well as the role of a potential Chinese intelligence asset in this scandal."
 
-## 5. California AG opens probe (SECONDHAND, Nov 19)
+## 5. California AG opens probe (SECONDHAND-UNCAPTURED, Nov 19; discovery target: PolitiCo article — 403 capture attempt logged)
 
-Rob Bonta's investigative subpoena: "We're specifically investigating whether Nvidia's advanced chips or their confidential information may have gone to China and whether Nvidia misled investors and the public." (PolitiCo capture 403'd — the Bonta story's content is via the Reuters/Wired/ABC captures.)
+Not captured on disk this pass. Referenced via search relay (PolitiCo 2026-11-19). Named as a discovery target.
 
 ## 6. Workplace-conduct reporting (THE VERGE, VERIFIED)
 
 The Verge's capture (Nov 20, 349,119 B): "Jensen Huang reportedly 'terrorized' Nvidia employees... Mr. Huang had for years been berating his employees, documents and interviews show. His tongue lashings were savage and inventive. He told one executive that his mother should have aborted him... he told another employee he would rip off the top of their head and 'pee on your brain.'" — attributed to NYT reporting, carried at SECONDHAND.
 
-## 7. Shareholder suits + Trump's position
+## 7. Shareholder suits + Trump's position (SECONDHAND-UNCAPTURED on the Musk/Kalanick/Sweeney/Tan + 170K letter; discovery target)
 
-Multiple shareholder lawsuits alleging misleading statements; Trump: "He made some bad decisions, but he is a brilliant person... I'd like to see Jensen make a big apology." Musk, Uber co-founder Kalanick, Epic Sweeney, YC Tan + 170K supporters signed an open letter.
+The reported record does show Trump's comment ("He made some bad decisions, but he is a brilliant person... I'd like to see Jensen make a big apology") via captured ABC News + Reuters captures. The Musk/Kalanick/Sweeney/YC Tan open letter and the "170K signatories" figure came from an uncaptured search relay (The Hill/Reuters reporting); both are named as discovery targets. Shareholder suits are captured as attributed in the Reuters/Wired stories.
 
 ## 8. Interim CEO Colette Kress (VERIFIED — ABC News)
 
