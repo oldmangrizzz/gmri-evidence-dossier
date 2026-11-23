@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+    <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=uno-E0Ro" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay": "on", "showSwfDownload": true, "unmuteOverlay": "hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/ruffle/0.7.1/ruffle.js"></script><script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://sdw.space/microsoft-recalled/","20260114173048","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1768411848");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Microsoft Recalled</title>
+
+        <script>
+            const rootElem = document.querySelector("html[data-theme]");
+
+            const detectSystemTheme = () => {
+                if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                    rootElem.setAttribute("data-theme", "dark");
+                } else {
+                    rootElem.setAttribute("data-theme", "light");
+                }
+            };
+
+            const initTheme = () => {
+                const localStoragePref = localStorage.getItem("data-theme");
+
+                if (localStoragePref) {
+                    rootElem.setAttribute("data-theme", localStoragePref);
+                } else {
+                    detectSystemTheme();
+                }
+            };
+
+            initTheme();
+
+            window
+                .matchMedia("(prefers-color-scheme: dark)")
+                .addEventListener("change", () => {
+                    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                        rootElem.setAttribute("data-theme", "dark");
+                    } else {
+                        rootElem.setAttribute("data-theme", "light");
+                    }
+                });
+        </script>
+
+        
+
+
+
+
+
+
+<!-- ui-serif, ui-sans-serif, ui-monospace, and ui-rounded -->
+
+<style>
+    :root {
+
+        --amaranth-font-family-emoji:"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        --amaranth-font-family-sans-serif:system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,Helvetica,Arial,"Helvetica Neue",sans-serif,var(--amaranth-font-family-emoji);
+        --amaranth-font-family-serif:'Plantin MT Pro', Georgia, serif;
+        --amaranth-font-family-monospace:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace,var(--amaranth-font-family-emoji);
+
+        --font-family-titles: var(--amaranth-font-family-sans-serif);
+        --font-family-post-body: var(--amaranth-font-family-sans-serif);
+        --font-family-extra: var(--amaranth-font-family-sans-serif);
+        --font-family-meta: var(--amaranth-font-family-sans-serif);
+
+        --font-weight-titles: 600;
+        --font-weight-post-body: 400;
+        --font-weight-extra: 400;
+        --font-weight-meta: 600;
+        --font-weight-meta-tag: 700;
+        --font-weight-meta-subheading: 600;
+        --font-weight-meta-author: 600;
+        --font-weight-meta-button: 700;
+        --font-weight-meta-pagination: 600;
+
+        --font-size-titles-h0: 94px;
+        --font-size-titles-h1: 62px;
+        --font-size-titles-h2: 48px;
+        --font-size-titles-h3: 38px;
+        --font-size-titles-h4: 32px;
+        --font-size-titles-h5: 24px;
+        --font-size-titles-h6: 20px;
+        --font-size-titles-number-large: 120px;
+        --font-size-titles-number-medium: 70px;
+        --font-size-titles-number-small: 24px;
+
+        --line-height-titles-h0: 112%;
+        --line-height-titles-h1: 112%;
+        --line-height-titles-h2: 112%;
+        --line-height-titles-h3: 124%;
+        --line-height-titles-h4: 124%;
+        --line-height-titles-h5: 130%;
+        --line-height-titles-h6: 130%;
+        --line-height-titles-number: 100%;
+
+        --letter-spacing-titles-h0: -0.04em;
+        --letter-spacing-titles-h1: -0.04em;
+        --letter-spacing-titles-h2: -0.04em;
+        --letter-spacing-titles-h3: -0.04em;
+        --letter-spacing-titles-h4: -0.04em;
+        --letter-spacing-titles-h5: -0.04em;
+        --letter-spacing-titles-h6: -0.04em;
+        --letter-spacing-titles-number: -0.04em;
+
+        --font-size-post-body-xl: 24px;
+        --font-size-post-body-l: 20px;
+        --font-size-post-body-m: 18px;
+        --font-size-post-body-s: 14px;
+        --font-size-post-body-xs: 12px;
+
+        --line-height-post-body: 140%;
+
+        --letter-spacing-post-body: 0;
+
+        --font-size-extra-xl: 24px;
+        --font-size-extra-l: 20px;
+        --font-size-extra-m: 16px;
+        --font-size-extra-s: 14px;
+        --font-size-extra-xs: 12px;
+
+        --line-height-extra: 140%;
+
+        --letter-spacing-extra: 0;
+
+        --font-size-meta-author: 12px;
+        --font-size-meta: 9px;
+        --font-size-meta-tag: 9px;
+        --font-size-meta-subheading: 14px;
+        --font-size-meta-button: 11px;
+        --font-size-meta-pagination: 12px;
+
+        --line-height-meta: 140%;
+
+        --letter-spacing-meta: 0.1em;
+        --letter-spacing-meta-author: -0.02em;
+        --letter-spacing-meta-tag: 0.1em;
+        --letter-spacing-meta-subheading: -0.02em;
+        --letter-spacing-meta-button: 0.1em;
+
+        --text-transfrom-author: capitalize;
+        --text-transform-meta: uppercase;
+        --text-transform-tag: uppercase;
+        --text-transform-subheading: capitalize;
+        --text-transfrom-banner-title: none;
+        --text-transform-button: uppercase;
+        --text-transform-pagination: none;
+
+        --subcribe-form-btn-padding--loading: 10px 52.5px;
+        --edit-billing-btn-padding--loading: 7.5px 75px;
+
+        /* Below is a list of Amaranth modifications to type sizes. We want to
+        isolate them from the general site so we're leaving them separate for now. */
+
+        --amaranth-font-weight-titles: 700;
+        --amaranth-font-weight-subtitles: 600;
+        --amaranth-font-weight-post-body: 400;
+        --amaranth-font-weight-extra: 400;
+        --amaranth-font-weight-meta: 600;
+        --amaranth-font-weight-meta-tag: 700;
+        --amaranth-font-weight-meta-subheading: 600;
+        --amaranth-font-weight-meta-author: 600;
+        --amaranth-font-weight-meta-button: 700;
+        --amaranth-font-weight-meta-pagination: 600;
+
+        --amaranth-font-size-titles-h0: 94px;
+        --amaranth-font-size-titles-h1: 3.5625rem; /* 57px*/
+        --amaranth-font-size-titles-h2: 48px;
+        --amaranth-font-size-titles-h3: 2rem; /* 32px */
+        --amaranth-font-size-titles-h4: 2rem; /* 32px */
+        --amaranth-font-size-titles-h5: 1.625rem;  /* 26px */
+        --amaranth-font-size-titles-h6: 1.125rem;  /* 18px */
+        --amaranth-font-size-titles-number-large: 120px;
+        --amaranth-font-size-titles-number-medium: 70px;
+        --amaranth-font-size-titles-number-small: 24px;
+
+        --amaranth-line-height-titles-h0: 112%;
+        --amaranth-line-height-titles-h1: 112%;
+        --amaranth-line-height-titles-h2: 112%;
+        --amaranth-line-height-titles-h3: 124%;
+        --amaranth-line-height-titles-h4: 124%;
+        --amaranth-line-height-titles-h5: 130%;
+        --amaranth-line-height-titles-h6: 130%;
+        --amaranth-line-height-titles-number: 100%;
+
+        --amaranth-font-size-body: var(--amaranth-font-size-titles-h5);
+    }
+</style>
+
+
+        <link rel="stylesheet" href="https://web.archive.org/web/20260114173048cs_/https://sdw.space/assets/built/main.css?v=80263161ef">
+
+        <meta name="description" content="Microsoft Recall is a dumpster fire. It should be a bigger story that it was somehow announced and shipped the way it was.">
+    <link rel="icon" href="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w256h256/2024/02/android-chrome-192x192.png" type="image/png">
+    <link rel="canonical" href="https://web.archive.org/web/20260114173048/https://sdw.space/microsoft-recalled/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="sdw space — Sebastiaan de With">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Microsoft Recalled">
+    <meta property="og:description" content="Microsoft Recall is a dumpster fire. It should be a bigger story that it was somehow announced and shipped the way it was.">
+    <meta property="og:url" content="https://web.archive.org/web/20260114173048/https://sdw.space/microsoft-recalled/">
+    <meta property="og:image" content="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1200/2024/06/Screenshot-2024-06-08-at-13.54.08.png">
+    <meta property="article:published_time" content="2024-06-08T20:56:08.000Z">
+    <meta property="article:modified_time" content="2024-06-08T20:56:08.000Z">
+    <meta property="article:tag" content="◆ Article">
+    <meta property="article:tag" content="article">
+    <meta property="article:tag" content="writing">
+    <meta property="article:tag" content="writings">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Microsoft Recalled">
+    <meta name="twitter:description" content="Microsoft Recall is a dumpster fire. It should be a bigger story that it was somehow announced and shipped the way it was.">
+    <meta name="twitter:url" content="https://web.archive.org/web/20260114173048im_/https://sdw.space/microsoft-recalled/">
+    <meta name="twitter:image" content="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1200/2024/06/Screenshot-2024-06-08-at-13.54.08.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Sebastiaan de With">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="◆ Article, article, writing, writings">
+    <meta name="twitter:site" content="@sdw">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="626">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://web.archive.org/web/20260114173048/https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "sdw space — Sebastiaan de With",
+        "url": "https://web.archive.org/web/20260114173048/https://sdw.space/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20260114173048/https://sdw.space/content/images/2024/02/android-chrome-512x512.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Sebastiaan de With",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://web.archive.org/web/20260114173048/https://www.gravatar.com/avatar/0ed80161b0c30562348faad01d3dc783?s=250&r=x&d=mp",
+            "width": 250,
+            "height": 250
+        },
+        "url": "https://web.archive.org/web/20260114173048/https://sdw.space/author/sdw/",
+        "sameAs": []
+    },
+    "headline": "Microsoft Recalled",
+    "url": "https://web.archive.org/web/20260114173048/https://sdw.space/microsoft-recalled/",
+    "datePublished": "2024-06-08T20:56:08.000Z",
+    "dateModified": "2024-06-08T20:56:08.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://web.archive.org/web/20260114173048/https://sdw.space/content/images/size/w1200/2024/06/Screenshot-2024-06-08-at-13.54.08.png",
+        "width": 1200,
+        "height": 626
+    },
+    "keywords": "◆ Article, article, writing, writings",
+    "description": "Microsoft Recall is a dumpster fire. It should be a bigger story that it was somehow announced and shipped the way it was.",
+    "mainEntityOfPage": "https://web.archive.org/web/20260114173048/https://sdw.space/microsoft-recalled/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.12">
+    <link rel="alternate" type="application/rss+xml" title="sdw space — Sebastiaan de With" href="https://web.archive.org/web/20260114173048/https://sdw.space/rss/">
+    <script defer src="https://web.archive.org/web/20260114173048js_/https://cdn.jsdelivr.net/ghost/portal@~2.56/umd/portal.min.js" data-i18n="true" data-ghost="https://sdw.space/" data-key="c47c3a800e2651d77979f7e946" data-api="https://sdwspace.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://web.archive.org/web/20260114173048js_/https://js.stripe.com/v3/"></script>
+    <script defer src="https://web.archive.org/web/20260114173048js_/https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="c47c3a800e2651d77979f7e946" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://sdwspace.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://sdw.space/webmentions/receive/" rel="webmention">
+    <script defer src="/web/20260114173048js_/https://sdw.space/public/cards.min.js?v=80263161ef"></script>
+    <link rel="stylesheet" type="text/css" href="/web/20260114173048cs_/https://sdw.space/public/cards.min.css?v=80263161ef">
+    <script defer src="/web/20260114173048js_/https://sdw.space/public/member-attribution.min.js?v=80263161ef"></script>
+    <script defer src="/web/20260114173048js_/https://sdw.space/public/ghost-stats.min.js?v=80263161ef" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://sdw.space/.ghost/analytics/api/v1/page_hit" tb_site_uuid="840cfd88-f8d5-4830-ac1f-f0a5ecd3aa22" tb_post_uuid="dfcf521a-8daf-4b60-a392-c99dd4fb2452" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined"></script><style>:root {--ghost-accent-color: #919191;}</style>
+    
+<style>
+    :root {
+        --border-radius-btns-inputs: 18pt;
+        --border-radius-img-and-containers: 6pt;
+    }
+
+  .homepage__content ul.article-list li {
+    font-size: 24px;
+    line-height: 46px;
+    padding-bottom: 10px;
+  }
+
+  wrapper.double-column {
+    z-index: 9999;
+  }
+   @media (max-width: 1000px) {
+      wrapper.one-three-column content {
+        max-width: 85%;
+      }
+
+     @media (max-width: 1000px){
+
+
+       .grid-list-posts-special-date-section .list-post-text-part .list-post__heading {
+         font-size: 44px;
+         line-height: 44px;
+       }
+     
+    
+     }
+     
+  .redoctober {
+  padding-left: 20px;
+  padding-right: 20px;
+    }
+</style>
+    </head>
+
+
+    <body class="post-template tag-article tag-article-2 tag-writing tag-writings">
+
+        
+
+
+
+
+
+
+
+    <header class="header wide-header">
+    <div class="wide-header-container wrapper">
+        <button class="burger-btn" aria-label="Open mobile menu button">
+            <span class="burger-btn__span"></span>
+            <span class="burger-btn__span"></span>
+            <span class="burger-btn__span"></span>
+        </button>
+        <div class="context mobile-menu">
+    <div class="mobile-menu-header">
+        <button class="close-menu-btn">
+            <span class="close-menu-btn__span"></span>
+            <span class="close-menu-btn__span"></span>
+        </button>
+            <div class="header-identity header-identity--mobile-menu">
+        <a class="logo has-dark-version" href="https://web.archive.org/web/20260114173048/https://sdw.space/" aria-label="https://sdw.space Logo and home page link">
+            <img class="logo__img logo__img--dark" src="/web/20260114173048im_/https://sdw.space/content/images/2024/06/sdwbal-bright.png" alt="sdw space — Sebastiaan de With icon">
+        <img class="logo__img logo__img--light" src="/web/20260114173048im_/https://sdw.space/content/images/2024/02/android-chrome-512x512.png" alt="sdw space — Sebastiaan de With icon">
+</a></div>        <!-- <button class="action-btn search-btn" title="Search button" aria-label="Search button"
+            data-ghost-search>
+            <svg class="navigation-svg" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M3.30596781,12.4584351 C3.30596781,11.1248169 3.5568223,9.87313843 4.05853128,8.70339966 C4.56024027,7.53366089 5.25500345,6.50427246 6.14282084,5.61523438 C7.03063822,4.72619629 8.05941629,4.03143311 9.22915506,3.53094482 C10.3988938,3.03045654 11.651793,2.7802124 12.9878526,2.7802124 C14.3239121,2.7802124 15.5761704,3.03045654 16.7446275,3.53094482 C17.9130845,4.03143311 18.9418626,4.72619629 19.8309617,5.61523438 C20.7200608,6.50427246 21.4154344,7.53366089 21.9170823,8.70339966 C22.4187303,9.87313843 22.6695542,11.1248169 22.6695542,12.4584351 C22.6695542,13.4569702 22.5225205,14.4094849 22.2284532,15.315979 C21.9343858,16.2224731 21.5261827,17.0527344 21.0038438,17.8067627 L26.0515122,22.8822632 C26.2432847,23.0740356 26.3865952,23.2909241 26.4814439,23.5329285 C26.5762925,23.7749329 26.6237168,24.0292358 26.6237168,24.2958374 C26.6237168,24.6724243 26.5386338,25.0131836 26.3684678,25.3181152 C26.1983018,25.6230469 25.963408,25.8638916 25.6637864,26.0406494 C25.3641648,26.2174072 25.0221543,26.3057861 24.6377549,26.3057861 C24.3687119,26.3057861 24.1093736,26.2583618 23.8597398,26.1635132 C23.610106,26.0686646 23.3865342,25.9251709 23.1890244,25.7330322 L18.0950303,20.6309814 C17.3615098,21.1036377 16.5628953,21.4733276 15.6991868,21.7400513 C14.8354783,22.0067749 13.9317002,22.1401367 12.9878526,22.1401367 C11.651793,22.1401367 10.3988938,21.8899231 9.22915506,21.3894958 C8.05941629,20.8890686 7.03063822,20.1943359 6.14282084,19.3052979 C5.25500345,18.4162598 4.56024027,17.3868713 4.05853128,16.2171326 C3.5568223,15.0473938 3.30596781,13.7944946 3.30596781,12.4584351 Z M6.15600443,12.4584351 C6.15600443,13.4022827 6.33245707,14.2866516 6.68536234,15.1115417 C7.03826761,15.9364319 7.52850199,16.6613159 8.15606546,17.2861938 C8.78362894,17.9110718 9.50982523,18.4013062 10.3346543,18.756897 C11.1594834,19.1124878 12.0438828,19.2902832 12.9878526,19.2902832 C13.9317002,19.2902832 14.8160691,19.1124878 15.6409593,18.756897 C16.4658494,18.4013062 17.1907334,17.9110718 17.8156114,17.2861938 C18.4404893,16.6613159 18.9300828,15.9364319 19.2843919,15.1115417 C19.638701,14.2866516 19.8158555,13.4022827 19.8158555,12.4584351 C19.8158555,11.5170288 19.638701,10.6338806 19.2843919,9.80899048 C18.9300828,8.98410034 18.4404893,8.25787354 17.8156114,7.63031006 C17.1907334,7.00274658 16.4658494,6.51251221 15.6409593,6.15960693 C14.8160691,5.80670166 13.9317002,5.63024902 12.9878526,5.63024902 C12.0438828,5.63024902 11.1594834,5.80670166 10.3346543,6.15960693 C9.50982523,6.51251221 8.78362894,7.00274658 8.15606546,7.63031006 C7.52850199,8.25787354 7.03826761,8.98410034 6.68536234,9.80899048 C6.33245707,10.6338806 6.15600443,11.5170288 6.15600443,12.4584351 Z" ></path>
+    </g>
+</svg>
+        </button> -->
+    </div>
+    
+
+<nav class="nav">
+    <ul class="nav-list nav-list--mobile-menu">
+        <li class="nav-list__item nav-writings nav-list__item--mobile-menu">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/writings/" class="nav-list__item-link nav-list__item-link--mobile-menu" aria-label="Writings Navigation link">
+                Writings
+            </a>
+        </li>
+        <li class="nav-list__item nav-photography nav-list__item--mobile-menu">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/photography/" class="nav-list__item-link nav-list__item-link--mobile-menu" aria-label="Photography Navigation link">
+                Photography
+            </a>
+        </li>
+        <li class="nav-list__item nav-courses-downloads nav-list__item--mobile-menu">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/courses-and-downloads/" class="nav-list__item-link nav-list__item-link--mobile-menu" aria-label="Courses &amp; Downloads Navigation link">
+                Courses &amp; Downloads
+            </a>
+        </li>
+
+    </ul>
+</nav>
+
+
+    <hr>
+        
+
+
+
+<a class="main-button fancy" href="https://web.archive.org/web/20260114173048/https://sdw.space/signin" aria-label="Log in button">
+    <span class="main-button__span">
+        Log In
+    </span>
+    <span class="main-button__icons">
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+    </span>
+</a>
+</div>
+        <div class="wide-header-identity wide-header-identity--centered">
+                    <div class="header-identity">
+        <a class="logo has-dark-version" href="https://web.archive.org/web/20260114173048/https://sdw.space/" aria-label="https://sdw.space Logo and home page link">
+            <img class="logo__img logo__img--dark" src="/web/20260114173048im_/https://sdw.space/content/images/2024/06/sdwbal-bright.png" alt="sdw space — Sebastiaan de With icon">
+        <img class="logo__img logo__img--light" src="/web/20260114173048im_/https://sdw.space/content/images/2024/02/android-chrome-512x512.png" alt="sdw space — Sebastiaan de With icon">
+</a></div>        </div>
+        <div class="wide-header-nav">
+            
+
+<nav class="nav">
+    <ul class="nav-list">
+        <li class="nav-list__item nav-writings">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/writings/" class="nav-list__item-link nav-list__item-link--main" aria-label="Writings
+            Navigation link">
+
+                    <svg class="writing-icon" width="20" height="21" viewbox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="navigation-writing" transform="translate(0.5, 3.5)" fill-rule="nonzero">
+        <path class="navigation-svg" d="M6.86111111,2.30232558 L17.900463,2.30232558 C18.2054012,2.30232558 18.464892,2.19912791 18.6789352,1.99273256 C18.8929784,1.78633721 19,1.53197674 19,1.22965116 C19,0.927325581 18.8944444,0.67005814 18.6833333,0.457848837 C18.4722222,0.245639535 18.2112654,0.139534884 17.900463,0.139534884 L6.86111111,0.139534884 C6.55617284,0.139534884 6.29814815,0.244186047 6.08703704,0.453488372 C5.87592593,0.662790698 5.77037037,0.921511628 5.77037037,1.22965116 C5.77037037,1.52616279 5.87592593,1.77906977 6.08703704,1.98837209 C6.29814815,2.19767442 6.55617284,2.30232558 6.86111111,2.30232558 Z M6.86111111,13.3604651 L17.900463,13.3604651 C18.2054012,13.3604651 18.464892,13.255814 18.6789352,13.0465116 C18.8929784,12.8372093 19,12.5813953 19,12.2790698 C19,11.9767442 18.8944444,11.7194767 18.6833333,11.5072674 C18.4722222,11.2950581 18.2112654,11.1889535 17.900463,11.1889535 L6.86111111,11.1889535 C6.55617284,11.1889535 6.29814815,11.2936047 6.08703704,11.502907 C5.87592593,11.7122093 5.77037037,11.9709302 5.77037037,12.2790698 C5.77037037,12.5755814 5.87592593,12.8299419 6.08703704,13.0421512 C6.29814815,13.2543605 6.55617284,13.3604651 6.86111111,13.3604651 Z M6.86111111,7.83139535 L17.900463,7.83139535 C18.2054012,7.83139535 18.464892,7.72674419 18.6789352,7.51744186 C18.8929784,7.30813953 19,7.05232558 19,6.75 C19,6.44767442 18.8944444,6.19186047 18.6833333,5.98255814 C18.4722222,5.77325581 18.2112654,5.66860465 17.900463,5.66860465 L6.86111111,5.66860465 C6.55617284,5.66860465 6.29814815,5.77325581 6.08703704,5.98255814 C5.87592593,6.19186047 5.77037037,6.44767442 5.77037037,6.75 C5.77037037,7.05232558 5.87592593,7.30813953 6.08703704,7.51744186 C6.29814815,7.72674419 6.55617284,7.83139535 6.86111111,7.83139535 Z M1.23148148,13.5 L2.74444444,13.5 C3.0787037,13.5 3.36604938,13.3793605 3.60648148,13.1380814 C3.84691358,12.8968023 3.96712963,12.6104651 3.96712963,12.2790698 C3.96712963,11.9360465 3.84691358,11.6453488 3.60648148,11.4069767 C3.36604938,11.1686047 3.0787037,11.0494186 2.74444444,11.0494186 L1.23148148,11.0494186 C0.897222222,11.0494186 0.608410494,11.1686047 0.365046296,11.4069767 C0.121682099,11.6453488 0,11.9360465 0,12.2790698 C0,12.6104651 0.121682099,12.8968023 0.365046296,13.1380814 C0.608410494,13.3793605 0.897222222,13.5 1.23148148,13.5 Z M1.23148148,7.97093023 L2.74444444,7.97093023 C3.0787037,7.97093023 3.36604938,7.85174419 3.60648148,7.61337209 C3.84691358,7.375 3.96712963,7.0872093 3.96712963,6.75 C3.96712963,6.4127907 3.84691358,6.125 3.60648148,5.88662791 C3.36604938,5.64825581 3.0787037,5.52906977 2.74444444,5.52906977 L1.23148148,5.52906977 C0.897222222,5.52906977 0.608410494,5.64825581 0.365046296,5.88662791 C0.121682099,6.125 0,6.4127907 0,6.75 C0,7.0872093 0.121682099,7.375 0.365046296,7.61337209 C0.608410494,7.85174419 0.897222222,7.97093023 1.23148148,7.97093023 Z M1.23148148,2.44186047 L2.74444444,2.44186047 C3.0787037,2.44186047 3.36604938,2.32267442 3.60648148,2.08430233 C3.84691358,1.84593023 3.96712963,1.56104651 3.96712963,1.22965116 C3.96712963,0.886627907 3.84691358,0.595930233 3.60648148,0.35755814 C3.36604938,0.119186047 3.0787037,0 2.74444444,0 L1.23148148,0 C0.897222222,0 0.608410494,0.119186047 0.365046296,0.35755814 C0.121682099,0.595930233 0,0.886627907 0,1.22965116 C0,1.56104651 0.121682099,1.84593023 0.365046296,2.08430233 C0.608410494,2.32267442 0.897222222,2.44186047 1.23148148,2.44186047 Z"></path>
+    </g>
+</svg>
+
+                Writings
+            </a>
+        </li>
+        <li class="nav-list__item nav-photography">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/photography/" class="nav-list__item-link nav-list__item-link--main" aria-label="Photography
+            Navigation link">
+
+                    <svg class="photography-icon" width="20" height="21" viewbox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="navigation-photography" transform="translate(0.25, 2.5)" fill-rule="nonzero">
+        <path class="navigation-svg" d="M12.1524281,7.28299837 L17.8253147,7.28299837 C18.3806205,7.28299837 18.7985612,7.14249502 19.0791367,6.86148832 C19.3597122,6.58048162 19.5,6.15317762 19.5,5.57957632 L19.5,1.69473112 C19.5,1.12112982 19.3597122,0.695274307 19.0791367,0.417164584 C18.7985612,0.139054861 18.3806205,0 17.8253147,0 L12.1524281,0 C11.5971223,0 11.1791817,0.139054861 10.8986061,0.417164584 C10.6180306,0.695274307 10.4777428,1.12112982 10.4777428,1.69473112 L10.4777428,5.57957632 C10.4777428,6.15317762 10.6180306,6.58048162 10.8986061,6.86148832 C11.1791817,7.14249502 11.5971223,7.28299837 12.1524281,7.28299837 Z M1.67468525,16 L7.34757194,16 C7.9028777,16 8.32081835,15.8609451 8.60139388,15.5828354 C8.88196942,15.3047257 9.02225719,14.8788702 9.02225719,14.3052689 L9.02225719,10.4117328 C9.02225719,9.8439254 8.88196942,9.41951838 8.60139388,9.13851168 C8.32081835,8.85750498 7.9028777,8.71700163 7.34757194,8.71700163 L1.67468525,8.71700163 C1.1193795,8.71700163 0.701438849,8.85750498 0.420863309,9.13851168 C0.14028777,9.41951838 0,9.8439254 0,10.4117328 L0,14.3052689 C0,14.8788702 0.14028777,15.3047257 0.420863309,15.5828354 C0.701438849,15.8609451 1.1193795,16 1.67468525,16 Z M1.67468525,7.28299837 L7.34757194,7.28299837 C7.9028777,7.28299837 8.32081835,7.14249502 8.60139388,6.86148832 C8.88196942,6.58048162 9.02225719,6.15317762 9.02225719,5.57957632 L9.02225719,1.69473112 C9.02225719,1.12112982 8.88196942,0.695274307 8.60139388,0.417164584 C8.32081835,0.139054861 7.9028777,0 7.34757194,0 L1.67468525,0 C1.1193795,0 0.701438849,0.139054861 0.420863309,0.417164584 C0.14028777,0.695274307 0,1.12112982 0,1.69473112 L0,5.57957632 C0,6.15317762 0.14028777,6.58048162 0.420863309,6.86148832 C0.701438849,7.14249502 1.1193795,7.28299837 1.67468525,7.28299837 Z M12.1524281,16 L17.8253147,16 C18.3806205,16 18.7985612,15.8609451 19.0791367,15.5828354 C19.3597122,15.3047257 19.5,14.8788702 19.5,14.3052689 L19.5,10.4117328 C19.5,9.8439254 19.3597122,9.41951838 19.0791367,9.13851168 C18.7985612,8.85750498 18.3806205,8.71700163 17.8253147,8.71700163 L12.1524281,8.71700163 C11.5971223,8.71700163 11.1791817,8.85750498 10.8986061,9.13851168 C10.6180306,9.41951838 10.4777428,9.8439254 10.4777428,10.4117328 L10.4777428,14.3052689 C10.4777428,14.8788702 10.6180306,15.3047257 10.8986061,15.5828354 C11.1791817,15.8609451 11.5971223,16 12.1524281,16 Z"></path>
+    </g>
+</svg>
+
+                Photography
+            </a>
+        </li>
+        <li class="nav-list__item nav-courses-downloads">
+            <a href="https://web.archive.org/web/20260114173048/https://sdw.space/courses-and-downloads/" class="nav-list__item-link nav-list__item-link--main" aria-label="Courses &amp; Downloads
+            Navigation link">
+
+                    <svg class="resources-icon" width="20" height="21" viewbox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="navigation-resources" transform="translate(0.75, 1.25)" fill-rule="nonzero">
+        <path class="navigation-svg" d="M9.25,18.5 C14.3228667,18.5 18.5,14.3228667 18.5,9.25 C18.5,4.18600192 14.3139981,0 9.24113135,0 C4.17713327,0 0,4.18600192 0,9.25 C0,14.3228667 4.17713327,18.5 9.25,18.5 Z M4.90436242,9.25886865 C4.90436242,8.70014382 5.30345158,8.30105465 5.85330777,8.30105465 L8.3099233,8.30105465 L8.3099233,5.84443912 C8.3099233,5.30345158 8.70014382,4.90436242 9.24113135,4.90436242 C9.79985618,4.90436242 10.1989453,5.30345158 10.1989453,5.84443912 L10.1989453,8.30105465 L12.6555609,8.30105465 C13.1965484,8.30105465 13.5956376,8.70014382 13.5956376,9.25886865 C13.5956376,9.79985618 13.1965484,10.1900767 12.6555609,10.1900767 L10.1989453,10.1900767 L10.1989453,12.6555609 C10.1989453,13.1965484 9.79985618,13.5867689 9.24113135,13.5867689 C8.70014382,13.5867689 8.3099233,13.1965484 8.3099233,12.6555609 L8.3099233,10.1900767 L5.85330777,10.1900767 C5.30345158,10.1900767 4.90436242,9.79985618 4.90436242,9.25886865 Z"></path>
+    </g>
+</svg>
+                
+                Courses &amp; Downloads
+            </a>
+        </li>
+
+
+            </ul>
+</nav>
+
+
+        </div>
+        <div class="wide-header-actions">
+                <div class="header-actions">
+    <div class="header-actions-main">
+    <!--
+        <button class="action-btn search-btn" title="Search button" aria-label="Search button"
+            data-ghost-search>
+            <svg class="navigation-svg" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M3.30596781,12.4584351 C3.30596781,11.1248169 3.5568223,9.87313843 4.05853128,8.70339966 C4.56024027,7.53366089 5.25500345,6.50427246 6.14282084,5.61523438 C7.03063822,4.72619629 8.05941629,4.03143311 9.22915506,3.53094482 C10.3988938,3.03045654 11.651793,2.7802124 12.9878526,2.7802124 C14.3239121,2.7802124 15.5761704,3.03045654 16.7446275,3.53094482 C17.9130845,4.03143311 18.9418626,4.72619629 19.8309617,5.61523438 C20.7200608,6.50427246 21.4154344,7.53366089 21.9170823,8.70339966 C22.4187303,9.87313843 22.6695542,11.1248169 22.6695542,12.4584351 C22.6695542,13.4569702 22.5225205,14.4094849 22.2284532,15.315979 C21.9343858,16.2224731 21.5261827,17.0527344 21.0038438,17.8067627 L26.0515122,22.8822632 C26.2432847,23.0740356 26.3865952,23.2909241 26.4814439,23.5329285 C26.5762925,23.7749329 26.6237168,24.0292358 26.6237168,24.2958374 C26.6237168,24.6724243 26.5386338,25.0131836 26.3684678,25.3181152 C26.1983018,25.6230469 25.963408,25.8638916 25.6637864,26.0406494 C25.3641648,26.2174072 25.0221543,26.3057861 24.6377549,26.3057861 C24.3687119,26.3057861 24.1093736,26.2583618 23.8597398,26.1635132 C23.610106,26.0686646 23.3865342,25.9251709 23.1890244,25.7330322 L18.0950303,20.6309814 C17.3615098,21.1036377 16.5628953,21.4733276 15.6991868,21.7400513 C14.8354783,22.0067749 13.9317002,22.1401367 12.9878526,22.1401367 C11.651793,22.1401367 10.3988938,21.8899231 9.22915506,21.3894958 C8.05941629,20.8890686 7.03063822,20.1943359 6.14282084,19.3052979 C5.25500345,18.4162598 4.56024027,17.3868713 4.05853128,16.2171326 C3.5568223,15.0473938 3.30596781,13.7944946 3.30596781,12.4584351 Z M6.15600443,12.4584351 C6.15600443,13.4022827 6.33245707,14.2866516 6.68536234,15.1115417 C7.03826761,15.9364319 7.52850199,16.6613159 8.15606546,17.2861938 C8.78362894,17.9110718 9.50982523,18.4013062 10.3346543,18.756897 C11.1594834,19.1124878 12.0438828,19.2902832 12.9878526,19.2902832 C13.9317002,19.2902832 14.8160691,19.1124878 15.6409593,18.756897 C16.4658494,18.4013062 17.1907334,17.9110718 17.8156114,17.2861938 C18.4404893,16.6613159 18.9300828,15.9364319 19.2843919,15.1115417 C19.638701,14.2866516 19.8158555,13.4022827 19.8158555,12.4584351 C19.8158555,11.5170288 19.638701,10.6338806 19.2843919,9.80899048 C18.9300828,8.98410034 18.4404893,8.25787354 17.8156114,7.63031006 C17.1907334,7.00274658 16.4658494,6.51251221 15.6409593,6.15960693 C14.8160691,5.80670166 13.9317002,5.63024902 12.9878526,5.63024902 C12.0438828,5.63024902 11.1594834,5.80670166 10.3346543,6.15960693 C9.50982523,6.51251221 8.78362894,7.00274658 8.15606546,7.63031006 C7.52850199,8.25787354 7.03826761,8.98410034 6.68536234,9.80899048 C6.33245707,10.6338806 6.15600443,11.5170288 6.15600443,12.4584351 Z" ></path>
+    </g>
+</svg>
+        </button>
+        -->
+        <!--
+        <button class="action-btn switch-theme-btn" aria-label="Dark mode toggle button">
+            <span class="switch-theme-btn-icons">
+                <svg class="sun-icon" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M16.1942139,2.81634521 C16.1942139,2.45599365 16.064209,2.14651489 15.8041992,1.88790894 C15.5441895,1.62930298 15.2340088,1.5 14.8736572,1.5 C14.5209961,1.5 14.2140503,1.62930298 13.9528198,1.88790894 C13.6915894,2.14651489 13.5609741,2.45599365 13.5609741,2.81634521 L13.5609741,5.1362915 C13.5609741,5.49420166 13.6915894,5.80245972 13.9528198,6.06106567 C14.2140503,6.31967163 14.5209961,6.44897461 14.8736572,6.44897461 C15.2340088,6.44897461 15.5441895,6.31967163 15.8041992,6.06106567 C16.064209,5.80245972 16.1942139,5.49420166 16.1942139,5.1362915 L16.1942139,2.81634521 Z M16.1942139,24.6403198 C16.1942139,24.2799683 16.064209,23.9704895 15.8041992,23.7118835 C15.5441895,23.4532776 15.2340088,23.3239746 14.8736572,23.3239746 C14.5209961,23.3239746 14.2140503,23.4532776 13.9528198,23.7118835 C13.6915894,23.9704895 13.5609741,24.2799683 13.5609741,24.6403198 L13.5609741,26.956604 C13.5609741,27.3169556 13.6915894,27.6270447 13.9528198,27.8868713 C14.2140503,28.146698 14.5209961,28.2766113 14.8736572,28.2766113 C15.2340088,28.2766113 15.5441895,28.146698 15.8041992,27.8868713 C16.064209,27.6270447 16.1942139,27.3169556 16.1942139,26.956604 L16.1942139,24.6403198 Z M26.9344482,16.1991577 C27.2949219,16.1991577 27.6064148,16.0704651 27.868927,15.8130798 C28.1314392,15.5556946 28.2626953,15.2468262 28.2626953,14.8864746 C28.2626953,14.5313721 28.1314392,14.2238159 27.868927,13.9638062 C27.6064148,13.7037964 27.2949219,13.5737915 26.9344482,13.5737915 L24.6262207,13.5737915 C24.2712402,13.5737915 23.9637146,13.7037964 23.7036438,13.9638062 C23.443573,14.2238159 23.3135376,14.5313721 23.3135376,14.8864746 C23.3135376,15.2468262 23.443573,15.5556946 23.7036438,15.8130798 C23.9637146,16.0704651 24.2712402,16.1991577 24.6262207,16.1991577 L26.9344482,16.1991577 Z M2.81268311,13.5737915 C2.46002197,13.5737915 2.15307617,13.7037964 1.8918457,13.9638062 C1.63061523,14.2238159 1.5,14.5313721 1.5,14.8864746 C1.5,15.2468262 1.63061523,15.5556946 1.8918457,15.8130798 C2.15307617,16.0704651 2.46002197,16.1991577 2.81268311,16.1991577 L5.12457275,16.1991577 C5.48248291,16.1991577 5.79269409,16.0704651 6.0552063,15.8130798 C6.31771851,15.5556946 6.44897461,15.2468262 6.44897461,14.8864746 C6.44897461,14.5313721 6.31771851,14.2238159 6.0552063,13.9638062 C5.79269409,13.7037964 5.48248291,13.5737915 5.12457275,13.5737915 L2.81268311,13.5737915 Z M7.04516602,8.94158936 C7.29736328,9.19378662 7.60809326,9.32110596 7.97735596,9.32358318 C8.34661865,9.32598877 8.65484619,9.20361328 8.90203857,8.9564209 C9.15435791,8.70703125 9.28308105,8.3963623 9.28820801,8.02441406 C9.29333496,7.65246582 9.17224121,7.34289551 8.92492676,7.09570312 L7.28283691,5.44171143 C7.03845215,5.19732666 6.73162842,5.07196045 6.36236572,5.06561279 C5.99310303,5.05926514 5.68212891,5.1796875 5.42944336,5.42687988 C5.17480469,5.68164062 5.04623413,5.9949646 5.04369364,6.36685181 C5.04122925,6.73873901 5.16217041,7.0456543 5.40655518,7.28759766 L7.04516602,8.94158936 Z M20.8258667,7.09570312 C20.5762329,7.34289551 20.4526367,7.65176392 20.4550427,8.02230835 C20.4575195,8.39285278 20.5860596,8.70422363 20.8406982,8.9564209 C21.0880127,9.20361328 21.3963013,9.32733154 21.765564,9.32757603 C22.1348267,9.32781982 22.4470215,9.19915771 22.7021484,8.94158936 L24.3442383,7.2956543 C24.5915527,7.04833984 24.7139587,6.73873901 24.7114939,6.36685181 C24.7089539,5.9949646 24.581604,5.68164062 24.3294067,5.42687988 C24.0796509,5.1796875 23.7720947,5.05792236 23.4067383,5.06158447 C23.0413818,5.06524658 22.732605,5.19195557 22.4804077,5.44171143 L20.8258667,7.09570312 Z M22.6829224,20.8319092 C22.43573,20.5822754 22.1274719,20.4586792 21.7581482,20.4610851 C21.3888245,20.463562 21.078064,20.5908813 20.8258667,20.8430786 C20.5762329,21.0928345 20.4526367,21.4017334 20.4550427,21.7697754 C20.4575195,22.1378174 20.5860596,22.447937 20.8406982,22.7001343 L22.5027466,24.3502808 C22.749939,24.5975952 23.0568542,24.718689 23.4234924,24.713562 C23.7901306,24.7084351 24.0995483,24.5797119 24.3517456,24.3273926 C24.6015015,24.0777588 24.7251282,23.7689209 24.722663,23.4008789 C24.7201233,23.0328369 24.5915527,22.7227173 24.3369141,22.47052 L22.6829224,20.8319092 Z M5.41040039,22.4624634 C5.15820312,22.7146606 5.03085327,23.0247803 5.0283124,23.3928223 C5.02584839,23.7608643 5.14556885,24.0697632 5.38751221,24.319519 C5.64215088,24.5717163 5.95544434,24.7003784 6.32739258,24.7055054 C6.69934082,24.7106323 7.00897217,24.5895386 7.25628662,24.3422241 L8.90203857,22.7001343 C9.15435791,22.447937 9.28308105,22.1378174 9.28820801,21.7697754 C9.29333496,21.4017334 9.17224121,21.0928345 8.92492676,20.8430786 C8.67028809,20.5908813 8.35699463,20.463562 7.98504639,20.4610851 C7.61309814,20.4586792 7.30352783,20.5822754 7.05633545,20.8319092 L5.41040039,22.4624634 Z M14.8736572,8.56109619 C14.0063477,8.56109619 13.1916504,8.72601318 12.4295654,9.05584717 C11.6674805,9.38568115 10.9949646,9.84072876 10.4120178,10.42099 C9.82907104,11.0012512 9.37271118,11.6737366 9.04293823,12.438446 C8.71316528,13.2031555 8.54827881,14.019165 8.54827881,14.8864746 C8.54827881,15.7537842 8.71316528,16.5697937 9.04293823,17.3345032 C9.37271118,18.0992126 9.82907104,18.7730408 10.4120178,19.3559875 C10.9949646,19.9389343 11.6674805,20.3953247 12.4295654,20.7251587 C13.1916504,21.0549927 14.0063477,21.2199097 14.8736572,21.2199097 C15.7380371,21.2199097 16.5519714,21.0549927 17.3154602,20.7251587 C18.078949,20.3953247 18.750824,19.9389343 19.3310852,19.3559875 C19.9113464,18.7730408 20.3670044,18.0992126 20.6980591,17.3345032 C21.0291138,16.5697937 21.1946411,15.7537842 21.1946411,14.8864746 C21.1946411,14.019165 21.0291138,13.2031555 20.6980591,12.438446 C20.3670044,11.6737366 19.9113464,11.0012512 19.3310852,10.42099 C18.750824,9.84072876 18.078949,9.38568115 17.3154602,9.05584717 C16.5519714,8.72601318 15.7380371,8.56109619 14.8736572,8.56109619 Z" ></path>
+    </g>
+</svg>
+                <svg class="moon-icon" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M22.3440294,18.331543 C23.0355577,18.331543 23.7087755,18.2701721 24.3636827,18.1474304 C25.01859,18.0246887 25.5589952,17.8841553 25.9848986,17.7258301 C26.2795763,17.5960693 26.5329332,17.531189 26.7449694,17.531189 C26.9435778,17.531189 27.1189623,17.6037903 27.2711229,17.7489929 C27.4232836,17.8941956 27.4993639,18.0872803 27.4993639,18.3282471 C27.4993639,18.4176025 27.4859972,18.5370483 27.4592638,18.6865845 C27.4325304,18.8361206 27.383153,18.9973145 27.3111315,19.170166 C26.9170885,20.1578369 26.3629503,21.0720215 25.6487169,21.9127197 C24.9344835,22.753418 24.09937,23.4869995 23.1433764,24.1134644 C22.1873827,24.7399292 21.1431932,25.2265625 20.010808,25.5733643 C18.8784227,25.920166 17.6930285,26.0935669 16.4546251,26.0935669 C14.7462511,26.0935669 13.1612902,25.803894 11.6997423,25.2245483 C10.2381945,24.6452026 8.96353626,23.825592 7.87576771,22.7657166 C6.78799915,21.7058411 5.94180775,20.4571533 5.33719349,19.0196533 C4.73257923,17.5821533 4.4302721,16.0038452 4.4302721,14.284729 C4.4302721,12.6565552 4.73361683,11.0978394 5.34030628,9.60858154 C5.94699574,8.11932373 6.796422,6.8046875 7.88858509,5.66467285 C8.98074818,4.5246582 10.2544298,3.66186523 11.70963,3.07629395 C11.8671007,3.01708984 12.0163927,2.97463989 12.157506,2.94894409 C12.2986193,2.92324829 12.4164782,2.91040039 12.5110826,2.91040039 C12.7648668,2.91040039 12.9608812,2.98947144 13.0991259,3.14761353 C13.2373705,3.30575562 13.3064928,3.48272705 13.3064928,3.67852783 C13.3064928,3.77520752 13.2906237,3.88580322 13.2588854,4.01031494 C13.2271471,4.13482666 13.1740465,4.27709961 13.0995836,4.43713379 C12.9540758,4.75280762 12.8266344,5.14108276 12.7172594,5.60195923 C12.6078844,6.06283569 12.5218248,6.546875 12.4590807,7.05407715 C12.3963366,7.5612793 12.3649645,8.04101562 12.3649645,8.49328613 C12.3649645,10.0128174 12.5966539,11.3782959 13.0600328,12.5897217 C13.5234118,13.8011475 14.1910143,14.8344421 15.0628405,15.6896057 C15.9346666,16.5447693 16.9845018,17.1988831 18.2123461,17.651947 C19.4401903,18.105011 20.8174181,18.331543 22.3440294,18.331543 Z"></path>
+    </g>
+</svg>
+            </span>
+        </button>
+        -->
+    </div>
+    
+
+
+
+<a class="main-button" href="https://web.archive.org/web/20260114173048/https://sdw.space/signin" aria-label="Log in button">
+    <span class="main-button__span">
+        Log in
+    </span>
+    <span class="main-button__icons">
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+    </span>
+</a>
+</div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="progress-bar">
+    <div class="progress-bar-main">
+        <span class="progress-bar-main__title">Microsoft Recalled</span>
+        <span class="progress-bar-main__reading-time">5 min read</span>
+    </div>
+    <div class="progress-bar-share">
+        <div class="share-block">
+    <span class="share-block__span">
+        Share
+    </span>
+    <div class="share-block-links">
+     
+        <button class="share-btn copyToClipboardBtn" aria-label="Copy to clipboard button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28" fill="none">
+    <path d="M15.1661 7.58325L16.7574 5.97483C18.1243 4.608 20.3403 4.608 21.7072 5.97483C23.074 7.34167 23.074 9.55775 21.7072 10.9246L16.7574 15.8743C15.3906 17.2412 13.1745 17.2412 11.8077 15.8743M12.8328 19.8333L10.9241 21.7077C9.55726 23.0745 7.34118 23.0745 5.97435 21.7077C4.60751 20.3408 4.60751 18.1247 5.97435 16.7579L10.9241 11.8082C12.2909 10.4413 14.507 10.4413 15.8738 11.8082" stroke="#333131" stroke-width="2" stroke-linecap="round"/>
+</svg>        </button>
+    </div>
+</div>    </div>
+    <progress class="reading-progress" value="0" max="100" aria-label="Reading progress"></progress>
+</div>
+<main class="page-post post tag-article tag-article-2 tag-writing tag-writings">
+    <section class="page-post-head animated-page-head">
+        
+
+
+    <div class="post-head-container post-head-container--normal-with-image">
+        <div class="post-head-wrapper wrapper">
+            <div class="post-head-letter-container">
+                
+                
+            </div>
+            <div class="post-head-main">
+                <h2 class="post-head-title">
+                    Microsoft Recalled
+                </h2>
+                <p class="post-head-excerpt">
+                    Microsoft Recall is a dumpster fire. It should be a bigger story that it was somehow announced and shipped the way it was.
+                </p>
+                <div class="post-head-meta">
+                    
+                    <span class="post-head-full-date">  
+                        <time datetime="2024-06-08">June 8, 2024</time>
+                    </span>
+                        
+                </div>
+            </div>
+            <div class="post-head-image-wrapper">
+                <picture>
+                    <source srcset="/web/20260114173048im_/https://sdw.space/content/images/size/w2000/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 2000w, /web/20260114173048im_/https://sdw.space/content/images/size/w1600/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 1600w, /web/20260114173048im_/https://sdw.space/content/images/size/w1200/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 1200w, /web/20260114173048im_/https://sdw.space/content/images/size/w960/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 960w, /web/20260114173048im_/https://sdw.space/content/images/size/w720/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 720w, /web/20260114173048im_/https://sdw.space/content/images/size/w480/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 480w, /web/20260114173048im_/https://sdw.space/content/images/size/w400/format/webp/2024/06/Screenshot-2024-06-08-at-13.54.08.png 400w" sizes="(min-width: 1050px) 990px, 92vw" type="image/webp">
+                    <img class="post-head-image" srcset="/web/20260114173048im_/https://sdw.space/content/images/size/w2000/2024/06/Screenshot-2024-06-08-at-13.54.08.png 2000w, /web/20260114173048im_/https://sdw.space/content/images/size/w1600/2024/06/Screenshot-2024-06-08-at-13.54.08.png 1600w, /web/20260114173048im_/https://sdw.space/content/images/size/w1200/2024/06/Screenshot-2024-06-08-at-13.54.08.png 1200w, /web/20260114173048im_/https://sdw.space/content/images/size/w960/2024/06/Screenshot-2024-06-08-at-13.54.08.png 960w, /web/20260114173048im_/https://sdw.space/content/images/size/w720/2024/06/Screenshot-2024-06-08-at-13.54.08.png 720w, /web/20260114173048im_/https://sdw.space/content/images/size/w480/2024/06/Screenshot-2024-06-08-at-13.54.08.png 480w, /web/20260114173048im_/https://sdw.space/content/images/size/w400/2024/06/Screenshot-2024-06-08-at-13.54.08.png 400w" sizes="(min-width: 1050px) 990px, 92vw" src="/web/20260114173048im_/https://sdw.space/content/images/size/w2000/2024/06/Screenshot-2024-06-08-at-13.54.08.png" alt="Microsoft Recalled Post image"/>
+                </picture>
+            </div>
+        </div>
+    </div>
+
+</section>    <div class="page-post__content">
+        <p>On the note of <a href="https://web.archive.org/web/20260114173048/https://sdw.space/apple-intelligence/" rel="noreferrer">AI applications and moving fast</a>, Joanna Stern of the WSJ writes:</p><blockquote>Microsoft is recalling... Recall. Kinda. The company is making some changes before it releases it, including making taking screenshots of everything you do opt-in!</blockquote><p>(Joanna Stern on <a href="https://web.archive.org/web/20260114173048/https://twitter.com/joannastern/status/1799114814247305582?s=61&amp;t=G7-7cVIVl7UWG_xTVytlug&amp;ref=sdw.space" rel="noreferrer">X</a>)</p><p>Joanna links to <a href="https://web.archive.org/web/20260114173048/https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/?ref=sdw.space" rel="noreferrer">Microsoft’s announcement by Pavan Davuluri</a>:</p><blockquote>"Even before making Recall available to customers, we have heard a clear signal that we can make it easier for people to choose to enable Recall on their Copilot+ PC and improve privacy and security safeguards [...] With that in mind we are announcing updates that will go into effect before Recall (preview) ships to customers on June 18."</blockquote><p>Published June 7th, 11 days before the feature is set to ship. </p><p>This is both surprising and unsurprising to me.</p><p>It’s certainly surprising —&nbsp;to say the least — for a brand to do a major about-face and change their ‘headlining’ feature of the new Copilot+ PC (wonderful name, by the way) both to be opt-in instead of opt out, and changed in several significant ways literal days before launch.  </p><p>People who have tracked the feature know that it was previously what I’d like to label an ‘unlikely opt-out’ —&nbsp;the kind that is very much difficult to turn off during Windows setup, similar to their efforts to make it difficult to set up an installation without a Microsoft account:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/2024/06/GO8XHj3WcAAy-2Y.jpeg" class="kg-image" alt="" loading="lazy" width="2000" height="1293" srcset="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w600/2024/06/GO8XHj3WcAAy-2Y.jpeg 600w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1000/2024/06/GO8XHj3WcAAy-2Y.jpeg 1000w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1600/2024/06/GO8XHj3WcAAy-2Y.jpeg 1600w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/2024/06/GO8XHj3WcAAy-2Y.jpeg 2240w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">via </span><a href="https://web.archive.org/web/20260114173048/https://x.com/tomwarren/status/1796681578984182066/photo/1?ref=sdw.space" rel="noreferrer"><span style="white-space: pre-wrap;">Tom Warren</span></a></figcaption></figure><blockquote>It's enabled by default during setup and you can't disable it directly here. There is an option to tick "open Settings after setup completes so I can manage my Recall preferences" instead</blockquote><p>(<a href="https://web.archive.org/web/20260114173048/https://x.com/tomwarren/status/1796681578984182066?ref=sdw.space" rel="noreferrer">Tom Warren, X</a>)</p><p>Going from this to a fully opt-in feature shows a tremendous change of confidence in the feature. And on the note of confidence in the feature...</p><p>In an interview with Satya Nadella, again by Joanna Stern:</p><figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://web.archive.org/web/20260114173048if_/https://www.youtube.com/embed/uHEPBzYick0?list=PLqQNt9DP_BNAU8c1KroIe-PAmrhu-7Xcn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></figure><p>First off, I found it intriguing how this video went instantly viral on social media in a sort of ‘hell nah’ way. Taken Microsoft on their word (and one should, if the CEO of a 3 trillion dollar company claims something), it seemed creepy, potentially a bad idea. Chilling, perhaps, mostly because people know Microsoft as the ‘company that the boss likes’. Microsoft sells companies office and IT software and everyone isn’t all that excited about the potential for an AI powered panopticon on their work computers. </p><p>Nobody is going to put Microsoft at the top for tech companies they actively trust. It’s a bit telling of internal Microsoft culture that there wasn’t more deliberate communication around this announcement to explain to users —at length!— why they should trust this. It’s utterly bizarre to me, on par with what I observed at Facebook in its peak days when internal culture was so nauseatingly optimistic about the ‘Good’ they were doing that everyone was perplexed that everyday people found the company altogether creepy.</p><p>Anyway, here’s the transcript of the bit that matters:</p><blockquote>Joanna “There could be this reaction from some people that say this is pretty creepy. Microsoft is taking screenshots* of everything I do."</blockquote><blockquote>Nadella: “Yeah. I mean that is why you can only do it on the edge. So you have to put two things together. This is my computer. This is my Recall. And it’s all being done locally. [...] Recall works as a magical thing, because I can trust it."</blockquote><p>At the Microsoft Windows Copilot+ PC event: (again, great name, rolls off the tongue)</p><figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/2024/06/Screenshot-2024-06-08-at-13.20.39.png" class="kg-image" alt="" loading="lazy" width="2000" height="1032" srcset="https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w600/2024/06/Screenshot-2024-06-08-at-13.20.39.png 600w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1000/2024/06/Screenshot-2024-06-08-at-13.20.39.png 1000w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/size/w1600/2024/06/Screenshot-2024-06-08-at-13.20.39.png 1600w, https://web.archive.org/web/20260114173048im_/https://sdw.space/content/images/2024/06/Screenshot-2024-06-08-at-13.20.39.png 2220w" sizes="(min-width: 720px) 720px"></figure><blockquote>“The deep integration also allows an incredibly robust approach to privacy and security.” </blockquote><p>(from the announcement event, <a href="https://web.archive.org/web/20260114173048/https://youtu.be/aZbHd4suAnQ?t=1513&amp;ref=sdw.space" rel="noreferrer">link</a> to timestamp in video) </p><p>Interestingly, I went back to these videos and announcements, because I could swear they mentioned something about data security. Perhaps I am just too used to Apple which seems to fret a lot about telling users that things are kept on a secure chip and such, but looking back there was actually no such commitment. One would perhaps, assume that it would naturally be encrypted on device. Surely?</p><p>That brings me to the unsurprising part of suddenly taking a U-turn on your headline feature a week or two from launch: Recall is a <em>disaster</em>. It’s an absolute dumpster fire in terms of security. It’s hard to imagine that any part of Microsoft’s (excellent) Security team ever signed off on this.</p><p><a href="https://web.archive.org/web/20260114173048/https://doublepulsar.com/recall-stealing-everything-youve-ever-typed-or-viewed-on-your-own-windows-pc-is-now-possible-da3e12e9465e?ref=sdw.space" rel="noreferrer">Kevin Beaumont, on Medium</a>: "Stealing everything you’ve ever typed or viewed on your own Windows PC is now possible with two lines of code — inside the Copilot+ Recall disaster."</p><blockquote>"I think it’s an interesting&nbsp;<em>entirely,&nbsp;<strong>really&nbsp;</strong></em>optional feature with a niche initial user base that would require incredibly careful communication, cybersecurity, engineering and implementation. Copilot+ Recall doesn’t have these. The work hasn’t been done properly to package it together, clearly."</blockquote><p>Hm, OK. Microsoft is pretty capable, surely there’s some smart work in here? As it turns out, yes —&nbsp;there’s a lot done to keep this truly local. But...</p><blockquote><strong>Q. How do you obtain the database files?</strong></blockquote><blockquote>A. They’re just files in AppData, in the new CoreAIPlatform folder.</blockquote><blockquote><strong>Q. But it’s highly encrypted and nobody can access them, right?!</strong></blockquote><blockquote>A. <a href="https://web.archive.org/web/20260114173048/https://cyberplace.social/@GossiTheDog/112535509953161486?ref=sdw.space" rel="noreferrer">Here’s a few second video of two Microsoft engineers accessing the folder</a></blockquote><p>Kevin’s tweets / toots on the matter are a great read, and they got progressively more hilariously outrageous as the investigation went on. Essentially, one could <em>argue</em> that like all other user data, the data is encrypted. But few steps were taken to ensure the data was truly protected. </p><p>Kevin proved <a href="https://web.archive.org/web/20260114173048/https://x.com/GossiTheDog/status/1798832390070276500?ref=sdw.space" rel="noreferrer">that local malware without admin rights can easily tap into the data</a>. He provided proof that <a href="https://web.archive.org/web/20260114173048/https://x.com/GossiTheDog/status/1798832929575203095?ref=sdw.space" rel="noreferrer">you can easily exfiltrate the data from another machine</a>. Hilariously,<a href="https://web.archive.org/web/20260114173048/https://x.com/TheRealFurkan/status/1798491226121052272?ref=sdw.space" rel="noreferrer"> Microsoft’s very own Copilot AI</a> can even help you write a script on how to get data out of the Recall database. </p><p>Ars Technica got access to Recall and managed to get access to another users’ Recall database:</p><figure class="kg-card kg-embed-card"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">ArsTechnica enabled Recall on Windows 11 box and tested the claim that only you can access ‘your Recall’<br><br>By logging in as another user they could access the database and screenshots. <a href="https://web.archive.org/web/20260114173048/https://t.co/sXifVsGQKa?ref=sdw.space">https://t.co/sXifVsGQKa</a> <a href="https://web.archive.org/web/20260114173048/https://t.co/jg0KjLPg33?ref=sdw.space">pic.twitter.com/jg0KjLPg33</a></p>— Kevin Beaumont (@GossiTheDog) <a href="https://web.archive.org/web/20260114173048/https://twitter.com/GossiTheDog/status/1798140917591003628?ref_src=twsrc%5Etfw&amp;ref=sdw.space">June 4, 2024</a></blockquote>
+<script async="" src="https://web.archive.org/web/20260114173048js_/https://platform.twitter.com/widgets.js" charset="utf-8"></script></figure><p>"How does this even happen?” was a common response on the internet, and somehow, there’s even an answer to that:<a href="https://web.archive.org/web/20260114173048/https://www.windowscentral.com/software-apps/windows-11/microsoft-has-lost-trust-with-its-users-windows-recall-is-the-last-straw?ref=sdw.space" rel="noreferrer"> WindowsCentral reports</a> that Microsoft kept the feature out of wider testing to keep it a secret ahead of launch. </p><blockquote>"Microsoft also wanted to keep Windows Recall a secret so it could have a big reveal on May 20. Except, it wasn't really much of a big reveal. Many of us in the tech press already knew it was coming, even without being briefed on the feature ahead of time."</blockquote><p>It pairs well with Microsoft’s <a href="https://web.archive.org/web/20260114173048/https://blogs.microsoft.com/blog/2024/05/03/prioritizing-security-above-all-else/?ref=sdw.space" rel="noreferrer">new assertion that cyber security is its new company-wide focus</a> “above all else”. </p><p>Unsurprising, then, that this was pulled at the last minute. But there should be a much bigger story in the press how this got to ship.</p><p></p><p><em>*screenshots. Words matter. Microsoft goes through great effort not to call them that. They choose</em><a href="https://web.archive.org/web/20260114173048/https://x.com/tomwarren/status/1796681578984182066/photo/2?ref=sdw.space" rel="noreferrer"><em> to calls them ‘snapshots’ everywhere</em></a><em> —&nbsp;which is a somewhat less creepy word. At the event Microsoft went as far as to claim Recall taps ‘efficiently’ into ‘the graphics compositor’. As we now know, it’s just a series of screenshots. Why the marketing words? It does sound a lot more impressive, but I suspect someone at Microsoft’s marketing department pitched the idea in a meeting. “Let’s call it snapshots. It sounds less intrusive.” </em></p>
+    </div>
+    <div class="page-post-footer">
+        <div class="page-post-footer-wrapper">
+            <div class="page-post-footer-share">
+                <div class="share-block">
+    <span class="share-block__span">
+        Share
+    </span>
+    <div class="share-block-links">
+     
+        <button class="share-btn copyToClipboardBtn" aria-label="Copy to clipboard button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 28 28" fill="none">
+    <path d="M15.1661 7.58325L16.7574 5.97483C18.1243 4.608 20.3403 4.608 21.7072 5.97483C23.074 7.34167 23.074 9.55775 21.7072 10.9246L16.7574 15.8743C15.3906 17.2412 13.1745 17.2412 11.8077 15.8743M12.8328 19.8333L10.9241 21.7077C9.55726 23.0745 7.34118 23.0745 5.97435 21.7077C4.60751 20.3408 4.60751 18.1247 5.97435 16.7579L10.9241 11.8082C12.2909 10.4413 14.507 10.4413 15.8738 11.8082" stroke="#333131" stroke-width="2" stroke-linecap="round"/>
+</svg>        </button>
+    </div>
+</div>            </div>
+            <div class="page-post-footer-main">
+                <div class="page-post-footer-meta">
+                    <div class="page-post-footer-author">
+                        <span class="page-post-footer-author__by">By</span>
+                        <div class="page-post-footer-author-names">
+                            
+                                Sebastiaan de With
+                            
+                        </div>
+                    </div>
+                    <span class="page-post-footer-date">
+                        <time datetime="2024-06-08">
+                            June 8, 2024
+                        </time>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+                <wrapper class="homepage__content"><hr></wrapper>
+<wrapper class="homepage__content double-column">
+  <div class="redoctober">
+      <p class="subheading">Newsletter</p>
+      <p style="max-width:500px;">Sign up to get my best articles and semi-regular newsletter delivered in your inbox as they are released.</p>
+      <form class="armaranth-form" data-members-form="subscribe" data-members-autoredirect="true" novalidate>
+    <input class="widget-subscribe-input" data-members-email type="email" name="email-unput" id="widget-subscribe-email-input" placeholder="Enter your email" aria-label="Your Email Address" required>
+    
+
+
+<button aria-label="Subscribe button" class="main-button widget-subscribe-submit-btn button" type="submit">
+    <span class="main-button__span">Subscribe</span>
+    <span class="main-button__icons">
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+        <svg class="navigation-svg" width="21px" height="21px" viewbox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill-rule="nonzero">
+        <path d="M18.7758789,10.6279297 C18.7758789,11 18.6469727,11.3134766 18.3891602,11.5683594 L12.6586914,17.28125 C12.3920898,17.5478516 12.0961914,17.6811523 11.7709961,17.6811523 C11.3959961,17.6811523 11.0935059,17.5654297 10.8635254,17.3339844 C10.6335449,17.1025391 10.5185547,16.8154297 10.5185547,16.4726562 C10.5185547,16.2822266 10.5551758,16.1115723 10.628418,15.9606934 C10.7016602,15.8098145 10.7983398,15.6772461 10.918457,15.5629883 L12.887207,13.5898438 L15.7963867,10.9223633 L16.3325195,11.7177734 L12.9179688,11.9023438 L2.98193359,11.9023438 C2.58642578,11.9023438 2.26782227,11.7851562 2.02612305,11.5507812 C1.78442383,11.3164062 1.66357422,11.0087891 1.66357422,10.6279297 C1.66357422,10.2470703 1.78442383,9.93945312 2.02612305,9.70507812 C2.26782227,9.47070312 2.58642578,9.35351562 2.98193359,9.35351562 L12.9179688,9.35351562 L16.3325195,9.53808594 L15.7963867,10.3422852 L12.887207,7.66601562 L10.918457,5.68847656 C10.7983398,5.57421875 10.7016602,5.44165039 10.628418,5.29077148 C10.5551758,5.13989258 10.5185547,4.96923828 10.5185547,4.77880859 C10.5185547,4.43603516 10.6335449,4.14892578 10.8635254,3.91748047 C11.0935059,3.68603516 11.3959961,3.5703125 11.7709961,3.5703125 C11.9262695,3.5703125 12.0808105,3.60400391 12.2346191,3.67138672 C12.3884277,3.73876953 12.5327148,3.84130859 12.6674805,3.97900391 L18.3891602,9.6875 C18.6469727,9.94238281 18.7758789,10.2558594 18.7758789,10.6279297 Z"></path>
+    </g>
+</svg>
+    </span>
+    <span class="main-button__loader"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: none; shape-rendering: auto;" width="25px" height="25px" viewbox="0 0 100 100" preserveaspectratio="xMidYMid">
+    <circle cx="50" cy="50" fill="none" stroke="#ffffff" stroke-width="10" r="37" stroke-dasharray="174.35839227423352 60.119464091411174">
+        <animatetransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"/>
+    </circle>
+</svg></span>
+</button>
+
+</form>
+  </div>
+  <hr class="splitter">
+  <div class="redoctober">
+      <p class="subheading">Membership</p>
+      <p class="subheading">
+    <a href="#/portal/signup" class="portal-signup-a-container"><span class="upgrade-button-arrow"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewbox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-upgrade</title>
+    <g id="icon-upgrade" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15,2.7890625 C14.578125,2.7890625 14.0742188,2.953125 13.640625,3.41015625 L4.93359375,12.6914062 C4.359375,13.3125 4.1015625,13.8164062 4.1015625,14.4492188 C4.1015625,15.3515625 4.76953125,16.0078125 5.671875,16.0078125 L10.125,16.0078125 L10.125,25.40625 C10.125,27.2109375 11.1445312,28.265625 12.9375,28.265625 L17.0390625,28.265625 C18.8203125,28.265625 19.8515625,27.2109375 19.8515625,25.40625 L19.8515625,16.0078125 L24.28125,16.0078125 C25.171875,16.0078125 25.8984375,15.3515625 25.8984375,14.4257812 C25.8984375,13.8046875 25.640625,13.3710938 25.0195312,12.6914062 L16.3710938,3.41015625 C15.9257812,2.953125 15.4453125,2.7890625 15,2.7890625 Z" id="Arrow" fill="#848381" fill-rule="nonzero"></path>
+    </g>
+</svg></span>
+        <span class="signup-text-thing"><strong>Upgrade to Membership</strong></span>
+    </a>
+</p>
+      <p style="max-width:500px;">Receive my annual photography or design course, access to previous courses, my Lightroom presets, premium articles and more.</p>
+  </div>
+</wrapper>
+
+
+
+</main>
+
+
+        <footer class="homepage">
+    <wrapper class="double-column">
+        <div>
+            <a href="https://web.archive.org/web/20260114173048/http://sdw.space/"><img src="https://web.archive.org/web/20260114173048im_/https://sdw.space/assets/images/logobigcoollayered.svg?v=80263161ef"></a>
+            <p>by Sebastiaan de With</p>
+            <ul class="footer__nav horizontal social-links">
+               <li><a href="https://web.archive.org/web/20260114173048/https://twitter.com/sdw" target="_blank">Twitter</a></li>
+               <li><a href="https://web.archive.org/web/20260114173048/https://www.instagram.com/sdw" target="_blank">Instagram</a></li>
+               <li><a href="https://web.archive.org/web/20260114173048/https://threads.net/@sdw" target="_blank">Threads</a></li>
+               <li><a href="https://web.archive.org/web/20260114173048/https://mastodon.social/@sdw" target="_blank">Mastodon</a></li>
+            </ul>
+        </div>
+        <div class="footer__nav-container">
+            
+<ul class="nav-list nav-list--secondary">
+    <li class="nav-sign-up nav-list__item--secondary"><a href="#/portal/" class="nav-list__item-link nav-list__item-link--secondary" aria-label="Sign up Navigation link">Sign up</a></li>
+    <li class="nav-downloads nav-list__item--secondary"><a href="https://web.archive.org/web/20260114173048/https://sdw.space/courses-and-downloads/" class="nav-list__item-link nav-list__item-link--secondary" aria-label="Downloads Navigation link">Downloads</a></li>
+    <li class="nav-courses nav-list__item--secondary"><a href="https://web.archive.org/web/20260114173048/https://sdw.space/courses-and-downloads/" class="nav-list__item-link nav-list__item-link--secondary" aria-label="Courses Navigation link">Courses</a></li>
+    <li class="nav-lux nav-list__item--secondary"><a href="https://web.archive.org/web/20260114173048/https://lux.camera/" class="nav-list__item-link nav-list__item-link--secondary" aria-label="Lux Navigation link">Lux</a></li>
+</ul>
+
+
+        </div>
+
+    </wrapper>
+</footer>
+
+        
+<button class="scroll-top-btn" type="button" title="Scroll to top button" aria-label="Scroll to top button">
+    <span class="scroll-top-btn__icons">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+            <path d="M9.59998 19.2L16 12.8L22.4 19.2" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 32 32" fill="none">
+            <path d="M9.59998 19.2L16 12.8L22.4 19.2" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </span>
+</button>
+        <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const rootElem = document.querySelector('html[data-theme]');
+    if (rootElem) {
+      rootElem.setAttribute('data-theme', 'light');
+      localStorage.setItem('data-theme', 'light');
+      // Call these functions if they exist in the scope
+      if (typeof changeCommentsColorOnToggle === 'function') {
+        changeCommentsColorOnToggle();
+      }
+      if (typeof changeTwitterCardTheme === 'function') {
+        changeTwitterCardTheme();
+      }
+    }
+  });
+</script>
+
+
+        <script src="https://web.archive.org/web/20260114173048js_/https://sdw.space/assets/built/main.js?v=80263161ef" defer></script>
+
+    </body>
+
+</html>
+<!--
+     FILE ARCHIVED ON 17:30:48 Jan 14, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:22:59 Nov 23, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.582
+  exclusion.robots: 0.054
+  exclusion.robots.policy: 0.039
+  esindex: 0.01
+  cdx.remote: 7.673
+  LoadShardBlock: 497.982 (3)
+  PetaboxLoader3.resolve: 156.115 (3)
+  PetaboxLoader3.datanode: 211.209 (4)
+  load_resource: 456.556
+-->
