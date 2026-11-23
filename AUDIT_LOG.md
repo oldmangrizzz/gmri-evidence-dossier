@@ -29,3 +29,11 @@ Self-audit line for dossier: every DIRECT VERIFIED citation maps to a file on di
 - Open-weights report manifest references updated after sequential renumber (rows 493–509 → 511–526 region + reports).
 - All 6 scout position statements captured to disk this pass (governance, frontier-ai-regulation, NTIA comment, GDM FSF blog, Anthropic position, NVIDIA letter; NVIDIA PDF quote "real and distinct risks" grep-verified in PDF text).
 - Stage-5 gates at close: captures/model_cards 163 files + blocked_attempts_model_cards 48 + openweights_misuse 3 — all hash-verified vs MANIFEST (0 mismatch, 0 missing); 726 rows, sequential, 0 dupes.
+
+## 2026-11-23 Altman needle hunt (charter_altman.md)
+- Charter pre-registered 2026-11-23T01:27+ before retrieval; three workers (Annie/Sam/docket) + coordinator synthesis.
+- CORRECTED: case label "ADA + child abuse" → diversity P.I./§537.046 (zero ADA mentions in captured Docs 1/53/18/160; fix applied to intel report line 159).
+- PRIMARY RECOVERY: sama_family_statement_2025-01-07.png re-fetched from pbs.twimg.com — hash matches row 158's originally recorded a675728e50e62c2d; OCR derivative row 746; denial statement text now VERIFIED against primary.
+- CourtListener WAF 202-challenge + wayback offline bounded: appellate live docket NOT captured; Doc 173 briefing schedule is operative captured state (last filings Nov 16, 2026). Wrong-court probe shells marked do-not-cite.
+- Bounded negatives recorded: 2014-07 AMA water-sports (2015 AMA captured, needle absent from it), no Sam personal statement re Annie 2025–26 beyond court records, no Annie statements after Nov 1, no district entries after Doc 173.
+- Manifest integrity at close: 857 rows sequential, 0 dupes, altman corpus hash-verified 0 mismatches.

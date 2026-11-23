@@ -1,0 +1,10 @@
+<!doctype html>
+   <title>Error 403</title>
+   <style>  body { text-align: center; padding: 150px; background-color: #f9f9f9; }  
+   #banner{background: url(https://www.courts.mo.gov/mod/img/header.png) center no-repeat; height: 105px;}  h1 { font-size: 35px; }  body { font: 20px Helvetica, sans-serif; color: #272727; }  article { display: block; text-align: center; width: 650px; margin: 0 auto; -webkit-box-shadow: 0px 0px 36px -5px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 36px -5px rgba(0,0,0,0.75);box-shadow: 0px 0px 36px -5px rgba(0,0,0,0.75);}  #content{padding: 15px;}  a { color: #dc8100; text-decoration: none; }  a:hover { color: #333; text-decoration: none; }</style>
+<article><div id="banner" role="banner"></div><div id="content">        
+   <div>
+   <p>Access to any Missouri judicial website, including but not limited to Case.net, by a site data scraper or any similar software intended to discover and extract data from a website through automated, repetitive querying for the purpose of collecting such data is expressly prohibited.</p>
+   <p><a href="https://www.courts.mo.gov/display.ipaddress">Technical Information</a></p>       
+   </div>    
+   </div></article><script>window.__CF$cv$params={r:'a5ecc809a817e534',t:'MTc5NTQwMTMzNQ==',u:'01a20642421173dfa2fa87eccd6dca5f',ut:'ppNdfNmxpH.uJCL_o3vfafoOjTI6.r5FHm_80scYSTQ-1795401335-1.2.1.1-BLrjcCqdkK_oUatoH60ZiId49sCRnPiLcjKZjiRxhGMQPY7R.rkVJ_xUA8Wbnql5WC87yu1UsDBA74nxIYbTTYChaQeHlvD5Vi53Rmtcs2Y',i:60};(function(){if(!document.body)return;var l=window.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/precursor/main.js?ray=a5ecc809a817e534',s=document.createElement('script');s.src=o?new URL(u,o).href:u;document.head.appendChild(s);})();</script>

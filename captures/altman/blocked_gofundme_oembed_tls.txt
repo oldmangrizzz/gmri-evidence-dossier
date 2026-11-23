@@ -1,0 +1,6 @@
+BLOCKED-ATTEMPT RECORD (2026-11-23, worker ConventionalApe)
+URL attempted: https://widget.gofundme.com/oembed?url=https%3A%2F%2Fwww.gofundme.com%2Ff%2Fhelp-annie-get-legal-support-to-defend-jerry-altmans-wishes&format=json
+Attempt 1 (curl default TLS): curl (35) LibreSSL/3.3.6: error:1404B410:SSL routines:ST_CONNECT:sslv3 alert handshake failure
+Attempt 2 (curl --tlsv1.2): curl (35) LibreSSL/3.3.6: error:1404B42E:SSL routines:ST_CONNECT:tlsv1 alert protocol version
+HTTP 000, 0 bytes body each time. Do-not-cite (no body retrieved).
+GoFundMe campaign data instead VERIFIED from JSON-LD in gofundme_annie_jerry_trust.html (MANIFEST row 729).
