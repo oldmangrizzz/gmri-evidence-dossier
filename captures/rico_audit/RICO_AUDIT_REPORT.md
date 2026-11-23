@@ -68,8 +68,8 @@ The brief's "RICO Predicate Statute(s)" column names three statutes that are **n
 
 ### B6. The Alfozan wiretap case (brief's matrix row 7)
 
-- **ALREADY captured (rows 11–13):** `us_v_alfozan_3_26-cr_00539_indictment_ecf18.pdf` (the 18 U.S.C. § 2511 indictment — VERIFIED primary), the DOJ arrest PR (VERIFIED), and the defense status statement (VERIFIED). The "OpenAI used its own AI models to trace the device" line is in the captured reporting; carried at its tier.
-- **Statute crosswalk correction:** § 2511 is NOT a RICO predicate; the indictment stands on § 2511 (and §§ 2512/2515-type charges as applicable per the captured indictment), NOT as a RICO predicate.
+- **ALREADY captured (rows 11–13):** `us_v_alfozan_3_26-cr_00539_indictment_ecf18.pdf` (the § 2511(1)(b)(iv) indictment — VERIFIED primary: "UNITED STATES OF AMERICA, v. ABDULRAHMAN ALFOZAN... 18 U.S.C. § 2511(1)(b)(iv) – Interception of Oral Communications; 18 U.S.C. § 2513 and 28 U.S.C. § 2461 – Forfeiture Allegation"), the DOJ arrest PR (VERIFIED: "Saudi National Arrested for Installing Surreptitious Audio Recording Device at OpenAI"), and the defense status statement (VERIFIED). [CORRECTED: the brief's "OpenAI used its own AI models to help trace the device" line is NOT in any captured document this pass (indictment, DOJ PR, defense statement all MISS on it) — carried as the brief's uncorroborated SECONDHAND claim; the named target is the tech-insider.org piece, 410/404 both direct and wayback this pass.]
+- **Statute crosswalk correction:** § 2511 is NOT a RICO predicate (and, per the VERIFIED indictment caption, the charge is § 2511(1)(b)(iv) — Interception of Oral Communications — plus a § 2513/28 U.S.C. § 2461 forfeiture allegation; § 2512 appears in the forfeiture context, and nothing beyond those two sections is charged).
 - **Both sides (named):** the defense's position is in the captured status statement; the single-engineer case is in no capture tied to any lab policy or enterprise coordination.
 
 ### B7. Glasswing + Daybreak (brief's matrix rows re: "group boycott")
