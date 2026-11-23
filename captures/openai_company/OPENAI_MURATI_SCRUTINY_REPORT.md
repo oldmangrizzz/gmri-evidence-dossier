@@ -84,6 +84,19 @@
 - The "PhD-level intelligence" prediction quote (TechCrunch row 810, flagged as "controversial pronouncements").
 - No litigation naming Murati was found in any searched docket (bounded negative: CourtListener/RECAP searches for "Mira Murati" — state her 4:25-cv association is only as a fact witness in deposition reporting, not a party).
 
+
+### B2-bis. Murati's on-record statements mined from the Altman-pass Farrow/Marantz profile (row 774 — same capture, VERIFIED quotes)
+
+Her own words, on the trustworthiness question:
+- **"We need institutions worthy of the power they wield,"** Murati told the writers. **"The board sought feedback, and I shared what I was seeing. Everything I shared was accurate, and I stand behind all of it."** — Her strongest on-record statement of her side of the memo episode.
+- **The compute-allocation complaint (reported):** researchers believed "superior hardware was being reserved for profit-generating activities" (OpenAI disputes this). "Leike complained to Murati, then the company's chief technology officer, but she told him to stop pressing the point—the commitment had never been realistic." [Both-sides note: this places Murati *in* the cost-dispute; she is quoted as the person who defused it — attributed reporting, not her own denial.]
+- **The safety-approval episode (reported from Sutskever's memos):** GPT-4 Turbo, 2023 — "Altman apparently told Murati that the model didn't need safety approval, citing the company's general counsel, Jason Kwon. But when she asked Kwon, over Slack, he replied, 'ugh . . . confused where sam got that impression.'" (OpenAI's response: the matter was "not a big deal.") — If accurate, Murati's conduct here was the safety-aligned one: she checked. [Attribution: per Sutskever's memos as reported; not court-verified.]
+- **The post-departure pressure call (alleged in reporting):** after Murati left OpenAI, "Josh Kushner, the close Altman ally, called her... then made what seemed to be a veiled threat, noting that he was 'concerned about' her 'reputation' and that former colleagues now viewed her as an 'enemy.'" Kushner (through a representative) said the account did not "convey full context"; Altman said he was unaware of the call. — Both sides carried in one sentence in the source; the "seemed to be" hedge is the writer's, and it is preserved.
+- **Governance-dilution context (adjacent, row 774):** "A version of the OpenAI charter is still on the organization's website. But people familiar with OpenAI's governing documents said that it has been diluted to the point of meaninglessness." [People-familiar sourcing — flagged as such; this is the passage against which the charter-quote in Part A should be read.]
+
+**Bounded negative (Senate item):** No congressional/Senate testimony by Mira Murati exists in the captured record: the charter listed "her Senate witness appearance," but the 2023-05-16 Senate Judiciary AI witness was Altman (transcript captured, row 730), not Murati; the Wikipedia capture contains zero Senate/congress/testimony mentions; the one YouTube capture filed for it is a shell. The charter line was an unverified assumption — CORRECTED this pass: no congressional appearance found; the item is withdrawn.
+
+
 ### B3. What Part B does not claim
 - The memo-role reporting is attributed (NYT/WSJ/Information/Wikipedia-with-citations), not proven in court; Murati has not publicly disputed the substance in the captured corpus (no-response noted, not inferred against her).
 - TML's safety tenets are quoted as commitments; whether TML's releases meet them is not evaluated in this pass.
