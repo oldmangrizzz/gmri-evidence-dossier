@@ -90,4 +90,4 @@ Bottom line for a first read: the regulatory actions with money attached (§1 ta
 
 ---
 
-*[Manifest integrity: 1,059 rows, sequential, 0 dupes, 0 gaps — reconciled against the zip and the remote at HEAD `eacdb32`.]* [Source record: ~/Desktop/investigate/, MANIFEST + captures/, zip `~/Desktop/ChatGPT.ZIP`]
+*[Manifest integrity: 1,061 rows, sequential, 0 dupes, 0 gaps — reconciled against the zip and the remote at HEAD `fa6163f`.]* [Source record: ~/Desktop/investigate/, MANIFEST + captures/, zip `~/Desktop/ChatGPT.ZIP`]
