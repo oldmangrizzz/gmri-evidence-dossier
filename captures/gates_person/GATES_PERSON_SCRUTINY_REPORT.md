@@ -2,7 +2,7 @@
 
 **Charter:** `charter_gates_person.md` (pre-registered). Part-5 method: professed standard → captured record, both sides carried, ADJUDICATED tier where courts/SEC ruled.
 
-**Self-audit (regenerated from filesystem + MANIFEST):** 961 manifest rows, sequential, 0 dupes. `captures/gates_person/` kept captures: 10 Foundation/Wikipedia/Breakthrough/Bill-Gates pages + 2 CNBC/Guardian Epstein-divorce/relationship captures. All hash-verified. Reuse: Microsoft-the-company record from the Microsoft/Nadella pass cited by prior rows (EC €561M 2013 fine, RAI framework, Recall episode, AI Access Principles).
+**Self-audit (regenerated from filesystem + MANIFEST):** 998 manifest rows, sequential, 0 dupes. `captures/gates_person/` kept captures: 10 Foundation/Wikipedia/Breakthrough/Bill-Gates pages + 2 CNBC/Guardian Epstein-divorce/relationship captures + 1 Wikipedia biographical primary (bill_gates_wiki.html). All hash-verified. Reuse: Microsoft-the-company record from the Microsoft/Nadella pass cited by prior rows (EC €561M 2013 fine, RAI framework, Recall episode, AI Access Principles).
 
 **The operator's standard:** "If you talk about being a good person, you better be a good person when people start checking your shit." — the professed standard laid next to the record without a verdict.
 
