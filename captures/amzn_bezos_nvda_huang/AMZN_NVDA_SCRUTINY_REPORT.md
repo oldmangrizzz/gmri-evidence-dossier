@@ -61,11 +61,13 @@
 
 ## PART C — NVIDIA (THE COMPANY)
 
-### C1. The standard NVIDIA set (its own words)
-1. **AI-factory / "industrial revolution" framing (Huang’s public keynotes, referenced via NVIDIA blog press releases this pass; the keynote-transcript primary is a named discovery target).**
+### C1. The standard NVIDIA set (as stated, with all primary sources named as discovery targets this pass)
+1. **AI-factory / "industrial revolution" framing, reported in press coverage — the keynote-transcript primary is a named discovery target (no NVIDIA primary captured this pass).**
 2. **NVIDIA's Responsible-AI framing** (published; the official "AI governance" pages 404'd/504'd on fetch this pass — named as a discovery target for the primary capture).
 3. **NVIDIA Code of Conduct** (fetch attempts 504'd; named as a discovery target).
 4. **Huang’s public AI-CAPEX framing—reported in press coverage—is a named discovery target for the keynote transcript primary this pass; quoted here only at SECONDHAND until the primary is captured.**
+
+**BOUNDARY: no NVIDIA primary capture was obtained this pass. All four stated-standard items carry at their reported/SECONDHAND tier with the primary named as a discovery target. No uncaptured quote is asserted as VERIFIED.**
 
 ### C2. The record laid against it
 - **AI-chip market-power fact (ADJUDICATED-ADJACENT, cited by prior-pass reference):** NVIDIA is the only company currently supplying most GPUs used for AI today (Judge Mehta's opinion names this fact in Google-search-competitive-pressure analysis, prior pass row).
