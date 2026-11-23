@@ -43,7 +43,7 @@
 1. **The "Day 1" philosophy (Bezos's signature framing, referenced in the captured Jassy letter and in his prior shareholder letters):** "It's always Day 1."
 2. **His 2020 House Antitrust sworn testimony — discovery target this pass** (the House Judiciary transcript primary is not on disk; his sworn answer re AWS data use is carried by reference and named below at SECONDHAND tier).
 3. **Climate Pledge (Sept 2019, Bezos-announced):** net-zero carbon by 2040.
-4. **The Bezos signature on the Jassy letter** (`jassy_2024_letter.html` has his signature block "Jeffrey P. Bezos / Founder and Chief Executive Officer / Amazon.com, Inc." — Bezos remains the signature presence on Amazon's succession record).
+4. **The Bezos signature on the 1997 reprint** (the 2024 Jassy letter page reprints the 1997 letter verbatim, which closes with "Jeffrey P. Bezos / Founder and Chief Executive Officer" — the Jassy letter itself is signed by Jassy as "President and Chief Executive Officer"; Bezos's signature line belongs to the 1997-letter reprint, not the Jassy letter proper).
 
 ### B2. The record laid against it
 - **His 2020 House Antitrust sworn testimony (named as a discovery target this pass; the transcript is not captured on disk; carried by reference to prior-pass reporting)** vs. **the FTC's Sept-2023 complaint** (alleging Amazon uses seller data in the buy-box frame). The tension is stated as a filed-not-decided — the primary transcript is the citation target.
@@ -86,7 +86,7 @@
 ## PART D — JENSEN HUANG
 
 ### D1. His standard (his own words)
-1. **Huang's public AI-CAPEX framing** — reported across press coverage ("The more you buy, the more you save" is his well-known public line per reported reporting); **keynote-transcript primary: named discovery target this pass; quoted at SECONDHAND only**.
+1. **Huang's public AI-CAPEX framing** — reported across press coverage, with "The more you buy, the more you save" as his well-known public line per reported reporting. **Keynote-transcript primary: named discovery target this pass; quoted at SECONDHAND only.**
 2. **"AI is going to change everything"** — Huang's repeated public framing (named as a discovery target for a keynote capture).
 
 ### D2. The record laid against it
