@@ -61,8 +61,8 @@
 
 ## PART D — MANIFEST INTEGRITY
 
-- 1,025 rows, sequential, 0 dupes, 0 gaps; this pass: rows 1016–1024 (captures), 1025 (charter), report row follows.
-- All prior-pass reuse cited by basename. Blockages recorded: CSRB PDF (cisa.gov 404, wayback 404/504), WSJ direct 401 (stub kept, paywall noted), Benzinga 403 → wayback, sdw.space 522 → wayback, CISA report page 404.
+- 1,025 rows, sequential, 0 dupes, 0 gaps; this pass: rows 1016–1023 (8 captures), 1024 (this pass's charter), 1025 (this report).
+- All prior-pass reuse cited by basename. Blockages recorded: CSRB PDF (cisa.gov 404, wayback 404/504), WSJ direct 401 (stub kept, paywall noted), Benzinga 403 → wayback, sdw.space 522 → wayback, CISA report page a soft-404 shell (pulled and REMOVED, not manifested).
 
 ## PART E — DISCOVERY TARGETS (named for a future pass)
 
