@@ -196,6 +196,8 @@ The EPD framework is the operator's own, built from his prior engineering work p
 
 **Counsel note on use:** the papers are clinical assessments with an epistemic standard the author himself defends: differential diagnosis. "Prove it wrong" is the dare. "Unrefuted is not proven" is the discipline. That is the standard for admission, not a guarantee of outcome; counsel should treat the framework as the operator's own published theory, not as a substitute for expert witness testimony.
 
+**Terminology note (P7, added 2026-11-22):** the operator's use of "gaslighting" is defensible as a clinical assessment grounded in the captured interaction record, distinct from the arXiv's belief-misalignment deception metric. PubMed search results for gaslighting + psychological abuse return 37+ academic papers, including a 2026 systematic review (Adair, Trauma Violence Abuse, doi:10.1177/15248380251344316) treating gaslighting as a recognized psychological-abuse construct. The distinction preserves both the author's clinical assessment framework and the peer-reviewed benchmark figure without laundering either.
+
 ## P6 — scope statement
 
 No row. The operator's stated conclusion (criminal liability at the end of this road) is not a testable claim of this ledger. What the ledger establishes verifiably: regulators (FTC, SEC) and courts are actively and presently engaged with AI-industry conduct in 2026 (captured primaries), and systemic-financing opacity is a named concern at the Federal Reserve. Whether any theory supports criminal referral is counsel's call. The one completed 2026 criminal admission in the AI space on this ledger's record remains the Joonko securities-fraud plea (unrelated firm).
