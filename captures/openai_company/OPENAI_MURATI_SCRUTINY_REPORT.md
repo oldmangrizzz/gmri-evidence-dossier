@@ -2,7 +2,7 @@
 
 **Charter:** `charter_openai_murati.md` (pre-registered). Same Part-5 method as the Altman pass: professed standard first, then the captured record against it, both sides carried, allegations attributed, single-source claims flagged, no crime asserted, no misconduct adjudicated.
 
-**Self-audit (regenerated from filesystem + MANIFEST):** 782 rows before this pass's additions; now includes `captures/openai_company/` (3 kept files) + `captures/murati/` (9 kept files) + `captures/blocked_attempts_openai_murati/` (30 provenance-only quarantines, DO-NOT-CITE). Manifest sequential, 0 dupes; all kept files hash-verified.
+**Self-audit (regenerated from filesystem + MANIFEST):** as of final push: 1108 manifest rows total, sequential, 0 dupes. OpenAI/Murati pass kept files: `captures/openai_company/` 4 + `captures/murati/` 11; quarantined provenance-only: `captures/blocked_attempts_openai_murati/` 29 (DO-NOT-CITE); plus the recorded RECAP search row (826). All kept files hash-verified against manifest (0 mismatches).
 
 **Reuse note:** OpenAI's charter (row 776), usage policies, model spec, safety page, Senate testimony, board-crisis primaries, the Farrow/Marantz profile, and the Murati memo coverage were captured in the prior passes and are cited by their existing row numbers — not re-captured.
 
@@ -82,7 +82,7 @@
 **Murati controversy items (public, dated):**
 - June 2024 Dartmouth comment on creative jobs ("maybe they shouldn't have been there in the first place if the content that comes out of it is not very high quality") — captured via Wikipedia refs + TechCrunch row 810 full quote; the criticism (writers/artists incl. Dartmouth students) is carried.
 - The "PhD-level intelligence" prediction quote (TechCrunch row 810, flagged as "controversial pronouncements").
-- No litigation naming Murati was found in any searched docket (bounded negative: CourtListener/RECAP searches for "Mira Murati" — state her 4:25-cv association is only as a fact witness in deposition reporting, not a party).
+- **CORRECTED (2026-11-23, after running + recording the search):** an earlier draft claimed "no litigation naming Murati found" — that search had never been recorded; the claim was withdrawn. The recorded RECAP search (53 results, capture `cl_recap_search_mira_murati.html`) shows her litigation presence: **(a) NYT v. Microsoft/OpenAI et al.** — "Ermira Murati" listed among named parties; **(b) Musk v. OpenAI** — her admitted exhibits include an email to P. Waymouth (5/11/2019) and "OpenAI Edits Mira Murati against 10"; her deposition consented for 2026-03-05 (Procas 03-03, Zoph 03-06); a 2024-08-15 letter re her "refusing to produce text messages"; **(c) In re: OpenAI Copyright Infringement** — "Mira Murati, Alex Passos, Alec Radford, John Schulman" among listed individuals. These are litigation-presence facts (party/witness status as docketed), NOT allegations of wrongdoing.
 
 
 ### B2-bis. Murati's on-record statements mined from the Altman-pass Farrow/Marantz profile (row 774 — same capture, VERIFIED quotes)
