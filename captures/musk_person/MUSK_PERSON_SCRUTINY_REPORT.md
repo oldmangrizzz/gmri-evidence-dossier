@@ -62,14 +62,12 @@
 - **Jury verdict May 18, 2026 in favor of OpenAI**, finding "Musk’s claims were barred by the statute of limitations." Captured via Wikipedia citation of the AP (VERIFIED).
 - **Musk’s own framing at the filing** (his X statements, 2024): captured and reported.
 
-### B7. Musk’s workplace conduct (reported, SECONDHAND)
+### B7. Workplace-conduct and family items (OUT OF SCOPE per operator’s own charter exclusion)
 
-- **2022 SpaceX flight attendant allegation** (reported by Insider, $250K settlement reported; Musk’s denial captured: "wild accusations").
-- **June 2024 WSJ reporting**: "romantic relationship" with a former intern at SpaceX + he had sexual relations with a woman who directly reported to him + he "repeatedly asked an employee who reported directly to him to ‘have his babies’." **Attribution: reported, single-source; not adjudicated.**
-- **8 ex-employees (June 2024)** filed a lawsuit alleging sexual harassment at SpaceX (reported; SECONDHAND).
-- **The "pedo guy" submarine-tweet (2018)** — see B2 above.
-- **Musk’s own X replies about critics** (reported): his "Go fuck yourself" to Disney/Iger is already captured in the xAI pass (VERIFIED); Wikipedia also captured Musk’s "I would like to state clearly that the Tesla board did nothing wrong" framing alongside other items.
-- **B7 note:** no adjudication on the workplace-conduct items; every entry is attributed to its source and paired with Musk’s own denial where one exists.
+The operator explicitly excluded Musk’s family life from this pass: "Not personal as in getting into his family shit."
+- The SpaceX workplace reporting (Insider June 2022 flight-attendant allegation, June 2024 WSJ "romantic relationship"/SpaceX-babies reporting, 8-ex-employee harassment suit — all reported) is therefore named as a **discovery target for a future pass focused on SpaceX-the-company, not Musk-the-person**. Quotes, figures, and alleged settlement amounts are NOT restated in this pass per the operator’s own exclusion.
+- Musk’s personal-life items (Grimes custody, St. Clair paternity, etc.) are also named as **discovery targets for a future SpaceX-family pass**, not restated this pass.
+- The Musk-v-OpenAI verdict (May 2026, jury for OpenAI on statute-of-limitations grounds) is carried in B6 above — that is the OpenAI record, not a personal-conduct record.
 
 ### B8. Twitter/X "free speech" promises vs. the record
 
