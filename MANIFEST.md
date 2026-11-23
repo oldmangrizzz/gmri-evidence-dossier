@@ -1187,9 +1187,9 @@ Blocked/failed attempts (inventory):
 | 895 | captures/zuckerberg_meta/ftc_meta_statement_wb.html | captured in pass | 200 | 4,737 | 3d02f8423c99309f | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
 | 896 | captures/zuckerberg_meta/ftc_simons_facebook_5b.pdf | https://search.ftc.gov/system/files/documents/public_statements/1537170/simons_-_facebook_press_conference_7-24-19.pdf | 200 | 37,446 | f68ec4bb88ebc899 | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
 | 897 | captures/zuckerberg_meta/meta_about_home.html | https://about.meta.com/ | 200 | 272,053 | 85f1095ef7a375f7 | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
-| 898 | captures/zuckerberg_meta/meta_community_standards.html | https://transparency.meta.com/policies/community-standards/ | 200 | 429,893 | fc35c8db6c04fa0a | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
-| 899 | captures/zuckerberg_meta/meta_open_source_science.html | captured in pass | 200 | 252,221 | 9817563faab10c3f | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
-| 900 | captures/zuckerberg_meta/meta_open_weights_public_good.html | captured in pass | 200 | 252,541 | 67fc01e1ef09bece | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
+| 898 | captures/blocked_attempts_zuck_meta/meta_community_standards.html | https://transparency.meta.com/policies/community-standards/ | 200 | 429,893 | fc35c8db6c04fa0a | 2026-11-23 | Meta/Zuckerberg due-diligence capture | DO-NOT-CITE (JS shell/404 body)
+| 899 | captures/blocked_attempts_zuck_meta/meta_open_source_science.html | captured in pass | 200 | 252,221 | 9817563faab10c3f | 2026-11-23 | Meta/Zuckerberg due-diligence capture | DO-NOT-CITE (JS shell/404 body)
+| 900 | captures/blocked_attempts_zuck_meta/meta_open_weights_public_good.html | captured in pass | 200 | 252,541 | 67fc01e1ef09bece | 2026-11-23 | Meta/Zuckerberg due-diligence capture | DO-NOT-CITE (JS shell/404 body)
 | 901 | captures/zuckerberg_meta/meta_rebrand_manifesto.html | https://about.fb.com/news/2021/10/facebook-company-is-now-meta/ | 200 | 382,977 | 5968d270aa5e1384 | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
 | 902 | captures/zuckerberg_meta/meta_responsible_ai.html | https://ai.facebook.com/responsible-ai/ | 200 | 188,868 | 2999b75257c03abb | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
 | 903 | captures/zuckerberg_meta/noyb_dpc_pr_mirror.pdf | https://noyb.eu/sites/default/files/2023-05/DPC%20Press%20Release.pdf | 200 | 146,496 | 98466c86ce805e5a | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
