@@ -56,7 +56,9 @@
 - **NYT v. Microsoft/OpenAI:** "Ermira Murati" among named parties.
 - **Musk v. OpenAI:** exhibit email to P. Waymouth (5/11/2019); "OpenAI Edits Mira Murati against 10"; deposition consented for 2026-03-05; a 2024-08-15 letter re her "refusing to produce text messages."
 - **In re: OpenAI Copyright Infringement:** "Murati, Passos, Radford, Schulman" listed.
-- Carry rule: naming in a case caption is procedural presence, not wrongdoing; each item sits at its captured RECAP tier.
+- **In re: OpenAI MDL 1:25-md-03143 (S.D.N.Y., docket-summary items in the same RECAP capture — SECONDHAND, ellipsis-truncated as captured; Docs #581/#674 named as discovery targets):** Rule 56.1 Statement ¶583 (Doc #581, filed 2026-09-18): "OpenAI's former Chief Technology Officer Mira Murati testified at deposition that the OpenAI API is &hellip;" [truncated in capture] — and Doc #674 (redacted, filed 2026-10-29, 224 pp.): "OpenAI's former Chief Technology Officer Mira Murati rejected that framing as well, testifying that &hellip;" [truncated in capture]. The deposition CONTENT is not captured — carried only as docket-summary evidence that she testified and disputed a framing, never as VERIFIED quotes.
+- **NYT letter-motion (2024-11-18, in the same RECAP capture):** "only person who falls into that category is Mira Murati who is refusing to produce text messages from &hellip;" [truncated in capture] — a litigant's letter characterization, carried at that tier.
+- Carry rule: naming in a case caption is procedural presence, not wrongdoing; each item sits at its captured RECAP tier; truncated docket text is never quoted as complete testimony.
 
 ---
 
@@ -70,7 +72,7 @@
 
 ## PART D — MANIFEST INTEGRITY
 
-- 1,014 rows, sequential, 0 dupes, 0 gaps; this pass: rows 1005–1013 (captures), 1014 (charter), report row follows.
+- 1,015 rows, sequential, 0 dupes, 0 gaps; this pass: rows 1005–1013 (captures), 1014 (charter), 1015 (this report).
 - All prior-pass reuse cited by basename.
 
 ## PART E — DISCOVERY TARGETS (named for a future pass)

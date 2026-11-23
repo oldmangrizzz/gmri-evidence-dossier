@@ -2491,4 +2491,4 @@ Blocked/failed attempts (inventory):
 | 1013 | captures/murati_person/wired_tinker_launch_2025-10-01.html | https://www.wired.com/story/thinking-machines-lab-first-product-fine-tune/ | 200 | 1,264,872 | 3a5c6f80071ee4e6 | 2026-11-23 | Mira Murati person due-diligence capture (standalone pass) |
 
 | 1014 | charter_murati_person.md | pre-registered charter (scoping note: TML scoping captures preceded finalization, recorded honestly) | n/a | 3,163 | a2351c6665bf1ff7 | 2026-11-23 | Mira Murati person standalone due-diligence charter |
-| 1015 | captures/murati_person/MURATI_PERSON_SCRUTINY_REPORT.md | derived: Part-5 synthesis from hash-anchored captures | n/a | 13,852 | a94b97709a63657d | 2026-11-23 | Mira Murati person standalone due-diligence deliverable |
+| 1015 | captures/murati_person/MURATI_PERSON_SCRUTINY_REPORT.md | derived: Part-5 synthesis from hash-anchored captures | n/a | 14,899 | eacf03a2c238f772 | 2026-11-23 | Mira Murati person standalone due-diligence deliverable |
