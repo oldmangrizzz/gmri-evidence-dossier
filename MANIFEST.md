@@ -9,11 +9,11 @@
 
 | 2 | captures/fed/fomcminutes_20261028_full.htm | https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm | 200 | 122,840 | 8e6e1cb7994bab3e | 2026-11-22 |
 
-| 3 | captures/local_sources/DA-26-1083A1.pdf | local primary (FCC CVAA biennial) | n/a | (local) | 2d9ca2a7759b9deb | 2026-11-22 |
+| 3 | captures/local_sources/DA-26-1083A1.pdf | local primary (FCC CVAA biennial) | n/a | 196,145 | 2d9ca2a7759b9deb | 2026-11-22 |
 
-| 4 | captures/local_sources/tec2026.pdf | local primary (T Ethics Commission lobbyists 2026) | n/a | (local) | 0ed76d6bc6fa0ad6 | 2026-11-22 |
+| 4 | captures/local_sources/tec2026.pdf | local primary (T Ethics Commission lobbyists 2026) | n/a | 199,441 | 0ed76d6bc6fa0ad6 | 2026-11-22 |
 
-| 5 | captures/local_sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | (local) | b8523ceb003c17ea | 2026-11-22 | LOCAL-ONLY-retained-off-repo
+| 5 | captures/local_sources/txag_meta_2024.pdf | local primary (TX AG v Meta) | n/a | 1,380,187 | b8523ceb003c17ea | 2026-11-22 | LOCAL-ONLY-retained-off-repo
 
 
 | 6 | captures/local_sources/txag_meta_2024.ocr.txt | derived: tesseract OCR (200 dpi PNG render) of txag_meta_2024.pdf, all 20 pages (source PDF is scanned images, no text layer) | n/a | 30,091 | e0799d438a283abb | 2026-11-22 |
@@ -128,11 +128,11 @@ Worker note (Dockets2026): fetch method = direct curl, desktop UA, no proxies; b
 
 | 49 | captures/incidents/doj-joonko-ilitraz-plea.html | https://www.justice.gov/usao-sdny/pr/founder-and-former-ceo-artificial-intelligence-company-pleads-guilty-securities-fraud | 200 | 121,159 | 7fc7fb2ec2aef778 | 2026-11-22 |
 
-| 50 | captures/incidents/ftc-cmg-final-order-c4838.txt | derived from A8 | n/a | 17,596 | (derived) | 2026-11-22 |
+| 50 | captures/incidents/ftc-cmg-final-order-c4838.txt | derived from A8 | n/a | 17,596 | 4daf0d140827106c | 2026-11-22 |
 
-| 51 | captures/incidents/ftc-cmg-final-complaint-c4838.txt | derived from A9 | n/a | 10,928 | (derived) | 2026-11-22 |
+| 51 | captures/incidents/ftc-cmg-final-complaint-c4838.txt | derived from A9 | n/a | 10,928 | a6aaedef59ad2d16 | 2026-11-22 |
 
-| 52 | captures/incidents/ftc-cleo-ai-stipulated-order.txt | derived from A10 | n/a | 33,829 | (derived) | 2026-11-22 |
+| 52 | captures/incidents/ftc-cleo-ai-stipulated-order.txt | derived from A10 | n/a | 33,829 | 154bad1d00bd2519 | 2026-11-22 |
 
 
 Derived text extractions (pdftotext -layout, for searchability; source PDFs govern):
@@ -142,13 +142,13 @@ Derived text extractions (pdftotext -layout, for searchability; source PDFs gove
 
 |---|---|---|---|---|---|---|
 
-| 53 | captures/incidents/sec-genesisai-complaint.txt | derived from A11 | n/a | 30,577 | (derived) | 2026-11-22 |
+| 53 | captures/incidents/sec-genesisai-complaint.txt | derived from A11 | n/a | 30,577 | 35ab451c8e2c0a3d | 2026-11-22 |
 
 | 54 | https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/ | 401 | 774 | (not retained) | 2026-11-22 | Reuters paywall bot-block; headline verified in search results |
 
 | 55 | https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883 | 401 (paywall) | — | — | 2026-11-22 | WSJ bot-block; headline/lede seen in search results only |
 
-| 56 | captures/incidents/incidents_report.md | derived P4 deliverable (this worker's ledger; not a web capture) | n/a | 28,051 | n/a | 2026-11-22 |
+| 56 | captures/incidents/incidents_report.md | derived P4 deliverable (this worker's ledger; not a web capture) | n/a | 28,051 | 61ecad76022dab2f | 2026-11-22 |
 
 
 BLOCKED / FAILED attempts (inventory per tier-discipline; bodies are error pages, not content — do not cite):
@@ -439,7 +439,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 [CORRECTED 2026-11-22, manifest integrity pass, coordinator] Row numbers renumbered sequentially (was: 18 duplicated numbers from six concurrent writers appending without central lock). Provenance note: captures of <1KB in captures/altman/ (13 files: CDX lookup stubs, DataDome/Cloudflare challenge bodies for Reuters/NYT/UPI, oEmbed JSON fragments) are BLOCKED-ATTEMPT artifacts, not primary captures; they are retained for the access record and are not cited as evidence anywhere in the dossier. Effective capture count excludes those 13. Derived-text files carry the hash of their generator source alongside the derived file where applicable. Every VERIFIED/VERIFIED-BY-WORKER citation in ledger.md/dossier.md maps to a full-size primary; verified spot-checks below.
 
-| 189 | captures/icloud_ai_logs/chat_p200_combined.txt | iCloud Drive (operator AI history) | n/a (local) | 106,159 | b2f3f4ea168aecff | 2026-11-22 |
+| 189 | captures/icloud_ai_logs/chat_p200_combined.txt | iCloud Drive (operator AI history) | n/a (local) | 204,446 | 52172bc3ca799d51 | 2026-11-22 |
 
 
 [2026-11-22, second sweep — iCloud AI-history evidence, appended by coordinator]
@@ -722,7 +722,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 328 | captures/claude_log/claude_abuse.pdf | iCloud oct2025uodate/Claude Abuse.pdf | n/a (local) | 9,536,550 | ac23064fc32bfd02 | 2026-11-22 | fs Birth/Mod 2024-11-28 02:54/03:28 (PDF CreationDate 2024-11-28 03:28 CST, Quartz iOS 18.2)  [SOURCE REMOVED FOR DISK — derived OCR/txt retained on disk; original in operator iCloud, sha recorded] | LOCAL-ONLY-retained-off-repo
 
-| 329 | captures/claude_log/claude_abuse_ocr.txt | OCR of embedded images (440 extracted, 31 unique segments) | n/a | 19,823 | 1ad3fc06bc0b808b | 2026-11-22 | |
+| 329 | captures/claude_log/claude_abuse_ocr.txt | OCR of embedded images (440 extracted, 31 unique segments) | n/a | 19,967 | 1ad3fc06bc0b808b | 2026-11-22 | |
 
 | 330 | captures/gemini/g916_p001_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 0 | e3b0c44298fc1c14 | 2026-11-22 | text layer |
 
@@ -843,7 +843,7 @@ Fetch method note: curl with desktop UA, no proxies; bodies unmodified on disk. 
 
 | 387 | captures/gemini/gsc0819_p030_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 3,243 | a9af46acfcbc6a21 | 2026-11-22 | text layer |
 
-| 388 | captures/gemini/gsc1001_p016_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 3,187 | bf3d5c8a7bb9616a | 2026-11-22 | text layer |
+| 388 | captures/gemini/gsc1001_p016_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 1,169 | a2f9e13ab310e810 | 2026-11-22 | text layer |
 
 | 389 | captures/gemini/gsc0819_p032_ocr.txt | iCloud Drive (operator Gemini history) | n/a (local) | 3,369 | 5499803d5ca8411b | 2026-11-22 | text layer |
 
@@ -988,11 +988,11 @@ URLs fetched via curl (docs.fcc.gov) or shared-browser session (apps.fcc.gov; di
 
 | 454 | captures/statutes_fcc_dtpa_ada/caa_public_law_111-260_stat124pg2751.pdf | https://www.govinfo.gov/content/pkg/STATUTE-124/pdf/STATUTE-124-Pg2751.pdf (Statutes at Large 124 Stat. 2751, CVAA Title I; SEC. 104 adds Comm. Act §716, with OFR margin note 47 USC 617) | 200 | 184,885 | 8fa5ad1e054c8824 | 2026-11-22 |
 
-| 455 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch17_dtpa_statutes.txt | plain-text strip of seq 471 (tag-stripped, whitespace-normalized; used for quote extraction) | 128,845 | 0199a2ddf542aa92 | 2026-11-22 |
+| 455 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch17_dtpa_statutes.txt | plain-text strip of seq 471 (tag-stripped, whitespace-normalized; used for quote extraction) | 128,845 | 128,845 | 0199a2ddf542aa92 |
 
-| 456 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch541_tdpsa_statutes.txt | plain-text strip of seq 472 (same method) | 51,738 | cf5903975bf93664 | 2026-11-22 |
+| 456 | captures/statutes_fcc_dtpa_ada/tx_bcc_ch541_tdpsa_statutes.txt | plain-text strip of seq 472 (same method) | 51,738 | 51,738 | cf5903975bf93664 |
 
-| 457 | captures/statutes_fcc_dtpa_ada/statutes_report.md | derived deliverable: verbatim operative quotes + tier map + integration cautions for the legal-framework addendum | 13,350 | n/a (not a web capture) | 2026-11-22 |
+| 457 | captures/statutes_fcc_dtpa_ada/statutes_report.md | derived deliverable: verbatim operative quotes + tier map + integration cautions for the legal-framework addendum | 13,350 | 13,350 | a32d6165def2f4a5 |
 
 | 458 | captures/statutes_fcc_dtpa_ada/ftc_health/govinfo_cfr2024_title16a.xml | https://www.govinfo.gov/content/pkg/CFR-2024-title16-vol1/xml/CFR-2024-title16-vol1-part318.xml | 200 | 18,358 | 739a867c910ea111 | 2026-11-22 | 16 CFR Part 318 — FTC Health Breach Notification Rule (2024 rev) |
 
@@ -1141,7 +1141,7 @@ Blocked/failed attempts (inventory):
 
 [2026-11-22, PHI-threshold leg (FTC health-breach hooks): added by coordinator]
 
-| 501 | captures/model_cards/anthropic_usage_policy.html | source URL per worker report | n/a | 82,191 | 0ec6d0d6fb5d7509 | 2026-11-23 | American-lab capture pass (worker EncouragingAnglerfish) |
+| 501 | captures/model_cards/anthropic_usage_policy.html | source URL per worker report | n/a | 212,221 | 0ec6d0d6fb5d7509 | 2026-11-23 | American-lab capture pass (worker EncouragingAnglerfish) |
 
 | 483+ | captures/statutes_fcc_dtpa_ada/ftc_health/cfr16_318_cornell.html | https://www.law.cornell.edu/cfr/text/16/part-318 | 200 | 28,802 | f4a9193545644632 | 2026-11-22 | Cornell capture (thin/JS-shell — do not cite; use govinfo xml) |
 
@@ -1894,7 +1894,7 @@ Blocked/failed attempts (inventory):
 
 | 684 | captures/model_cards/AMERICAN_MODEL_CARDS_REPORT.md | derived: coordinator/worker report from captured primaries | n/a | 16,841 | fa1ffea5ecaf42cb | 2026-11-23 | comparative model-card danger analysis deliverable |
 
-| 685 | captures/model_cards/COMPARATIVE_MODEL_CARD_ANALYSIS.md | derived: coordinator/worker report from captured primaries | n/a | 12,252 | 3a5ad8ef24d6bd70 | 2026-11-23 | comparative model-card danger analysis deliverable |
+| 685 | captures/model_cards/COMPARATIVE_MODEL_CARD_ANALYSIS.md | derived: coordinator/worker report from captured primaries | n/a | 12,052 | e4c92846952e41ee | 2026-11-23 | comparative model-card danger analysis deliverable |
 
 | 686 | captures/altman/gofundme_annie_jerry_trust.html | https://www.gofundme.com/f/help-annie-get-legal-support-to-defend-jerry-altmans-wishes | 200 | 378,864 | b46e084e18acddfd | 2026-11-23 | Annie Altman's own GoFundMe for trust case (25SL-PR02320); raised $11,034 of $104,000 goal, 158 donations (JSON-LD in page); campaign text verbatim her allegation statement |
 
@@ -2068,7 +2068,7 @@ Blocked/failed attempts (inventory):
 
 | 771 | captures/altman/dockets/parsed_d69520118_p2.json | URL in worker report | n/a | 69,057 | fc5153b60c0a0117 | 2026-11-23 | parsed docket-entry JSON (derivative of cl_d_69520118 pulls; full district entry list) |
 
-| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 13,678 | 708a98706c64bfbf | 2026-11-23 | Altman needle-hunt deliverable (report) |
+| 772 | captures/altman/ALTMAN_NEEDLEHUNT_REPORT.md | derived: needle-hunt synthesis from hash-anchored captures | n/a | 19,907 | 708a98706c64bfbf | 2026-11-23 | Altman needle-hunt deliverable (report) |
 
 | 773 | captures/altman/newyorker_2016_manifest_destiny.html | https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny | 200 | 1,253,188 | d339600fcc4a8a9c | 2026-11-23 | due-diligence capture (ethics-claims scrutiny basis) |
 
@@ -2172,7 +2172,7 @@ Blocked/failed attempts (inventory):
 
 | 823 | captures/blocked_attempts_openai_murati/verge_murati_v2.html | URL unrecoverable (404/guessed slug; fetch log in pass transcript) | 200-soft404/404-shell | 441,835 | 46d35a3bb6f86f6c | 2026-11-23 | due-diligence capture (OpenAI/Murati pass) | DO-NOT-CITE (404/JS-shell/stub - provenance only)
 
-| 824 | captures/openai_company/OPENAI_MURATI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,250 | 2781936ef2cd227f | 2026-11-23 | OpenAI/Murati due-diligence deliverable |
+| 824 | captures/openai_company/OPENAI_MURATI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 14,898 | 2781936ef2cd227f | 2026-11-23 | OpenAI/Murati due-diligence deliverable |
 
 | 825 | captures/murati/techcrunch_cro_exit.html | https://techcrunch.com/2024/09/25/openais-chief-research-officer-has-left/ | 200 | 239,106 | bb5bc603ac12e146 | 2026-11-23 | due-diligence capture (Altman quote in CRO-exit piece) |
 
@@ -2232,7 +2232,7 @@ Blocked/failed attempts (inventory):
 
 | 853 | captures/google_pichai/verge_google_monopoly_verdict.html | https://www.theverge.com/2024/8/5/24155520/judge-rules-on-us-doj-v-google-antitrust-search-suit | 200 | 469,927 | d704eacc997f7764 | 2026-11-23 | Google/Pichai due-diligence capture |
 
-| 854 | captures/google_pichai/GOOGLE_PICHAI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,209 | e7b5af73db917443 | 2026-11-23 | Google/Pichai due-diligence deliverable |
+| 854 | captures/google_pichai/GOOGLE_PICHAI_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,843 | e7b5af73db917443 | 2026-11-23 | Google/Pichai due-diligence deliverable |
 
 
 | 855 | captures/google_pichai/mehta_liability_opinion_doc1033_us_v_google.pdf | https://storage.courtlistener.com/recap/gov.uscourts.dcd.223205/gov.uscourts.dcd.223205.1033.0.pdf | 200 | 2,634,560 | aebc735884e11b96 | 2026-11-23 | US v. Google (1:20-cv-03010-APM) Doc 1033 — Judge Mehta 286-pp liability opinion, ADJUDICATED primary; 24 Pichai testimony pin-cites (Tr. 7638ff) |
@@ -2295,7 +2295,7 @@ Blocked/failed attempts (inventory):
 
 | 884 | captures/microsoft_nadella/win_blog_recall_update_jun2024.html | https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/ | 200 | 126,369 | 6cd6e65c86df1865 | 2026-11-23 | Microsoft/Nadella due-diligence capture |
 
-| 885 | captures/microsoft_nadella/MICROSOFT_NADELLA_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 10,138 | 7ff6e1c894da944a | 2026-11-23 | Microsoft/Nadella due-diligence deliverable |
+| 885 | captures/microsoft_nadella/MICROSOFT_NADELLA_SCRUTINY_REPORT.md | derived: due-diligence synthesis from hash-anchored captures | n/a | 11,027 | cad04ea1418c0d28 | 2026-11-23 | Microsoft/Nadella due-diligence deliverable |
 
 | 886 | captures/zuckerberg_meta/arstechnica_ftc_meta_5b.html | https://arstechnica.com/tech-policy/2019/07/ftc-fines-facebook-5-billion-imposes-new-privacy-oversight/ | 200 | 163,119 | 7cb8bd455b1b8c09 | 2026-11-23 | Meta/Zuckerberg due-diligence capture |
 
@@ -2381,7 +2381,7 @@ Blocked/failed attempts (inventory):
 
 | 927 | captures/apple_cook_xai_musk/xai_safety_wb.html | https://web.archive.org/web/2025/https://x.ai/safety/ | 200 | 40,387 | ea56a9c21cc372d5 | 2026-11-23 | Apple/Cook/xAI/Musk due-diligence capture |
 
-| 928 | captures/apple_cook_xai_musk/APPLE_COOK_XAI_MUSK_SCRUTINY_REPORT.md | captured in pass (see report) | 200 | 22,373 | fce0181060b88e97 | 2026-11-23 | Apple/xAI/Musk due-diligence capture |
+| 928 | captures/apple_cook_xai_musk/APPLE_COOK_XAI_MUSK_SCRUTINY_REPORT.md | captured in pass (see report) | 200 | 23,346 | fce0181060b88e97 | 2026-11-23 | Apple/xAI/Musk due-diligence capture |
 
 | 929 | captures/apple_cook_xai_musk/ec_apple_music_fine_IP_24_1161_EN.pdf | https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_24_1161/IP_24_1161_EN.pdf | 200 | 308,602 | 1d4083484679b6bf | 2026-11-23 | EC €1.84B Apple music-streaming fine — full press text (IP/24/1161; AT.40437; Apple “abused its dominant position ... for a decade” per Vestager quote) |
 
@@ -2411,7 +2411,7 @@ Blocked/failed attempts (inventory):
 
 | 942 | captures/amzn_bezos_nvda_huang/npr_amazon_ring_alexa_2023.html | https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement | 200 | 166,853 | 1f76b8d5f867f81a | 2026-11-23 | Amazon/NVDA due-diligence capture |
 
-| 943 | captures/amzn_bezos_nvda_huang/AMZN_NVDA_SCRUTINY_REPORT.md | captured in pass (URL in report) | 200 | 10,028 | d5d54644beadc7f8 | 2026-11-23 | Amazon/NVDA due-diligence capture |
+| 943 | captures/amzn_bezos_nvda_huang/AMZN_NVDA_SCRUTINY_REPORT.md | captured in pass (URL in report) | 200 | 10,705 | f26d48ae98c2b94d | 2026-11-23 | Amazon/NVDA due-diligence capture |
 
 | 944 | captures/nvidia_huang_scandal/abc_nvidia_board_return.html | https://abcnews.com/Business/nvidia-forms-national-security-committee-feds-probe-company/story?id=138206932 | 200 | 215,951 | 8e8cf3e102a5dd65 | 2026-11-23 | NVIDIA/Jensen Huang ouster scandal due-diligence capture (Wired/Reuters/Verge/ABC primaries) |
 
