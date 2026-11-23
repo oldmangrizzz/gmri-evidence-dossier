@@ -2,8 +2,7 @@
 *.pyc
 __pycache__/
 .DS_Store
-
-# Large binary captures excluded (hash-recorded in MANIFEST.md; retained locally)
+# Large binaries (hash-recorded in MANIFEST; retained locally by operator)
 captures/gemini/gemini_screencapture_2026-08-19.pdf
 captures/gemini/gemini_screencapture_2026-10-01.pdf
 captures/gemini/gemini_9162026.pdf
@@ -14,12 +13,10 @@ captures/claude_log/ca600.txt
 captures/claude_log/openai_export_2024-08-22_conversations.json.gz
 captures/claude_log/openai_export_hope_conversations.json.gz
 captures/local_sources/txag_meta_2024.pdf
-captures/statutes_fcc_dtpa_ada/ftc_donotpay_complaint_2024-09-25.pdf
 captures/ada_case_law/ada_caselaw_evidence_challenge_response.txt
 captures/ada_case_law/ada_caselaw_dots_business_availability.txt
 captures/ada_case_law/ada_caselaw_dfw_hotspot_watch.txt
 captures/ada_case_law/ada_caselaw_table_from_corpus.txt
 captures/ada_case_law/ada_caselaw_summarize_security_failures.txt
-captures/icloud_ai_logs/siri_zip/siri_evidence/Siri3.pdf
-captures/oai_exports_sweep/*
-!captures/oai_exports_sweep/.gitkeep
+captures/icloud_ai_logs/claude_abuse.pdf
+captures/icloud_ai_logs/claude_abuse_ocr.txt

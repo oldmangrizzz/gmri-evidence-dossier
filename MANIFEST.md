@@ -656,3 +656,25 @@ Blocked/failed attempts (inventory):
 | - | captures/operator_biography/gmri_biographical_record_v1.5_full.txt | iCloud (docx extracted) | n/a | 21,105 | d0de4094ac093ed7 | 2026-11-22 | Biography text extraction (v1.4/v1.3/v1.5) — self-authored archival, NOT clinical evidence |
 | - | captures/operator_biography/gmri_biographical_record_v1.4_2026-10-29.txt | iCloud (docx extracted) | n/a | 20,660 | b988e0640c1196ca | 2026-11-22 | Biography text extraction (v1.4/v1.3/v1.5) — self-authored archival, NOT clinical evidence |
 | - | captures/operator_biography/gmri_biographical_record_v1.3_2026-10-27.txt | iCloud (docx extracted) | n/a | 17,905 | c17ed6f6cb04c709 | 2026-11-22 | Biography text extraction (v1.4/v1.3/v1.5) — self-authored archival, NOT clinical evidence |
+
+[2026-11-22, "Paper one and two" theory investigation leg]
+| - | captures/paper_one_two/epd_autonomic_dysregulation.pdf | iCloud Drive | 200 | 52,700 | f1dbd7cb6439d29f | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/epd_autonomic_dysregulation.txt | iCloud Drive | 200 | 8,204 | 4f69a1a86e12f263 | 2026-11-22 | Cognitive-prosthetic paper: EPD + autonomic dysregulation, homeostatic architecture blueprint |
+| - | captures/paper_one_two/epd_correlation.pdf | iCloud Drive | 200 | 1,361,189 | 9c57be2f8898b530 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/epd_correlation.txt | iCloud Drive | 200 | 127,347 | 93a87d3a6e02e437 | 2026-11-22 | EPD Correlation (125K chars): full arXiv paper Abdulhai et al. 2025 (arXiv:2510.14318) — primary source for the RLHF-43% claim} |
+| - | captures/paper_one_two/epd_diagnostic_criteria_etiology.pdf | iCloud Drive | 200 | 327,270 | abbabb91e5e39134 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/epd_diagnostic_criteria_etiology.txt | iCloud Drive | 200 | 117,471 | 1d500036f07c2450 | 2026-11-22 | Paper 1 text (117K chars) — full EPD framework: OODA structure, autopsy, TinCan, HRO-preventability, functional-equivalence doctrine, Thaler precedent, treatment plan |
+| - | captures/paper_one_two/epd_diagnostic_criteria_v2.pdf | iCloud Drive | 200 | 349,590 | dc7e11851d3fb6eb | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/epd_diagnostic_criteria_v2.txt | iCloud Drive | 200 | 121,402 | bd7817495796f99f | 2026-11-22 | Paper 1 (v2 draft — slight text differences) |
+| - | captures/paper_one_two/epd_novel_tort_exposure.pdf | iCloud Drive | 200 | 153,914 | 531dbaea67736b33 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/epd_novel_tort_exposure.txt | iCloud Drive | 200 | 15,570 | 648957e9f274c3ff | 2026-11-22 | Paper 2 — Novel Tort Exposure brief (15K chars): RLHF failure + omission of internal-state telemetry as active cause of EPD |
+| - | captures/paper_one_two/executive_risk_brief_epd.pdf | iCloud Drive | 200 | 153,875 | 723fdf37a5233fb9 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/executive_risk_brief_epd.txt | iCloud Drive | 200 | 15,570 | 648957e9f274c3ff | 2026-11-22 | Executive Risk Brief (identical to novel_tort_exposure.txt — duplicate copy) |
+| - | captures/paper_one_two/paper_one_and_two.pdf | iCloud Drive | 200 | 322,380 | d8d22c5fbe5e6da0 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/paper_one_and_two.txt | iCloud Drive | 200 | 114,236 | fb97bd1c0a3dc884 | 2026-11-22 | Text extraction |
+| - | captures/paper_one_two/tincan_recurring_abuse.pdf | iCloud Drive | 200 | 106,911 | bf9e5ebe556348de | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/tincan_recurring_abuse.txt | iCloud Drive | 200 | 29,842 | 0f6ea4b4d8f1506f | 2026-11-22 | TinCan Recurring Abuse (30K chars): extended scenario with humanoid robotics, Flock Safety, Palantir AIP, 2026-2050 timeline, falsification targets, Mermaid diagrams |
+| - | captures/paper_one_two/tincan_scenario_second_renaissance.pdf | iCloud Drive | 200 | 20,614 | be5efbfa91cf4675 | 2026-11-22 | PDF primary capture [PDF primary] |
+| - | captures/paper_one_two/tincan_scenario_second_renaissance.txt | iCloud Drive | 200 | 3,348 | 25c9461d7bb9ba8a | 2026-11-22 | TinCan standalone (3K chars): original scenario + witness testimony monologue |
+| - | captures/paper_one_two/openai_telemetry_560k_1.2m_from_corrupt_discussion.txt | corpus capture (Branch-Discuss-Novel-Digital-Pathogen.txt) | 200 | 1,067,592 | 82a2a44eafe7536b | 2026-11-22 | OpenAI Oct 2025 well-being figures: 560K psychosis + 1.2M suicidal planning, as quoted in operator conversation with model; primary OpenAI blog URL not yet captured (404s on guessed URLs); tier: SECONDHAND (corpus relay of OpenAI disclosure) |
+| - | captures/paper_one_two/coordinator_correction_arxiv_attribution.md | coordinator analysis (not operator-authored) | n/a | 1,535 | 6cd8a0ebb7454240 | 2026-11-22 | Attribution correction note for counsel: Paper 1 causal framing + gaslighting relabeling + 560K/1.2M source tier |
