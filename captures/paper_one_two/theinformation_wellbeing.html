@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+<script>var _rollbarConfig = {"accessToken":"53d0fd5d9832495ebdbe73039694417a","captureUncaught":true,"code_version":"v5628","guess_uncaught_frames":true,"hostSafeList":["theinformation.com"],"ignoredMessages":["\\(unknown\\)\\: Script error\\.","Script error\\.",".* is not allowed according to Registry policy","jQuery is (missing|not defined)","\\$ is not defined","Can't find variable\\: \\$",".*Illegal invocation",".*Unexpected token '(\\.|\\?)'.*",".*__gCrWeb.*",".*(moz|chrome)-extension\\:\\/\\/.*","Uncaught Error\\: aa","aa",".*ethereum.*","Can't find variable\\: _AutofillCallbackHandler","ResizeObserver loop (completed with undelivered notifications|limit exceeded)","Converting circular structure to JSON[\\s\\S]*__reactFiber"],"itemsPerMinute":30,"maxTelemetryEvents":50,"payload":{"environment":"production","client":{"javascript":{"context":{"pre":5,"post":5},"guess_uncaught_frames":true,"lines_of_context":7,"source_map_enabled":true}}},"source_maps":true};</script>
+<script>!function(){"use strict";var r=function(){},n={debug:0,info:1,warn:2,error:3,disable:4},o={error:function(){for(var n=arguments.length,o=new Array(n),e=0;e<n;e++)o[e]=arguments[e];return r("error",o)},warn:function(){for(var n=arguments.length,o=new Array(n),e=0;e<n;e++)o[e]=arguments[e];return r("warn",o)},info:function(){for(var n=arguments.length,o=new Array(n),e=0;e<n;e++)o[e]=arguments[e];return r("info",o)},debug:function(){for(var n=arguments.length,o=new Array(n),e=0;e<n;e++)o[e]=arguments[e];return r("debug",o)},log:function(){for(var n=arguments.length,o=new Array(n),e=0;e<n;e++)o[e]=arguments[e];return r("info",o)},init:function(o){var e=o.logLevel;r=function(r,o){n[r]<n[e]||(o.unshift("Rollbar:"),console[r].apply(console,o))}}},e=o;function t(r,n){return null!=r&&(Object.hasOwn?Object.hasOwn(r,n):Object.prototype.hasOwnProperty.call(r,n))}function a(r,n){(null==n||n>r.length)&&(n=r.length);for(var o=0,e=Array(n);o<n;o++)e[o]=r[o];return e}function l(r,n){this.impl=r(n,this),this.options=n,function(r){var n,o=function(r){return function(){var n=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,n)}},e=function(r,n){var o="undefined"!=typeof Symbol&&r[Symbol.iterator]||r["@@iterator"];if(!o){if(Array.isArray(r)||(o=function(r,n){if(r){if("string"==typeof r)return a(r,n);var o={}.toString.call(r).slice(8,-1);return"Object"===o&&r.constructor&&(o=r.constructor.name),"Map"===o||"Set"===o?Array.from(r):"Arguments"===o||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(o)?a(r,n):void 0}}(r))||n&&r&&"number"==typeof r.length){o&&(r=o);var e=0,t=function(){};return{s:t,n:function(){return e>=r.length?{done:!0}:{done:!1,value:r[e++]}},e:function(r){throw r},f:t}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var l,i=!0,c=!1;return{s:function(){o=o.call(r)},n:function(){var r=o.next();return i=r.done,r},e:function(r){c=!0,l=r},f:function(){try{i||null==o.return||o.return()}finally{if(c)throw l}}}}("log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","));try{for(e.s();!(n=e.n()).done;){var t=n.value;r[t]=o(t)}}catch(r){e.e(r)}finally{e.f()}}(l.prototype)}l.prototype._swapAndProcessMessages=function(r,n){var o,e,t;for(this.impl=r(this.options);o=n.shift();)e=o.method,t=o.args,this[e]&&"function"==typeof this[e]&&("captureDomContentLoaded"===e||"captureLoad"===e?this[e].apply(this,[t[0],o.ts]):this[e].apply(this,t));return this};var i=l;function c(r,n,o){if(t(n,"addEventListener")){for(var e=n.addEventListener;e._rollbarOldAdd&&e.belongsToShim;)e=e._rollbarOldAdd;var a=function(n,o,t){e.call(this,n,r.wrap(o),t)};a._rollbarOldAdd=e,a.belongsToShim=o,n.addEventListener=a;for(var l=n.removeEventListener;l._rollbarOldRemove&&l.belongsToShim;)l=l._rollbarOldRemove;var i=function(r,n,o){l.call(this,r,n&&n._rollbar_wrapped||n,o)};i._rollbarOldRemove=l,i.belongsToShim=o,n.removeEventListener=i}}function u(r,n){(null==n||n>r.length)&&(n=r.length);for(var o=0,e=Array(n);o<n;o++)e[o]=r[o];return e}function s(r){return s="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(r){return typeof r}:function(r){return r&&"function"==typeof Symbol&&r.constructor===Symbol&&r!==Symbol.prototype?"symbol":typeof r},s(r)}function d(r){return function(){try{return r.apply(this,arguments)}catch(r){try{e.error("[Rollbar]: Internal error",r)}catch(r){}}}}var f=0;function p(r,n){this.options=r,this._rollbarOldOnError=null;var o=f++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:n,messages:[]})}var b=function(r,n){return new p(r,n)},h=function(r){return new i(b,r)};function y(r){return d(function(){var n=Array.prototype.slice.call(arguments,0),o={shim:this,method:r,args:n,ts:new Date};window._rollbarShims[this.shimId()].messages.push(o)})}p.prototype.loadFull=function(r,n,o,e,t){var a=!1,l=n.createElement("script"),i=n.getElementsByTagName("script")[0],c=i.parentNode;l.crossOrigin="",l.src=e.rollbarJsUrl,o||(l.async=!0),l.onload=l.onreadystatechange=d(function(){if(!(a||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){l.onload=l.onreadystatechange=null;try{c.removeChild(l)}catch(r){}a=!0,function(){var n;if(void 0===r._rollbarDidLoad){n=new Error("rollbar.js did not load");for(var o,e,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];e=o.shift();)for(a=e.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(n);break}}"function"==typeof t&&t(n)}()}}),c.insertBefore(l,i)},p.prototype.wrap=function(r,n,o){try{var e;if(e="function"==typeof n?n:function(){return n||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped)for(var a in r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var n=o;throw n&&("string"==typeof n&&(n=new String(n)),n._rollbarContext=e()||{},n._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=n),n}},r._rollbar_wrapped._isWrap=!0,r)t(r,a)&&(r._rollbar_wrapped[a]=r[a]);return r._rollbar_wrapped}catch(n){return r}};var v,m=function(r){var n="undefined"!=typeof Symbol&&r[Symbol.iterator]||r["@@iterator"];if(!n){if(Array.isArray(r)||(n=function(r,n){if(r){if("string"==typeof r)return u(r,n);var o={}.toString.call(r).slice(8,-1);return"Object"===o&&r.constructor&&(o=r.constructor.name),"Map"===o||"Set"===o?Array.from(r):"Arguments"===o||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(o)?u(r,n):void 0}}(r))){n&&(r=n);var o=0,e=function(){};return{s:e,n:function(){return o>=r.length?{done:!0}:{done:!1,value:r[o++]}},e:function(r){throw r},f:e}}throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}var t,a=!0,l=!1;return{s:function(){n=n.call(r)},n:function(){var r=n.next();return a=r.done,r},e:function(r){l=!0,t=r},f:function(){try{a||null==n.return||n.return()}finally{if(l)throw t}}}}("log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","));try{for(m.s();!(v=m.n()).done;){var g=v.value;p.prototype[g]=y(g)}}catch(r){m.e(r)}finally{m.f()}var w="https://cdn.rollbar.com/rollbarjs/refs/tags/v3.1.0/rollbar.min.js";if(_rollbarConfig=_rollbarConfig||{},!_rollbarConfig.rollbarJsUrl){var _="replay"in _rollbarConfig;_rollbarConfig.rollbarJsUrl=_?w.replace("rollbar.min.js","rollbar.replay.min.js"):w}_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var E,S=function(r,n){if(r){var o=n.globalAlias||"Rollbar";if("object"===s(r[o]))return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var e=new h(n);return d(function(){n.captureUncaught&&(e._rollbarOldOnError=r.onerror,function(r,n){if(r){var o;if("function"==typeof n._rollbarOldOnError)o=n._rollbarOldOnError;else if(r.onerror){for(o=r.onerror;o._rollbarOldOnError;)o=o._rollbarOldOnError;n._rollbarOldOnError=o}n.handleAnonymousErrors();var e=function(){var e=Array.prototype.slice.call(arguments,0);!function(r,n,o,e){r._rollbarWrappedError&&(e[4]||(e[4]=r._rollbarWrappedError),e[5]||(e[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=n.handleUncaughtException.apply(n,e);o&&o.apply(r,e),"anonymous"===t&&(n.anonymousErrorsPending+=1)}(r,n,o,e)};e._rollbarOldOnError=o,r.onerror=e}}(r,e),n.wrapGlobalEventHandlers&&function(r,n,o){if(r){var e,t,a="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(e=0;e<a.length;++e)r[t=a[e]]&&r[t].prototype&&c(n,r[t].prototype,o)}}(r,e,!0)),n.captureUnhandledRejections&&function(r,n){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var o=function(r){var o,e,t;try{o=r.reason}catch(r){o=void 0}try{e=r.promise}catch(r){e="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,e=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),n&&n.handleUnhandledRejection&&n.handleUnhandledRejection(o,e)};o.belongsToShim=!0,r._rollbarURH=o,r.addEventListener("unhandledrejection",o)}}(r,e);var t=n.autoInstrument;return!1!==n.enabled&&(void 0===t||!0===t||function(r){return!("object"!==s(r)||void 0!==r.page&&!r.page)}(t))&&r.addEventListener&&(r.addEventListener("load",e.captureLoad.bind(e)),r.addEventListener("DOMContentLoaded",e.captureDomContentLoaded.bind(e))),r[o]=e,e})()}}(window,_rollbarConfig),O=(E=_rollbarConfig,function(r){if(!r&&!window._rollbarInitialized){for(var n,o,e=(E=E||{}).globalAlias||"Rollbar",t=window.rollbar,a=function(r){return new t(r)},l=0;n=window._rollbarShims[l++];)o||(o=n.handler),n.handler._swapAndProcessMessages(a,n.messages);window[e]=o,window._rollbarInitialized=!0}});window.rollbar=h,S.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,O)}();</script>
+  <script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+    // Global defaults (on by default)
+    gtag('consent', 'default', {
+      'analytics_storage': 'granted',
+      'ad_storage': 'granted',
+      'functionality_storage': 'granted',
+      'personalization_storage': 'granted',
+      'security_storage': 'granted',
+      'ad_user_data': 'granted',
+      'ad_personalization': 'granted',
+      'wait_for_update': 500
+    });
+
+    // Stricter defaults for EU/GB/CH
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'functionality_storage': 'denied',
+      'personalization_storage': 'denied',
+      'security_storage': 'granted',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'region':['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH']
+    });
+</script>
+  <!-- OneTrust Cookies Consent Notice start for www.theinformation.com -->
+  <script
+    type="text/javascript"
+    src="https://cdn.cookielaw.org/consent/018e806d-5784-74c9-9740-5aaf1d5dc546/OtAutoBlock.js"
+  ></script>
+  <script
+    src="https://cdn.cookielaw.org/consent/018e806d-5784-74c9-9740-5aaf1d5dc546/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="018e806d-5784-74c9-9740-5aaf1d5dc546"
+  ></script>
+  <!-- OneTrust Cookies Consent Notice end for www.theinformation.com -->
+   <script type="text/javascript">
+  function OptanonWrapper() {
+    const C0001 = 'C0001';
+    const C0002 = 'C0002';
+    const C0003 = 'C0003';
+    const C0004 = 'C0004';
+    const SPD_BG = 'SPD_BG';
+
+    const IAB_PURPOSE_1 = 'iab_purpose_1';
+    const IAB_PURPOSE_2 = 'iab_purpose_2';
+    const IAB_PURPOSE_3 = 'iab_purpose_3';
+    const IAB_PURPOSE_4 = 'iab_purpose_4';
+    const CCPA_CONSENT_GROUP = 'ccpa_do_not_sell_my_information';
+
+    const isCCPA = false;
+
+    const IAB_PURPOSE_MATRIX = {
+      [C0001]: IAB_PURPOSE_1,
+      [C0002]: IAB_PURPOSE_2,
+      [C0003]: IAB_PURPOSE_3,
+      [C0004]: IAB_PURPOSE_4,
+    };
+
+    const GRANTED = 'granted';
+    const DENIED = 'denied';
+
+    // Get initial OnetrustActiveGroups ids
+    if (typeof OptanonWrapperCount == "undefined") {
+      otGetInitialGrps();
+    }
+    // Delete cookies
+    otDeleteCookie(otIniGrps);
+
+    // Assign OnetrustActiveGroups to custom variable
+    function otGetInitialGrps() {
+      OptanonWrapperCount = '';
+      otIniGrps = `${C0001},${C0002},${C0004},${C0003}`;
+    }
+
+    function otDeleteCookie(iniOptGrpId) {
+      const otDomainGrps = JSON.parse(JSON.stringify(Optanon.GetDomainData().Groups));
+      const otDeletedGrpIds = otGetInactiveId(iniOptGrpId, OnetrustActiveGroups);
+      if (otDeletedGrpIds.length != 0 && otDomainGrps.length != 0) {
+        for (let i = 0; i < otDomainGrps.length; i++) {
+          //Check if CustomGroupId matches
+          if (otDomainGrps[i]['CustomGroupId'] != '' && otDeletedGrpIds.includes(otDomainGrps[i]['CustomGroupId'])) {
+            for (let j = 0; j < otDomainGrps[i]['Cookies'].length; j++) {
+              eraseCookie(otDomainGrps[i]['Cookies'][j]['Name']);
+            }
+          }
+          //Check if Hostid matches
+          if (otDomainGrps[i]['Hosts'].length != 0) {
+            for (let j = 0; j < otDomainGrps[i]['Hosts'].length; j++) {
+              //Check if HostId presents in the deleted list and cookie array is not blank
+              if (otDeletedGrpIds.includes(otDomainGrps[i]['Hosts'][j]['HostId']) && otDomainGrps[i]['Hosts'][j]['Cookies'].length != 0) {
+                for (let k = 0; k < otDomainGrps[i]['Hosts'][j]['Cookies'].length; k++) {
+                  eraseCookie(otDomainGrps[i]['Hosts'][j]['Cookies'][k]['Name']);
+                }
+              }
+            }
+          }
+        }
+      }
+      otGetInitialGrps(); //Reassign new group ids
+    }
+
+    // Get inactive ids
+    function otGetInactiveId(customIniId, otActiveGrp) {
+      //Initial OnetrustActiveGroups
+      customIniId = customIniId.split(",");
+      customIniId = customIniId.filter(Boolean);
+
+      // After action OnetrustActiveGroups
+      otActiveGrp = otActiveGrp.split(",");
+      otActiveGrp = otActiveGrp.filter(Boolean);
+      let result = [];
+      for (let i = 0; i < customIniId.length; i++) {
+        if (otActiveGrp.indexOf(customIniId[i]) <= -1) {
+          result.push(customIniId[i]);
+        }
+      }
+      return result;
+    }
+
+    // Delete cookie
+    function eraseCookie(name) {
+      // Delete root path cookies
+      domainName = window.location.hostname;
+      document.cookie = name + '=; Max-Age=-99999999; Path=/;Domain=' + domainName;
+      document.cookie = name + '=; Max-Age=-99999999; Path=/;';
+
+      // Delete LSO incase LSO being used, cna be commented out.
+      localStorage.removeItem(name);
+
+      // Check for the current path of the page
+      pathArray = window.location.pathname.split('/');
+      // Loop through path hierarchy and delete potential cookies at each path.
+      for (let i = 0; i < pathArray.length; i++) {
+        if (pathArray[i]) {
+          // Build the path string from the Path Array e.g /site/login
+          let currentPath = pathArray.slice(0, i + 1).join('/');
+          document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + ';Domain=' + domainName;
+          document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + ';';
+          // Maybe path has a trailing slash!
+          document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + '/;Domain=' + domainName;
+          document.cookie = name + '=; Max-Age=-99999999; Path=' + currentPath + '/;';
+        }
+      }
+    }
+
+    function updateBlueConicConsent() {
+      if (
+        typeof window.blueConicClient !== 'undefined' &&
+        typeof OnetrustActiveGroups !== 'undefined'
+      ) {
+        const possibleConsentGroups = [C0001, C0002, C0004];
+        const activeGroups = [IAB_PURPOSE_MATRIX[C0003]];
+        const inactiveGroups = [];
+
+        possibleConsentGroups.forEach(group => {
+          if (OnetrustActiveGroups.includes(group)) {
+            activeGroups.push(IAB_PURPOSE_MATRIX[group]);
+          } else {
+            inactiveGroups.push(IAB_PURPOSE_MATRIX[group]);
+          }
+        });
+
+        if (OnetrustActiveGroups.includes(SPD_BG)) {
+          activeGroups.push(CCPA_CONSENT_GROUP);
+        } else if (isCCPA) {
+          inactiveGroups.push(CCPA_CONSENT_GROUP);
+        }
+
+        const profile = window.blueConicClient.profile.getProfile();
+        profile.setConsentedObjectives(activeGroups);
+        profile.setRefusedObjectives(inactiveGroups);
+        window.blueConicClient.profile.updateProfile();
+      }
+    }
+
+    // Update Google Consent Mode based on OneTrust consent
+    function updateGoogleConsent() {
+      if (typeof gtag !== 'undefined' && typeof OnetrustActiveGroups !== 'undefined') {
+        var consentUpdate = {
+          'security_storage': GRANTED
+        };
+
+        // C0002 = Performance/Analytics cookies
+        if (OnetrustActiveGroups.indexOf(C0002) !== -1) {
+          consentUpdate['analytics_storage'] = GRANTED;
+          consentUpdate['functionality_storage'] = GRANTED;
+          consentUpdate['personalization_storage'] = GRANTED;
+        } else {
+          consentUpdate['analytics_storage'] = DENIED;
+          consentUpdate['functionality_storage'] = DENIED;
+          consentUpdate['personalization_storage'] = DENIED;
+        }
+
+        // C0004 = Targeting/Advertising cookies
+        if (OnetrustActiveGroups.indexOf(C0004) !== -1) {
+          consentUpdate['ad_storage'] = GRANTED;
+          consentUpdate['ad_user_data'] = GRANTED;
+          consentUpdate['ad_personalization'] = GRANTED;
+        } else {
+          consentUpdate['ad_storage'] = DENIED;
+          consentUpdate['ad_user_data'] = DENIED;
+          consentUpdate['ad_personalization'] = DENIED;
+        }
+
+        gtag('consent', 'update', consentUpdate);
+      }
+    }
+
+    function updateAllConsent() {
+      updateGoogleConsent();
+      updateBlueConicConsent();
+    }
+
+    function getCookie(name) {
+      const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const match = document.cookie.match(new RegExp('(?:^|; )' + escaped + '=([^;]+)'));
+      return match ? decodeURIComponent(match[1]) : '';
+    }
+
+    // Segment can double-URL-encode cookie values (%2522…); normalize with up to two decode passes.
+    function segmentCookieDecoded(name) {
+      var raw = getCookie(name);
+      if (!raw) return '';
+      var s = raw;
+      for (var i = 0; i < 2; i++) {
+        try {
+          var next = decodeURIComponent(s);
+          if (next === s) break;
+          s = next;
+        } catch (e) {
+          console.error('segment cookie decode failed', e);
+          break;
+        }
+      }
+      return s;
+    }
+
+    function consentStringForReporting() {
+      if (typeof OnetrustActiveGroups === 'undefined') return '';
+      try {
+        const allGroups = (Optanon.GetDomainData()?.Groups ?? [])
+          .map(g => g.CustomGroupId)
+          .filter(Boolean);
+        return allGroups
+          .map(g => g + ((',' + OnetrustActiveGroups + ',').includes(',' + g + ',') ? ':1' : ':0'))
+          .join(',');
+      } catch (e) {
+        console.error('consentStringForReporting: GetDomainData failed', e);
+        return '';
+      }
+    }
+
+    function reportConsentChangeToServer() {
+      const anonymousId = segmentCookieDecoded('ajs_anonymous_id');
+      const consent = consentStringForReporting();
+      if (!anonymousId || !consent) return;
+
+      var storageKey = 'ti_ot_consent_audit:' + anonymousId;
+      try {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem(storageKey) === consent) {
+          return;
+        }
+      } catch (e) {
+        console.error('localStorage read unavailable', e);
+      }
+
+      fetch('/consent_changes', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
+        body: JSON.stringify({
+          anonymous_id: anonymousId,
+          consent: consent,
+        }),
+      })
+        .then(res => {
+          if (!res.ok) return;
+          try {
+            if (typeof localStorage !== 'undefined') {
+              localStorage.setItem(storageKey, consent);
+            }
+          } catch (e) {
+            console.error('localStorage write unavailable', e);
+          }
+        })
+        .catch(err => {
+          console.error('consent_changes fetch failed', err);
+        });
+    }
+
+    updateAllConsent();
+    reportConsentChangeToServer();
+  }
+</script>
+
+  <!-- OptanonConsentNoticeEnd for theinformation.com -->
+
+    <script src="https://d712.theinformation.com/script.js"></script>
+
+  <link rel="manifest" href="/manifest.json" />
+<meta name="msapplication-config" content="/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+<base href="https://www.theinformation.com/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations" data-react-helmet="true">
+<title>The Information</title>
+<meta name="description" content="The Information has a simple mission: deliver important, deeply reported articles about the technology business you won’t find elsewhere. Many of the most influential people in the industry turn to us for fresh information and original insight." />
+<meta property="og:title" content="The Information" />
+<meta property="og:description" content="The Information has a simple mission: deliver important, deeply reported articles about the technology business you won’t find elsewhere. Many of the most influential people in the industry turn to us for fresh information and original insight." />
+<meta property="og:site_name" content="The Information" data-react-helmet="true" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://tii.imgix.net/global/defaults/article_image_unavailable.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@theinformation" />
+<meta name="twitter:creator" content="@theinformation" />
+<link rel="canonical" href="https://www.theinformation.com/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations" data-react-helmet="true" />
+<meta property="fb:pages" content="322278407910875" />
+<meta name="google-site-verification" content="SGIw8baIav9ybDaHULYSgwX5auDJt_mBZcqngEeAKEc" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,  maximum-scale=1">
+<meta name="google-site-verification" content="BIC9E8nyS0dX-5ONYFXynL1HmoUbLrVA0S08sA3LVaw" />
+<meta name="apple-itunes-app" content="app-id=1485459932" />
+<meta name="appleid-signin-client-id" content="com.theinformation.production" />
+<meta name="appleid-signin-redirect-uri" content="https://www.theinformation.com/redirect/apple_sign_in" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UaBQ2nvZxX6aBvl83SPZaMtsuJNWaYlLcRH94SAsgeY5_H69ZinkNtP0a0vKhMVMXdzOxQOjzvElnHZsaNCXbQ" />
+<link rel="alternate" type="application/atom+xml" title="The Information" href="/feed" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ti-assets.theinformation.com/assets/favicon_prod/apple-touch-icon-17b1f49459c7f7c83dc31adcd741f913dce8fd969ac81180d6e67fa24db6694e.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ti-assets.theinformation.com/assets/favicon_prod/favicon-32x32-553cef7ed830350067a9bc3c1eb004e1bf14c48a03394938880ac95b7697c533.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ti-assets.theinformation.com/assets/favicon_prod/favicon-16x16-75045ffb0eab804f96e6135d202e2e073b43bd50027cb126081a229a9304ecf4.png">
+<link rel="mask-icon" href="https://ti-assets.theinformation.com/assets/favicon_prod/safari-pinned-tab-418b7fd7b350771503d7e01cc3d05528de7b42f79224e8bd45a213a6a77536b3.svg">
+<link rel="shortcut icon" href="https://ti-assets.theinformation.com/assets/favicon_prod/favicon-dac435e58d0663d033f54f35de37172861cd56732685f469fb2a3785214278cc.ico">
+<link rel="icon" href="https://ti-assets.theinformation.com/assets/favicon_prod/favicon-418b7fd7b350771503d7e01cc3d05528de7b42f79224e8bd45a213a6a77536b3.svg" type="image/svg+xml">
+
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+  window.isCurrentUserSubscriber = false
+
+  let currentUser = {
+    type: 'logged-out',
+  };
+
+  // 
+</script>
+
+  <script type="text/javascript">
+  // Setting up a simple namespace for our functions.
+  let currentPage = {};
+</script>
+
+  <script
+  type="text/javascript"
+  src="https://www.googletagmanager.com/gtm.js?id=GTM-MXFP3X"></script>
+
+  
+  <!-- client_side_analytics -->
+
+  <script type="text/javascript">
+  // Setting up a simple namespace for our functions.
+  var ti = {};
+  
+  var config = {
+    // Config for showing console.log status messages for functions in console.
+    // Turn on by setting to true
+    // usage: log('your status message')
+    logging: false,
+    modalDelay: 10000
+  }
+</script>
+
+  <script>
+//<![CDATA[
+
+  window.env = {"BLUECONIC_CONTENT_COLLECTOR_ID":"6b95136b-5d33-4274-afdf-cbada76b7d26","CLOUDFLARE_SITE_KEY":"0x4AAAAAABImzmbslpav3Ywl","DEEP_RESEARCH_ENGINE":"rubyllm","FF_SUBSCRIBE_SALE":"early_access","FF_SUB_HOVER_SALE":"early_access","GOOGLE_CLIENT_ID":"572469268518-tndg5b1551jrfj27qru2sua71doum5k5.apps.googleusercontent.com","IMGIX_ENV":"production","IMGIX_URL":"https://tii.imgix.net","MIXPANEL_PROJECT_TOKEN":"4a8bd4cec59f9e6e30776a2b85304691","RAILS_ENV":"production","READER_URL":"https://www.theinformation.com","READER_URL_PRODUCTION":"https://www.theinformation.com","RECAPTCHA_SITE_KEY":"6LfYceYZAAAAABdxTQhm7oz_6ZZjRHssmRnNV2Hs","STRIPE_PUBLISH_KEY":"pk_live_Wlp0zqDCzQrHDR5rCbmHeDkw","TRINITY_PLAYER_API_KEY":"2900021741"}
+
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+  window.constants = {"DEFAULT_ANNUAL_OFFER_CODE":"yearly","DEFAULT_MONTHLY_OFFER_CODE":"monthly-4","DEFAULT_PRO_SUBSCRIBE_OFFER_CODE":"pro-disc25","DEFAULT_YP_OFFER_CODE":"subscribe-pg-2026-yp225","ANNUAL_REFERRAL_OFFER_CODE":"annual-trial-14-referral-399","PROFILE_MODAL_OFFER_CODE":"pmod-072022","NOW_ANNUAL_OFFER_CODE":"now_annual_p","NOW_MONTHLY_OFFER_CODE":"now_monthly_39_p","NOW_YP_OFFER_CODE":"now_yp225","NOW_PRO_OFFER_CODE":"now_pro_p","DEFAULT_ANNUAL_PRICE":399,"DEFAULT_MONTHLY_PRICE":44.99,"MONTHLY_PRICE_39":39,"DEFAULT_PRO_PRICE":999,"DEFAULT_YOUNG_PROFESSIONAL_PRICE":225,"DISCOUNTED_PRO_PRICE":749,"DISCOUNTED_REFERRAL_PRICE":299,"PLAN_TYPE_ANNUAL":"yearly","PLAN_TYPE_MONTHLY":"monthly","ACCESS_PRO":4,"ACCESS_ANNUAL":3}
+
+//]]>
+</script>
+  <script src="https://js.stripe.com/acacia/stripe.js" async></script>
+
+  
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+  <script type="text/plain" class="optanon-category-C0004">
+  !function(key) {
+    if (window.reb2b) return;
+    window.reb2b = {loaded: true};
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://ddwl4m2hdecbv.cloudfront.net/b/" + key + "/" + key + ".js.gz";
+    var firstScript = document.getElementsByTagName("script")[0];
+    firstScript.parentNode.insertBefore(s, firstScript);
+  }("1N5W0HJGJWO5");
+</script>
+
+  <style>
+    img {
+      max-width: 100vw;
+    }
+
+    body {
+      line-height: 1.5;
+    }
+
+    html,
+    body {
+      position: relative;
+      min-height: 100dvh;
+    }
+  </style>
+  
+    <script src="https://ti-assets.theinformation.com/packs/js/runtime-1502550ddbc11830b328.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/vendor-react-8519dd62207ba32d6207.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/vendor-packages-5c3822e083809fddb946.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/59-7d1974a3162157746a24.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/781-c4e93dcfcaa41fbedec7.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/541-77ff95ae28e2a1a0c9a6.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/405-655f02111d54cde69a72.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/904-784ee831a9342e916e74.js"></script>
+<script src="https://ti-assets.theinformation.com/packs/js/all_components-cdd7490225def8611d02.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js" onload="if (window.dispatchScriptLoadedEvent) window.dispatchScriptLoadedEvent('apple');" defer></script>
+  <script type="text/plain" defer class="optanon-category-C0004">
+    (function () {
+      var zi = document.createElement('script');
+      zi.type = 'text/javascript';
+      zi.async = true;
+      zi.referrerPolicy = 'unsafe-url';
+      zi.src = 'https://ws.zoominfo.com/pixel/zMQorfj7aSSwrJ1oBwQx';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(zi, s);
+    })();
+  </script>
+  <script type="text/javascript">
+    const googleAnalyticsID = 'G-LL334L9M32'
+    const googleConfig = {
+      allow_enhanced_conversions: true,
+      page_location: window.location.href,
+    };
+  </script>
+    <script type="text/plain" async src="https://www.googletagmanager.com/gtag/js?id=G-LL334L9M32" class="optanon-category-C0002"></script>
+    <script class="optanon-category-C0002" type="text/plain">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      window.dataLayer.push({
+        'event': 'currentUser',
+        ...currentUser
+      })
+
+      gtag('config', 'G-LL334L9M32', googleConfig);
+    </script>
+  <script class="optanon-category-C0004" src="https://cdn.p-n.io/pushly-sdk.min.js?domain_key=Wh0KRP2v2DPh4UPCgSrygixsTWBKP2XmUzDk" type="text/plain" async></script>
+  <script class="optanon-category-C0004" type="text/plain">
+    window.PushlySDK = window.PushlySDK || [];
+
+    function pushly() {
+      window.PushlySDK.push(arguments)
+    }
+    pushly('load', {
+      domainKey: 'Wh0KRP2v2DPh4UPCgSrygixsTWBKP2XmUzDk',
+      sw: '/scripts/pushly/pushly-sdk-worker.js',
+    });
+  </script>
+
+  
+    <link rel="stylesheet" href="https://ti-assets.theinformation.com/packs/css/446-48ec2503.css" media="all" />
+<link rel="stylesheet" href="https://ti-assets.theinformation.com/packs/css/541-be47d2c4.css" media="all" />
+<link rel="stylesheet" href="https://ti-assets.theinformation.com/packs/css/all_components-da3683b5.css" media="all" />
+  <link rel="stylesheet" href="https://ti-assets.theinformation.com/assets/application-1750c998c034d2ca8dcacf27c1774fe89f066b27c3b0dbae9e8ecc02da435b5e.css" media="all" />
+  <link rel="preload" as="font" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0" type="font/woff" crossorigin="anonymous" />
+  <link
+    rel="stylesheet"
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    media="print"
+    onload="this.media='all'"
+  />
+
+  
+  
+  <script type="text/javascript">
+  function copyGaCookiesForSegment(cookieValue, cookieName) {
+      if (window.Cookies) window.Cookies.set(cookieName, cookieValue);
+  }
+
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.defer=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="pBBV1c1b6TE22XZ2gQCmMx3vihrGNdPC";analytics.SNIPPET_VERSION="4.13.2";
+
+    const impactMiddleware = function({payload, next, integrations}) {
+      const impactClickId = window.Cookies ? window.Cookies.get('irclickid') : undefined;
+      if (impactClickId) {
+          payload.obj.context['referrer'] = {
+            'type': 'impactRadius',
+            'id': impactClickId
+          }
+        }
+      payload.obj.context = {
+        ...payload.obj.context,
+        ...buildAnalyticsConsentPayload()
+      }
+      next(payload);
+    };
+    analytics.addSourceMiddleware(impactMiddleware);
+
+    const pageExposesSecret = function() {
+      if (window.mixpanelCaptureAllowed === false) return true;
+      return (
+        typeof window.shouldCaptureMixpanel === 'function' &&
+        !window.shouldCaptureMixpanel(window.location.href, document.referrer)
+      );
+    };
+    const dropSecretUrlEvents = function({payload, next}) {
+      if (pageExposesSecret()) return;
+      next(payload);
+    };
+    analytics.addSourceMiddleware(dropSecretUrlEvents);
+
+    const mixpanelMiddleware = function({payload, next}) {
+      if (pageExposesSecret()) return;
+      if (
+        (payload.obj.type === 'track' || payload.obj.type === 'page') &&
+        window.mixpanel &&
+        typeof window.mixpanel.get_session_recording_properties === 'function'
+      ) {
+        payload.obj.properties = {
+          ...payload.obj.properties,
+          ...window.mixpanel.get_session_recording_properties()
+        };
+      }
+      next(payload);
+    };
+    analytics.addDestinationMiddleware('Mixpanel', mixpanelMiddleware);
+
+    analytics.load(
+      "pBBV1c1b6TE22XZ2gQCmMx3vihrGNdPC"
+    );
+
+    analytics.page(
+      {
+        properties: {
+          article_id: currentPage.articleId,
+          current_user_access_level: currentUser.access_level || 0,
+          device: "desktop",
+        }
+      }
+    );
+
+    if (window.Cookies) {
+      const segmentTrackingPreferences = window.Cookies.get('segment-tracking-preferences');
+      if (segmentTrackingPreferences) {
+        document.cookie = 'segment-tracking-preferences=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC;'
+      }
+    }
+    if (typeof gtag !== 'undefined') {
+      const sessionIdPromise = new Promise(resolve => {
+        gtag('get', 'G-LL334L9M32', 'session_id', resolve)
+      });
+      const sessionNumPromise = new Promise(resolve => {
+        gtag('get', 'G-LL334L9M32', 'session_number', resolve)
+      });
+      const clientIdPromise = new Promise(resolve => {
+        gtag('get', 'G-LL334L9M32', 'client_id', resolve)
+      });
+
+      Promise.all([sessionIdPromise, sessionNumPromise, clientIdPromise]).then(function(session_data) {
+        copyGaCookiesForSegment(session_data[0], 'google_session_id')
+        copyGaCookiesForSegment(session_data[1], 'google_session_number')
+        copyGaCookiesForSegment(session_data[2], 'google_client_id')
+      });
+    }
+
+
+  }}();
+</script>
+ 
+</head>
+
+<body class="namespaced-ti desktop the_information">
+    <div id="MarketingModal-react-component-19484561-7460-4b75-b007-119e517f7e1e"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-MarketingModal-react-component-19484561-7460-4b75-b007-119e517f7e1e" data-component-name="MarketingModal" data-dom-id="MarketingModal-react-component-19484561-7460-4b75-b007-119e517f7e1e">{"analytics":{"pageId":null,"page":"article","contentType":"article","contentId":null,"creatorIds":null},"env":{"BLUECONIC_CONTENT_COLLECTOR_ID":"6b95136b-5d33-4274-afdf-cbada76b7d26","CLOUDFLARE_SITE_KEY":"0x4AAAAAABImzmbslpav3Ywl","DEEP_RESEARCH_ENGINE":"rubyllm","FF_SUBSCRIBE_SALE":"early_access","FF_SUB_HOVER_SALE":"early_access","GOOGLE_CLIENT_ID":"572469268518-tndg5b1551jrfj27qru2sua71doum5k5.apps.googleusercontent.com","IMGIX_ENV":"production","IMGIX_URL":"https://tii.imgix.net","MIXPANEL_PROJECT_TOKEN":"4a8bd4cec59f9e6e30776a2b85304691","RAILS_ENV":"production","READER_URL":"https://www.theinformation.com","READER_URL_PRODUCTION":"https://www.theinformation.com","RECAPTCHA_SITE_KEY":"6LfYceYZAAAAABdxTQhm7oz_6ZZjRHssmRnNV2Hs","STRIPE_PUBLISH_KEY":"pk_live_Wlp0zqDCzQrHDR5rCbmHeDkw","TRINITY_PLAYER_API_KEY":"2900021741"},"initialCurrentUser":null,"isGdprRequired":false,"isNativeApp":false,"isWebview":false,"nativeAppVersion":null,"offers":{"subscribe":null,"upgrade":null},"showBookmarksFlagEnabled":true,"buttonText":null,"customUrl":null,"disclosure":null,"guid":null,"highlight":null,"id":null,"isActiveUser":false,"leadType":"marketing_modal","modalType":null,"offerLink":null,"onboardingMightShow":false,"subtitle":null,"title":null,"trackingProps":{"ahoy-name":"Marketing Modal","identifier":null,"location":"marketing_modal","page":"/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations","type":"link"}}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('MarketingModal-react-component-19484561-7460-4b75-b007-119e517f7e1e');
+        </script>
+
+    <div id="GoogleOneTap-react-component-146d5d06-87dc-48f6-b6f6-c438577414f9"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-GoogleOneTap-react-component-146d5d06-87dc-48f6-b6f6-c438577414f9" data-component-name="GoogleOneTap" data-dom-id="GoogleOneTap-react-component-146d5d06-87dc-48f6-b6f6-c438577414f9">{"analytics":{"pageId":null,"page":"article","contentType":"article","contentId":null,"creatorIds":null},"isGdprRequired":false}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('GoogleOneTap-react-component-146d5d06-87dc-48f6-b6f6-c438577414f9');
+        </script>
+
+  
+  
+  <div id="ti-wrapper" class="flex flex-col min-h-screen">
+    <img style="width:1px;height:0px;position:absolute;" src="data:image/svg+xml;base64,eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjpudWxsLCJ2aXNpdG9yX2lwX2FkZHJlc3MiOiIyNjAwOjE3MDA6MjdhMDo3MjZmOmNkMjY6ZGExMzo1YWE2OmRlYjciLCJ1c2VyX2FnZW50IjoiTW96aWxsYS81LjAiLCJ0aW1lc3RhbXAiOiIyMDI2LTExLTIzVDAwOjMwOjQ1WiJ9.T1fUjUu4jCQW3JQB6TcuA63iwi6Y86ByAxrAw5vf5IQ" />
+
+    <div id="ti-header" class="w-full z-[1010]">
+      
+      <div id="Nav-react-component-803a1089-43f0-4199-a1b3-89d70fd0debb"><div class="h-56 nav:pt-40 print:hidden fixed nav:h-64"><div id="global-nav-wrapper" class="border-6 top-0 px-10 py-12 md:py-0 nav:border-none nav:px-28 fixed left-0 right-0 top-0 z-[1000] h-auto bg-grayscale-charcoal dark:bg-[var(--light-grayscale-charcoal)]"><header id="global-nav" class="mx-auto max-w-container-lg relative h-full nav:h-max"><div class="flex h-full items-center justify-center md:h-64 nav:h-[53px] flex nav:hidden"><div class="flex w-28 flex-1 gap-24 nav:hidden"><button class="border-none bg-transparent p-0 outline-none text-white"><span class="flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 27 20" width="28"><path stroke="currentColor" stroke-width="2" d="M0 1.992h27M0 9.992h18M0 18.992h23"></path></svg></span></button><a href="/deep-research"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18" class="block w-24 text-pro-gold nav:hidden"><path d="M6.589 17.924c.26 0 .455-.216.455-.454a5.584 5.584 0 0 1 5.584-5.583c.26 0 .455-.216.455-.454a.472.472 0 0 0-.455-.454c-3.073 0-5.584-2.51-5.584-5.583a.457.457 0 0 0-.455-.454.471.471 0 0 0-.454.454A5.584 5.584 0 0 1 .551 10.98a.457.457 0 0 0-.455.454c0 .238.217.454.455.454a5.583 5.583 0 0 1 5.584 5.583c0 .26.216.454.454.454ZM13.083 9.061a.29.29 0 0 0 .288-.288 3.544 3.544 0 0 1 3.544-3.543.29.29 0 0 0 .29-.288.3.3 0 0 0-.29-.288 3.553 3.553 0 0 1-3.544-3.543.29.29 0 0 0-.288-.288.299.299 0 0 0-.288.288 3.544 3.544 0 0 1-3.544 3.543.29.29 0 0 0-.289.288.3.3 0 0 0 .29.288 3.544 3.544 0 0 1 3.543 3.543.29.29 0 0 0 .288.288Z" fill="currentColor"></path></svg></a></div><a href="/" class="flex max-w-full flex-col justify-center nav:block"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 44" class="w-24 transform-gpu text-primary-magenta"><path d="M32 33.352H0v10.17h32v-10.17ZM10.236 10.294v15.357l11.528 7.697V10.294H32V.124H0v10.17h10.236Z" fill="currentColor"></path></svg></a><div class="relative flex flex-1 items-center justify-end gap-28"><a href="/deep-research" class="group" aria-label="Deep Research landing page"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 249 40" class="hidden w-[135px] transition duration-200 group-hover:text-primary-magenta lg:block dark:hover:text-primary-pink"><path d="M.473 16.66H.226v-5.256h15.062v5.256h-4.562c-.262 0-.262 0-.262.261v10.591c-.093-.042-.152-.064-.207-.095-1.674-.969-3.346-1.94-5.021-2.905-.141-.08-.185-.175-.185-.333.005-2.404.004-4.808.003-7.212 0-.343.027-.305-.296-.306H.473ZM.226 28.032v5.24h15.062v-5.24H.226Z" fill="#F32A52"></path><path d="M238.385 17.896c.26 0 .455-.216.455-.454a5.584 5.584 0 0 1 5.584-5.583c.26 0 .455-.216.455-.454a.472.472 0 0 0-.455-.454c-3.073 0-5.584-2.51-5.584-5.583a.457.457 0 0 0-.455-.454.471.471 0 0 0-.454.454 5.584 5.584 0 0 1-5.584 5.583.457.457 0 0 0-.455.454c0 .238.217.454.455.454a5.583 5.583 0 0 1 5.584 5.583c0 .26.216.454.454.454ZM244.879 9.033a.29.29 0 0 0 .288-.288 3.544 3.544 0 0 1 3.544-3.543.29.29 0 0 0 .289-.288.3.3 0 0 0-.289-.288 3.553 3.553 0 0 1-3.544-3.543.29.29 0 0 0-.288-.288.299.299 0 0 0-.288.288 3.544 3.544 0 0 1-3.544 3.543.29.29 0 0 0-.289.288.3.3 0 0 0 .289.288 3.544 3.544 0 0 1 3.544 3.543.29.29 0 0 0 .288.288Z" fill="#C5A26D"></path><path d="M31.826 32.19h3.51c4.35 0 7.71-3.39 7.71-9.81s-3.36-9.78-7.71-9.78h-3.51v19.59Zm-6.27-20.67h9.78c5.64 0 11.37 3.18 11.37 10.86s-5.73 10.89-11.37 10.89h-9.78v-.54c2.61-.36 2.97-.45 2.97-3.84V15.9c0-3.39-.36-3.48-2.97-3.84v-.54ZM56.514 33.66c-4.89 0-7.17-3.6-7.17-8.34 0-4.71 3.33-8.46 7.38-8.46 3 0 5.73 2.07 6.09 6.51h-10.77v.12c0 4.32 2.01 7.56 5.88 7.56 2.19 0 3.81-.96 4.83-2.01l.33.3c-.99 1.83-3.09 4.32-6.57 4.32Zm-.51-15.72c-1.77 0-3.51 1.2-3.9 4.26h7.08c-.03-2.76-1.26-4.26-3.18-4.26ZM72.92 33.66c-4.89 0-7.17-3.6-7.17-8.34 0-4.71 3.33-8.46 7.38-8.46 3 0 5.73 2.07 6.09 6.51H68.45v.12c0 4.32 2.01 7.56 5.88 7.56 2.19 0 3.81-.96 4.83-2.01l.33.3c-.99 1.83-3.09 4.32-6.57 4.32Zm-.51-15.72c-1.77 0-3.51 1.2-3.9 4.26h7.08c-.03-2.76-1.26-4.26-3.18-4.26ZM80.817 39.75v-.54c2.37-.27 2.4-.69 2.4-3.78V22.2c0-1.98-.8-2.97-2.4-2.97v-.54l5.34-1.83v2.61c.93-1.11 2.61-2.61 4.77-2.61 3.99 0 6.45 3.57 6.45 7.83 0 5.1-3.66 8.97-7.56 8.97-1.05 0-2.49-.24-3.6-1.35v3.12c0 3.36.03 3.51 3 3.78v.54h-8.4Zm9.03-7.14c3.03 0 4.35-3.03 4.35-6.81 0-4.2-2.01-6.84-4.92-6.84-1.2 0-2.37.33-3.06 1.26v10.32c.66 1.41 2.1 2.07 3.63 2.07ZM107.646 33.27v-.54c2.61-.36 2.97-.45 2.97-3.84V15.9c0-3.39-.36-3.48-2.97-3.84v-.54h3.54c1.92 0 4.29-.03 5.55-.03 5.1 0 9.3 1.14 9.3 5.73 0 3.45-2.37 4.95-5.7 5.49l4.5 6.96c1.41 2.19 2.4 2.88 4.08 3.06v.54h-5.94c-.45-.96-1.53-2.85-2.46-4.26l-1.62-2.55c-1.05-1.59-1.65-2.76-2.16-3.51h-2.82v5.97c0 3.39.36 3.45 2.97 3.81v.54h-9.24Zm14.73-16.05c0-3.96-2.16-4.62-5.88-4.62h-2.58v9.24h2.58c3.72 0 5.88-.66 5.88-4.62ZM136.406 33.66c-4.89 0-7.17-3.6-7.17-8.34 0-4.71 3.33-8.46 7.38-8.46 3 0 5.73 2.07 6.09 6.51h-10.77v.12c0 4.32 2.01 7.56 5.88 7.56 2.19 0 3.81-.96 4.83-2.01l.33.3c-.99 1.83-3.09 4.32-6.57 4.32Zm-.51-15.72c-1.77 0-3.51 1.2-3.9 4.26h7.08c-.03-2.76-1.26-4.26-3.18-4.26ZM152.066 16.86c1.11 0 2.88.27 3.87.72v4.47h-.63c-.57-2.88-1.92-3.99-3.9-3.99-1.53 0-2.91.81-2.91 2.16 0 1.29 1.14 2.01 2.55 2.73l1.71.9c2.52 1.29 4.08 2.34 4.08 5.07 0 3-2.88 4.74-5.85 4.74-1.5 0-3.51-.45-4.8-1.14v-5.61h.6c.48 3.75 1.98 5.37 4.41 5.37 1.56 0 3.21-.69 3.21-2.64 0-1.32-1.08-2.1-2.76-2.94l-1.71-.9c-2.22-1.14-3.69-2.22-3.69-4.68 0-3 3.33-4.26 5.82-4.26ZM166.758 33.66c-4.89 0-7.17-3.6-7.17-8.34 0-4.71 3.33-8.46 7.38-8.46 3 0 5.73 2.07 6.09 6.51h-10.77v.12c0 4.32 2.01 7.56 5.88 7.56 2.19 0 3.81-.96 4.83-2.01l.33.3c-.99 1.83-3.09 4.32-6.57 4.32Zm-.51-15.72c-1.77 0-3.51 1.2-3.9 4.26h7.08c-.03-2.76-1.26-4.26-3.18-4.26Z" fill="currentColor"></path><path d="M233.836 28.953v-6.387c0-3.958-2.01-5.696-4.616-5.696-2.189 0-3.717 1.41-4.768 2.7l.007-9.128h-3.994v.56c.876.171.989.538.989 2.947v15.004c0 3.058-.031 3.537-2.398 3.778v.54h7.795v-.54c-2.369-.239-2.398-.72-2.398-3.778V20.38c.689-.989 2.038-1.409 3.267-1.409 2.069 0 3.118 1.41 3.118 4.197v5.786c0 3.058-.031 3.537-2.398 3.778v.54h7.795v-.54c-2.369-.239-2.399-.72-2.399-3.778ZM189.226 32.66c-.757-.303-1.156-1.464-1.057-2.89l.149-7.77c.09-4.02-2.674-5.102-5.464-5.102-2.429 0-5.218 1.368-6.044 4.08l1.442.844 1.249.637v-1.595c.07-1.642.963-2.936 2.632-2.936 2.011 0 3.363 1.251 3.363 4.402v.416c-3.079 1.5-4.071 2.042-4.881 2.432-3.151 1.53-4.69 2.512-4.69 4.726 0 2.371 2.413 3.765 4.632 3.765s3.934-1.329 4.877-2.07c.205 1.224 1.358 1.685 2.587 1.685 1.471 0 .587-.005 1.602-.005v-.54c-.215 0-.271-.027-.399-.078h.002Zm-3.877-2.006v.002c-.787.787-1.907 1.334-3.018 1.334-1.831 0-3.151-1.629-3.151-3.133 0-1.095.587-2.034 1.878-2.845.509-.329 1.903-1.213 4.38-2.249l-.09 6.89.001.001ZM197.108 28.933V20.75c1.27-2.436 3.089-2.002 3.573-1.348.108.148.317.576.394.736l2.717-.92c-.027-1.939-3.291-4.522-6.624.661l-.059-3.028-5.336 1.83v.54c2.368 0 2.398 0 2.398 2.97v6.746c0 3.06-.031 3.537-2.398 3.778v.54h8.965v-.57c-3.478-.149-3.627-.39-3.627-3.748l-.002-.002h-.001Z" fill="currentColor"></path><path d="M213.019 31.05c-3.96 0-5.76-3.39-5.76-6.96 0-4.47 2.64-6 4.8-6 .57 0 .87.12 1.11.6l.725 1.494 2.871-.866c-.453-1.396-1.807-2.459-3.895-2.459-4.41 0-8.34 3.3-8.34 8.7 0 4.32 2.19 8.1 6.84 8.1 3.45 0 5.28-2.31 6.33-4.05l-.33-.3c-1.2 1.08-2.82 1.74-4.35 1.74l-.001.001Z" fill="currentColor"></path></svg><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 22" class="hidden w-[30px] nav:block lg:hidden"><path d="M.803 5.29H.556V.033h15.062v5.255h-4.562c-.261 0-.262 0-.262.261V16.141c-.093-.042-.152-.064-.207-.095-1.673-.97-3.346-1.94-5.021-2.905-.142-.082-.186-.175-.185-.333.005-2.404.004-4.808.003-7.212 0-.343.027-.305-.296-.305-1.429-.002-2.857 0-4.285 0v-.002ZM.556 16.66v5.24h15.062v-5.24H.556Z" fill="#F32A52"></path><path d="M20.785 17.136c.26 0 .455-.216.455-.454a5.583 5.583 0 0 1 5.584-5.583c.26 0 .454-.216.454-.454a.472.472 0 0 0-.454-.455c-3.074 0-5.584-2.51-5.584-5.582a.457.457 0 0 0-.455-.455.472.472 0 0 0-.454.455 5.583 5.583 0 0 1-5.585 5.582.457.457 0 0 0-.454.455c0 .238.216.454.454.454a5.583 5.583 0 0 1 5.585 5.583c0 .26.216.454.454.454ZM27.28 8.273a.29.29 0 0 0 .288-.289 3.543 3.543 0 0 1 3.544-3.542.29.29 0 0 0 .288-.289.3.3 0 0 0-.288-.288A3.552 3.552 0 0 1 27.568.322a.29.29 0 0 0-.288-.288.3.3 0 0 0-.289.288 3.543 3.543 0 0 1-3.543 3.543.29.29 0 0 0-.289.288.3.3 0 0 0 .289.289 3.543 3.543 0 0 1 3.543 3.542.29.29 0 0 0 .289.289Z" fill="#C5A26D"></path></svg></a><a href="/search" class="leading-[0] transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block text-white" aria-label="Site search landing page"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.296 17.298 5.78 5.779M10.074 19.224a9.15 9.15 0 1 0 0-18.3 9.15 9.15 0 1 0 0 18.3Z"></path></svg></a><a class="hidden font-suisse-intl-mono text-overline-md transition-colors hover:text-primary-magenta focus:text-primary-magenta nav:block dark:text-white dark:hover:text-primary-pink text-white" href="/sessions/new">Sign in</a><div class="group relative"><a class="z-1 relative !w-auto nav:px-36 nav:py-12 nav:text-button-lg whitespace-nowrap border-primary-magenta bg-primary-magenta text-white focus:border-primary-pink focus:bg-primary-pink focus:text-primary-magenta px-8 py-4 text-button-sm hover:border-primary-pink hover:bg-primary-pink hover:text-primary-magenta disabled:border-grayscale-gray disabled:bg-grayscale-gray relative flex cursor-pointer justify-center border border-solid font-suisse-intl transition-colors focus:outline-none focus-visible:ring-4 disabled:cursor-not-allowed w-fit max-sm:w-full disabled:opacity-50" href="/promotion?offer=sub-button-nav-749%2Csub_button_nav_299_2026%2Csubscribe-button-top-nav-yp-225">Subscribe</a></div></div></div><nav aria-label="global" class="hidden nav:block mt-0"><div class="flex items-center justify-between m-auto max-w-container-lg"><ul class="flex items-center gap-8 md:gap-20 lg:gap-24 md:!gap-20 m-0 list-none p-0"><a href="/" class="h-40 block"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 44" class="h-full text-primary-magenta"><path d="M32 33.352H0v10.17h32v-10.17ZM10.236 10.294v15.357l11.528 7.697V10.294H32V.124H0v10.17h10.236Z" fill="currentColor"></path></svg></a><nav id="pro-submenu-nav" aria-label="Pro" class="relative z-[1]"><button class="group flex items-center gap-6 bg-pro-gold text-white bg-transparent px-10 transition-none relative border-none py-12 font-suisse-intl-mono text-overline-md transition-colors dark:text-white after:absolute after:bottom-0 after:left-0 after:h-2 after:w-full after:transition-colors after:content-[&quot;&quot;] px-4 py-[22px] text-white dark:text-white" aria-expanded="false" aria-controls="pro-submenu-nav-list"><span class="">Pro</span><span class="sr-only"> menu</span><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 13" class="w-[19px] fill-current transition-transform group-hover:translate-y-2"><path fill-rule="evenodd" clip-rule="evenodd" d="m20.222 1.654-9.865 10.381L.498 1.654l.725-.69 9.136 9.62 9.14-9.62.724.69Z"></path></svg></button><div id="pro-submenu-nav-list" class="absolute bg-grayscale-charcoal text-white dark:bg-black dark:text-white h-auto px-48 py-24 z-10 hidden"><div class="relative flex h-full items-start"><div class="mr-24 flex h-full flex-col scroll-smooth border-0 border-r border-solid border-pro-gold pr-24 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-56 after:bg-[linear-gradient(to_top,#2f3538_0%,rgba(0,0,0,0)_50%)] after:content-[&quot;&quot;] lg:after:content-none"><h2 class="mt-0 font-suisse-intl-mono text-overline-md text-pro-gold">Data Tools</h2><ul class="relative flex max-h-full w-max flex-col flex-wrap gap-x-8 gap-y-16 overflow-y-auto md:grid-cols-2 nav:grid nav:max-h-[calc(90vh_-_175px)] nav:grid-cols-1 nav:overflow-y-auto nav:overflow-x-hidden lg:grid-cols-3 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/pro-2026">About Pro</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/the-information-50-2026">The Information 50 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/aiindex">The AI Inflection Index</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/enterprise-saas-takeover-list-2026">Enterprise Software Startup Takeover List 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/general-partners-venture-firms-2026">The Next GPs 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/data-center-executives">The Executives Leading the Data Center Race</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/general-partners-venture-firms">The Next GPs 2025</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/ai-research-scientists">The Rising Stars of AI Research</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/ai-shopping-leaders">Leaders of the AI Shopping Revolution</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/enterprise-saas-takeover-list">Enterprise Software Startup Takeover List 2025</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/org-charts">Org Charts</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/generative-ai-startup-takeover-list">Generative AI Takeover List</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/generative-ai">Generative AI Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/ai-chip-makers">AI Chip Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/ai-data-center-database">AI Data Center Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/tech-ipo-tracker">Tech IPO Tracker</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/tech-sentiment-tracker">Tech Sentiment Tracker</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/gigafactory-database">Gigafactory Database</a></li></ul></div><div class="flex h-full flex-col"><h2 class="mt-0 font-suisse-intl-mono text-overline-md text-pro-gold">Special Projects</h2><ul class="space-y-16 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/the-information-50-database">The Information 50 Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/projects/vc-diversity-index">VC Diversity Index</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink block w-[245px] leading-[1.3]" href="/enterprise-tech-power-list">Enterprise Tech Powerlist</a></li></ul></div></div></div></nav><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white pr-0 pl-0" href="/org-charts">Org Charts</a></li><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white pr-0 pl-0" href="/deep-research">Deep Research</a></li></ul><ul class="flex items-center gap-24 xs:gap-8 md:gap-24 md:!gap-20 m-0 list-none p-0"><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white" href="/technology">Tech</a></li><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white" href="/finance">Finance</a></li><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white" href="/charts">Charts</a></li><li class=""><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white" href="/events">Events</a></li><li class="list-none [&amp;::marker]:hidden"><a class="relative block border-none bg-transparent py-12 font-suisse-intl-mono text-overline-md text-black transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:text-white dark:hover:text-primary-pink px-4 py-[22px] text-white dark:text-white" href="/titv">TITV</a></li><nav id="community-submenu-nav" aria-label="Community" class="relative z-[1]"><button class="bg-transparent text-black  hover:text-primary-magenta focus-visible:text-primary-magenta dark:hover:text-primary-pink relative border-none py-12 font-suisse-intl-mono text-overline-md transition-colors dark:text-white after:absolute after:bottom-0 after:left-0 after:h-2 after:w-full after:transition-colors after:content-[&quot;&quot;] px-4 py-[22px] text-white dark:text-white" aria-expanded="false" aria-controls="community-submenu-nav-list"><span class="">Community</span><span class="sr-only"> menu</span></button><div id="community-submenu-nav-list" class="absolute bg-grayscale-charcoal text-white dark:bg-black dark:text-white right-0 w-[315px]  px-28 pb-24 pt-36 right-[-105px] z-10 hidden"><ul class="space-y-24 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/directory">Directory</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Search, find and engage with others who are serious about tech and business.</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/forum">Forum</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Follow and be a part of discussions about tech, finance and media.</p></li></ul></div></nav><nav id="more-submenu-nav" aria-label="More" class="relative z-[1]"><button class="bg-transparent pl-8 pr-0 text-black hover:text-primary-magenta focus-visible:text-primary-magenta dark:hover:text-primary-pink relative border-none py-12 font-suisse-intl-mono text-overline-md transition-colors dark:text-white after:absolute after:bottom-0 after:left-0 after:h-2 after:w-full after:transition-colors after:content-[&quot;&quot;] px-4 py-[22px] text-white dark:text-white" aria-expanded="false" aria-controls="more-submenu-nav-list"><span class="">More</span><span class="sr-only"> menu</span></button><div id="more-submenu-nav-list" class="absolute bg-grayscale-charcoal text-white dark:bg-black dark:text-white right-0 w-[315px]  px-28 pb-24 pt-36 right-[-135px] z-10 hidden"><ul class="space-y-24 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/partners">Brand Partnerships</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Premium advertising opportunities for brands</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/corporate">Group Subscriptions</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Team access to our exclusive tech news</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" data-onboarding-anchor="newsletters" href="/newsletters">Newsletters</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Journalists who break and shape the news, in your inbox</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/video">Video</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Catch up on conversations with global leaders in tech, media and finance</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/features/partner-content">Partner Content</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Explore our recent partner collaborations</p></li></ul><ul class="mt-32 flex gap-16 m-0 list-none p-0"><a class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:border-primary-pink dark:hover:text-primary-pink dark:focus:border-primary-pink dark:focus:text-primary-pink" href="https://x.com/theinformation"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22" class="h-12"><path d="m12.912 9.502 7.85-9.124h-1.86L12.084 8.3 6.642.378H.362l8.233 11.98-8.232 9.569h1.86l7.198-8.367 5.749 8.367h6.278L12.911 9.502Zm-2.548 2.962-.834-1.193-6.637-9.493H5.75l5.356 7.661.834 1.193 6.962 9.958h-2.857l-5.681-8.126Z" fill="currentColor"></path></svg><span class="sr-only">X</span></a><a class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:border-primary-pink dark:hover:text-primary-pink dark:focus:border-primary-pink dark:focus:text-primary-pink" href="https://www.facebook.com/gettheinformation"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 13" class="h-12"><path d="M5.487 3.042c-.122 0-.27.057-.444.17-.174.113-.261.283-.261.51v.68h2.064v2.717H4.782v5.487H2.064V7.119H0V4.4h2.064V3.042c0-.348.079-.688.235-1.019.157-.33.38-.622.667-.875A3.54 3.54 0 0 1 3.972.534 3.281 3.281 0 0 1 5.226.299h2.3v2.743H5.486Z" fill="currentColor"></path></svg><span class="sr-only">Facebook</span></a><a class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:border-primary-pink dark:hover:text-primary-pink dark:focus:border-primary-pink dark:focus:text-primary-pink" href="https://www.linkedin.com/company/theinformation"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" class="h-12"><path d="M0 3.745h2.736v8.943H0V3.745Zm10.495.552c.544.298.99.75 1.341 1.355s.527 1.223.527 1.854v5.182H9.6V7.506c0-.14-.053-.298-.158-.473-.105-.176-.202-.29-.29-.342-.14-.088-.333-.132-.578-.132-.246 0-.438.035-.579.105l-1.13.553v5.47H4.102V3.746h2.762v.42c.544-.245 1.158-.359 1.841-.342.684.018 1.28.176 1.79.474ZM1.368.299c.386 0 .71.131.973.394s.395.588.395.974c0 .385-.132.714-.395.986a1.3 1.3 0 0 1-.973.408 1.3 1.3 0 0 1-.973-.408A1.367 1.367 0 0 1 0 1.667C0 1.28.132.957.395.693.658.43.982.3 1.368.3Z" fill="currentColor"></path></svg><span class="sr-only">LinkedIn</span></a><a class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:border-primary-pink dark:hover:text-primary-pink dark:focus:border-primary-pink dark:focus:text-primary-pink" href="https://www.threads.net/@theinformation"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 25" class="h-12"><path d="M16.342 11.7832C16.2387 11.7337 16.1337 11.686 16.0273 11.6403C15.842 8.22694 13.9769 6.27279 10.8451 6.25279C10.831 6.25271 10.8168 6.25271 10.8027 6.25271C8.92945 6.25271 7.37154 7.05228 6.41265 8.50726L8.13503 9.68877C8.85135 8.60196 9.97555 8.37027 10.8035 8.37027C10.813 8.37027 10.8226 8.37027 10.8321 8.37036C11.8633 8.37693 12.6414 8.67674 13.145 9.26142C13.5115 9.68708 13.7567 10.2753 13.878 11.0176C12.9638 10.8623 11.975 10.8145 10.918 10.8751C7.94049 11.0466 6.02629 12.7832 6.15485 15.1962C6.22009 16.4202 6.82986 17.4732 7.87178 18.161C8.7527 18.7425 9.88728 19.0269 11.0664 18.9625C12.6237 18.8772 13.8453 18.283 14.6975 17.1967C15.3448 16.3717 15.7542 15.3025 15.9349 13.9554C16.677 14.4033 17.227 14.9927 17.5308 15.7012C18.0473 16.9055 18.0774 18.8847 16.4625 20.4982C15.0477 21.9117 13.3469 22.5232 10.7766 22.542C7.92543 22.5209 5.76913 21.6065 4.36716 19.8243C3.05434 18.1554 2.37586 15.7449 2.35055 12.6597C2.37586 9.57439 3.05434 7.16387 4.36716 5.49501C5.76913 3.71278 7.92539 2.79842 10.7766 2.77723C13.6484 2.79858 15.8423 3.71734 17.2979 5.50817C18.0117 6.38637 18.5498 7.49077 18.9045 8.77846L20.9229 8.23994C20.4929 6.65494 19.8163 5.28913 18.8955 4.15642C17.0294 1.8605 14.3002 0.684061 10.7836 0.659668H10.7695C7.2601 0.683977 4.56141 1.86489 2.74844 4.16958C1.13514 6.22047 0.302952 9.07413 0.27499 12.6512L0.274902 12.6597L0.27499 12.6681C0.302952 16.2452 1.13514 19.0989 2.74844 21.1498C4.56141 23.4544 7.2601 24.6354 10.7695 24.6597H10.7836C13.9037 24.638 16.1029 23.8212 17.9147 22.011C20.285 19.6429 20.2137 16.6745 19.4324 14.8523C18.8719 13.5455 17.8033 12.4842 16.342 11.7832ZM10.955 16.848C9.64996 16.9215 8.2942 16.3358 8.22735 15.0812C8.1778 14.1509 8.88938 13.1129 11.0351 12.9893C11.2808 12.9751 11.5219 12.9682 11.7588 12.9682C12.5382 12.9682 13.2673 13.0439 13.9302 13.1888C13.6829 16.2765 12.2327 16.7779 10.955 16.848Z" fill="currentColor"></path></svg><span class="sr-only">Threads</span></a><a class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:border-primary-pink dark:hover:text-primary-pink dark:focus:border-primary-pink dark:focus:text-primary-pink" href="https://www.instagram.com/theinformation/"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" class="h-12"><path d="M10.83 5.507H9.771c.086.31.13.62.13.929a3.801 3.801 0 0 1-1.109 2.682 3.801 3.801 0 0 1-2.682 1.108 3.619 3.619 0 0 1-1.457-.297 3.801 3.801 0 0 1-2.308-3.494c0-.309.043-.618.13-.928H1.391v5.183c0 .138.048.25.142.335.095.086.21.13.348.13h8.483c.138 0 .25-.044.336-.13a.453.453 0 0 0 .128-.335V5.507Zm0-3.3a.498.498 0 0 0-.13-.348.432.432 0 0 0-.335-.142H8.947a.432.432 0 0 0-.335.142.499.499 0 0 0-.129.348v1.392c0 .138.043.254.129.348a.432.432 0 0 0 .335.142h1.418c.138 0 .25-.047.336-.142a.498.498 0 0 0 .128-.348V2.207ZM6.11 4.089c-.652 0-1.207.228-1.662.683a2.264 2.264 0 0 0-.683 1.664c0 .326.06.636.18.928a2.303 2.303 0 0 0 1.25 1.263c.284.12.59.18.916.18.327 0 .636-.06.928-.18.292-.12.546-.288.76-.503.216-.214.383-.468.504-.76.12-.292.18-.602.18-.928A2.32 2.32 0 0 0 7.04 4.27a2.414 2.414 0 0 0-.928-.18Zm-4.718 8.483c-.395 0-.726-.137-.992-.412-.267-.275-.4-.61-.4-1.006V1.717C0 1.322.133.987.4.711.666.436.997.3 1.392.3h9.438c.395 0 .73.137 1.005.412.275.275.413.61.413 1.006v9.437c0 .396-.138.73-.413 1.006-.275.275-.61.412-1.006.412H1.393Z" fill="currentColor"></path></svg><span class="sr-only">Instagram</span></a></ul><ul class="mt-32 flex justify-between m-0 list-none p-0"><li><a target="_blank" rel="noreferrer" class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="https://theinformation.zendesk.com/hc/en-us">Help &amp; Support</a></li><li><a class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="/feed">RSS Feed</a></li><li><a class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="/jobs">Careers</a></li></ul></div></nav><a href="/search" class="block px-10 py-[22px] leading-[0] text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink dark:focus:text-primary-pink"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="w-20"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m17.296 17.298 5.78 5.779M10.074 19.224a9.15 9.15 0 1 0 0-18.3 9.15 9.15 0 1 0 0 18.3Z"></path></svg></a><a class="py-[22px] pl-10 font-suisse-intl-mono text-overline-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink dark:focus:text-primary-pink" href="/sessions/new">Sign in</a></ul></div></nav><div class="fixed left-0 right-0 top-56 z-[10000] h-[calc(100vh-56px)] overflow-y-scroll bg-grayscale-charcoal duration-300 ease-in nav:hidden dark:bg-[var(--light-grayscale-charcoal)] -translate-x-full" tabindex="-1"><nav class="flex flex-col gap-12 border-0 border-b border-solid border-grayscale-beige px-36 pb-[30px] pt-24"><div class="border-0 border-b border-solid border-grayscale-gray pb-2"><div class="flex flex-col"><button class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Pro</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17" class="w-16 stroke-2 transition-all duration-300 ease-in rotate-0"><path stroke="currentColor" stroke-width="currentStorke" d="M0 7.881h16M8 16.5V.5"></path></svg></button></div><div class="animated-expandable-menu"><div class="mb-20 min-h-0 overflow-hidden"><ul class="space-y-10 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/pro-2026">About Pro</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/the-information-50-2026">The Information 50 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/aiindex">The AI Inflection Index</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/enterprise-saas-takeover-list-2026">Enterprise Software Startup Takeover List 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/general-partners-venture-firms-2026">The Next GPs 2026</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/data-center-executives">The Executives Leading the Data Center Race</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/general-partners-venture-firms">The Next GPs 2025</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/ai-research-scientists">The Rising Stars of AI Research</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/ai-shopping-leaders">Leaders of the AI Shopping Revolution</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/enterprise-saas-takeover-list">Enterprise Software Startup Takeover List 2025</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/org-charts">Org Charts</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/generative-ai-startup-takeover-list">Generative AI Takeover List</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/generative-ai">Generative AI Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/ai-chip-makers">AI Chip Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/ai-data-center-database">AI Data Center Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/tech-ipo-tracker">Tech IPO Tracker</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/tech-sentiment-tracker">Tech Sentiment Tracker</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/gigafactory-database">Gigafactory Database</a></li></ul><h2 class="mt-32 font-suisse-intl-mono text-overline-md font-bold text-pro-gold">SPECIAL PROJECTS</h2><ul class="space-y-10 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/the-information-50-database">The Information 50 Database</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/projects/vc-diversity-index">VC Diversity Index</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/enterprise-tech-power-list">Enterprise Tech Powerlist</a></li></ul></div></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/deep-research"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Deep Research</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18" class="w-[17px] text-pro-gold"><path d="M6.589 17.924c.26 0 .455-.216.455-.454a5.584 5.584 0 0 1 5.584-5.583c.26 0 .455-.216.455-.454a.472.472 0 0 0-.455-.454c-3.073 0-5.584-2.51-5.584-5.583a.457.457 0 0 0-.455-.454.471.471 0 0 0-.454.454A5.584 5.584 0 0 1 .551 10.98a.457.457 0 0 0-.455.454c0 .238.217.454.455.454a5.583 5.583 0 0 1 5.584 5.583c0 .26.216.454.454.454ZM13.083 9.061a.29.29 0 0 0 .288-.288 3.544 3.544 0 0 1 3.544-3.543.29.29 0 0 0 .29-.288.3.3 0 0 0-.29-.288 3.553 3.553 0 0 1-3.544-3.543.29.29 0 0 0-.288-.288.299.299 0 0 0-.288.288 3.544 3.544 0 0 1-3.544 3.543.29.29 0 0 0-.289.288.3.3 0 0 0 .29.288 3.544 3.544 0 0 1 3.543 3.543.29.29 0 0 0 .288.288Z" fill="currentColor"></path></svg></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/titv"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">TITV</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/technology"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Tech</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/finance"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Finance</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/charts"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Charts</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/events"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Events</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="flex flex-col"><a class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white" href="/newsletter"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Newsletters</span></a><div class="h-[1px] w-full bg-grayscale-gray"></div></div><div class="border-0 border-b border-solid border-grayscale-gray pb-2"><div class="flex flex-col"><button class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">Community</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17" class="w-16 stroke-2 transition-all duration-300 ease-in rotate-0"><path stroke="currentColor" stroke-width="currentStorke" d="M0 7.881h16M8 16.5V.5"></path></svg></button></div><div class="animated-expandable-menu"><div class="mb-20 min-h-0 overflow-hidden"><ul class="space-y-24 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/directory">Directory</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Search, find and engage with others who are serious about tech and business.</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/forum">Forum</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Follow and be a part of discussions about tech, finance and media.</p></li></ul></div></div></div><div class=""><div class="flex flex-col"><button class="mb-8 flex w-full items-center justify-between border-0 bg-transparent p-0 text-white"><span class="border-0 border-b-2 border-solid font-suisse-intl-mono text-headline-xs font-bold border-transparent">More</span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 17" class="w-16 stroke-2 transition-all duration-300 ease-in rotate-0"><path stroke="currentColor" stroke-width="currentStorke" d="M0 7.881h16M8 16.5V.5"></path></svg></button></div><div class="animated-expandable-menu"><div class="mb-20 min-h-0 overflow-hidden"><ul class="space-y-24 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/partners">Brand Partnerships</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Premium advertising opportunities for brands</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/corporate">Group Subscriptions</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Team access to our exclusive tech news</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/newsletters">Newsletters</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Journalists who break and shape the news, in your inbox</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/video">Video</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Catch up on conversations with global leaders in tech, media and finance</p></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="/features/partner-content">Partner Content</a><p class="m-0 font-suisse-screen text-disclosure-md leading-[1.3] text-white">Explore our recent partner collaborations</p></li></ul></div></div></div></nav><nav class="h-screen min-h-webkit-fill-available px-36 pb-48 pt-[30px]"><a class="mb-32 w-full whitespace-nowrap border-primary-magenta bg-primary-magenta text-white focus:border-primary-pink focus:bg-primary-pink focus:text-primary-magenta px-36 py-12 text-button-lg hover:border-primary-pink hover:bg-primary-pink hover:text-primary-magenta disabled:border-grayscale-gray disabled:bg-grayscale-gray relative flex cursor-pointer justify-center border border-solid font-suisse-intl transition-colors focus:outline-none focus-visible:ring-4 disabled:cursor-not-allowed w-fit max-sm:w-full disabled:opacity-50" href="/subscribe">Subscribe</a><ul class="space-y-32 m-0 list-none p-0"><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/sessions/new">Sign in</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/search">Search</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/opinion">Opinion</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/topics/venture-capital">Venture Capital</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/topics/artificial-intelligence">Artificial Intelligence</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/topics/startups">Startups</a></li><li><a class="border-none bg-transparent font-suisse-neue text-body-md text-white transition-colors hover:text-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink font-suisse-screen text-overline-lg" href="/topics/market-research">Market Research</a></li></ul><ul class="mt-40 flex gap-[18px] m-0 list-none p-0"><a target="_blank" rel="noreferrer" class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="https://x.com/theinformation"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22" class="h-12"><path d="m12.912 9.502 7.85-9.124h-1.86L12.084 8.3 6.642.378H.362l8.233 11.98-8.232 9.569h1.86l7.198-8.367 5.749 8.367h6.278L12.911 9.502Zm-2.548 2.962-.834-1.193-6.637-9.493H5.75l5.356 7.661.834 1.193 6.962 9.958h-2.857l-5.681-8.126Z" fill="currentColor"></path></svg><span class="sr-only">X</span></a><a target="_blank" rel="noreferrer" class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="https://www.facebook.com/gettheinformation"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 13" class="h-12"><path d="M5.487 3.042c-.122 0-.27.057-.444.17-.174.113-.261.283-.261.51v.68h2.064v2.717H4.782v5.487H2.064V7.119H0V4.4h2.064V3.042c0-.348.079-.688.235-1.019.157-.33.38-.622.667-.875A3.54 3.54 0 0 1 3.972.534 3.281 3.281 0 0 1 5.226.299h2.3v2.743H5.486Z" fill="currentColor"></path></svg><span class="sr-only">Facebook</span></a><a target="_blank" rel="noreferrer" class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="https://www.linkedin.com/company/theinformation"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" class="h-12"><path d="M0 3.745h2.736v8.943H0V3.745Zm10.495.552c.544.298.99.75 1.341 1.355s.527 1.223.527 1.854v5.182H9.6V7.506c0-.14-.053-.298-.158-.473-.105-.176-.202-.29-.29-.342-.14-.088-.333-.132-.578-.132-.246 0-.438.035-.579.105l-1.13.553v5.47H4.102V3.746h2.762v.42c.544-.245 1.158-.359 1.841-.342.684.018 1.28.176 1.79.474ZM1.368.299c.386 0 .71.131.973.394s.395.588.395.974c0 .385-.132.714-.395.986a1.3 1.3 0 0 1-.973.408 1.3 1.3 0 0 1-.973-.408A1.367 1.367 0 0 1 0 1.667C0 1.28.132.957.395.693.658.43.982.3 1.368.3Z" fill="currentColor"></path></svg><span class="sr-only">LinkedIn</span></a><a target="_blank" rel="noreferrer" class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="https://www.threads.net/@theinformation"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 25" class="h-12"><path d="M16.342 11.7832C16.2387 11.7337 16.1337 11.686 16.0273 11.6403C15.842 8.22694 13.9769 6.27279 10.8451 6.25279C10.831 6.25271 10.8168 6.25271 10.8027 6.25271C8.92945 6.25271 7.37154 7.05228 6.41265 8.50726L8.13503 9.68877C8.85135 8.60196 9.97555 8.37027 10.8035 8.37027C10.813 8.37027 10.8226 8.37027 10.8321 8.37036C11.8633 8.37693 12.6414 8.67674 13.145 9.26142C13.5115 9.68708 13.7567 10.2753 13.878 11.0176C12.9638 10.8623 11.975 10.8145 10.918 10.8751C7.94049 11.0466 6.02629 12.7832 6.15485 15.1962C6.22009 16.4202 6.82986 17.4732 7.87178 18.161C8.7527 18.7425 9.88728 19.0269 11.0664 18.9625C12.6237 18.8772 13.8453 18.283 14.6975 17.1967C15.3448 16.3717 15.7542 15.3025 15.9349 13.9554C16.677 14.4033 17.227 14.9927 17.5308 15.7012C18.0473 16.9055 18.0774 18.8847 16.4625 20.4982C15.0477 21.9117 13.3469 22.5232 10.7766 22.542C7.92543 22.5209 5.76913 21.6065 4.36716 19.8243C3.05434 18.1554 2.37586 15.7449 2.35055 12.6597C2.37586 9.57439 3.05434 7.16387 4.36716 5.49501C5.76913 3.71278 7.92539 2.79842 10.7766 2.77723C13.6484 2.79858 15.8423 3.71734 17.2979 5.50817C18.0117 6.38637 18.5498 7.49077 18.9045 8.77846L20.9229 8.23994C20.4929 6.65494 19.8163 5.28913 18.8955 4.15642C17.0294 1.8605 14.3002 0.684061 10.7836 0.659668H10.7695C7.2601 0.683977 4.56141 1.86489 2.74844 4.16958C1.13514 6.22047 0.302952 9.07413 0.27499 12.6512L0.274902 12.6597L0.27499 12.6681C0.302952 16.2452 1.13514 19.0989 2.74844 21.1498C4.56141 23.4544 7.2601 24.6354 10.7695 24.6597H10.7836C13.9037 24.638 16.1029 23.8212 17.9147 22.011C20.285 19.6429 20.2137 16.6745 19.4324 14.8523C18.8719 13.5455 17.8033 12.4842 16.342 11.7832ZM10.955 16.848C9.64996 16.9215 8.2942 16.3358 8.22735 15.0812C8.1778 14.1509 8.88938 13.1129 11.0351 12.9893C11.2808 12.9751 11.5219 12.9682 11.7588 12.9682C12.5382 12.9682 13.2673 13.0439 13.9302 13.1888C13.6829 16.2765 12.2327 16.7779 10.955 16.848Z" fill="currentColor"></path></svg><span class="sr-only">Threads</span></a><a target="_blank" rel="noreferrer" class="flex h-[35px] w-[35px] items-center justify-center rounded-full border border-solid border-white bg-transparent text-white transition-colors hover:border-primary-magenta hover:text-primary-magenta focus:border-primary-magenta focus:text-primary-magenta dark:hover:text-primary-pink" href="https://www.instagram.com/theinformation/"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" class="h-12"><path d="M10.83 5.507H9.771c.086.31.13.62.13.929a3.801 3.801 0 0 1-1.109 2.682 3.801 3.801 0 0 1-2.682 1.108 3.619 3.619 0 0 1-1.457-.297 3.801 3.801 0 0 1-2.308-3.494c0-.309.043-.618.13-.928H1.391v5.183c0 .138.048.25.142.335.095.086.21.13.348.13h8.483c.138 0 .25-.044.336-.13a.453.453 0 0 0 .128-.335V5.507Zm0-3.3a.498.498 0 0 0-.13-.348.432.432 0 0 0-.335-.142H8.947a.432.432 0 0 0-.335.142.499.499 0 0 0-.129.348v1.392c0 .138.043.254.129.348a.432.432 0 0 0 .335.142h1.418c.138 0 .25-.047.336-.142a.498.498 0 0 0 .128-.348V2.207ZM6.11 4.089c-.652 0-1.207.228-1.662.683a2.264 2.264 0 0 0-.683 1.664c0 .326.06.636.18.928a2.303 2.303 0 0 0 1.25 1.263c.284.12.59.18.916.18.327 0 .636-.06.928-.18.292-.12.546-.288.76-.503.216-.214.383-.468.504-.76.12-.292.18-.602.18-.928A2.32 2.32 0 0 0 7.04 4.27a2.414 2.414 0 0 0-.928-.18Zm-4.718 8.483c-.395 0-.726-.137-.992-.412-.267-.275-.4-.61-.4-1.006V1.717C0 1.322.133.987.4.711.666.436.997.3 1.392.3h9.438c.395 0 .73.137 1.005.412.275.275.413.61.413 1.006v9.437c0 .396-.138.73-.413 1.006-.275.275-.61.412-1.006.412H1.393Z" fill="currentColor"></path></svg><span class="sr-only">Instagram</span></a></ul><ul class="mt-32 flex justify-center gap-24 m-0 list-none p-0"><li><a target="_blank" rel="noreferrer" class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="https://theinformation.zendesk.com/hc/en-us">Help &amp; Support</a></li><li><a class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="/feed">RSS Feed</a></li><li><a class="font-suisse-screen text-disclosure-md leading-[1.3] text-white opacity-50 transition-all hover:text-primary-magenta hover:opacity-100 focus:opacity-100 dark:hover:text-primary-pink" href="/jobs">Careers</a></li></ul></nav></div></header><div style="position:absolute;z-index:9999;top:auto;bottom:-8px;pointer-events:none" class="w-[calc(100%-32px)] left-16 right-16 sm:left-28 sm:right-28 sm:w-[calc(100%-56px)] lg:w-full lg:left-1/2 lg:right-auto lg:-translate-x-1/2"></div></div></div></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-Nav-react-component-803a1089-43f0-4199-a1b3-89d70fd0debb" data-component-name="Nav" data-dom-id="Nav-react-component-803a1089-43f0-4199-a1b3-89d70fd0debb">{"analytics":{"pageId":null,"page":"article","contentType":"article","contentId":null,"creatorIds":null},"currentUser":{"adminOfOrganizationId":null,"avatarUrl":null,"canViewGiftOption":null,"isLoggedIn":false,"referralUrl":"https://go.theinformation.com/r/","initialSubscribeDateStr":null,"isProSubscriber":false,"isSubscriber":false,"planType":null,"profileCompletionPercentage":0,"profileCompletionStatuses":[{"isComplete":false,"text":"Set name, email, password","href":"/settings"},{"isComplete":false,"text":"Fill out basic information","href":"/settings/profile"},{"isComplete":false,"text":"Download the app","href":null},{"isComplete":false,"text":"Enable profile and messaging","href":"/subscribe"},{"isComplete":false,"text":"Comment in the Forum","href":"/subscribe"}],"shouldShowScrolledNav":true,"username":null},"flashMessages":[],"billingError":null,"overrideOfferCode":null,"proNavSections":{"data_tools":[{"name":"The Information 50 2026","href":"/projects/the-information-50-2026"},{"name":"The AI Inflection Index","href":"/projects/aiindex"},{"name":"Enterprise Software Startup Takeover List 2026","href":"/projects/enterprise-saas-takeover-list-2026"},{"name":"The Next GPs 2026","href":"/projects/general-partners-venture-firms-2026"},{"name":"The Executives Leading the Data Center Race","href":"/projects/data-center-executives"},{"name":"The Next GPs 2025","href":"/projects/general-partners-venture-firms"},{"name":"The Rising Stars of AI Research","href":"/projects/ai-research-scientists"},{"name":"Leaders of the AI Shopping Revolution","href":"/projects/ai-shopping-leaders"},{"name":"Enterprise Software Startup Takeover List 2025","href":"/projects/enterprise-saas-takeover-list"},{"name":"Org Charts","href":"/org-charts"},{"name":"Generative AI Takeover List","href":"/projects/generative-ai-startup-takeover-list"},{"name":"Generative AI Database","href":"/projects/generative-ai"},{"name":"AI Chip Database","href":"/projects/ai-chip-makers"},{"name":"AI Data Center Database","href":"/projects/ai-data-center-database"},{"name":"Tech IPO Tracker","href":"/projects/tech-ipo-tracker"},{"name":"Tech Sentiment Tracker","href":"/projects/tech-sentiment-tracker"},{"name":"Gigafactory Database","href":"/projects/gigafactory-database"}],"special":[{"name":"The Information 50 Database","href":"/projects/the-information-50-database"},{"name":"VC Diversity Index","href":"/projects/vc-diversity-index"},{"name":"Enterprise Tech Powerlist","href":"/enterprise-tech-power-list"}]},"hideSubscribeButton":null,"isOnSubscriptionPage":null,"proOfferCode":null,"shouldRenderSlimNav":null,"slimNavDarkModeEnabled":null,"currentUserCode":null,"watermarkedLogoPathD":{}}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('Nav-react-component-803a1089-43f0-4199-a1b3-89d70fd0debb');
+        </script>
+      <div id="AITopBanner-react-component-7b4dbb2f-c0c4-4b9c-a434-8f49c9a7668b"><div><aside id="ai-research-banner" class="group relative h-full overflow-hidden sm:!top-[calc(var(--ai-banner-height,0px))] sm:border-none sm:px-28 sm:py-0  !top-[calc(var(--ai-banner-height,0px)+24px)] z-[-1] bg-black"><div class="absolute inset-0 origin-bottom scale-y-0 bg-grayscale-beige transition-transform duration-300 ease-out group-hover:scale-y-100 dark:text-white"></div><a href="/deep-research" class="group relative mx-auto flex h-full max-w-container-lg items-center justify-center overflow-hidden bg-black py-6 pr-24 text-white sm:h-max sm:pr-0" data-testid="ai-research-banner"><div class="absolute inset-0 origin-bottom scale-y-0 bg-grayscale-beige transition-transform duration-300 ease-out group-hover:scale-y-100"></div><h3 class="z-9 relative m-0 self-end text-center font-suisse-intl text-overline-md font-normal text-white transition-colors duration-300 group-hover:text-black sm:text-button-md group-hover:dark:text-white"><span class="inline-block">In-depth insights in seconds. Ask Deep Research.</span></h3><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 16" class="z-9 relative ml-12 h-16 rotate-180 text-primary-magenta transition-transform duration-200 group-hover:rotate-[180deg] sm:rotate-[220deg]"><path d="M.851 7.014a1 1 0 0 0 0 1.414l6.364 6.364a1 1 0 0 0 1.415-1.414L2.973 7.72 8.63 2.064A1 1 0 1 0 7.215.65L.851 7.014ZM18.56 6.72h-17v2h17v-2Z" fill="currentColor"></path></svg></a></aside></div></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-AITopBanner-react-component-7b4dbb2f-c0c4-4b9c-a434-8f49c9a7668b" data-component-name="AITopBanner" data-dom-id="AITopBanner-react-component-7b4dbb2f-c0c4-4b9c-a434-8f49c9a7668b">{"currentPage":"article","isContentPaywalled":true,"isNonProSubscriber":null,"shouldShowScrolledNav":true}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('AITopBanner-react-component-7b4dbb2f-c0c4-4b9c-a434-8f49c9a7668b');
+        </script>
+      <div id="OneTapWelcomeBanner-react-component-2aab9720-2b68-4f64-9e68-a6b1194d3fc3"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-OneTapWelcomeBanner-react-component-2aab9720-2b68-4f64-9e68-a6b1194d3fc3" data-component-name="OneTapWelcomeBanner" data-dom-id="OneTapWelcomeBanner-react-component-2aab9720-2b68-4f64-9e68-a6b1194d3fc3">{"isLoggedIn":false,"shouldShowScrolledNav":true}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('OneTapWelcomeBanner-react-component-2aab9720-2b68-4f64-9e68-a6b1194d3fc3');
+        </script>
+    </div>
+    <section id="ti-content" class="flex-grow relative pt-32 nav:pt-64 pb-64 nav:pb-112 false">
+      <div class="container mt-32 sm:mt-64">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h1 class="mt-0">
+        Sorry, we weren’t able to find that.
+      </h1>
+      <p class="serif mb2">
+        If you’re looking for something specific, try searching for it or check out our latest reporting on the <a class="helpful_hint" href="/">front page</a>.
+      </p>
+      <form class="form" data-id="search-form" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" />
+  <div class="flexbox form-group m0">
+    <input type="search" name="query" id="query" class="input text-black border-primary-beige h-[50px] !box-border" />
+    <!-- Powered by React on Rails Pro (c) ShakaCode | LICENSE EXPIRED -->
+<script type="application/json" id="js-react-on-rails-context">{"componentRegistryTimeout":5000,"railsEnv":"production","inMailer":false,"i18nLocale":"en","i18nDefaultLocale":"en","rorVersion":"16.6.0","rorPro":true,"rorProVersion":"16.6.0","href":"https://www.theinformation.com/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations","location":"/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations","scheme":"https","host":"www.theinformation.com","port":null,"pathname":"/articles/openai-says-it-detects-signs-of-mental-health-crises-in-thousands-of-weekly-user-conversations","search":null,"httpAcceptLanguage":null,"serverSide":false}</script>
+<div id="PrimaryButton-react-component-3e2a954d-ccf7-4260-968b-36e385101871"><button class="whitespace-nowrap border-primary-magenta bg-primary-magenta text-white focus:border-primary-pink focus:bg-primary-pink focus:text-primary-magenta px-36 py-12 text-button-lg enabled:hover:border-primary-pink enabled:hover:bg-primary-pink enabled:hover:text-primary-magenta disabled:border-grayscale-gray disabled:bg-grayscale-gray relative flex cursor-pointer justify-center border border-solid font-suisse-intl transition-colors focus:outline-none focus-visible:ring-4 disabled:cursor-not-allowed w-fit max-sm:w-full disabled:opacity-50" type="submit">Search</button></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-PrimaryButton-react-component-3e2a954d-ccf7-4260-968b-36e385101871" data-component-name="PrimaryButton" data-dom-id="PrimaryButton-react-component-3e2a954d-ccf7-4260-968b-36e385101871">{"as":"button","type":"submit","children":"Search"}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('PrimaryButton-react-component-3e2a954d-ccf7-4260-968b-36e385101871');
+        </script>
+  </div>
+</form>
+    </div>
+  </div>
+</div>
+
+    </section>
+    <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    const observer = new MutationObserver(function(mutations, observer) {
+      const oneTrustFloatingIcon = document.querySelector('#ot-sdk-btn-floating');
+      if (oneTrustFloatingIcon) {
+        oneTrustFloatingIcon.style.display = "none";
+        // Stop observing once the element is found
+        observer.disconnect();
+      }
+    });
+
+    // Observe the entire document for changes in the DOM
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>
+  <div class="w-full">
+      <div id="Footer-react-component-d1d138f1-3de7-4006-af1f-172c6f0bef21"></div>
+<script type="application/json" class="js-react-on-rails-component" id="js-react-on-rails-component-Footer-react-component-d1d138f1-3de7-4006-af1f-172c6f0bef21" data-component-name="Footer" data-dom-id="Footer-react-component-d1d138f1-3de7-4006-af1f-172c6f0bef21">{"env":{"BLUECONIC_CONTENT_COLLECTOR_ID":"6b95136b-5d33-4274-afdf-cbada76b7d26","CLOUDFLARE_SITE_KEY":"0x4AAAAAABImzmbslpav3Ywl","DEEP_RESEARCH_ENGINE":"rubyllm","FF_SUBSCRIBE_SALE":"early_access","FF_SUB_HOVER_SALE":"early_access","GOOGLE_CLIENT_ID":"572469268518-tndg5b1551jrfj27qru2sua71doum5k5.apps.googleusercontent.com","IMGIX_ENV":"production","IMGIX_URL":"https://tii.imgix.net","MIXPANEL_PROJECT_TOKEN":"4a8bd4cec59f9e6e30776a2b85304691","RAILS_ENV":"production","READER_URL":"https://www.theinformation.com","READER_URL_PRODUCTION":"https://www.theinformation.com","RECAPTCHA_SITE_KEY":"6LfYceYZAAAAABdxTQhm7oz_6ZZjRHssmRnNV2Hs","STRIPE_PUBLISH_KEY":"pk_live_Wlp0zqDCzQrHDR5rCbmHeDkw","TRINITY_PLAYER_API_KEY":"2900021741"},"initialCurrentUser":null,"isGdprRequired":false,"isNativeApp":false,"isWebview":false,"nativeAppVersion":null,"offers":{"subscribe":null,"upgrade":null},"showBookmarksFlagEnabled":true,"analytics":{"pageId":null,"page":"article","contentType":"article","contentId":null,"creatorIds":null},"currentUserLoggedin":false,"isContentPage":false,"isPro":null,"isSubscriber":false,"leadDetails":{"homepage_conversion":false},"subscribePathWithPossibleOffer":"/subscribe"}</script>
+<script>
+          typeof ReactOnRails === 'object' && ReactOnRails.reactOnRailsComponentLoaded('Footer-react-component-d1d138f1-3de7-4006-af1f-172c6f0bef21');
+        </script>
+  </div>
+
+    
+  </div>
+  <img style="width:1px;height:0px;position:absolute;" src="data:image/svg+xml;base64,eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjpudWxsLCJ2aXNpdG9yX2lwX2FkZHJlc3MiOiIyNjAwOjE3MDA6MjdhMDo3MjZmOmNkMjY6ZGExMzo1YWE2OmRlYjciLCJ1c2VyX2FnZW50IjoiTW96aWxsYS81LjAiLCJ0aW1lc3RhbXAiOiIyMDI2LTExLTIzVDAwOjMwOjQ1WiJ9.T1fUjUu4jCQW3JQB6TcuA63iwi6Y86ByAxrAw5vf5IQ" />
+
+  <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    if (!window.engine) return;
+    // Start!
+    window.engine();
+  });
+</script>
+
+  
+  
+  
+    <noscript class="optanon-category-C0004">
+    <img src="https://ws.zoominfo.com/pixel/zMQorfj7aSSwrJ1oBwQx" width="1" height="1" style="display: none;" />
+  </noscript>
+    <script type="text/javascript">
+      const googleTrackingData = {
+        user_id: null,
+      };
+
+
+      if (typeof googleAnalyticsID !== "undefined" && typeof gtag !== "undefined") {
+        gtag('set', googleTrackingData);
+        gtag('config', googleAnalyticsID, googleConfig);
+      };
+    </script>
+
+  <div id="" class="hidden"></div>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5ec112e697ec06e',t:'MTc5NTM5Mzg0NQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5ec112e697ec06e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

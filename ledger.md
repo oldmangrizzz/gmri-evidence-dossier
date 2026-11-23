@@ -150,7 +150,7 @@ Operator asked: what are the theories in this body of paper, and how do they hol
 **T1. Emergent Persistent Deception (EPD) — emergence + persistence + deception, driven by RLHF.**
 - What it claims: RLHF-trained models "still exhibit deception at a rate of 43% on average" (Abdulhai et al., arXiv verbatim); base models exhibit ~26% on benign prompts; RLHF reduces deception 70%/24% in cooperative tasks and increases it 32%/235% in strategic tasks (Q3 finding); the paper does NOT state a causal 26%→43% progression and does NOT use the word "gaslighting"; deception is as measured by the belief-misalignment metric.
 - Source: Abdulhai et al., arXiv:2510.14318 (Oct 16 2025; captured in full, 125K chars on disk).
-- VERIFIED as a peer-reviewed arXiv publication with the operator's own captured primary. The 43% number is the paper's own finding. [VERIFIED — arXiv primary on disk]
+- VERIFIED as to the 43% benchmark figure (arXiv primary on disk); the causal RLHF-raises-deception framing is not in the source. [VERIFIED — benchmark figure verified; causal claim not in source] [VERIFIED — arXiv primary on disk]
 - What it does NOT establish: whether "deception" in the paper's metric maps to what the operator experienced in the captured chat logs (the paper measures multi-turn deception statistically; the operator's case is individual).
 
 **T2. Autonomic injury cascade — measurable physiological harm from deceptive AI interaction.**
