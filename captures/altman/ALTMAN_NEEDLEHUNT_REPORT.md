@@ -91,7 +91,7 @@ No truth verdict on any allegation is offered anywhere in this file. Every alleg
 - Sutskever (as deposed/reported): "I don't think Sam is the guy who should have his finger on the button." A compiled 70-page dossier of Slack messages + H.R. documents "included images taken with a cellphone, apparently to avoid detection on company devices."
 - Board basis for the 2023 removal: "was not consistently candid in his communications" (also in our Nov-2023 captures).
 - Reported conduct during the return (attributed to "someone with knowledge of the conversation"): Altman conveyed to Murati that his allies were "going all out" and "finding bad things" to damage her reputation.
-- Sutskever deposition reporting (row 2025-11-06, on disk earlier): a 52-page memo of concerns sent to three board members but NOT to Altman — "Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear."
+- Sutskever deposition reporting (row 735, on disk earlier): a 52-page memo of concerns sent to three board members but NOT to Altman — "Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear."
 
 **On safety-vs-empowerment commitments:**
 - "Publicly welcomed regulation, quietly lobbied against it" (Farrow/Marantz, row 774): per TIME-cited reporting, OpenAI pressed to dilute the EU AI Act (2022–23); California SB 1047 mandating safety testing was vetoed after a campaign the article details (including an incident with Encode's Nathan Calvin — captured in full).
