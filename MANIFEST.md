@@ -2458,4 +2458,4 @@ Blocked/failed attempts (inventory):
 | 981 | captures/sandberg_wojcicki_porat/wojcicki_wiki.html | https://en.wikipedia.org/wiki/Susan_Wojcicki | 200 | 530,373 | 56c3ba2629dadd99 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
 | 982 | captures/sandberg_wojcicki_porat/youtube_blog.html | captured in pass | 200 | 238,370 | 130fb27792d1a6e1 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
 | 983 | captures/sandberg_wojcicki_porat/youtube_home.html | captured in pass | 200 | 929,397 | 9681dcd5b4e1b79e | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence capture |
-| 984 | captures/sandberg_wojcicki_porat/SANDBERG_WOJCICKI_PORAT_REPORT.md | derived: Part-5 synthesis from hash-anchored captures | n/a | 4,402 | 6b7ad1d0ff1556a6 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence deliverable |
+| 984 | captures/sandberg_wojcicki_porat/SANDBERG_WOJCICKI_PORAT_REPORT.md | derived: Part-5 synthesis from hash-anchored captures | n/a | 4,402 | 57f527bd3de86169 | 2026-11-23 | Sandberg/Wojcicki/Porat due-diligence deliverable |

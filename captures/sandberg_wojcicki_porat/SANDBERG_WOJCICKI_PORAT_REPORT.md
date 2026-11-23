@@ -27,7 +27,7 @@
 
 ---
 
-## PART B — SUSAN WOJCICKI (YouTube CEO 2014-2024; passed 2026)
+## PART B — SUSAN WOJCICKI (YouTube CEO 2014-2024; passed August 2024)
 
 ### B1. Her standard
 1. **YouTube "the world's classroom" / free-expression framing** — captured via YouTube home page + YouTube blog.
@@ -36,7 +36,7 @@
 ### B2. The record
 - **FTC v. Google/YouTube $170M COPPA settlement (2019)** — the largest-ever FTC children's-privacy penalty at the time; YouTube named as the co-defendant with Google; carried from the Google pass by prior row. Wojcicki was CEO from 2014 through the 2019 settlement.
 - **Bounded negative:** no personally-named YouTube misconduct by Wojcicki located in the captures. The FTC COPPA record is a company-level finding (YouTube/Google as the Controller/Operator).
-- **Her death in Aug 2026** is a public fact, carried at its reported tier.
+- **Her death in August 2024** is a public fact, carried at its reported tier.
 
 ### B3. What Part B does not claim
 - The YouTube COPPA fine is company-level; no personal finding.
