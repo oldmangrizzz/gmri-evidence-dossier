@@ -1,0 +1,790 @@
+	<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	
+		<meta charset="utf-8">
+	<meta name="author" content="Windows Experience Blog">
+	<link rel="pingback" href="https://blogs.windows.com/windowsexperience/xmlrpc.php">
+
+		<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-title" content="Update on the Recall preview feature for Copilot+ PCs">
+
+		<meta name="application-name" content="Windows Experience Blog">
+
+	
+        <script type="text/javascript">
+            function is_browser() {
+                return (
+                    navigator.userAgent.indexOf("Chrome") !== - 1 ||
+                    navigator.userAgent.indexOf("Opera") !== - 1 ||
+                    navigator.userAgent.indexOf("Firefox") !== - 1 ||
+                    navigator.userAgent.indexOf("MSIE") !== - 1 ||
+                    navigator.userAgent.indexOf("Safari") !== - 1 ||
+                    navigator.userAgent.indexOf("Edge") !== - 1
+                );
+            }
+
+            function less_than_ie11() {
+                return (
+                    !window.atob || // IE9 and below
+                    Function('/*@cc_on return document.documentMode===10@*/')() // IE10
+                );
+            }
+
+            function not_excluded_page() {
+                return (
+                    window.location.href.indexOf("/unsupported-browser/") === - 1 &&
+                    document.title.toLowerCase().indexOf('page not found') === - 1
+                );
+            }
+
+            if (is_browser() && less_than_ie11() && not_excluded_page()) {
+                window.location = location.protocol + '//' + location.host + location.pathname + '/unsupported-browser/';
+            }
+        </script>
+
+		<meta property="og:title" content="Update on the Recall preview feature for Copilot+ PCs">
+<meta property="og:description" content="Update Oct. 31, 2024: We are committed to delivering a secure and trusted experience with Recall. We recently shared updates to the security and privacy architecture for Recall in a">
+<meta property="og:image" content="https://blogs.windows.com/wp-content/uploads/sites/2/2024/06/Recall-hero.png">
+<meta property="og:url" content="https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/">
+<meta property="twitter:card" content="summary_large_image">
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-list.js"></script>
+    <script src="https://unpkg.com/yett@0.2.3/dist/yett.min.js"></script>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.4 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Update on the Recall preview feature for Copilot+ PCs | Windows Experience Blog</title>
+	<link rel="canonical" href="https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="Windows Experience Blog" />
+	<meta property="article:published_time" content="2024-06-07T16:00:10+00:00" />
+	<meta property="article:modified_time" content="2025-11-17T18:14:54+00:00" />
+	<meta name="author" content="Pavan Davuluri, Executive Vice President, Windows + Devices" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Pavan Davuluri, Executive Vice President, Windows + Devices" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.monitor.azure.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://blogs.windows.com/windowsexperience/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://blogs.windows.com/windowsexperience/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='core-theme-base-css' href='https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/css/master.min.css?ver=6.9.12' type='text/css' media='all' />
+<link rel='stylesheet' id='core-theme-print-css' href='https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/css/print.min.css?ver=6.9.12' type='text/css' media='print' />
+<link rel='stylesheet' id='my-plugin-style-css' href='https://blogs.windows.com/wp-content/plugins/wp-media-manager/styles.css?ver=0.6.32' type='text/css' media='all' />
+<script type="text/javascript" src="https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js" id="1ds-application-insights-js"></script>
+<script type="text/javascript" id="microsoft-1ds-metrics-js-js-before">
+/* <![CDATA[ */
+var oneds_object = {"tenant_key":"7d4ce74a91504302bd5324e47e7e097d-abd2d9b7-1c79-4953-aae5-2429ca917764-6531","market":"en-us","pagetype":"Post","name":"Update on the Recall preview feature for Copilot+ PCs"}
+//# sourceURL=microsoft-1ds-metrics-js-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/microsoft-1ds-metrics/assets/microsoft-1ds-metrics-js.js?ver=1765898343" id="microsoft-1ds-metrics-js-js"></script>
+<script type="text/javascript" id="microsoft-1ds-metrics-js-js-after">
+/* <![CDATA[ */
+var siteConsent = null;
+		WcpConsent.init("en-US", "cookie-banner", function (err, _siteConsent) {
+			if (err != undefined) {
+				return error;
+			} else {
+				siteConsent = _siteConsent;  //siteConsent is used to get the current consent          
+			}
+		});
+//# sourceURL=microsoft-1ds-metrics-js-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/vendor/jquery.min.js?ver=6.9.12" id="jquery-js"></script>
+<link rel="https://api.w.org/" href="https://blogs.windows.com/windowsexperience/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://blogs.windows.com/windowsexperience/wp-json/wp/v2/posts/178915" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blogs.windows.com/windowsexperience/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://blogs.windows.com/windowsexperience/?p=178915' />
+<script type="text/javascript">// Use the value passed from PHP if available, otherwise fallback
+(function () {
+    const PRIVACY_ORIGIN = (window.threepds_vars && window.threepds_vars.PRIVACY_ORIGIN) ? window.threepds_vars.PRIVACY_ORIGIN : 'https://news.microsoft.com/windowsprivacy/';
+    const iFrame = document.createElement('iframe');
+    iFrame.style.width = '0';
+    iFrame.style.height = '0';
+    iFrame.style.position = 'absolute';
+    iFrame.style.border = 'none';
+    iFrame.src = PRIVACY_ORIGIN;
+    iFrame.ariaLabel = 'Microsoft Stories Privacy Opt-out';
+    iFrame.referrerPolicy = 'strict-origin-when-cross-origin';
+    let messageEventListener;
+    window.optOutPromise = new Promise((resolve, reject) => {
+        messageEventListener = (event) => {
+            if (event.origin === PRIVACY_ORIGIN) {
+                // Check if the message contains the 3PAdsOptOut data.
+                const optOutEventData = event.data?.['3PAdsOptOut'];
+                if (typeof optOutEventData !== 'undefined') {
+                    resolve(optOutEventData === '1');
+                } else {
+                    resolve(false);
+                }
+                removeEventListener('message', messageEventListener);
+                iFrame.remove();
+            } else {
+                reject(new Error('Invalid message origin'));
+            }
+            console.log('Expected origin:', PRIVACY_ORIGIN);
+            console.log('Actual event.origin:', event.origin);
+        };
+    });
+    addEventListener('message', messageEventListener);
+    window.addEventListener("DOMContentLoaded", () => {
+    document.body.appendChild(iFrame);
+    iFrame.onload = function() {
+        iFrame.contentWindow.postMessage('cookie-query', window.location.origin);
+    };
+});
+})();</script>    <!-- Set default site title as author -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'pagePostAuthor': 'Windows Experience Blog'
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer', 'GTM-MLSXDLQ');</script>
+    <!-- End Google Tag Manager -->
+
+    <style>
+    uhf-header:not(:defined) {
+        display: block;
+        height: 54px;
+    }
+
+    uhf-brand:not(:defined),
+    uhf-contextual-nav:not(:defined),
+    uhf-actions:not(:defined),
+    uhf-global-nav:not(:defined),
+    uhf-search:not(:defined),
+    uhf-mecontrol:not(:defined),
+    uhf-cart:not(:defined),
+    uhf-dropdown:not(:defined),
+    uhf-popout:not(:defined) {
+        visibility: hidden;
+    }
+</style>
+<link rel="stylesheet" href="https://uhf.microsoft.com/statics/20261102.14.06/css/style-BHCVI91Z.css" /><link rel='preload' href='https://blogs.windows.com/wp-content/plugins/3pds-plugin/inc/consumer.js?ver=1.0.0' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/dist/vendor.min.js?ver=6.9.12' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/dist/scripts.min.js?ver=6.9.12' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/plugins/microsoft-uhf-cookies//scripts.js?ver=0.0.31' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.1' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js?ver=0.3.8' as='script'/>
+<link rel='preload' href='https://blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js?ver=0.3.8' as='script'/>
+<!-- There is no amphtml version available for this URL. --><link rel="icon" href="https://blogs.windows.com/wp-content/uploads/sites/2/2021/06/cropped-browser-icon-logo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://blogs.windows.com/wp-content/uploads/sites/2/2021/06/cropped-browser-icon-logo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blogs.windows.com/wp-content/uploads/sites/2/2021/06/cropped-browser-icon-logo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://blogs.windows.com/wp-content/uploads/sites/2/2021/06/cropped-browser-icon-logo-270x270.jpg" />
+		<style type="text/css" id="wp-custom-css">
+			.icon-rss:before {
+	display: inline-block;
+    content: '';
+	background-image: url(/wp-content/themes/microsoft-stories-theme/img/theme/logos/rss.svg);
+	background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+}
+.icon-twitter:before {
+	display: inline-block;
+    content: '';
+	background-image: url(/wp-content/themes/microsoft-stories-theme/img/theme/logos/twitter-gray.svg);
+	background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-facebook:before {
+	display: inline-block;
+    content: '';
+	background-image: url(/wp-content/themes/microsoft-stories-theme/img/theme/logos/facebook.svg);
+	background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-linkedin:before {
+	display: inline-block;
+    content: '';
+	background-image: url(/wp-content/themes/microsoft-stories-theme/img/theme/logos/linkedin.svg);
+	background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.icon-threads:before {
+	display: inline-block;
+	content: '';
+	background-image: url(/wp-content/themes/microsoft-stories-theme/img/theme/logos/threads.svg);
+	background-size: 20px 20px;
+	height: 20px;
+	width: 20px;
+}
+
+/*iframe wrapper */
+.msbi-wrapper.has-embed {
+	position: relative; 
+	height: 0; 
+	padding-bottom: 62.32% 
+}
+.msbi-wrapper.has-embed iframe {
+	position: absolute;
+	width: 100%;
+	height: 100% 
+}
+.t-content li p {
+	margin: 20px 0;
+}
+@media (min-width: 1000px) {
+	.postid-176712 .panel__article-header__fifty .article-fifty__content {
+	width: 60%;
+	}
+	.postid-176712 .panel__article-header__fifty .article-fifty__media {
+		width: 40%;
+	}
+}
+
+/*Multi-column layouts*/
+.js-downloads-rows {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+	gap: 20px;
+}
+.js-downloads-rows h3 {
+	width: 100%;
+}
+.js-downloads-rows .js-downloads-column {
+	flex-direction: column;
+	width: calc(50% - 20px);
+}
+.js-downloads-rows .js-image-row {
+	display: flex;
+	justify-content: center;
+	gap: 0 10px;
+}
+.js-downloads-rows img {
+	height: 55px;
+	width: auto;
+	margin: 15px auto;
+}
+.js-downloads-rows .js-image-row img {
+	margin: 0;
+}
+
+/* Reduce images in the margin on post */
+@media screen and (min-width: 768px) {
+.postid-179283 .wp-image.alignleft,
+	.postid-180140 .wp-image.alignleft {
+	width: 144px !important;
+	margin-left: -160px !important;
+}
+}		</style>
+		<script type="module" src="https://uhf.microsoft.com/statics/20261102.14.06/js/entry.js"></script>
+    <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-178915 single-format-standard wp-theme-microsoft-stories-theme microsoft-uhf has-panels is-panels-page post-update-on-the-recall-preview-feature-for-copilot-pcs">
+
+	
+
+	<a href="#a11y-skip-link-content" class="a11y-skip-link a11y-visual-hide">Skip to main content</a>
+
+	<uhf-header locale="en-us" partnerId="WindowsBlogs" headerId="WindowsBlogsheader" theme="light">
+    
+<uhf-brand slot="brand">
+        <a href="https://www.microsoft.com" class="uhf-microsoft-logo" slot="microsoft-logo" aria-label="Microsoft" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Anchor&quot;, &quot;cN&quot;: &quot;GlobalNav_Logo_cont&quot;, &quot;ecn&quot;: &quot;GlobalNav_Logo_cont&quot;, &quot;ehn&quot;: &quot;Anchor&quot;}">
+            <img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" alt="Microsoft" />
+        </a>
+            <a href="https://blogs.windows.com" class="uhf-site-logo" slot="brand-logo" aria-label="Windows Blogs" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Anchor&quot;, &quot;cN&quot;: &quot;CatNav_Windows Blogs_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Windows Blogs_nav&quot;, &quot;ehn&quot;: &quot;Anchor&quot;}">
+ <span>Windows Blogs</span>             </a>
+</uhf-brand>
+
+
+<uhf-contextual-nav 
+    slot="contextual-nav" 
+    overflowText="More" 
+    brand="Windows Blogs" 
+    homeUrl="https://blogs.windows.com" 
+    homeText="Home"
+    data-nav-label="Contextual menu"
+    theme=cat-theme-blue
+    >
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="/windowsexperience" id="uhf-windows-experience" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Windows Experience&quot;, &quot;cN&quot;: &quot;CatNav_Windows Experience_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Windows Experience_nav&quot;, &quot;ehn&quot;: &quot;Windows Experience&quot;}">Windows Experience</a>
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="/devices" id="uhf-devices" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Devices&quot;, &quot;cN&quot;: &quot;CatNav_Devices_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Devices_nav&quot;, &quot;ehn&quot;: &quot;Devices&quot;}">Devices</a>
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="/windowsdeveloper" id="uhf-windows-developer" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Windows Developer&quot;, &quot;cN&quot;: &quot;CatNav_Windows Developer_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Windows Developer_nav&quot;, &quot;ehn&quot;: &quot;Windows Developer&quot;}">Windows Developer</a>
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="/msedgedev" id="uhf-microsoft-edge-developer" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Microsoft Edge&quot;, &quot;cN&quot;: &quot;CatNav_Microsoft Edge_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Microsoft Edge_nav&quot;, &quot;ehn&quot;: &quot;Microsoft Edge&quot;}">Microsoft Edge</a>
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="/windows-insider" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Windows Insider&quot;, &quot;cN&quot;: &quot;CatNav_Windows Insider_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Windows Insider_nav&quot;, &quot;ehn&quot;: &quot;Windows Insider&quot;}">Windows Insider</a>
+
+
+    <a class="uhf-nav-item uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/blog/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;Microsoft 365&quot;, &quot;cN&quot;: &quot;CatNav_Microsoft 365_nav&quot;, &quot;ecn&quot;: &quot;CatNav_Microsoft 365_nav&quot;, &quot;ehn&quot;: &quot;Microsoft 365&quot;}">Microsoft 365</a>
+</uhf-contextual-nav>    <uhf-actions slot="actions">
+        
+<uhf-global-nav slot="global-nav" text="All Microsoft"  data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_nonnav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_nonnav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}" data-nav-label="All Microsoft menu" menu-label="Header navigation menu">
+    
+    <uhf-dropdown-header slot="header">
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/microsoft-365" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_M365_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_M365_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft 365</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_GlobalAzure_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_GlobalAzure_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Azure</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://copilot.com/?fromcode=cmmuaql67jy" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Copilot_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Copilot_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Copilot</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/windows/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Windows_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Windows_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Windows</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/surface" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Surface_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Surface_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Surface</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.xbox.com/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_XBOX_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_XBOX_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">XBOX</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Deals_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Deals_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Deals</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/business" id="l0_SmallBusiness" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Small Business_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Small Business_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Small Business</a>
+            <a class="uhf-nav-item uhf-dropdown-link" href="https://support.microsoft.com/en-us" id="l1_support" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Support_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_Support_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Support</a>
+    </uhf-dropdown-header>
+
+        <uhf-dropdown-column title="Software" show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://apps.microsoft.com/home" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_Windows Apps_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_WindowsApps_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Windows Apps</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_Outlook_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_Outlook_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Outlook</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_OneDrive_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_OneDrive_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">OneDrive</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_Microsoft Teams_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_Microsoft Teams_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Teams</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_OneNote_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_OneNote_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">OneNote</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/edge" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_Microsoft Edge_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_Edge_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Edge</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_Moving from Skype to Teams_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Software_More_Software_Skype_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Moving from Skype to Teams</a>
+        </uhf-dropdown-column>
+        <uhf-dropdown-column title="PCs &amp; Devices  " show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _Computers_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevices_PCsAndTablets_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Computers</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _Shop XBOX_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevices_ShopXbox_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Shop XBOX</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _Accessories_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevices_Accessories_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Accessories</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _VR &amp; mixed reality_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevices_VMAndMixedReality_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">VR &amp; mixed reality</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/certified-refurbished-products" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _Certified Refurbished_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevicesCertifiedRefurbished_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Certified Refurbished</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/microsoft-trade-in" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCs &amp; Devices  _Trade-in for cash_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_PCsAndDevices_More_PCsAndDevices_Trade-in-for-cash_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Trade-in for cash</a>
+        </uhf-dropdown-column>
+        <uhf-dropdown-column title="Entertainment" show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=DSM_All_XboxGamePassUltimate" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_XBOX Game Pass Ultimate_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_More_Entertainment_XboxGamePassUltimate_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">XBOX Game Pass Ultimate</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_PC Game Pass_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_More_Entertainment_PC_Game_Pass_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">PC Game Pass</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_XBOX games_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_More_Entertainment_XboxGames_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">XBOX games</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://apps.microsoft.com/games" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_PC games_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Entertainment_More_Entertainment_PCGames_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">PC games</a>
+        </uhf-dropdown-column>
+        <uhf-dropdown-column title="Business" show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/ai?icid=DSM_All_AI" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Microsoft AI_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_AI_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft AI</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/security" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Microsoft Security_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_Microsoft Security_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Security</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/dynamics-365" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Dynamics 365_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_MicrosoftDynamics365_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Dynamics 365</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/microsoft-365/business" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Microsoft 365 for business_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_Microsoft365forbusiness_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft 365 for business</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/power-platform" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Microsoft Power Platform_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_MicrosoftPowerPlatform_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Power Platform</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/windows-365" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Windows 365_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_Windows365_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Windows 365</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Small Business_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_SmallBusiness_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Small Business</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_Digital Sovereignty_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Business_More_Business_Sovereignty_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Digital Sovereignty</a>
+        </uhf-dropdown-column>
+        <uhf-dropdown-column title="Developer &amp; IT  " show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Azure_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_Azure_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Azure</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://developer.microsoft.com/en-us/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Microsoft Developer_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_MicrosoftDeveloper_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Developer</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://learn.microsoft.com/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Microsoft Learn_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_MicrosoftLearn_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Learn</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Support for AI marketplace apps_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_SupportForAIMarketplaceApps_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Support for AI marketplace apps</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://techcommunity.microsoft.com/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Microsoft Tech Community_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_MicrosoftTechCommunity_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Tech Community</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://marketplace.microsoft.com?icid=DSM_All_Marketplace&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Microsoft Marketplace_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_Marketplace_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Marketplace</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Software companies_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Software companies_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Software companies</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _Visual Studio_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Developer &amp; IT  _More_DeveloperAndIT_VisualStudio_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Visual Studio</a>
+        </uhf-dropdown-column>
+        <uhf-dropdown-column title="Other" show-tooltip="false" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/rewards" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Microsoft Rewards_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_Microsoft Rewards_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Microsoft Rewards</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Free downloads &amp; security_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_FreeDownloadsAndSecurity_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Free downloads &amp; security</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Education_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_Education_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Education</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Gift cards_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_GiftCards_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Gift cards</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/licensing/" id="Licensing" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Licensing_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_Licensing_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Licensing</a>
+                    <a class="uhf-nav-item uhf-dropdown-link" href="https://unlocked.microsoft.com/" data-m="{&quot;compnm&quot;: &quot;UHF&quot;, &quot;view&quot;: &quot;UHF&quot;, &quot;pa&quot;: &quot;UniversalHeader&quot;, &quot;hn&quot;: &quot;OneMicrosoftBar&quot;, &quot;cN&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_Unlocked stories_nav&quot;, &quot;ecn&quot;: &quot;GlobalNav_OneMicrosoftBar_AllMicrosoft_More_Other_More_Other_Unlocked_stories_nav&quot;, &quot;ehn&quot;: &quot;OneMicrosoftBar&quot;}">Unlocked stories</a>
+        </uhf-dropdown-column>
+
+    <uhf-dropdown-footer slot="footer">
+        <a class="uhf-nav-item uhf-dropdown-link" href="https://www.microsoft.com/en-us/sitemap" data-m="">View Sitemap</a>
+    </uhf-dropdown-footer>
+
+</uhf-global-nav>
+
+
+            <uhf-search 
+                slot="search" 
+                placeholder="Search blogs.windows.com"
+                search-label="Search"
+                cancel-label="Cancel"
+                suggestions-available-text="{0} suggestions available"
+                searchUrl="/"
+                autoSuggestUrl=""
+                queryParameterName="s"
+                            >
+            </uhf-search>
+    </uhf-actions>
+</uhf-header>
+
+	<div class="sticky-header" role="banner" data-js="sticky-header">
+
+	<div class="sticky-header__container">
+
+		<div class="sticky-header__left">
+			<a class="sticky-header__logo" href="https://windows.com/" target="_self" aria-label="microsoft.com">
+				<img src="https://blogs.windows.com/wp-content/uploads/sites/2/2021/06/Windows11Icon.png" alt="Site Icon" />
+			</a>
+			<a class="sticky-header__logo-link" href="" target="_self" aria-label="Windows Experience Blog">
+				<span class="title">/ Windows Experience Blog</span>
+			</a>
+		</div>
+
+		<div class="sticky-header__right">
+							<aside class="social-share">
+					<ul class="social-share-networks" data-js="social-share-networks"><li class="social-share-networks__item"><a class="social-share-networks__anchor icon icon-facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F&t=Update+on+the+Recall+preview+feature+for+Copilot%2B+PCs" data-js="social-share-popup" data-width="640" data-height="352" title="Share on Facebook"><span class="a11y-visual-hide">Share on Facebook</span></a></li><li class="social-share-networks__item"><a class="social-share-networks__anchor icon icon-twitter" href="https://x.com/intent/post?url=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F&text=Update+on+the+Recall+preview..." data-js="social-share-popup" data-width="550" data-height="450" title="Share on X"><span class="a11y-visual-hide">Share on X</span></a></li><li class="social-share-networks__item"><a class="social-share-networks__anchor icon icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F&title=Update+on+the+Recall+preview+feature+for+Copilot%2B+PCs" data-js="social-share-popup" data-width="640" data-height="352" title="Share on LinkedIn"><span class="a11y-visual-hide">Share on LinkedIn</span></a></li><li class="social-share-networks__item"><a class="social-share-networks__anchor icon icon-threads" href="https://www.threads.net/intent/post??url=https%3A%2F%2Fblogs.windows.com%2Fwindowsexperience%2F2024%2F06%2F07%2Fupdate-on-the-recall-preview-feature-for-copilot-pcs%2F&title=Update+on+the+Recall+preview+feature+for+Copilot%2B+PCs" data-js="social-share-popup" data-width="640" data-height="352" title="Share on Threads"><span class="a11y-visual-hide">Share on Threads</span></a></li><li class="social-share-networks__item"><a class="social-share-networks__anchor icon icon-rss" href="https://blogs.windows.com/windowsexperience/feed" title="Subscribe to RSS"><span class="a11y-visual-hide">Subscribe to RSS</span></a></li></ul>
+				</aside>
+					</div>
+
+	</div>
+
+</div>
+
+
+	<div class="l-wrapper" data-js="site-wrap">
+
+
+<div id="a11y-skip-link-content" tabindex="-1"></div>
+
+<main
+	class="
+		">
+
+		<article data-clarity-region="article">
+						<section class="
+	panel panel__article-header
+	panel__article-header__fifty
+		u-bc-grey-light
+		
+">
+	<div class="article-fifty__contain">
+		<div class="article-fifty__content article-header__content--left">
+			<div class="article-header__content
+			article-header__content--left-text					">
+									<div class="article-header__tag">
+						AI
+					</div>
+				
+				<div class="article-header__date article-header__date--left">June 7, 2024</div>
+
+									<div class="article-header__title">
+						<h1 class="h2">
+							Update on the Recall preview feature for Copilot+ PCs
+						</h1>
+					</div>
+													<div class="article-header__author-contain">
+						<div class="article-header__author article-header__author--line">
+							<span class="article-header__author-byline">By</span>
+							<ul class="article-header__author-list">
+																	<li>
+										<a href="https://blogs.windows.com/windowsexperience/author/pdavuluri/" class="">
+											Pavan Davuluri, Executive Vice President, Windows + Devices
+																					</a>
+									</li>
+															</ul>
+						</div>
+					</div>
+							</div>
+		</div>
+					
+<div class="article-fifty__media article-fifty__media--padding">
+		<div  role="img" aria-label="Recall user interface" style="background-image:url('https://blogs.windows.com/wp-content/uploads/sites/2/2024/06/Recall-hero.png');"  class="item-single__image">
+	
+		
+		
+		
+		
+
+		</div>
+	</div>
+
+			</div>
+</section>
+
+
+
+
+		
+		
+			<div class="panel-collection" data-modular-content-collection>
+	
+		
+
+			<section  class="panel s-wrapper site-panel site-panel--wysiwyg-with-aside"
+				 data-index="0"
+				 data-js="panel"
+				 data-type="wysiwyg-with-aside"
+				 data-modular-content
+				>
+
+	
+	
+	
+	
+	<div class="l-container l-container--small l-container--article">
+		<div class="item-single__content t-content">
+			
+<div
+		>
+<p><em><strong>Update Oct. 31, 2024:</strong> We are committed to delivering a secure and trusted experience with Recall. We recently shared updates to the security and privacy architecture for Recall in a <a href="https://blogs.windows.com/windowsexperience/2024/09/27/update-on-recall-security-and-privacy-architecture/">Windows Blog post</a>. To ensure we deliver on these important updates, we’re taking additional time to refine the experience before previewing it with Windows Insiders. Originally planned for October, Recall will now be available for preview with Windows Insiders on Copilot+ PCs by December.</em></p>
+<p><em><strong>Update Aug. 21, 2024:</strong> With a commitment to delivering a trustworthy and secure Recall (preview) experience on Copilot+ PCs for customers, we’re sharing an update that Recall will be available to Windows Insiders starting in October. As previously shared on June 13, we have adjusted our release approach to leverage the valuable expertise of our Windows Insider community prior to making Recall available for all Copilot+ PCs. Security continues to be our top priority and when Recall is available for Windows Insiders in October we will publish a blog with more details. </em></p>
+<p><em><b>Update: June 13, 2024:</b> Today, we are communicating an additional update on the Recall (preview) feature for Copilot+ PCs. Recall will now shift from a preview experience broadly available for Copilot+ PCs on June 18, 2024, to a preview available first in the <a href="https://www.microsoft.com/windowsinsider/">Windows Insider Program (WIP)</a> in the coming weeks. Following receiving feedback on Recall from our Windows Insider Community, as we typically do, we plan to make Recall (preview) available for all Copilot+ PCs coming soon.  </em></p>
+<p><em>We are adjusting the release model for Recall to leverage the expertise of the Windows Insider community to ensure the experience meets our high standards for quality and security. This decision is rooted in our commitment to providing a trusted, secure and robust experience for all customers and to seek additional feedback prior to making the feature available to all Copilot+ PC users. Additionally, as we shared in our <a href="https://www.microsoft.com/en-us/security/blog/2024/05/03/security-above-all-else-expanding-microsofts-secure-future-initiative/">May 3 blog</a>, security is our top priority at Microsoft, in line with our <a href="https://www.microsoft.com/en-us/microsoft-cloud/resources/secure-future-initiative">Secure Future Initiative (SFI)</a>. This is reflected in additional security protections we are providing for Recall content, including “just in time” decryption protected by <a href="https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security">Windows Hello Enhanced Sign-in Security (ESS)</a>, so Recall snapshots will only be decrypted and accessible when the user authenticates. The development of Copilot+ PCs, Recall and Windows will continue to be guided by SFI. </em></p>
+<p><em>When Recall (preview) becomes available in the Windows Insider Program, we will publish a blog post with details on how to get the preview. To try Recall (preview) WIP customers will need a Copilot+ PC due to our <a href="https://support.microsoft.com/en-us/topic/copilot-pcs-hardware-requirements-35782169-6eab-4d63-a5c5-c498c3037364">hardware requirements</a>. We look forward to hearing Windows Insider feedback.   </em></p>
+<p>Today, we are sharing an update on the Recall (preview) feature for Copilot+ PCs, including more information on the set-up experience, privacy controls and additional details on our approach to security.</p>
+<p>On May 20, <a href="https://blogs.microsoft.com/blog/2024/05/20/introducing-copilot-pcs/">we introduced Copilot+ PCs</a>, our fastest, most intelligent Windows PCs ever. Copilot+ PCs have been reimagined from the inside out to deliver better performance and all new AI experiences to help you be more productive, creative and communicate more effectively. One of the new experiences exclusive to Copilot+ PCs is Recall, a new way to instantly find something you’ve previously seen on your PC. To create an explorable visual timeline, Recall periodically takes a snapshot of what appears on your screen. These images are encrypted, stored and analyzed locally, using on-device AI capabilities to understand their context. When logged into your Copilot+ PC, you can easily <a href="https://support.microsoft.com/en-us/windows/retrace-your-steps-with-recall-aa03f8a0-a78b-4b3e-b0a1-2eb8ac48701c">retrace your steps</a> visually using Recall to find things from apps, websites, images and documents that you&#8217;ve seen, operating like your own virtual and completely private “photographic memory.” You are always in control of what&#8217;s saved. You can disable saving snapshots, pause temporarily, filter applications and delete your snapshots at any time.</p>
+<p>As AI becomes more prevalent, we are rearchitecting Windows to give customers and developers more choice to leverage both the cloud and the power of local processing on the device made possible by the neural processing unit (NPU). This distributed computing model offers choice for both privacy and security. All of this work will continue to be guided by our <a href="https://www.microsoft.com/en-us/microsoft-cloud/resources/secure-future-initiative">Secure Future Initiative (SFI)</a>.</p>
+<p>Our team is driven by a relentless desire to empower people through the transformative potential of AI and we see great utility in Recall and the problem it can solve. We also know for people to get the full value out of experiences like Recall, they have to trust it. That’s why we are launching Recall in preview on Copilot+ PCs – to give customers a choice to engage with <span data-contrast="auto">the feature</span><span data-contrast="auto"> early, or not, and to give </span>us an opportunity to learn from the types of <span data-ccp-parastyle="paragraph">real world</span><span data-ccp-parastyle="paragraph"> scenario</span>s customers and the Windows community finds most useful.</p>
+<h3><strong>Listening to and acting on customer feedback</strong></h3>
+<p>Even before making Recall available to customers, we have heard a clear signal that we can make it easier for people to choose to enable Recall on their Copilot+ PC and improve privacy and security safeguards. With that in mind we are announcing updates that will go into effect before Recall (preview) ships to customers on June 18.</p>
+<ul>
+<li>First, we are updating the set-up experience of Copilot+ PCs to give people a clearer choice to opt-in to saving snapshots using Recall. If you don’t proactively choose to turn it on, it will be off by default.<br />
+<img fetchpriority="high" decoding="async" class="aligncenter wp-image-178925 size-large" src="https://blogs.windows.com/wp-content/uploads/prod/sites/2/2024/06/OOBEAsset_1920-1024x649.png" alt="Recall user interface" width="1024" height="649" /></li>
+</ul>
+<ul>
+<li>Second, Windows Hello enrollment is required to enable Recall. In addition, proof of presence is also required to view your timeline and search in Recall.<br />
+<img decoding="async" class="aligncenter wp-image-178926 size-large" src="https://blogs.windows.com/wp-content/uploads/prod/sites/2/2024/06/Hello-1920-1024x581.png" alt="Windows Hello user interface" width="1024" height="581" /></li>
+</ul>
+<ul>
+<li>Third, we are adding additional layers of data protection including “just in time” decryption protected by <a href="https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security">Windows Hello Enhanced Sign-in Security (ESS)</a> so Recall snapshots will only be decrypted and accessible when the user authenticates. In addition, we encrypted the search index database.</li>
+</ul>
+<h3><strong>Secure by design and secure by default</strong></h3>
+<p>In line with Microsoft’s SFI principles, before the preview release of Recall to customers, we are taking steps to increase data protection. Copilot+ PCs will launch with “just in time” decryption protected by Windows Hello Enhanced Sign-in Security (ESS), so Recall snapshots will only be decrypted and accessible when the user authenticates. This gives an additional layer of protection to Recall data in addition to other default enabled Window Security features like SmartScreen and Defender which use advanced AI techniques to help prevent malware from accessing data like Recall.</p>
+<p>We also know the best way to secure information on a PC is to secure the whole PC itself. We want to reinforce what has previously been shared from David Weston, vice president of Enterprise and OS Security, about how <a href="https://www.microsoft.com/en-us/security/blog/2024/05/20/new-windows-11-features-strengthen-security-to-address-evolving-cyberthreat-landscape/">Copilot+ PCs have been designed to be secure by default</a> and share additional details about our security approach. Some notable examples of security enhancements include:</p>
+<ul>
+<li>All Copilot+ PCs will be Secured-core PCs, bringing advanced security to both commercial and consumer devices. In addition to the layers of protection in Windows 11, Secured-core PCs provide advanced firmware safeguards and dynamic root-of-trust measurement to help protect from chip to cloud.</li>
+<li>Microsoft Pluton security processor will be enabled by default on all Copilot+ PCs. Pluton is a chip-to-cloud security technology – designed by Microsoft and built by silicon partners – with <a href="https://www.microsoft.com/security/business/zero-trust">Zero Trust</a> principles at the core. This helps protect credentials, identities, personal data and encryption keys, making them significantly harder to remove from the device, even if a user is tricked into installing malware or an attacker has physical possession of the PC.</li>
+<li>All Copilot+ PCs will ship with <a href="https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello-enhanced-sign-in-security">Windows Hello Enhanced Sign-in Security (ESS)</a>. This provides more secure biometric sign ins and eliminates the need for a password.</li>
+</ul>
+<h3><strong>Protecting your privacy on Copilot+ PCs</strong></h3>
+<p>In our early internal testing, we have seen different people use Recall in the way that works best for them. Some love the way it makes remembering what they&#8217;ve seen across the web so much easier to find than reviewing their browser history. Others like the way it allows them to better review an online course or find a PowerPoint. And people are taking advantage of the controls to exclude apps they don&#8217;t want captured in snapshots, from communication apps or Teams calls, or to delete some or all their snapshots. This is why we built Recall with fine-grained controls to allow each person to customize the experience to their comfort level, ensuring your information is protected and that you are in control of when, what and how it is captured.</p>
+<ul>
+<li><strong>Snapshots are stored locally.</strong> Copilot+ PCs have powerful AI that works on your device itself. No internet or cloud connections are used to store and process snapshots. Recall’s AI processing happens exclusively on your device, and your snapshots are kept safely on your local device only. Your snapshots are yours and they are not used to train the AI on Copilot+ PCs.</li>
+<li><strong>Snapshots are not shared.</strong> Recall does not send your snapshots to Microsoft. Snapshots are not shared with any other companies or applications. Recall doesn’t share snapshots with other users who are signed into the same device, and per-user encryption ensures even administrators cannot view other users’ snapshots.</li>
+<li><strong>You will know when Recall is saving snapshots.</strong> You&#8217;ll see Recall pinned to the taskbar when you reach your desktop. You&#8217;ll have a Recall snapshot icon on the system tray letting you know when Windows is saving snapshots.</li>
+<li><strong>Digital rights managed or InPrivate browsing snapshots are not saved.</strong> Recall does not save snapshots of digital rights managed content or InPrivate browsing in <a href="https://support.microsoft.com/en-us/windows/privacy-and-control-over-your-recall-experience-d404f672-7647-41e5-886c-a3c59680af15#:~:text=Privacy%20and%20control%20over%20your%20Recall%20experience%201,stays%20local%204%20Built-in%20security%205%20Related%20articles">supported web browsers</a>.</li>
+<li><strong>You can pause, filter and delete what’s saved at any time. </strong>You&#8217;re always in control of what&#8217;s saved as a snapshot. You can disable saving snapshots, pause them temporarily, filter applications and websites from being in snapshots, and delete your snapshots at any time.</li>
+<li><strong>Enterprise and customer choice. </strong>For customers using managed work devices, your IT administrator is provided the control to disable the ability to save snapshots. However, your IT administrator cannot enable saving snapshots on your behalf. The choice to enable saving snapshots is solely yours.</li>
+</ul>
+<h3><strong>Empowering people with experiences they can trust</strong></h3>
+<p>We are on a journey to build products and experiences that live up to our company mission to empower people and organizations to achieve more, and are driven by the critical importance of maintaining our customers’ privacy, security and trust. As we always do, we will continue to listen to and learn from our customers, including consumers, developers and enterprises, to evolve our experiences in ways that are meaningful to them.</p>
+<p>We are excited for the upcoming launch of Copilot+ PCs on June 18 and for the innovative new features and benefits this entirely new category of PCs will bring. We will continue to build these new capabilities and experiences for our customers by prioritizing privacy, safety and security first. We remain grateful for the vibrant community of customers who continue to share their feedback with us.</p>
+
+</div>
+
+
+					</div>
+	</div>
+
+
+				
+	
+			</section>
+	
+
+</div>
+
+			
+
+
+			
+			</article>
+
+</main>
+
+
+		</div><!-- .l-wrapper -->
+
+	<uhf-footer locale="en-us" partnerId="WindowsBlogs" footerId="WindowsBlogsfooter" theme="light">
+    <script id="uhf-footer-ccpa">
+        (function () {
+            function checkThirdPartyAdsOptOutCookie() {
+                try {
+                    var match = document.cookie.match('(^|;)\\s*3PAdsOptOut\\s*=\\s*([^;]+)');
+                    return (match ? match[2] : '') !== '1';
+                } catch (e) {
+                    return true;
+                }
+            }
+            var globalPrivacyControlEnabled = navigator.globalPrivacyControl;
+            window.GPC_DataSharingOptIn = globalPrivacyControlEnabled ? false : checkThirdPartyAdsOptOutCookie();
+            if (typeof window.onGPCLoaded === 'function') {
+                window.onGPCLoaded();
+            }
+        })();
+    </script>
+    
+<uhf-footer-nav slot="uhf-footer-nav">
+            <div class="uhf-footer-nav-row">
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="What&#x27;s new" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Surface Laptop Ultra_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_Surface Laptop Ultra_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Surface Laptop Ultra</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/surface/devices/surface-pro" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Surface Pro_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_NewSurfacePro_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Surface Pro</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/surface/devices/surface-laptop" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Surface Laptop_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_SurfaceLaptop_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Surface Laptop</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Surface RTX Spark Dev Box_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_footer_whatsnew_SurfaceRTXSparksDevBox_nav_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Surface RTX Spark Dev Box</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Explore Copilot_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_CopilotMicrosoft_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Explore Copilot</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/microsoft-products-and-apps" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Explore Microsoft products_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_ExploreMicrosoftProducts_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Explore Microsoft products</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_What&#x27;s new_Windows 11 apps_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Whats_New_Footer_WhatsNew_Windows_11_apps_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Windows 11 apps</a>                            
+                    </uhf-footer-nav-group>
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="Microsoft Store" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://account.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Account profile_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Account profile</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Download Center_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Download Center</a>                            
+                                <a class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?linkid=2139749" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Microsoft Store support_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_SalesAndSupport_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Store support</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/returns" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Returns_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_Returns_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Returns</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/order-tracking" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Order tracking_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Order tracking</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/certified-refurbished-products" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Certified Refurbished_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_StoreLocations_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Certified Refurbished</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Why buy from Microsoft Store_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Why buy from Microsoft Store_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Why buy from Microsoft Store</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Microsoft Store_Flexible Payments_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Store_and_Support_Footer_StoreandSupport_Financing_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Flexible Payments</a>                            
+                    </uhf-footer-nav-group>
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="Education" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Microsoft in education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_MicrosoftInEducation_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft in education</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/education/devices/overview" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Devices for education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_DevicesforEducation_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Devices for education</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/education/products/teams" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Microsoft Teams for Education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_MicrosoftTeamsforEducation_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Teams for Education</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/education/products/microsoft-365" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Microsoft 365 Education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_Microsoft365Education_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft 365 Education</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/education/how-to-buy" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_How to buy for your school_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Howtobuyforyourschool_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">How to buy for your school</a>                            
+                                <a class="uhf-footer-link" href="https://education.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Educator training and development_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_EducatorTrainingDevelopment_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Educator training and development</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/education" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_Deals for students and parents_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_DealsForStudentsandParents_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Deals for students and parents</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/education/ai-in-education" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Education_AI for education_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Education_Footer_Education_Azureforstudents_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">AI for education</a>                            
+                    </uhf-footer-nav-group>
+            </div>
+            <div class="uhf-footer-nav-row">
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="Business" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft AI_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business_AI_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft AI</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/security" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft Security_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business_Microsoft Security_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Security</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/dynamics-365" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Dynamics 365_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business_MicrosoftDynamics365_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Dynamics 365</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/microsoft-365/business" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft 365_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business_M365_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft 365</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/power-platform" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft Power Platform_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_DeveloperAndIT_Power Platform_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Power Platform</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft Teams_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business_Microsoft365_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Teams</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Microsoft Copilot_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_CopilotMicrosoft _nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Copilot</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore" id="Small-Business" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Business_Small Business_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Business_Footer_Business-SmallBusiness_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Small Business</a>                            
+                    </uhf-footer-nav-group>
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="Developer &amp; IT" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Azure_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_MicrosoftAzure_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Azure</a>                            
+                                <a class="uhf-footer-link" href="https://developer.microsoft.com/en-us/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Microsoft Developer_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_MicrosoftDeveloper_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Developer</a>                            
+                                <a class="uhf-footer-link" href="https://learn.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Microsoft Learn_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_MicrosoftLearn_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Learn</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Support for AI marketplace apps_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_SupportForAIMarketplaceApps_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Support for AI marketplace apps</a>                            
+                                <a class="uhf-footer-link" href="https://techcommunity.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Microsoft Tech Community_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_MicrosoftTechCommunity_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Tech Community</a>                            
+                                <a class="uhf-footer-link" href="https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Microsoft Marketplace_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_Marketplace_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Microsoft Marketplace</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&amp;ocid=cmm3atxvn98" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Software companies_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Software companies_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Software companies</a>                            
+                                <a class="uhf-footer-link" href="https://visualstudio.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Developer &amp; IT_Visual Studio_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Developer_Footer_DeveloperAndIT_MicrosoftVisualStudio_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Visual Studio</a>                            
+                    </uhf-footer-nav-group>
+                    <uhf-footer-nav-group class="uhf-footer-nav-group" heading="Company" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">
+                                <a class="uhf-footer-link" href="https://careers.microsoft.com/" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Careers_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_Careers_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Careers</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/about" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_About Microsoft_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_AboutMicrosoft_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">About Microsoft</a>                            
+                                <a class="uhf-footer-link" href="https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Company news_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_CompanyNews_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Company news</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Privacy at Microsoft_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Privacy at Microsoft</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Investors_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_Investors_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Investors</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Diversity and inclusion_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_DiversityAndInclusion_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Diversity and inclusion</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/accessibility" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Accessibility_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_Accessibility_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Accessibility</a>                            
+                                <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;FooterNav&quot;,&quot;cN&quot;:&quot;FooterNav_Company_Sustainability_nav&quot;,&quot;ecn&quot;:&quot;FooterNav_Company_Footer_Company_Sustainability_nav&quot;,&quot;ehn&quot;:&quot;FooterNav&quot;}">Sustainability</a>                            
+                    </uhf-footer-nav-group>
+            </div>
+</uhf-footer-nav>
+    <div slot="uhf-footer-california-privacy-link">
+        
+<a class="uhf-footer-link" href="https://aka.ms/yourcaliforniaprivacychoices" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_California Privacy_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_CaliforniaPrivacy_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">
+    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+    <title>Your Privacy Choices Opt-Out Icon</title>
+    <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/>
+    <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/>
+    <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/>
+    <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/>
+    </svg>
+    <span>Your Privacy Choices</span>
+</a>
+        <noscript>
+            
+<a class="uhf-footer-link" href="https://aka.ms/yourcaliforniaprivacychoices" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_California Privacy_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_CaliforniaPrivacy_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">
+    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+    <title>Your Privacy Choices Opt-Out Icon</title>
+    <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/>
+    <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/>
+    <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/>
+    <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/>
+    </svg>
+    <span>Your Privacy Choices</span>
+</a>
+        </noscript>
+    </div>
+    <a slot="uhf-footer-consumer-health-privacy-link" class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?linkid=2259814" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Consumer Health Privacy_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_ConsumerHealthPrivacy_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Consumer Health Privacy</a>
+    
+<uhf-footer-menu slot="uhf-footer-menu" data-nav-label="Microsoft corporate links">
+            <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/sitemap1.aspx" id="uhf-Footer_Sitemap" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Sitemap_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_Sitemap_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Sitemap</a>
+            <a class="uhf-footer-link" href="https://support.microsoft.com/contactus" id="uhf-Footer_ContactUs" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Contact Microsoft_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_ContactUs_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Contact Microsoft</a>
+            <a class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" id="uhf-Footer_PrivacyandCookies" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Privacy _nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_PrivacyandCookies_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Privacy </a>
+            <a class="uhf-footer-link" href="#" id="uhf-Footer_ManageCookies" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Manage cookies_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_ManageCookies_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Manage cookies</a>
+            <a class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" id="uhf-Footer_TermsOfUse" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Terms of use_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_TermsOfUse_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Terms of use</a>
+            <a class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?linkid=2196228" id="uhf-Footer_Trademarks" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Trademarks_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_Trademarks_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Trademarks</a>
+            <a class="uhf-footer-link" href="https://go.microsoft.com/fwlink/?linkid=2196227" id="uhf-Footer_SafetyAndEco" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Safety &amp; eco_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_SafetyAndEco_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Safety &amp; eco</a>
+            <a class="uhf-footer-link" href="https://www.microsoft.com/en-us/legal/compliance/recycling" id="uhf-Recycling" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_Recycling_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Recycling_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">Recycling</a>
+            <a class="uhf-footer-link" href="https://choice.microsoft.com" id="uhf-Footer_AboutourAds" data-m="{&quot;compnm&quot;:&quot;UHF&quot;,&quot;view&quot;:&quot;UHF&quot;,&quot;pa&quot;:&quot;UniversalFooter&quot;,&quot;hn&quot;:&quot;LegalNav&quot;,&quot;cN&quot;:&quot;LegalNav_About our ads_nav&quot;,&quot;ecn&quot;:&quot;LegalNav_Footer_AboutourAds_nav&quot;,&quot;ehn&quot;:&quot;LegalNav&quot;}">About our ads</a>
+</uhf-footer-menu>
+</uhf-footer>
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/windowsexperience/*"},{"not":{"href_matches":["/windowsexperience/wp-*.php","/windowsexperience/wp-admin/*","/wp-content/uploads/sites/2/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/microsoft-stories-theme/*","/windowsexperience/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLSXDLQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->		<script>window.Promise ||
+			document.write('<script src="https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/vendor/es6-promise.auto.js"><\/script>');
+		</script>
+		<script type="text/javascript" id="threepds-consumer-js-extra">
+/* <![CDATA[ */
+var threepds_vars = {"PRIVACY_ORIGIN":"https://news.microsoft.com"};
+//# sourceURL=threepds-consumer-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/3pds-plugin/inc/consumer.js?ver=1.0.0" id="threepds-consumer-js"></script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/dist/vendor.min.js?ver=6.9.12" id="core-webpack-vendors-js"></script>
+<script type="text/javascript" id="core-theme-scripts-js-extra">
+/* <![CDATA[ */
+var modern_tribe_i18n = {"help_text":{"msg_limit":"There is a limit to the messages you can post."},"tooltips":{"add_to_save":"Add Photo to Saved Items","in_this_photo":"Products in this photo"}};
+var modern_tribe_config = {"images_url":"https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/img/theme","template_url":"https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/","hmr_dev":"","ajax_search_endpoint":"https://blogs.windows.com/windowsexperience/wp-admin/admin-ajax.php?action=ms_tribe_search","ajax_archive_endpoint":"https://blogs.windows.com/windowsexperience/wp-admin/admin-ajax.php?action=ms_tribe_archive","ajax_author_endpoint":"https://blogs.windows.com/windowsexperience/wp-admin/admin-ajax.php?action=ms_tribe_author"};
+//# sourceURL=core-theme-scripts-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/themes/microsoft-stories-theme/js/dist/scripts.min.js?ver=6.9.12" id="core-theme-scripts-js"></script>
+<script type="text/javascript" id="ms_uhf_cookies_js-js-extra">
+/* <![CDATA[ */
+var ms_uhf_data = {"settings":"{\"services\":[{\"name\":\"DoubleClick.net\",\"cookies\":\"test_cookie\",\"domains\":\".microsoft.com\\n.doubleclick.net\",\"categories\":{\"Analytics\":false,\"Advertising\":true,\"SocialMedia\":false},\"code\":\"\"},{\"name\":\"Clarity\",\"cookies\":\"_clck\",\"domains\":\".windows.com\\nblogs.windows.com\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"KGZ1bmN0aW9uKGMsbCxhLHIsaSx0LHkpewoJY1thXT1jW2FdfHxmdW5jdGlvbigpeyhjW2FdLnE9Y1thXS5xfHxbXSkucHVzaChhcmd1bWVudHMpfTsKCXQ9bC5jcmVhdGVFbGVtZW50KHIpO3QuYXN5bmM9MTt0LnNyYz0naHR0cHM6Ly93d3cuY2xhcml0eS5tcy90YWcvJytpOwoJeT1sLmdldEVsZW1lbnRzQnlUYWdOYW1lKHIpWzBdO3kucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUodCx5KTsKfSkod2luZG93LCBkb2N1bWVudCwgJ2NsYXJpdHknLCAnc2NyaXB0JywgJzZyeHloZWlwZGknKTs=\"},{\"name\":\"Google Analytics\",\"cookies\":\"_ga\\n_ga_ESCF3M00T2\",\"domains\":\".windows.com\\nblogs.windows.com\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"KGZ1bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydndG0uc3RhcnQnOgogbmV3IERhdGUoKS5nZXRUaW1lKCksZXZlbnQ6J2d0bS5qcyd9KTt2YXIgZj1kLmdldEVsZW1lbnRzQnlUYWdOYW1lKHMpWzBdLAogaj1kLmNyZWF0ZUVsZW1lbnQocyksZGw9bCE9J2RhdGFMYXllcic/JyZsPScrbDonJztqLmFzeW5jPXRydWU7ai5zcmM9CiAnaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGosZik7CiB9KSh3aW5kb3csZG9jdW1lbnQsJ3NjcmlwdCcsJ2RhdGFMYXllcicsICdHVE0tTUxTWERMUScpOw==\"}],\"updated\":true}","network_settings":"{\"services\":[{\"name\":\"DoubleClick.net\",\"cookies\":\"test_cookie\",\"domains\":\".microsoft.com\\n.doubleclick.net\",\"categories\":{\"Analytics\":false,\"Advertising\":true,\"SocialMedia\":false},\"code\":\"\"},{\"name\":\"Clarity\",\"cookies\":\"_clck\",\"domains\":\".windows.com\\nblogs.windows.com\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"KGZ1bmN0aW9uKGMsbCxhLHIsaSx0LHkpewoJY1thXT1jW2FdfHxmdW5jdGlvbigpeyhjW2FdLnE9Y1thXS5xfHxbXSkucHVzaChhcmd1bWVudHMpfTsKCXQ9bC5jcmVhdGVFbGVtZW50KHIpO3QuYXN5bmM9MTt0LnNyYz0naHR0cHM6Ly93d3cuY2xhcml0eS5tcy90YWcvJytpOwoJeT1sLmdldEVsZW1lbnRzQnlUYWdOYW1lKHIpWzBdO3kucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUodCx5KTsKfSkod2luZG93LCBkb2N1bWVudCwgJ2NsYXJpdHknLCAnc2NyaXB0JywgJzZyeHloZWlwZGknKTs=\"},{\"name\":\"Google Analytics\",\"cookies\":\"_ga\\n_ga_ESCF3M00T2\",\"domains\":\".windows.com\\nblogs.windows.com\",\"categories\":{\"Analytics\":true,\"Advertising\":false,\"SocialMedia\":false},\"code\":\"CihmdW5jdGlvbih3LGQscyxsLGkpe3dbbF09d1tsXXx8W107d1tsXS5wdXNoKHsnZ3RtLnN0YXJ0JzoKIG5ldyBEYXRlKCkuZ2V0VGltZSgpLGV2ZW50OidndG0uanMnfSk7dmFyIGY9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSwKIGo9ZC5jcmVhdGVFbGVtZW50KHMpLGRsPWwhPSdkYXRhTGF5ZXInPycmbD0nK2w6Jyc7ai5hc3luYz10cnVlO2ouc3JjPQogJ2h0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0bS5qcz9pZD0nK2krZGw7Zi5wYXJlbnROb2RlLmluc2VydEJlZm9yZShqLGYpOwogfSkod2luZG93LGRvY3VtZW50LCdzY3JpcHQnLCdkYXRhTGF5ZXInLCAnR1RNLU1MU1hETFEnKTs=\"}],\"updated\":true}"};
+//# sourceURL=ms_uhf_cookies_js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/microsoft-uhf-cookies//scripts.js?ver=0.0.31" id="ms_uhf_cookies_js-js"></script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.4.1" id="page-links-to-js"></script>
+<script type="text/javascript" id="microsoft-uhf-js-extra">
+/* <![CDATA[ */
+var microsoftUhfSettings = {"homePath":"/windowsexperience/","loginUrl":"","logoutUrl":"","scripts":[],"inline":[]};
+//# sourceURL=microsoft-uhf-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-uhf.js?ver=0.3.8" id="microsoft-uhf-js"></script>
+<script type="text/javascript" src="https://blogs.windows.com/wp-content/plugins/microsoft-uhf/assets/microsoft-cookie-updates.js?ver=0.3.8" id="microsoft-cookie-updates-js"></script>
+
+
+</body>
+</html>
+
