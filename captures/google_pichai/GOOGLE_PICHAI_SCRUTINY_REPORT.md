@@ -2,7 +2,7 @@
 
 **Charter:** `charter_google_pichai.md` (pre-registered). Same Part-5 method: professed standard first, then the captured record against it, both sides carried, allegations attributed, single-source flagged, no crime asserted. ADJUDICATED tier used where a court made findings (search-monopoly case).
 
-**Self-audit (regenerated from filesystem + MANIFEST):** 828 manifest rows, sequential, 0 dupes. Google/Pichai pass: `captures/google_pichai/` kept captures (manifest rows 827ff minus quarantines) + `captures/blocked_attempts_google_pichai/` (5 provenance-only quarantines). All kept files hash-verified; all row cites resolve by basename.
+**Self-audit (regenerated from filesystem + MANIFEST):** 856 manifest rows, sequential, 0 dupes. Google/Pichai pass: `captures/google_pichai/` kept captures + `captures/blocked_attempts_google_pichai/` (15 provenance-only quarantines total incl. wrong-page bodies). All kept files hash-verified; opinion and transcript are the two new primaries (rows 855/856 after renumber).
 
 ---
 
@@ -18,7 +18,7 @@
 ### A2. The record laid against it
 
 **ADJUDICATED — antitrust (judge's own words):**
-- **US v. Google (search):** "Google is a monopolist, and it has acted as one to maintain its monopoly. It has violated Section 2 of the Sherman Act." (Judge Amit Mehta, Aug 5, 2024, 277-page ruling — VERIFIED quote in row 846/845-family capture). Key mechanics: Google paid **$20 billion to Apple in 2022** (36% of Safari search-ad revenue shared); partners concluded switching was "financially infeasible"; "the market reality is that Google is the only real choice as the default GSE." Google's appeal announced (Kent Walker: "This decision recognizes that Google offers the best search engine, but concludes that we shouldn't be allowed to make it easily available") — the both-sides defense carried.
+- **US v. Google (search) — ADJUDICATED PRIMARY, now on disk (row 856):** `mehta_liability_opinion_doc1033_us_v_google.pdf` = Judge Mehta's 286-page liability opinion (Doc 1033, filed 2024-08-05). Verbatim from the opinion at p.8: "Google is a monopolist, and it has acted as one to maintain its monopoly. It has violated Section 2 of the Sherman Act." The opinion cites Pichai's sworn trial testimony 24 times (Tr. at 7638:2–12 (Pichai), 7646:5–7, 7649:11–7650:2, 7652:1–7653:11, 7717:2–12, et seq.) — his trial testimony is IN the captured court record, not just news paraphrase. The same opinion notes Google's chat-preservation failures: "Google avoided sanctions in this case. It may not be so lucky in the next one." Secondary press capture retained for context (row 845-family); the opinion is the cited authority. Key mechanics: Google paid **$20 billion to Apple in 2022** (36% of Safari search-ad revenue shared); partners concluded switching was "financially infeasible"; "the market reality is that Google is the only real choice as the default GSE." Google's appeal announced (Kent Walker: "This decision recognizes that Google offers the best search engine, but concludes that we shouldn't be allowed to make it easily available") — the both-sides defense carried.
 - Same judge on the destroyed-chat-evidence issue: "Google avoided sanctions in this case. It may not be so lucky in the next one." (VERIFIED in same capture)
 - Ad-tech case (DOJ, filed Sept 2024 trial): separate docket, not captured this pass — discovery target.
 
