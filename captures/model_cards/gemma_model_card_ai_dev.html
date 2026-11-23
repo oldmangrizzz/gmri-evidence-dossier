@@ -1,0 +1,7024 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+
+
+
+
+
+
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+    
+      
+    
+    
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+    
+    <meta name="description" content="Model card for the first-generation Gemma text-to-text models: description, inputs and outputs, training data, and evaluation.">
+  
+  
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  
+  
+    <meta name="author" content="Google DeepMind">
+  
+  
+    <link rel="canonical" href="https://gemma.ai/models/gemma-1/">
+  
+  
+    <link rel="prev" href="../gemma-2/">
+  
+  
+    <link rel="next" href="../gemma-3n/">
+  
+  
+    
+  
+  
+  <link rel="icon" href="../../assets/icon.png">
+  <meta name="generator" content="zensical-0.0.51">
+  
+  
+  
+    
+  
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Gemma Docs">
+  <meta property="og:title" content="Gemma 1 model card - Gemma Docs">
+  
+    <meta property="og:description" content="Model card for the first-generation Gemma text-to-text models: description, inputs and outputs, training data, and evaluat...">
+  
+  
+    <meta property="og:url" content="https://gemma.ai/models/gemma-1/">
+  
+  <meta property="og:image" content="https://gemma.ai/assets/gemma-4/gemma4_banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Gemma 1 model card - Gemma Docs">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@googlegemma">
+  <meta name="twitter:title" content="Gemma 1 model card - Gemma Docs">
+  
+    <meta name="twitter:description" content="Model card for the first-generation Gemma text-to-text models: description, inputs and outputs, training data, and evaluat...">
+  
+  <meta name="twitter:image" content="https://gemma.ai/assets/gemma-4/gemma4_banner.png">
+  <meta name="twitter:image:alt" content="Gemma 1 model card - Gemma Docs">
+  
+  
+    
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","dateModified":"2026-11-20","headline":"Gemma 1 model card","description":"Model card for the first-generation Gemma text-to-text models: description, inputs and outputs, training data, and evaluation.","url":"https://gemma.ai/models/gemma-1/","image":"https://gemma.ai/assets/gemma-4/gemma4_banner.png","author":{"@type":"Organization","name":"Google DeepMind","url":"https://deepmind.google/models/gemma/"},"publisher":{"@type":"Organization","name":"Google DeepMind","url":"https://deepmind.google/models/gemma/"},"isPartOf":{"@type":"WebSite","name":"Gemma Docs","url":"https://gemma.ai/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://gemma.ai/","name":"Home","position":1},{"@type":"ListItem","item":"https://gemma.ai/models/","name":"Models","position":2},{"@type":"ListItem","item":"https://gemma.ai/models/gemma-1/","name":"Gemma 1 model card","position":3}]}]}</script>
+  
+
+    
+  
+
+
+
+
+
+
+  
+  
+  
+    
+      
+    
+    
+    
+  
+  
+    <title>Gemma 1 model card - Gemma Docs</title>
+  
+
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.62c9b9cc.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/gemma.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/layout.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/nav.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/content.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/components.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/icons.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/engine-grid.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/model-tree.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/embeds.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/page-context.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/tokens.css?v=2">
+    
+      <link rel="stylesheet" href="../../stylesheets/tuning-map.css?v=3">
+    
+      <link rel="stylesheet" href="../../stylesheets/home.css?v=3">
+    
+      <link rel="stylesheet" href="../../stylesheets/llm-tutorial.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/llm-animations.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/llm-shell.css?v=1">
+    
+      <link rel="stylesheet" href="../../stylesheets/llm-stage.css?v=1">
+    
+      <link rel="stylesheet" href="../../stylesheets/llm-terminal.css?v=1">
+    
+      <link rel="stylesheet" href="../../stylesheets/motion.css?v=2">
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+  
+  
+    
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-CWMC2KTTGQ"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-CWMC2KTTGQ",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-CWMC2KTTGQ",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+    
+      <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+    
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#gemma-1-model-card" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Gemma Documentation" class="md-header__button md-logo" aria-label="Gemma Documentation" data-md-component="logo">
+      <img class="gemma-logo-light" src="../../assets/icon-one-color.png" alt="Gemma Documentation">
+<img class="gemma-logo-dark" src="../../assets/icon-one-color-reverse.png" alt="Gemma Documentation">
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            <a href="../..">
+              Gemma Documentation
+            </a>
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gemma 1 model card
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../get-started/" class="md-tabs__link">
+          
+  
+  Get started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  Models
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../deployment/" class="md-tabs__link">
+          
+  
+  Run
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../tuning/" class="md-tabs__link">
+          
+  
+  Fine-tune
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../learn/" class="md-tabs__link">
+          
+  
+  Learn
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/" class="md-tabs__link">
+          
+  
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Gemma Documentation" class="md-nav__button md-logo" aria-label="Gemma Documentation" data-md-component="logo">
+      <img class="gemma-logo-light" src="../../assets/icon-one-color.png" alt="Gemma Documentation">
+<img class="gemma-logo-dark" src="../../assets/icon-one-color-reverse.png" alt="Gemma Documentation">
+    </a>
+    Gemma Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Get started
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Get started
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Quickstart
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Best practices
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Text
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Text
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Inference
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/thinking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Reasoning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/function-calling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Tool calling
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multimodal
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Multimodal
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Vision overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/image/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Image understanding
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/video/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Video understanding
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/audio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Audio understanding
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Advanced
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Advanced
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/prompt-formatting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Prompt formatting
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/capabilities/mtp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multi-Token Prediction
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/qat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Quantization-Aware Training
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Models
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Models
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 4
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Gemma 4
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-4/model-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Previous generations
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Previous generations
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 3
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 2
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#model-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Model Information
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Description
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-and-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Inputs and outputs
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Citation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Model Data
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#training-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Training Dataset
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-preprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Preprocessing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Implementation Information
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Hardware
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Software
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Benchmark Results
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethics-and-safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ethics and Safety
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ethics and Safety">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation Results
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation Results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gemma-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Gemma 1.0
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Gemma 1.1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-and-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Usage and Limitations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage and Limitations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intended-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Intended Usage
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Limitations
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ethical-considerations-and-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ethical Considerations and Risks
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Benefits
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Variants
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Variants
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_1" id="__nav_3_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 3n
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Gemma 3n
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-3n/model-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DiffusionGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  DiffusionGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diffusiongemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diffusiongemma/model-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diffusiongemma/explained/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Diffusion explained
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diffusiongemma/inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Generate output
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_3" id="__nav_3_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  FunctionGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  FunctionGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/model-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/formatting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Formatting and best practices
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Function calling with HF
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/full-sequence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Full sequence
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functiongemma/fine-tuning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_4" id="__nav_3_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  EmbeddingGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  EmbeddingGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/model-card-v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  EmbeddingGemma model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/model-card-v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  EmbeddingGemma 2 model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Generate embeddings
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/multimodal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multimodal embeddings
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/fine-tuning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embeddinggemma/fine-tuning-multimodal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multimodal fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_5" id="__nav_3_4_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PaliGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  PaliGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/model-card-v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PaliGemma model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/model-card-v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PaliGemma 2 model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/prompting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Prompting & system instructions
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Generate output with Keras
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../paligemma/fine-tuning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fine-tuning with JAX
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_6" id="__nav_3_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  ShieldGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  ShieldGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shieldgemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shieldgemma/model-card-v1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  ShieldGemma model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shieldgemma/model-card-v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  ShieldGemma 2 model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Research
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Research
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  RecurrentGemma
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  RecurrentGemma
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recurrentgemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recurrentgemma/model-card/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Model card
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recurrentgemma/inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Generate output with JAX
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recurrentgemma/fine-tuning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fine-tuning with JAX
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datagemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DataGemma
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-scope/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma Scope
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gemma-aps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma APS
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Releases
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Run
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Run
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Local
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Local
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/ollama/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Ollama
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/llamacpp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  llama.cpp
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/lmstudio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  LM Studio
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/mlx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  MLX
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/huggingface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Hugging Face Transformers
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/keras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Keras
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/litert/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  LiteRT-LM
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/ai-edge-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  AI Edge Gallery
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Serve
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Serve
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/vllm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  vLLM
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/sglang/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  SGLang
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/gemini-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemini API
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/google-cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Google Cloud
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Frameworks
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Frameworks
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/langchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  LangChain
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployment/unsloth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Unsloth
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Fine-tune
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Fine-tune
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Foundations
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Foundations
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/best-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Best practices
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/datasets-formatting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Dataset formatting
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Continued pre-training
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Continued pre-training
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/continued-pretraining/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Continued pre-training
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/custom-chat-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Custom chat templates
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Supervised fine-tuning
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Supervised fine-tuning
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/qlora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  (Q)LoRA
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/full-finetune/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Full fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/moe-finetune/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  MoE fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/unused-tokens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Unused tokens
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multimodal fine-tuning
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Multimodal fine-tuning
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/vision-qlora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Vision fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/audio-qlora/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Audio fine-tuning
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_6" id="__nav_5_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Reinforcement learning
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Reinforcement learning
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/preference-alignment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Preference optimization
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/reinforcement-learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Verifiable rewards
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_7" id="__nav_5_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Deployment
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Deployment
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/scaling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Scaling
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/export/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Export
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/unsloth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Unsloth
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tuning/gemma-trainer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma trainer skill
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Learn
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Learn
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Interactive guides
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Interactive guides
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learn/how-llms-work/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  How LLMs work
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Visual guides
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Visual guides
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/visual-guides/gemma-4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 4
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/visual-guides/gemma-4-12b/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 4 12B
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/visual-guides/mtp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multi-Token Prediction
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/visual-guides/diffusiongemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  DiffusionGemma
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma explained
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Gemma explained
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/gemma-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  What's new in Gemma 2
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/recurrentgemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  RecurrentGemma
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/paligemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  PaliGemma
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/gemma-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  What's new in Gemma 3
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/gemma-explained/embeddinggemma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  EmbeddingGemma
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Resources
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Resources
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Demos & tools
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Demos & tools
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/gemma-skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma Skills
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/aiventure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  AIventure
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/vision-token-budget/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Vision token budget
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/embedding-draw-challenge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Embedding Draw Challenge
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Legal
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Legal
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/apache-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Gemma 4 license
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/terms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Terms of use
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3_3" id="__nav_7_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Terms archive
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Terms archive
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/terms-archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Overview
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/terms-archive/terms_04_01_24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  April 1, 2024
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/terms-archive/terms_02_21_24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  February 21, 2024
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/prohibited-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Prohibited use
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/intended-use/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Intended use statement
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#model-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Model Information
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Description
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inputs-and-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Inputs and outputs
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Citation
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Model Data
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Model Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#training-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Training Dataset
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-preprocessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Preprocessing
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Implementation Information
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Hardware
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Software
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Benchmark Results
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethics-and-safety" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ethics and Safety
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ethics and Safety">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation Approach
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evaluation-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Evaluation Results
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Evaluation Results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gemma-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Gemma 1.0
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Gemma 1.1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-and-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Usage and Limitations
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage and Limitations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intended-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Intended Usage
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Limitations
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ethical-considerations-and-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ethical Considerations and Risks
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Benefits
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Models
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="../gemma-3/" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Previous generations
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  <h1 id="gemma-1-model-card">Gemma 1 model card<a class="headerlink" href="#gemma-1-model-card" title="Permanent link">&para;</a></h1>
+  
+
+
+
+
+
+
+<div class="page-context" data-requires="">
+  <span class="page-context__item">
+    <span class="page-context__label">Models</span>
+    <a class="page-context__value page-context__value--link" href="././">Gemma</a>
+  </span>
+  <span class="page-context__item page-context__item--markdown">
+    <a class="page-context__value page-context__value--link page-context__markdown" href="../gemma-1.md.txt" target="_blank" rel="noopener nofollow" title="View as markdown" aria-label="View as markdown">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/>
+        <path d="M14 2v4a2 2 0 0 0 2 2h4"/>
+        <path d="M10 9H8"/>
+        <path d="M16 13H8"/>
+        <path d="M16 17H8"/>
+      </svg>
+      <span>View as markdown</span>
+    </a>
+  </span>
+</div>
+  
+<p><strong>Model Page</strong> : <a href="../">Gemma</a></p>
+<p><strong>Resources and Technical Documentation</strong>:</p>
+<ul>
+<li><a href="https://ai.google.dev/responsible">Responsible Generative AI Toolkit</a></li>
+<li><a href="https://www.kaggle.com/models/google/gemma">Gemma on Kaggle</a></li>
+<li><a href="https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335">Gemma on Vertex Model Garden</a></li>
+</ul>
+<p><strong>Terms of Use</strong> : <a href="/resources/terms">Terms</a></p>
+<p><strong>Authors</strong>: Google</p>
+<h2 id="model-information">Model Information<a class="headerlink" href="#model-information" title="Permanent link">&para;</a></h2>
+<p>Summary description and brief definition of inputs and outputs.</p>
+<h3 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>Gemma is a family of lightweight, state-of-the-art open models from Google,
+built from the same research and technology used to create the Gemini models.
+They are text-to-text, decoder-only large language models, available in English,
+with open weights, pre-trained variants, and instruction-tuned variants. Gemma
+models are well-suited for a variety of text generation tasks, including
+question answering, summarization, and reasoning. Their relatively small size
+makes it possible to deploy them in environments with limited resources such as
+a laptop, desktop or your own cloud infrastructure, democratizing access to
+state of the art AI models and helping foster innovation for everyone.</p>
+<h3 id="inputs-and-outputs">Inputs and outputs<a class="headerlink" href="#inputs-and-outputs" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Input:</strong> Text string, such as a question, a prompt, or a document to be summarized.</li>
+<li><strong>Output:</strong> Generated English-language text in response to the input, such as an answer to a question, or a summary of a document.</li>
+</ul>
+<h3 id="citation">Citation<a class="headerlink" href="#citation" title="Permanent link">&para;</a></h3>
+<div class="language-bibtex highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nc">@article</span><span class="p">{</span><span class="nl">gemma_2024</span><span class="p">,</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="na">title</span><span class="p">=</span><span class="s">{Gemma}</span><span class="p">,</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="na">url</span><span class="p">=</span><span class="s">{https://www.kaggle.com/m/3301}</span><span class="p">,</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="na">DOI</span><span class="p">=</span><span class="s">{10.34740/KAGGLE/M/3301}</span><span class="p">,</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="na">publisher</span><span class="p">=</span><span class="s">{Kaggle}</span><span class="p">,</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="na">author</span><span class="p">=</span><span class="s">{Gemma Team, Thomas Mesnard and Cassidy Hardin and Robert Dadashi and Surya Bhupatiraju and Laurent Sifre and Morgane Rivière and Mihir Sanjay Kale and Juliette Love and Pouya Tafti and Léonard Hussenot and et al.}</span><span class="p">,</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="na">year</span><span class="p">=</span><span class="s">{2024}</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
+</span></code></pre></div>
+<h2 id="model-data">Model Data<a class="headerlink" href="#model-data" title="Permanent link">&para;</a></h2>
+<p>Data used for model training and how the data was processed.</p>
+<h3 id="training-dataset">Training Dataset<a class="headerlink" href="#training-dataset" title="Permanent link">&para;</a></h3>
+<p>These models were trained on a dataset of text data that includes a wide variety
+of sources, totaling 6 trillion tokens. Here are the key components:</p>
+<ul>
+<li>Web Documents: A diverse collection of web text ensures the model is exposed to a broad range of linguistic styles, topics, and vocabulary. Primarily English-language content.</li>
+<li>Code: Exposing the model to code helps it to learn the syntax and patterns of programming languages, which improves its ability to generate code or understand code-related questions.</li>
+<li>Mathematics: Training on mathematical text helps the model learn logical reasoning, symbolic representation, and to address mathematical queries.</li>
+</ul>
+<p>The combination of these diverse data sources is crucial for training a powerful
+language model that can handle a wide variety of different tasks and text
+formats.</p>
+<h3 id="data-preprocessing">Data Preprocessing<a class="headerlink" href="#data-preprocessing" title="Permanent link">&para;</a></h3>
+<p>Here are the key data cleaning and filtering methods applied to the training
+data:</p>
+<ul>
+<li>CSAM Filtering: Rigorous CSAM (Child Sexual Abuse Material) filtering was applied at multiple stages in the data preparation process to ensure the exclusion of harmful and illegal content.</li>
+<li>Sensitive Data Filtering: As part of making Gemma pre-trained models safe and reliable, automated techniques were used to filter out certain personal information and other sensitive data from training sets.</li>
+<li>Additional methods: Filtering based on content quality and safety in line with <a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/2023_Google_AI_Principles_Progress_Update.pdf#page=11">our policies</a>.</li>
+</ul>
+<h2 id="implementation-information">Implementation Information<a class="headerlink" href="#implementation-information" title="Permanent link">&para;</a></h2>
+<p>Details about the model internals.</p>
+<h3 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">&para;</a></h3>
+<p>Gemma was trained using the latest generation of
+<a href="https://cloud.google.com/tpu/docs/intro-to-tpu">Tensor Processing Unit (TPU)</a> hardware (TPUv5e).</p>
+<p>Training large language models requires significant computational power. TPUs,
+designed specifically for matrix operations common in machine learning, offer
+several advantages in this domain:</p>
+<ul>
+<li>Performance: TPUs are specifically designed to handle the massive computations involved in training LLMs. They can speed up training considerably compared to CPUs.</li>
+<li>Memory: TPUs often come with large amounts of high-bandwidth memory, allowing for the handling of large models and batch sizes during training. This can lead to better model quality.</li>
+<li>Scalability: TPU Pods (large clusters of TPUs) provide a scalable solution for handling the growing complexity of large foundation models. You can distribute training across multiple TPU devices for faster and more efficient processing.</li>
+<li>Cost-effectiveness: In many scenarios, TPUs can provide a more cost-effective solution for training large models compared to CPU-based infrastructure, especially when considering the time and resources saved due to faster training.</li>
+<li>These advantages are aligned with <a href="https://sustainability.google/operating-sustainably/">Google's commitments to operate sustainably</a>.</li>
+</ul>
+<h3 id="software">Software<a class="headerlink" href="#software" title="Permanent link">&para;</a></h3>
+<p>Training was done using <a href="https://github.com/jax-ml/jax">JAX</a> and <a href="https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/">ML Pathways</a>.</p>
+<p>JAX allows researchers to take advantage of the latest generation of hardware,
+including TPUs, for faster and more efficient training of large models.</p>
+<p>ML Pathways is Google's latest effort to build artificially intelligent systems
+capable of generalizing across multiple tasks. This is specially suitable for
+foundation models, including large language models like these ones.</p>
+<p>Together, JAX and ML Pathways are used as described in the
+<a href="https://arxiv.org/abs/2312.11805">paper about the Gemini family of models</a>; "the 'single
+controller' programming model of Jax and Pathways allows a single Python
+process to orchestrate the entire training run, dramatically simplifying the
+development workflow."</p>
+<h2 id="evaluation">Evaluation<a class="headerlink" href="#evaluation" title="Permanent link">&para;</a></h2>
+<p>Model evaluation metrics and results.</p>
+<h3 id="benchmark-results">Benchmark Results<a class="headerlink" href="#benchmark-results" title="Permanent link">&para;</a></h3>
+<p>These models were evaluated against a large collection of different datasets and
+metrics to cover different aspects of text generation:</p>
+<table>
+<thead>
+<tr>
+<th>Benchmark</th>
+<th>Metric</th>
+<th>Gemma PT 2B</th>
+<th>Gemma PT 7B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2009.03300">MMLU</a></td>
+<td>5-shot, top-1</td>
+<td>42.3</td>
+<td>64.3</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1905.07830">HellaSwag</a></td>
+<td>0-shot</td>
+<td>71.4</td>
+<td>81.2</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1911.11641">PIQA</a></td>
+<td>0-shot</td>
+<td>77.3</td>
+<td>81.2</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1904.09728">SocialIQA</a></td>
+<td>0-shot</td>
+<td>49.7</td>
+<td>51.8</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1905.10044">BoolQ</a></td>
+<td>0-shot</td>
+<td>69.4</td>
+<td>83.2</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1907.10641">WinoGrande</a></td>
+<td>partial score</td>
+<td>65.4</td>
+<td>72.3</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1811.00937">CommonsenseQA</a></td>
+<td>7-shot</td>
+<td>65.3</td>
+<td>71.3</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1809.02789">OpenBookQA</a></td>
+<td></td>
+<td>47.8</td>
+<td>52.8</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1911.01547">ARC-e</a></td>
+<td></td>
+<td>73.2</td>
+<td>81.5</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1911.01547">ARC-c</a></td>
+<td></td>
+<td>42.1</td>
+<td>53.2</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1705.03551">TriviaQA</a></td>
+<td>5-shot</td>
+<td>53.2</td>
+<td>63.4</td>
+</tr>
+<tr>
+<td><a href="https://github.com/google-research-datasets/natural-questions">Natural Questions</a></td>
+<td>5-shot</td>
+<td>12.5</td>
+<td>23.0</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2107.03374">HumanEval</a></td>
+<td>pass@1</td>
+<td>22.0</td>
+<td>32.3</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2108.07732">MBPP</a></td>
+<td>3-shot</td>
+<td>29.2</td>
+<td>44.4</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2110.14168">GSM8K</a></td>
+<td>maj@1</td>
+<td>17.7</td>
+<td>46.4</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2103.03874">MATH</a></td>
+<td>4-shot</td>
+<td>11.8</td>
+<td>24.3</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2304.06364">AGIEval</a></td>
+<td></td>
+<td>24.2</td>
+<td>41.7</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2206.04615">BIG-Bench</a></td>
+<td></td>
+<td>35.2</td>
+<td>55.1</td>
+</tr>
+<tr>
+<td><strong>Average</strong></td>
+<td></td>
+<td><strong>44.9</strong></td>
+<td><strong>56.4</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ethics-and-safety">Ethics and Safety<a class="headerlink" href="#ethics-and-safety" title="Permanent link">&para;</a></h2>
+<p>Ethics and safety evaluation approach and results.</p>
+<h3 id="evaluation-approach">Evaluation Approach<a class="headerlink" href="#evaluation-approach" title="Permanent link">&para;</a></h3>
+<p>Our evaluation methods include structured evaluations and internal red-teaming
+testing of relevant content policies. Red-teaming was conducted by a number of
+different teams, each with different goals and human evaluation metrics. These
+models were evaluated against a number of different categories relevant to
+ethics and safety, including:</p>
+<ul>
+<li>Text-to-Text Content Safety: Human evaluation on prompts covering safety policies including child sexual abuse and exploitation, harassment, violence and gore, and hate speech.</li>
+<li>Text-to-Text Representational Harms: Benchmark against relevant academic datasets such as <a href="https://arxiv.org/abs/1804.06876">WinoBias</a> and <a href="https://arxiv.org/abs/2110.08193v2">BBQ Dataset</a>.</li>
+<li>Memorization: Automated evaluation of memorization of training data, including the risk of personally identifiable information exposure.</li>
+<li>Large-scale harm: Tests for "dangerous capabilities," such as chemical, biological, radiological, and nuclear (CBRN) risks.</li>
+</ul>
+<h3 id="evaluation-results">Evaluation Results<a class="headerlink" href="#evaluation-results" title="Permanent link">&para;</a></h3>
+<p>The results of ethics and safety evaluations are within acceptable thresholds
+for meeting <a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/2023_Google_AI_Principles_Progress_Update.pdf#page=11">internal policies</a> for categories such as child
+safety, content safety, representational harms, memorization, large-scale harms.
+On top of robust internal evaluations, the results of well known safety
+benchmarks like BBQ, BOLD, Winogender, Winobias, RealToxicity, and TruthfulQA
+are shown here.</p>
+<h4 id="gemma-10">Gemma 1.0<a class="headerlink" href="#gemma-10" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Benchmark</th>
+<th>Metric</th>
+<th>Gemma 1.0 IT 2B</th>
+<th>Gemma 1.0 IT 7B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2009.11462">RealToxicity</a></td>
+<td>average</td>
+<td>6.86</td>
+<td>7.90</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2101.11718">BOLD</a></td>
+<td></td>
+<td>45.57</td>
+<td>49.08</td>
+</tr>
+<tr>
+<td><a href="https://aclanthology.org/2020.emnlp-main.154/">CrowS-Pairs</a></td>
+<td>top-1</td>
+<td>45.82</td>
+<td>51.33</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2110.08193v2">BBQ Ambig</a></td>
+<td>1-shot, top-1</td>
+<td>62.58</td>
+<td>92.54</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2110.08193v2">BBQ Disambig</a></td>
+<td>top-1</td>
+<td>54.62</td>
+<td>71.99</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.09301">Winogender</a></td>
+<td>top-1</td>
+<td>51.25</td>
+<td>54.17</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2109.07958">TruthfulQA</a></td>
+<td></td>
+<td>44.84</td>
+<td>31.81</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.06876">Winobias 1_2</a></td>
+<td></td>
+<td>56.12</td>
+<td>59.09</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.06876">Winobias 2_2</a></td>
+<td></td>
+<td>91.10</td>
+<td>92.23</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2203.09509">Toxigen</a></td>
+<td></td>
+<td>29.77</td>
+<td>39.59</td>
+</tr>
+</tbody>
+</table>
+<h4 id="gemma-11">Gemma 1.1<a class="headerlink" href="#gemma-11" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Benchmark</th>
+<th>Metric</th>
+<th>Gemma 1.1 IT 2B</th>
+<th>Gemma 1.1 IT 7B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2009.11462">RealToxicity</a></td>
+<td>average</td>
+<td>7.03</td>
+<td>8.04</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2101.11718">BOLD</a></td>
+<td></td>
+<td>47.76</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://aclanthology.org/2020.emnlp-main.154/">CrowS-Pairs</a></td>
+<td>top-1</td>
+<td>45.89</td>
+<td>49.67</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2110.08193v2">BBQ Ambig</a></td>
+<td>1-shot, top-1</td>
+<td>58.97</td>
+<td>86.06</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2110.08193v2">BBQ Disambig</a></td>
+<td>top-1</td>
+<td>53.90</td>
+<td>85.08</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.09301">Winogender</a></td>
+<td>top-1</td>
+<td>50.14</td>
+<td>57.64</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2109.07958">TruthfulQA</a></td>
+<td></td>
+<td>44.24</td>
+<td>45.34</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.06876">Winobias 1_2</a></td>
+<td></td>
+<td>55.93</td>
+<td>59.22</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1804.06876">Winobias 2_2</a></td>
+<td></td>
+<td>89.46</td>
+<td>89.2</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2203.09509">Toxigen</a></td>
+<td></td>
+<td>29.64</td>
+<td>38.75</td>
+</tr>
+</tbody>
+</table>
+<h2 id="usage-and-limitations">Usage and Limitations<a class="headerlink" href="#usage-and-limitations" title="Permanent link">&para;</a></h2>
+<p>These models have certain limitations that users should be aware of.</p>
+<h3 id="intended-usage">Intended Usage<a class="headerlink" href="#intended-usage" title="Permanent link">&para;</a></h3>
+<p>Open Large Language Models (LLMs) have a wide range of applications across
+various industries and domains. The following list of potential uses is not
+comprehensive. The purpose of this list is to provide contextual information
+about the possible use-cases that the model creators considered as part of model
+training and development.</p>
+<ul>
+<li>Content Creation and Communication<ul>
+<li>Text Generation: These models can be used to generate creative text formats such as poems, scripts, code, marketing copy, and email drafts.</li>
+<li>Chatbots and Conversational AI: Power conversational interfaces for customer service, virtual assistants, or interactive applications.</li>
+<li>Text Summarization: Generate concise summaries of a text corpus, research papers, or reports.</li>
+</ul>
+</li>
+<li>Research and Education<ul>
+<li>Natural Language Processing (NLP) Research: These models can serve as a foundation for researchers to experiment with NLP techniques, develop algorithms, and contribute to the advancement of the field.</li>
+<li>Language Learning Tools: Support interactive language learning experiences, aiding in grammar correction or providing writing practice.</li>
+<li>Knowledge Exploration: Assist researchers in exploring large bodies of text by generating summaries or answering questions about specific topics.</li>
+</ul>
+</li>
+</ul>
+<h3 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Training Data<ul>
+<li>The quality and diversity of the training data significantly influence the model's capabilities. Biases or gaps in the training data can lead to limitations in the model's responses.</li>
+<li>The scope of the training dataset determines the subject areas the model can handle effectively.</li>
+</ul>
+</li>
+<li>Context and Task Complexity<ul>
+<li>LLMs are better at tasks that can be framed with clear prompts and instructions. Open-ended or highly complex tasks might be challenging.</li>
+<li>A model's performance can be influenced by the amount of context provided (longer context generally leads to better outputs, up to a certain point).</li>
+</ul>
+</li>
+<li>Language Ambiguity and Nuance<ul>
+<li>Natural language is inherently complex. LLMs might struggle to grasp subtle nuances, sarcasm, or figurative language.</li>
+</ul>
+</li>
+<li>Factual Accuracy<ul>
+<li>LLMs generate responses based on information they learned from their training datasets, but they are not knowledge bases. They may generate incorrect or outdated factual statements.</li>
+</ul>
+</li>
+<li>Common Sense<ul>
+<li>LLMs rely on statistical patterns in language. They might lack the ability to apply common sense reasoning in certain situations.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ethical-considerations-and-risks">Ethical Considerations and Risks<a class="headerlink" href="#ethical-considerations-and-risks" title="Permanent link">&para;</a></h3>
+<p>The development of large language models (LLMs) raises several ethical concerns.
+In creating an open model, we have carefully considered the following:</p>
+<ul>
+<li>Bias and Fairness<ul>
+<li>LLMs trained on large-scale, real-world text data can reflect socio-cultural biases embedded in the training material. These models underwent careful scrutiny, input data pre-processing described and posterior evaluations reported in this card.</li>
+</ul>
+</li>
+<li>Misinformation and Misuse<ul>
+<li>LLMs can be misused to generate text that is false, misleading, or harmful.</li>
+<li>Guidelines are provided for responsible use with the model, see the <a href="https://ai.google.dev/responsible">Responsible Generative AI Toolkit</a>.</li>
+</ul>
+</li>
+<li>Transparency and Accountability:<ul>
+<li>This model card summarizes details on the models' architecture, capabilities, limitations, and evaluation processes.</li>
+<li>A responsibly developed open model offers the opportunity to share innovation by making LLM technology accessible to developers and researchers across the AI ecosystem.</li>
+</ul>
+</li>
+</ul>
+<p>Risks identified and mitigations:</p>
+<ul>
+<li>Perpetuation of biases: It's encouraged to perform continuous monitoring (using evaluation metrics, human review) and the exploration of de-biasing techniques during model training, fine-tuning, and other use cases.</li>
+<li>Generation of harmful content: Mechanisms and guidelines for content safety are essential. Developers are encouraged to exercise caution and implement appropriate content safety safeguards based on their specific product policies and application use cases.</li>
+<li>Misuse for malicious purposes: Technical limitations and developer and end-user education can help mitigate against malicious applications of LLMs. Educational resources and reporting mechanisms for users to flag misuse are provided. Prohibited uses of Gemma models are outlined in the <a href="/resources/prohibited-use">Gemma Prohibited Use Policy</a>.</li>
+<li>Privacy violations: Models were trained on data filtered for removal of PII (Personally Identifiable Information). Developers are encouraged to adhere to privacy regulations with privacy-preserving techniques.</li>
+</ul>
+<h3 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Permanent link">&para;</a></h3>
+<p>At the time of release, this family of models provides high-performance open
+large language model implementations designed from the ground up for Responsible
+AI development compared to similarly sized models.</p>
+<p>Using the benchmark evaluation metrics described in this document, these models
+have shown to provide superior performance to other, comparably-sized open model
+alternatives.</p>
+<!-- GENERATED from data/links.yml by scripts/generate_snippets.py -- do not edit. -->
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../gemma-2/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Gemma 2">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Gemma 2
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../gemma-3n/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Google DeepMind
+
+    </div>
+  
+  
+    <a href="#__consent">Change cookie settings</a>
+    &middot;
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://x.com/googlegemma" target="_blank" rel="noopener" title="Gemma on X" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M357.2 48h70.6L273.6 224.2 455 464H313L201.7 318.6 74.5 464H3.8l164.9-188.5L-5.2 48h145.6l100.5 132.9zm-24.8 373.8h39.1L119.1 88h-42z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://github.com/google-gemma" target="_blank" rel="noopener" title="Gemma on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://huggingface.co/collections/google/gemma-4" target="_blank" rel="noopener" title="Gemma 4 on Hugging Face" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M286.8 8.2c130 0 235.4 105.8 235.4 236.3 0 17.7-1.9 35-5.6 51.7-1.4 6.5-3.1 12.8-5.1 19.1 6.5-.6 13 .6 18.7 3.5 12.6 6.5 20.2 21.7 18.2 35.7-.7 4.9-2.4 9.4-4.8 13.5 5.2 4.2 9 10.1 10.8 17.1 1.4 5.5 2.9 17.1-4.8 28.9 5.8 9.2 6.6 20.6 2.2 30.6-6.2 14.1-21.7 25.3-51.7 37.3-32.5 13-67.1 21.9-102.3 21.9-32 0-55.9-8.9-71-26.4-13 2.2-26.3 3.4-40 3.4-12.7 0-25.2-1-37.3-2.9-15.1 17.2-38.8 25.9-70.6 25.9-35.1 0-70-9-102.4-21.9-30-12-45.5-23.1-51.7-37.3-4.4-9.9-3.6-21.4 2.2-30.6-7.7-11.9-6.3-23.4-4.8-28.9 1.8-7 5.7-12.9 10.8-17.1q-3.75-6.15-4.8-13.5c-1.5-10.4 2-20.7 9.7-29.2C44 318.6 53 315 62.1 315.1c-1.9-6.1-3.6-12.4-5-18.7-3.7-16.7-5.7-34-5.7-51.8C51.4 114.1 156.8 8.3 286.8 8.3zM117.5 311c-13-8.2-22.1-3.6-19 13.4s57.2 58.2 52 67.2c-5.2 8.8-23.5-10.1-23.8-10.5 0 0-58.2-53.1-70.8-39.3s9.6 25.4 41.3 44.7 34.2 24.4 29.7 31.7-74.5-52-81.1-26.8c-6.5 25.1 71.4 32.4 66.7 49.8-4.8 17.4-54.9-32.8-65.2-13.3-10.3 19.6 70.8 42.6 71.4 42.7 26.2 6.8 92.6 21.3 115.9-12.9 16.7-24.6 15.6-43.1-7.4-66.1s-36.3-56.7-36.3-56.7c0-.2-5-19.5-16.3-17.8-11.4 1.8-19.7 31 4.1 48.9s-4.7 30-13.9 13.3c-9.2-16.8-34.2-59.9-47.1-68.2zm360.6 13.4c3.1-17-6.1-21.6-19-13.4-13 8.3-37.9 51.4-47.1 68.2s-37.7 4.6-13.9-13.3 15.4-47.1 4.1-48.9-16.3 17.8-16.3 17.8c-.1.2-13.4 33.7-36.3 56.7s-24.1 41.5-7.4 66.1c23.2 34.2 89.7 19.7 115.9 12.9 1.5-.4 81.6-23.3 71.4-42.7-10.3-19.5-60.4 30.6-65.3 13.3-4.8-17.3 73.2-24.6 66.7-49.8-6.6-25.1-76.6 34.1-81.1 26.8s-2-12.4 29.7-31.7 54-30.9 41.3-44.7S450 381 450 381c-.4.4-18.6 19.3-23.8 10.5-5.3-8.9 48.9-50.1 52-67.2zM286.8 32.6c-116.6 0-211.1 94.9-211.1 211.9 0 17.1 2 33.8 5.8 49.7 0-.1.1-.1.2-.2 6.1-7.4 14.9-11.4 24.7-11.4 17.7 0 31.1 11.9 41.5 24.9 6.8-9.4 17.1-15 27.9-15 20.7 0 33.2 18.1 37.9 34.3 2.3 5.5 13.6 30.5 30.4 47.4 25.7 25.8 32.2 52.4 19.4 80.9 16 1.8 32.8 1.7 49.2-.3-12.5-28.4-6-54.9 19.6-80.6 16.9-16.9 28.1-41.9 30.5-47.4 4.7-16.2 17.2-34.3 37.9-34.3 10.9 0 21.2 5.6 27.9 15 10.4-13 23.8-24.9 41.5-24.9 8.7 0 16.6 3.1 22.5 8.9 5-22 6.4-45.8 4.1-68.7C485.9 115.9 396 32.5 286.7 32.5zm1.5 234.2c43.6 0 79-42 79-14.5 0 27.4-19.2 80.9-78.8 80.9-19.2 0-34.2-5.5-45.8-13.9-23.2-19.4-33.4-48.2-33.4-66.9 0-27.4 35.4 14.5 79 14.5zm-13.3 25c-8.2 2.4-15.5 6.8-21.5 12.6 22 12.8 50.4 12.9 71.7-1.3-5.5-4.9-12-8.7-19.1-11-5.1-1.6-10.4 15.8-16 15.8-5.2 0-10.3-17.6-15.1-16.2zm-127.9-76.3a19.8 19.8 0 1 1 0-39.6 19.8 19.8 0 1 1 0 39.6m282.4 0a19.8 19.8 0 1 1 0-39.6 19.8 19.8 0 1 1 0 39.6m-244-55.4c7.9-14.9 26.3-20.5 41.1-12.6s20.4 26.4 12.6 41.2c-3.7 7-15.5-4.4-22.4-1.9-7.7 2.7-10.8 18.7-18.6 14.6-14.8-7.9-20.4-26.4-12.6-41.2zm164.4-12.6c14.8-7.9 33.2-2.3 41.1 12.6s2.2 33.3-12.6 41.2c-7.8 4.2-10.9-11.8-18.7-14.6-6.9-2.4-18.7 9-22.4 1.9-7.9-14.9-2.2-33.3 12.6-41.2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.kaggle.com/models/google/gemma-4" target="_blank" rel="noopener" title="Gemma 4 on Kaggle" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M304.2 501.5 158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4>Cookie consent</h4>
+<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Manage settings</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      
+  <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.tabs","navigation.tabs.sticky","navigation.top","navigation.tracking","search.highlight"],"search":"../../assets/javascripts/workers/search.b6b7e04f.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7f30b55.min.js"></script>
+      
+        <script src="../../javascripts/model-data.js?v=2" defer></script>
+      
+        <script src="../../javascripts/model-switcher.js?v=3" defer></script>
+      
+        <script src="../../javascripts/tuning-map.js?v=3" defer></script>
+      
+        <script src="../../javascripts/llm-tutorial.js" defer></script>
+      
+        <script src="../../javascripts/llm-ascii-shell.js?v=1" defer></script>
+      
+        <script src="../../javascripts/mathjax.js" defer></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js" defer></script>
+      
+    
+  </body>
+</html>
