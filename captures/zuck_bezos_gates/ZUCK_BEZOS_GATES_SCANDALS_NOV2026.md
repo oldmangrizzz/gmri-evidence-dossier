@@ -2,7 +2,7 @@
 
 **Charter framing:** same Part-5 treatment for three names already covered by prior passes; this capture set focuses on the **Nov 2026 breaking items** only (the existing coverage carries at its prior rows).
 
-**Self-audit (regenerated from filesystem + MANIFEST):** 960 manifest rows including these 8; captures/zuck_bezos_gates/ 8 kept files (hash-verified); prior-pass zuckerberg_meta + amzn_bezos_nvda_huang directories carry the existing record.
+**Self-audit (regenerated from filesystem + MANIFEST):** 957 manifest rows including these 8; captures/zuck_bezos_gates/ 8 kept files (hash-verified); prior-pass zuckerberg_meta + amzn_bezos_nvda_huang directories carry the existing record.
 
 ---
 
@@ -14,7 +14,7 @@
 - Two captures on disk: `stockanalysis_meta_classc_lawsuit.html` and `livemint_zuckerberg_classc.html`.
 - The company's own court-filing statement (VERIFIED): "In the best interest of our shareholders, we are seeking a final determination as quickly as the court will allow, and we will vigorously defend against these claims."
 - The 10-plaintiff shareholder lawsuit centers on: "Public stockholders receive a pro rata stock dividend, but no corresponding governance protection or vote on the transaction."
-- **Zuckerberg's stake:** 61% of Meta's voting via Class B; the Class C plan would have allowed him to sell "up to a fifth of his stake without giving up control." The motivation is reported as Meta's "unprecedented momentum" in AI — which Meta says "could need to raise hundreds of billions of dollars over several years."
+- **Zuckerberg's stake:** 61% of Meta's voting via Class B; the Class C plan would have allowed him to sell "monetize a portion of his economic stake without reducing his influence over corporate decisions." The motivation is reported as Meta's "unprecedented momentum" in AI — which Meta says "could need to raise hundreds of billions of dollars over several years."
 - **Context (VERIFIED):** Meta abandoned a similar proposal in 2017, just before Zuckerberg was due to testify in Delaware. [This is the second round of the same governance fight.]
 
 **Also breaking for Meta (captured, VERIFIED from BBC capture row `bbc_italy_fines_meta_805m.html`):**
