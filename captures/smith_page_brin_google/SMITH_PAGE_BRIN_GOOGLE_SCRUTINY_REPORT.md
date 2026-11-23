@@ -10,10 +10,10 @@
 
 ### A1. His standard (his own words)
 1. **"Tools and Weapons: The Promise and the Peril of the Digital Age"** (Brad Smith & Carol Ann Browne, 2019 book — the cover title is his own framing, VERIFIED via prior Microsoft captures and published reporting). Book title framing: technology as "tools and weapons" — a binary responsibility framing.
-2. **The AI Access Principles (Feb 26 2024, MWC Barcelona, captured row 887 in the Microsoft pass):** public-API access commitments, "not tilt the playing field", "promote innovation and competition than any prior initiative in the company's 49-year history."
+2. **The AI Access Principles (Feb 26 2024, MWC Barcelona, captured row 907 (AI Access Principles primary) in the Microsoft pass):** public-API access commitments, "not tilt the playing field", "promote innovation and competition than any prior initiative in the company's 49-year history."
 3. **"The world's most important technology"** — his AI framing, from his published Microsoft blogs, quoted in the 2024-25 Microsoft coverage (captured in the Microsoft pass).
 4. **The 2006 Windows Principles precedent**: invoked in the AI Access Principles post — the same FTC commissioner's quote: "If you had done this 10 years ago, I think you all probably would have avoided a lot of problems."
-5. His **Vice Chair & President** title (captured in the Microsoft pass, row 868-adjacent).
+5. His **Vice Chair & President** title (captured in the Microsoft pass (row 907, AI Access Principles primary)).
 
 ### A2. The record laid against it
 1. **€561M EC 2013 non-compliance fine** (row 906, full EC API text on disk): Microsoft "failed to comply with its commitments to offer users a browser choice screen" — the EC fined Microsoft for **not delivering on its own prior** Browser Choice commitments. Brad Smith was Microsoft's General Counsel from 2002 (before the 2008 commitment was given) and continued through 2013 (when the fine was issued). His record includes the 2008-13 commitment period *and* the non-compliance period — a continuity fact, not a personal-assignment finding (the EC decision does not name individuals).
