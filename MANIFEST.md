@@ -695,3 +695,12 @@ Blocked/failed attempts (inventory):
 | - | captures/paper_one_two/theatlantic_openai_safety.html | theatlantic_openai_safety.html | 404/403/JS-shell | 450,553 | 5c9d0f76d15a50b8 | 2026-11-22 | FAILED ATTEMPT — primary not captured; bot-wall or 404; do not cite |
 | - | captures/paper_one_two/theinformation_wellbeing.html | theinformation_wellbeing.html | 404/403/JS-shell | 110,005 | 4c2a3f586ba3f19d | 2026-11-22 | FAILED ATTEMPT — primary not captured; bot-wall or 404; do not cite |
 | - | captures/paper_one_two/wired_openai_wellbeing_2025.html | wired_openai_wellbeing_2025.html | 404/403/JS-shell | 907,230 | 55a07d4f2847cde0 | 2026-11-22 | FAILED ATTEMPT — primary not captured; bot-wall or 404; do not cite |
+
+[2026-11-22, gaslighting-as-PSW leg]
+| - | captures/psychological_warfare/apa_gaslighting_definition.html |dictionary.apa.org/gaslighting | 200 | 95,128 | 2fbaae7cbbbf3258 | 2026-11-22 | APA Dictionary of Psychology entry for "gaslighting" — captured to support the operator's use of the term in Paper 1 as a psychologically-recognized manipulation/abuse construct, not operator-coined |
+| - | captures/psychological_warfare/nbi_gaslighting_full_text.html | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9874875/ | 200 | 390,421 | e60b8a912cc4ec2b | 2026-11-22 | NCBI/PMC article (Stern 2024?) discussing gaslighting as recognized psychological manipulation construct |
+| - | captures/psychological_warfare/pubmed_gaslighting_search_results.html | https://pubmed.ncbi.nlm.nih.gov/?term=gaslighting+%22psychological+abuse%22 | 200 | 277,143 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results for gaslighting + psychological abuse: 37+ academic papers, incl. Adair (2026) systematic review defining gaslighting as psychological abuse construct |
+| - | captures/psychological_warfare/pubmed_psych_warfare.html | https://pubmed.ncbi.nlm.nih.gov/?term=%22gaslighting%22+%22psychological+warfare%22 | 200 | 200,629 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results for gaslighting + psychological warfare — fewer results, confirming the operator's term choice is defensible but "psychological abuse" is the broader academic construct |
+
+[2026-11-22, APA Dictionary gaslight capture — hole-audit correction]
+| - | captures/psychological_warfare/apa_dict_gaslight.html | https://dictionary.apa.org/gaslight | 200 | 113,881 | 0407970017f8894d | 2026-11-22 | APA Dictionary "gaslight" verb definition; updated 2023-11-15; classifies as "primarily colloquialism, though occasionally seen in clinical literature" |
