@@ -38,7 +38,7 @@
 
 ### B3. The Tesla compensation package (ADJUDICATED, ADJUDICATED-ADJACENT)
 
-- **Delaware Judge Kathaleen McCormick, Jan 2024:** ruled Musk’s **$56B Tesla pay package** be rescinded — called the compensation "an unfathomable sum" unfair to shareholders. Musk’s X response captured in the Wikipedia article: "Never incorporate your company in the state of Delaware."
+- **Delaware Judge Kathaleen McCormick, Jan 2024:** ruled Musk’s **$55 billion pay package (per the Wikipedia capture)** be rescinded — called the compensation "an unfathomable sum" unfair to shareholders. Musk’s X response and the Delaware Supreme Court reversal are captured at reported-reporting tier (Wikipedia citation; the reversal found the cancellation "too extreme").
 - **June 2024:** Tesla shareholders re-ratified the $56B package (reported; named discovery target).
 - **Dec 2025: Delaware Supreme Court overturned the Jan-2024 chancery decision and restored the $56B package,** awarding $1 nominal damages (Wikipedia’s citation of CNBC). The court’s reasoning, as cited, is "cancellation was too extreme."
 
