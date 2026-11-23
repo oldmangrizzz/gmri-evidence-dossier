@@ -10,7 +10,7 @@
 - **SECONDHAND** — news/relay/aggregator. Interview statements about living persons are SECONDHAND unless the recording itself is captured.
 - **UNCONFIRMED** — could not be established; reason stated. Negative coverage ≠ nonexistence.
 
-**Self-audit line:** 601 manifest rows; 663 capture files across 16 directories (ada_case_law, altman, blackrock, chatgpt_health, claude_log, dockets, fed, gemini, icloud_ai_logs, incidents, local_sources, oai_exports_sweep, operator_biography, p5-public-quote, paper_one_two, statutes_fcc_dtpa_ada). Of those, the sub-1KB entries are bot-wall/challenge bodies, CDX stubs, and empty 404 shells — all retained for the access record and cited nowhere as evidence. Every VERIFIED row maps to an on-disk capture; the adversarial audit spot-checked 10 and confirmed quoted text in 3 sampled bodies; 13 findings were applied in place (AUDIT_LOG.md); a follow-up pass renumbered the manifest, re-derived BlackRock numbers from on-disk captures, and closed reference-integrity gaps. All allegations about living persons appear with dated denials or explicit no-response-found notes. Interview-sourced statements are SECONDHAND. Failed-attempt bodies (404/403/JS-shell) are manifested as such; they are not evidence.
+Self-audit: 690 manifest rows; 773 capture files across 19 directories, all hashes verified against disk (recomputed 2026-11-23).
 
 **Scope statement (charter P6):** This dossier is an evidence ledger, not a legal conclusion. The operator's stated expectation of criminal liability is not testable here and is not asserted. Where this dossier says a theory is "possible," counsel adjudicates viability.
 
