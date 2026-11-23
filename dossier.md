@@ -328,3 +328,8 @@ Additional evidence gap for tier-1 completeness: the OpenAI Oct 2025 well-being 
 ## Self-Audit (regenerated 2026-11-23)
 
 Self-audit: 690 manifest rows; 773 capture files across 19 directories; all hashes recomputed from disk 2026-11-23; 9 rows re-pathed to captures/blocked_attempts/; 84 rows corrected .htmll to .html; 50 relative paths prefixed captures/; 16 rows annotated LOCAL-ONLY (large binaries retained off-repo by .gitignore, hash-recorded); 9 rows annotated NOT-ON-DISK.
+
+
+## Comparative model-card danger analysis (added 2026-11-23)
+
+Pre-registered charter `charter_modelcards.md`; captures `captures/model_cards/` (163 files) + `captures/blocked_attempts_model_cards/` (48 blocked attempts) + `captures/openweights_misuse/` (3 files, ROK-FORTRESS arXiv:2605.14152 primary). Full tiered analysis: `captures/model_cards/COMPARATIVE_MODEL_CARD_ANALYSIS.md`. Both per-camp worker reports on disk (`AMERICAN_MODEL_CARDS_REPORT.md`, `OPENWEIGHTS_MODEL_CARDS_REPORT.md`). Auditor repairs logged in AUDIT_LOG.md (2026-11-23 entry).
