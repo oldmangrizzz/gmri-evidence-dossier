@@ -750,3 +750,49 @@ Blocked/failed attempts (inventory):
 | - | captures/psychological_warfare/pubmed_gaslighting_search_results.html | n/a | 200 | 277,143 | 33ef6590d3ff5825 | 2026-11-22 | PubMed search results — literature landscape reference |
 | - | captures/psychological_warfare/pubmed_psych_warfare.html | n/a | 200 | 200,629 | b6991190986467ec | 2026-11-22 | APA attempt (bot-wall/redirect) |
 | - | captures/psychological_warfare/scholar_gaslighting_psw.html | n/a | 200 | 81,498 | f15cf10c08e4ad3e | 2026-11-22 | APA attempt (bot-wall/redirect) |
+
+[2026-11-22, developer-forms accessibility gap audit across 5 vendors]
+| - | captures/developer_forms/DEVELOPER_FORMS_GAP_AUDIT.md | vendor a11y/dev page | 403/404/200 | 2,341 | ef38c80e38ea127f | 2026-11-22 | |
+| - | captures/developer_forms/anthropic_accessibility.html | vendor a11y/dev page | 403/404/200 | 82,189 | 45b2e8e3e6d031c3 | 2026-11-22 | |
+| - | captures/developer_forms/anthropic_contact.html | vendor a11y/dev page | 403/404/200 | 82,177 | 176b538f5e9ef08a | 2026-11-22 | |
+| - | captures/developer_forms/anthropic_developer_contact.html | vendor a11y/dev page | 403/404/200 | 83,278 | 87d4bedbc9749acb | 2026-11-22 | |
+| - | captures/developer_forms/anthropic_help.html | vendor a11y/dev page | 403/404/200 | 207,066 | e34de872b33f4760 | 2026-11-22 | |
+| - | captures/developer_forms/anthropic_safety.html | vendor a11y/dev page | 403/404/200 | 204,260 | 21e4256d17443f9b | 2026-11-22 | |
+| - | captures/developer_forms/google_a11y_product.html | vendor a11y/dev page | 403/404/200 | 1,575 | d63f4c279122ece6 | 2026-11-22 | |
+| - | captures/developer_forms/google_accessibility_disab_results.txt | vendor a11y/dev page | 403/404/200 | 1,431,549 | fba1f534e494124f | 2026-11-22 | |
+| - | captures/developer_forms/google_accessibility_products.html | vendor a11y/dev page | 403/404/200 | 1,483,412 | b689eb143e754bf4 | 2026-11-22 | |
+| - | captures/developer_forms/google_ai_accessibility.html | vendor a11y/dev page | 403/404/200 | 72,668 | 24863727e3d34a65 | 2026-11-22 | |
+| - | captures/developer_forms/google_ai_gemini_accessibity.html | vendor a11y/dev page | 403/404/200 | 72,681 | b2f761b6e75cae51 | 2026-11-22 | |
+| - | captures/developer_forms/google_cloud_accessibility.html | vendor a11y/dev page | 403/404/200 | 40,897 | 79da72b225cbdee0 | 2026-11-22 | |
+| - | captures/developer_forms/google_contact_disability.html | vendor a11y/dev page | 403/404/200 | 1,494,363 | 779197c19996b3d2 | 2026-11-22 | |
+| - | captures/developer_forms/google_gdpr_contact.html | vendor a11y/dev page | 403/404/200 | 914,012 | bcee7c7f55a92c86 | 2026-11-22 | |
+| - | captures/developer_forms/google_gemini_accessibility.html | vendor a11y/dev page | 403/404/200 | 1,460,169 | e61fb9290f2be38a | 2026-11-22 | |
+| - | captures/developer_forms/google_gemini_feedback.html | vendor a11y/dev page | 403/404/200 | 1,565,567 | 857046cb5f66a82a | 2026-11-22 | |
+| - | captures/developer_forms/google_gemini_help.html | vendor a11y/dev page | 403/404/200 | 1,500,273 | d913fb5ce2109fb7 | 2026-11-22 | |
+| - | captures/developer_forms/google_gemini_terms.html | vendor a11y/dev page | 403/404/200 | 1,485,828 | 755a399b27f5dd64 | 2026-11-22 | |
+| - | captures/developer_forms/google_support_a11y_disability.html | vendor a11y/dev page | 403/404/200 | 1,483,408 | bd1666ad824ce43f | 2026-11-22 | |
+| - | captures/developer_forms/google_support_contact_disabled.html | vendor a11y/dev page | 403/404/200 | 1,487,326 | 919cd87d1a0af91c | 2026-11-22 | |
+| - | captures/developer_forms/meta_accessibility.html | vendor a11y/dev page | 403/404/200 | 229,474 | 912bb987d5df8cc0 | 2026-11-22 | |
+| - | captures/developer_forms/meta_ai_support_assistant.html | vendor a11y/dev page | 403/404/200 | 1,542 | 3e899dd61fa6c0d8 | 2026-11-22 | |
+| - | captures/developer_forms/meta_developer_contact.html | vendor a11y/dev page | 403/404/200 | 1,542 | ddebc3f48ccec5fc | 2026-11-22 | |
+| - | captures/developer_forms/meta_help.html | vendor a11y/dev page | 403/404/200 | 229,433 | 0bef7ef8e496c9af | 2026-11-22 | |
+| - | captures/developer_forms/meta_privacy_contact.html | vendor a11y/dev page | 403/404/200 | 1,542 | d2522889d7842ef6 | 2026-11-22 | |
+| - | captures/developer_forms/meta_quest_support.html | vendor a11y/dev page | 403/404/200 | 231,940 | 628f245512e64abe | 2026-11-22 | |
+| - | captures/developer_forms/openai_api_docs_contact.html | vendor a11y/dev page | 403/404/200 | 491,826 | 6f5bc0bd987c13b3 | 2026-11-22 | |
+| - | captures/developer_forms/openai_bug_report.html | vendor a11y/dev page | 403/404/200 | 31,437 | cb892297cf7e1fda | 2026-11-22 | |
+| - | captures/developer_forms/openai_contact.html | vendor a11y/dev page | 403/404/200 | 286,058 | 1df8cf4b98019427 | 2026-11-22 | |
+| - | captures/developer_forms/openai_developer_forum.html | vendor a11y/dev page | 403/404/200 | 309,365 | f652e8a267bd3418 | 2026-11-22 | |
+| - | captures/developer_forms/openai_help_accessibility.html | vendor a11y/dev page | 403/404/200 | 31,437 | dac62d49aa8c877a | 2026-11-22 | |
+| - | captures/developer_forms/openai_help_chatgpt_a11y.html | vendor a11y/dev page | 403/404/200 | 31,437 | 2205cf08887fdd3d | 2026-11-22 | |
+| - | captures/developer_forms/openai_legal.html | vendor a11y/dev page | 403/404/200 | 163,716 | e19821c4a53119c4 | 2026-11-22 | |
+| - | captures/developer_forms/openai_wellbeing_contact.html | vendor a11y/dev page | 403/404/200 | 31,438 | 15c95deb7c307e1d | 2026-11-22 | |
+| - | captures/developer_forms/x_grok_complaints.html | vendor a11y/dev page | 403/404/200 | 5,707 | 707940db74cae6a6 | 2026-11-22 | |
+| - | captures/developer_forms/x_privacy.html | vendor a11y/dev page | 403/404/200 | 152,906 | e04b88293e33d19b | 2026-11-22 | |
+| - | captures/developer_forms/x_terms_service.html | vendor a11y/dev page | 403/404/200 | 170,638 | 1fad51d3f4c148fa | 2026-11-22 | |
+| - | captures/developer_forms/xai_contact.html | vendor a11y/dev page | 403/404/200 | 5,679 | dc2d1da4d0d1ef46 | 2026-11-22 | |
+| - | captures/developer_forms/xai_developer.html | vendor a11y/dev page | 403/404/200 | 514,262 | e91716822a71a77d | 2026-11-22 | |
+| - | captures/developer_forms/xai_disclaimer.html | vendor a11y/dev page | 403/404/200 | 106,789 | 858d0ae5f17438ad | 2026-11-22 | |
+| - | captures/developer_forms/xai_grok_feedback.html | vendor a11y/dev page | 403/404/200 | 5,767 | 272a04a47b7e506c | 2026-11-22 | |
+| - | captures/developer_forms/xai_grok_help.html | vendor a11y/dev page | 403/404/200 | 313,477 | fdab30f8a9159719 | 2026-11-22 | |
+
+| - | captures/developer_forms/openai_developer_forum_search.html | community.openai.com/search (JS shell) | 200 | 189 | 35891d1baccdaf75 | 2026-11-22 | JavaScript community-forum search, rendered as 189B JS-shell; forum content not retrievable via curl |
