@@ -2438,3 +2438,13 @@ Blocked/failed attempts (inventory):
 | 961 | captures/blocked_attempts_musk_person/sec_v_musk_2018_complaint.pdf | captured in pass | 404/rate-limit | 1,925 | fb6e4a8c2e5cb865 | 2026-11-23 | Musk person due-diligence capture | DO-NOT-CITE (SEC.gov 403 rate-limit body; wayback capture is the cited primary)
 | 962 | captures/musk_person/unsworth_v_musk_motion_in_limine.pdf | https://storage.courtlistener.com/recap/gov.uscourts.cacd.723137/gov.uscourts.cacd.723137.96.0.pdf | 200 | 141,728 | 2ec6bfc9f7c211b8 | 2026-11-23 | Musk person due-diligence capture |
 | 963 | captures/musk_person/wikipedia_elon_musk.html | https://en.wikipedia.org/wiki/Elon_Musk | 200 | 2,396,411 | af3794171e463889 | 2026-11-23 | Musk person due-diligence capture |
+| 964 | captures/smith_page_brin_google/abc_xyz_ipo_letter_wb.html | https://web.archive.org/web/2024/https://abc.xyz/investor/founders-letters/ipo-letter/ | 200 | 158,607 | ba056596b8afa411 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 965 | captures/smith_page_brin_google/bradsmith_authorpage.html | https://blogs.microsoft.com/on-the-issues/author/bradsmith/ | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 966 | captures/smith_page_brin_google/gdn_dont_be_evil.html | captured in pass | 200 | 24,345 | 5a504aff032fe8fa | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 967 | captures/smith_page_brin_google/google_about_home.html | https://www.google.com/intl/en/about/ | 200 | 133,480 | 3536a8796b7a917d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 968 | captures/smith_page_brin_google/google_ten_things.html | https://www.google.com/about/philosophy.html | 200 | 111,818 | 37ea5b6f37b2f3bd | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 969 | captures/smith_page_brin_google/msft_blog_bradsmith_ai.html | captured in pass | 200 | 137,575 | a78a7684515fd81d | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 970 | captures/smith_page_brin_google/msft_blog_bradsmith_author.html | captured in pass | 200 | 119,821 | 4c00f01f54ea0347 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 971 | captures/smith_page_brin_google/page_brin_alphabet_letter.html | captured in pass | 200 | 308,417 | 64e759a4979adccc | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 972 | captures/smith_page_brin_google/sec_google_ds424b4.htm | captured in pass | 200 | 4,819 | 7b93968965cd96e1 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
+| 973 | captures/smith_page_brin_google/wiki_dont_be_evil.html | https://en.wikipedia.org/wiki/Don%27t_be_evil | 200 | 360,949 | 925008ad63e6cc46 | 2026-11-23 | Smith/Page/Brin/Google due-diligence capture |
