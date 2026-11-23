@@ -86,7 +86,7 @@
 ## PART D — JENSEN HUANG
 
 ### D1. His standard (his own words)
-1. **Huang's public AI-CAPEX framing** — reported across press coverage, with "The more you buy, the more you save" as his well-known public line per reported reporting. **Keynote-transcript primary: named discovery target this pass; quoted at SECONDHAND only.**
+1. **Huang's public AI-CAPEX framing** — reported in press coverage; his well-known "more-you-buy" line is carried at SECONDHAND only. **Keynote-transcript primary (the direct quoted document): named discovery target this pass — no uncaptured direct quote is asserted here.**
 2. **"AI is going to change everything"** — Huang's repeated public framing (named as a discovery target for a keynote capture).
 
 ### D2. The record laid against it
