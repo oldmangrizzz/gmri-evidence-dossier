@@ -65,7 +65,7 @@
 1. **AI-factory / "industrial revolution" framing (Huang’s public keynotes, referenced via NVIDIA blog press releases this pass; the keynote-transcript primary is a named discovery target).**
 2. **NVIDIA's Responsible-AI framing** (published; the official "AI governance" pages 404'd/504'd on fetch this pass — named as a discovery target for the primary capture).
 3. **NVIDIA Code of Conduct** (fetch attempts 504'd; named as a discovery target).
-4. **Huang's "more you buy, the more you save" public AI-CAPEX framing** (repeated; named as a discovery target for a keynote capture).
+4. **Huang’s public AI-CAPEX framing—reported in press coverage—is a named discovery target for the keynote transcript primary this pass; quoted here only at SECONDHAND until the primary is captured.**
 
 ### C2. The record laid against it
 - **AI-chip market-power fact (ADJUDICATED-ADJACENT, cited by prior-pass reference):** NVIDIA is the only company currently supplying most GPUs used for AI today (Judge Mehta's opinion names this fact in Google-search-competitive-pressure analysis, prior pass row).
