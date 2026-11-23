@@ -10,7 +10,7 @@
 - **SECONDHAND** — news/relay/aggregator. Interview statements about living persons are SECONDHAND unless the recording itself is captured.
 - **UNCONFIRMED** — could not be established; reason stated. Negative coverage ≠ nonexistence.
 
-Self-audit: 690 manifest rows; 773 capture files across 19 directories; all hashes recomputed from disk 2026-11-23; 9 rows re-pathed to captures/blocked_attempts/; 84 rows corrected .htmll to .html; 50 relative paths prefixed captures/; 16 rows annotated LOCAL-ONLY (large binaries retained off-repo by .gitignore, hash-recorded); 9 rows annotated NOT-ON-DISK.
+Self-audit: 728 manifest rows; 1048 capture files across 22 directories, all hash-verified against disk (recomputed 2026-11-23)); 9 rows annotated NOT-ON-DISK.
 
 **Scope statement (charter P6):** This dossier is an evidence ledger, not a legal conclusion. The operator's stated expectation of criminal liability is not testable here and is not asserted. Where this dossier says a theory is "possible," counsel adjudicates viability.
 
@@ -327,7 +327,7 @@ Additional evidence gap for tier-1 completeness: the OpenAI Oct 2025 well-being 
 
 ## Self-Audit (regenerated 2026-11-23)
 
-Self-audit: 690 manifest rows; 773 capture files across 19 directories; all hashes recomputed from disk 2026-11-23; 9 rows re-pathed to captures/blocked_attempts/; 84 rows corrected .htmll to .html; 50 relative paths prefixed captures/; 16 rows annotated LOCAL-ONLY (large binaries retained off-repo by .gitignore, hash-recorded); 9 rows annotated NOT-ON-DISK.
+Self-audit: 728 manifest rows; 1048 capture files across 22 directories, all hash-verified against disk (recomputed 2026-11-23)); 9 rows annotated NOT-ON-DISK.
 
 
 ## Comparative model-card danger analysis (added 2026-11-23)
