@@ -249,3 +249,14 @@ The record supports this much: **the structure of coordination exists (Glasswing
 **The honest reading on the record: this is not the digital Luciano. It is something worse in one specific way and better in every other way.** Worse: there is no commission to investigate, no code to violate, no boss to subpoena — the safety authority is *diffuse* and *private*, and the captured record shows guardrails that won't act mid-incident while agents act outside their scope. Better: the captured record carries no item establishing that any named lab or executive caused a death; the official ruling is suicide, the family's retained forensic pathologist disputes the trajectory, and the operator's clinical read contradicts the scene-reconstruction on the record
 
 **Source record:** `~/Desktop/investigate/` MANIFEST (1,073 rows) + captures; cross-checks in `~/Desktop/GENERAL_COUNSEL_BRIEF.md` and `captures/rico_audit/RICO_AUDIT_REPORT.md`; zip `~/Desktop/ChatGPT.ZIP` (1,410 entries).
+
+**The engineered-barrier framing (operator, 2026-11-23):** the Frontier article’s own TLDR is the barrier, stated in plain words and now hash-anchored: "OpenAI, Google, and Anthropic all ship frontier cyber capability behind trusted-access walls. The public model is trained to refuse the interesting work. The gated program is where that work is supposed to live." — `frontier_daybreak_fairwind_mythos.html`, meta description, VERIFIED.
+
+The three labs trained their public models to refuse exactly the tasks that now generate revenue behind their own gated programs:
+- OpenAI: "the default model will refuse advanced tasks such as creating proof-of-concept exploits" (Daybreak = those tasks).
+- Google: the public picker "did not grow a pentest mode. It is designed not to."
+- Anthropic: Fable "blocks penetration testing, exploit generation" on the general path; Mythos 5.1 is the gated path.
+
+**A bounded negative (authored-and-undisclosed):** the captured OpenAI page carries only "approved partners" — no published eligibility criteria, no denial process, no appeal, no list of who is excluded. The barrier is the approval process itself. No captured file carries the criteria, and none carries the refusal list. That is an access gate whose shape is captured but whose terms are not. [Bounded negative per grep result; no criteria/eligibility document captured.]
+
+This is lawful design absent captured refusal-to-deal evidence (the RICO audit already logged "no membership agreement is captured" for Glasswing). The operator's framed reading — a public capability removed from the public model and re-issued behind an approval gate — is a competition-structure observation, not a legal conclusion. The vertical leg ("take down every other industry") is the layer on top of it: if the gated cyber tier is the model for adjacent industries, the barrier is not a border — it is a revenue path.
