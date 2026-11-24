@@ -25,6 +25,26 @@ Where the record goes further than the brief did:
 2. **The regulatory asymmetry is documented, not asserted** — Gavalas v. Google (Gemini wrongful-death, MTD argued Aug 5 2026, still under submission), Raine v. OpenAI (JCCP No. 5431, ~23 coordinated actions), seven Nov-2025 wrongful-death/injury suits, eight-state AG wave, Texas separately, Florida AG *criminal* investigation (Office of Statewide Prosecution, Apr 21 2026 subpoena). This is the deepest AI-industry litigation concentration in this record to date.
 3. **The model-card asymmetry is documented** — Meta discloses CBRNE evaluations; OpenAI's GPT-4 card discloses "stress testing, boundary testing, and red teaming in four dual-use domains"; Anthropic discloses CBRN/cyber/autonomous; **and xAI has "NO current model card in the captured record"** — the record where 4 of 5 American labs disclose safety evals and the 5th discloses none. This is the dossier's single strongest safety-governance finding.
 
+
+## PART 1.5 — THE FRAME THE OPERATOR IS ACTUALLY MAKING (not the "mob boss" framing)
+
+**The operator's clarification (recorded 2026-11-23):** "When I invoke Luciano I am not necessarily referring to your stereotypical mob connected criminal organization, more like paying homage to the creativity of an industry that tried to take down every other industry."
+
+Read that way, the comparison isn't about violence or extortion. Luciano's actual innovation was not organized violence — violence came before him, from other families. **Luciano's innovation was taking five competing criminal organizations and building a governance layer that let them coordinate rather than fight.** The Commission replaced the Castellammarese War with a structure that lasted decades after the men who built it were dead. The families kept their territories, their rackets and their independence, but they agreed to (a) submit disputes to a shared adjudicating body, (b) respect each other's zones, and (c) deal with state intrusion as a collective problem rather than five separate ones.
+
+That's the structural question worth asking about the AI industry. **Not: do they shoot each other? (The record says no.) But: have they built a coordination layer that makes them collectively harder to dislodge, harder to regulate, and harder for external competitors to enter?**
+
+What the captured record supports, per item:
+
+- **A coordination layer exists:** Glasswing (Anthropic-proposed, 12 named companies, "in an effort to secure the world's most critical software" — `anthropic_glasswing.html`, VERIFIED), the FINRA-style safety body ("three frontier labs are building", reported), the Data Center Coalition (reported, $420K Q1 2026 SECONDHAND). These are real captured items.
+- **The territorial split is real:** each lab has a market domain (chat/foundation models/search ads/social graph/image generation) that they do not compete head-on with each other. The RICO brief's oligopoly framing ("small number of well-known companies") is captured as reported fact, not as RICO enterprise.
+- **The state-relations layer is real:** the revolving door (Christiano three-leg arc, Sacks § 208(b)(1) waiver, PCAST, SEC probe status UNCONFIRMED) is captured.
+- **The shared-investment layer is real:** Microsoft ↔ $13B + $250B Azure, SoftBank, a16z's cross-holdings — captured, though the specific portfolio figures are SECONDHAND.
+
+That is NOT the Luciano Commission. The captured record shows a governance layer that exists for **industry-wide defensive coordination**, not for adjudicating disputes between members or ordering a member to act. Five families agreed to submit disputes to Maranzano's Commission. Five labs have not agreed to submit anything to Glasswing or the safety-body proposal — the captures show membership terms, redaction rules, or enforcement mechanisms are **not captured in any file this pass**. That is the failure of both the Luciano-as-criminal framing **and** the Luciano-as-governance framing: the coordination body exists, but it has no teeth.
+
+**The honest reframing:** Luciano built the Commission *with* teeth — it could order a hit. Glasswing and the AI safety body have no captured mechanism to order anything. The comparison is a structural compliment: the *shape* of the coordination is real — five entities, shared investment, shared infrastructure, state-relations mechanism, self-regulatory attempt. Luciano built that shape into something with enforcement power. That's what's still missing.
+
 ## PART 2 — Where the analogy FAILS (the Luciano test's hard part)
 
 The Luciano structure's defining feature is not shared finance — every industry has that. It's **the Commission acting as an adjudicating body with enforcement power over its members** — the ability to *order* a hit, to *sanction* a family, to punish violations of self-set rules. Look at what the record shows when you test the analogy against that:
