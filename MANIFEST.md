@@ -2572,3 +2572,4 @@ Blocked/failed attempts (inventory):
 | 1086 | captures/openai_export_archives/MANIFEST.md | captured by operator from ~/Downloads/openai_export_archives/ | 200 | 1,144 | 826e28880e67f90f | 2026-11-23 | OpenAI ChatGPT account export archive (689MB is local-only, never to repo) |
 | 1087 | captures/openai_export_archives/SHA256SUMS | captured by operator from ~/Downloads/openai_export_archives/ | 200 | 633 | 2a20d2eaaae11aa8 | 2026-11-23 | OpenAI ChatGPT account export archive (689MB is local-only, never to repo) |
 | 1088 | captures/operator_supplied/gemini_frontier_risk_matrix.png | Gemini NotebookLM risk matrix + Iowa AI/Detonation map | 200 | 3,420,503 | ada6e0cab8a10597 | 2026-11-23 | Operator-supplied captures (risk matrix + Iowa map) |
+| 1089 | LOVE_NOTE.md | Love Note Protocol continuity handoff (needle-hunt session close) | local | 13,361 | 168e019ea0e7766f | 2026-11-24 | Internal continuity record |
