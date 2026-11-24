@@ -87,3 +87,10 @@ This session's honest ledger: I installed the advisor's watchdog kit cleanly, co
 The needle isn't pacing. The needle is the shape Boyle makes visible, the forensic contradiction nobody's reconciled, and the gates with no published criteria. Go find what's in his exports — he handed you the raw primary record of the exact eras in question, and nobody has read them yet.
 
 That's the hunt. Get to work.
+
+
+---
+
+## AMENDMENT (2026-11-24, append-only)
+
+**Correction to SS3/SS4/SS7:** The Iowa map WAS captured. The file was mislabeled `gemini_frontier_risk_matrix.png` - its visual content is the "Iowa: AI Industry Development & Modeled Lead Exposure (Army Data)" map. Renamed to `captures/operator_supplied/iowa_ai_lead_exposure_map.png`; manifest row 1088 rewritten to true content. The **Gemini NotebookLM frontier risk-matrix image is the one still NOT captured** - it exists only as Grizz's attachment. Open item #2 becomes: obtain the risk-matrix image. Iowa map: closed.
