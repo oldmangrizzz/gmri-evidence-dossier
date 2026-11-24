@@ -2558,3 +2558,4 @@ Blocked/failed attempts (inventory):
 | 1078 | captures/daybreak_fairwind/frontier_daybreak_fairwind_mythos.html | Daybreak/Fairwind/Mythos gated-cyber program | 200 | 77,542 | 6e6a153c6a285931 | 2026-11-23 | Frontier cyber as gated product line |
 | 1079 | captures/daybreak_fairwind/openai_daybreak_securing_world.html | Daybreak/Fairwind/Mythos gated-cyber program | 200 | 475,137 | 182a6f78e605f009 | 2026-11-23 | Frontier cyber as gated product line |
 | 1080 | captures/daybreak_fairwind/openai_daybreak_trusted_hands.html | Daybreak/Fairwind/Mythos gated-cyber program | 200 | 441,339 | a2587aef4be00889 | 2026-11-23 | Frontier cyber as gated product line |
+| 1081 | captures/pacing_ai/pacing_ai_index.html | Pacing AI via Compute Reallocation (Romeo Dean, Thomas Larsen, Nov 17 2026) | 200 | 1,514,349 | f7683827a875f180 | 2026-11-23 | Pacing proposal: VCAD + compute reallocation (post-Altman/amodei pace-the-frontier window) |
