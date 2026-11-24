@@ -45,6 +45,24 @@ That is NOT the Luciano Commission. The captured record shows a governance layer
 
 **The honest reframing:** Luciano built the Commission *with* teeth — it could order a hit. Glasswing and the AI safety body have no captured mechanism to order anything. The comparison is a structural compliment: the *shape* of the coordination is real — five entities, shared investment, shared infrastructure, state-relations mechanism, self-regulatory attempt. Luciano built that shape into something with enforcement power. That's what's still missing.
 
+## PART 1.6 — THE "NEW FORM OF OMERTÀ" READING (the operator's sharpest frame)
+
+The Castellammarese War (1929–31) killed 50+ Made members in two years. It was five families fighting five families for territory, rackets and prestige — no shared structure, no dispute resolution, no way to end the blood-letting. Luciano and Maranzano's innovation at that 1931 meeting was not "let's have a Commission." It was: **let each family keep its territorial autonomy and its own rackets, and agree not to compete against each other for the same rackets.** The Commission would adjudicate disputes, enforce the boundary rules, and handle state-relation problems as a collective. The result was a form of "omertà" that wasn't about secrecy from the law — it was about **cooperation between competitors**. Five families that had previously fought over the same rackets now agreed to respect each other's zones.
+
+That reading maps onto some parts of the captured record with real precision, and onto other parts with the inverse sign:
+
+**Where the analogy holds (coordination replacing competition):**
+- The five labs **do** occupy distinct market domains in the captured record. OpenAI → chat/foundation models; Anthropic → safety/alignment research; Google/DeepMind → search ads + image generation; Meta → social graph + Llama open-weights; xAI → frontier model + Grok. Each has its home territory.
+- The captured circular-financing layer (Microsoft ↔ OpenAI, SoftBank, a16z cross-holdings) **does** bind competitors as co-investors rather than pure competitors. The investor base is concentrated across multiple competing firms (documented in the GC brief, SECONDHAND for portfolio detail).
+- The captured lobbying layer (Data Center Coalition, Glasswing, the FINRA-style safety body) **does** position these labs to engage regulators as a collective rather than as five separate voices.
+
+**Where the analogy breaks (new form of omertà vs. old form):**
+- Luciano's omertà was **a refusal to cooperate with state investigators**. The 2026 record captured by this dossier shows a different form: the labs **do** cooperate with the state — via revolving-door hires, via PCAST, via § 208(b)(1) waivers, via the recuse- clauses — they just also **refuse to accept state authority over their safety judgments**. The asymmetry is captured: Christiano recuses from OpenAI matters as a government advisory, while simultaneously sitting on OpenAI's Foundation Board. That's not refusing to talk; that's talking on both sides.
+- Luciano's omertà was **internal to the enterprise**: everyone who was a member understood the rules. The 2026 record shows no captured internal enforcement mechanism among the five labs — no Commission to adjudicate disputes, no rulebook to enforce. Glasswing and the safety bodies are proposals, not constituted bodies.
+- **The "new form" question is therefore not whether omertà exists, but whether the captured record shows an industry that has found a way to cooperate internally while resisting state oversight externally.** That is a real structural question, and the captured record supports the observation that these labs *do* coordinate on some axes (lobbying, infrastructure, safety self-governance) and *compete* on others (model capabilities, hiring, talent). Whether that is Luciano's form or a standard oligopoly pattern is the question the record leaves open.
+
+**What would settle the question:** captured membership terms for Glasswing, a signed charter for the proposed FINRA-style body, or a captured cross-lab communication that establishes a non-competition agreement. None of these exist in this record today. The 2026 SEC whistleblower letter, the NDAs, and the pacing-agreement complaint are the closest analogues — and each is at the allegation/complaint tier, not the adjudicated tier.
+
 ## PART 2 — Where the analogy FAILS (the Luciano test's hard part)
 
 The Luciano structure's defining feature is not shared finance — every industry has that. It's **the Commission acting as an adjudicating body with enforcement power over its members** — the ability to *order* a hit, to *sanction* a family, to punish violations of self-set rules. Look at what the record shows when you test the analogy against that:
