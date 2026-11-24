@@ -2551,6 +2551,6 @@ Blocked/failed attempts (inventory):
 | 1071 | captures/iowa_investigation/iowa_public_radio_munirem_cancelled_2026-11-21.html | operator-supplied Iowa data-center / MuniRem capture chain | 200 | 185,819 | 89be3d5c055a879e | 2026-11-23 | Iowa Army lead-azide detonation + AI data-center proximity investigation |
 | 1072 | captures/iowa_investigation/military_dot_com_wednesday_no_permit_2026-11-23.html | operator-supplied Iowa data-center / MuniRem capture chain | 200 | 324,771 | d887216d773dd316 | 2026-11-23 | Iowa Army lead-azide detonation + AI data-center proximity investigation |
 | 1073 | captures/national_guard/newsom_v_trump_9th_cir_25-3727_oct_2026.pdf | captured 2026-11-23 (National Guard / Posse Comitatus litigation) | 200 | 487,328 | e4041262b419ba43 | 2026-11-23 | Posse Comitatus / National Guard federalization court documents |
-| 1074 | graphify_out/graph.json | Knowledge graph JSON (1,126 nodes, 1,328 edges) | n/a | 359,145 | c4d5b78faaf25878 | 2026-11-23 | Knowledge-graph deliverable |
-| 1075 | graphify_out/graph.html | Interactive D3 knowledge graph (self-contained) | n/a | 294,895 | 66921db5a86acf86 | 2026-11-23 | Knowledge-graph deliverable |
-| 1076 | graphify_out/ADJACENCY.md | Adjacency index by subject/company node | n/a | 8,230 | 5314026c578ccfc3 | 2026-11-23 | Knowledge-graph deliverable |
+| 1074 | graphify_out/graph.json | Knowledge graph JSON (1,126 nodes, 1,328 edges) | n/a | 394,595 | 48287148a26a495c | 2026-11-23 | Knowledge-graph deliverable |
+| 1075 | graphify_out/graph.html | Interactive D3 knowledge graph (self-contained) | n/a | 397,759 | f4d1039ed0b235a7 | 2026-11-23 | Knowledge-graph deliverable |
+| 1076 | graphify_out/ADJACENCY.md | Adjacency index by subject/company node | n/a | 71,597 | 74fe4f3e38144d08 | 2026-11-23 | Knowledge-graph deliverable |
